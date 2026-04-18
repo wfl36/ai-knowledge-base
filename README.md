@@ -1,80 +1,82 @@
-# AI 知识库 Agent
+# AI Knowledge Base Agent
 
-> 自动抓取 GitHub Trending AI 项目，智能分析评分，生成结构化知识条目
+[中文文档](README_CN.md)
 
-## 功能
+> Automatically crawl GitHub Trending AI projects, intelligently analyze and score them, and generate structured knowledge entries.
 
-- **GitHub Trending 爬虫** — 每日自动抓取 AI 相关项目（关键词过滤，最多20条）
-- **三维评分 Agent** — 技术先进性 / 实用性 / 社区活跃度，1-10 分制
-- **动态权重调整** — 参考淘宝店铺评分算法，根据人工复核反馈自动调整权重
-- **特别加分机制** — 突破性创新项目可获得额外加分（最高+2）
-- **知识条目输出** — Markdown 格式，含总纲和独立项目文件
-- **版本管理** — 自动快照，保留最近5个版本，支持对比
-- **人工复核** — FastAPI 审核页面，低于6分自动标记待复核
-- **GitHub Actions** — 每日自动采集，结果自动提交
+## Features
 
-## 项目结构
+- **GitHub Trending Crawler** — Daily auto-crawl of AI-related projects (keyword filtering, up to 20 entries)
+- **3D Scoring Agent** — Technical Advancement / Practicality / Community Activity, 1-10 scale
+- **Dynamic Weight Adjustment** — Inspired by e-commerce rating algorithms, auto-adjusts weights based on human review feedback
+- **Bonus Scoring Mechanism** — Breakthrough innovation projects can receive extra points (up to +2)
+- **Knowledge Entry Output** — Markdown format with index and individual project files
+- **Version Management** — Auto snapshots, keeps last 5 versions, supports diff
+- **Human Review** — FastAPI review dashboard, auto-flags entries below 6 for review
+- **GitHub Actions** — Daily automated collection with auto-commit of results
+
+## Project Structure
 
 ```
 ai-knowledge-base/
-├── .github/workflows/     # GitHub Actions 定时任务
+├── .github/workflows/     # GitHub Actions scheduled tasks
 ├── app/
-│   ├── crawler/           # GitHub Trending 爬虫
-│   ├── agent/             # AI 评分 Agent (LLM 驱动)
-│   ├── storage/           # 知识条目存储 + 版本管理
-│   ├── review/            # 人工复核管理
-│   ├── api/               # FastAPI Web 界面
-│   └── main.py            # 主入口
-├── templates/             # HTML 模板
-├── knowledge/             # 生成的知识条目
-└── tests/                 # 测试
+│   ├── crawler/           # GitHub Trending crawler
+│   ├── agent/             # AI scoring agent (LLM-powered)
+│   ├── storage/           # Knowledge entry storage + version management
+│   ├── review/            # Human review management
+│   ├── api/               # FastAPI web interface
+│   └── main.py            # Main entry point
+├── templates/             # HTML templates
+├── knowledge/             # Generated knowledge entries
+└── tests/                 # Tests
 ```
 
-## 快速开始
+## Quick Start
 
 ```bash
-# 安装
+# Install
 python3 -m venv .venv && source .venv/bin/activate
 pip install -e ".[dev]"
 
-# 配置
+# Configure
 cp .env.example .env
-# 编辑 .env 填入 LLM_API_KEY
+# Edit .env and fill in LLM_API_KEY
 
-# 启动 Web 服务
+# Start web server
 akb serve
 
-# 手动执行一次抓取+分析
+# Run a manual crawl + analysis
 akb crawl
 
-# 调整权重
+# Adjust weights
 akb adjust-weights
 ```
 
-## 环境变量
+## Environment Variables
 
-| 变量 | 说明 | 默认值 |
-|------|------|--------|
-| LLM_API_URL | LLM API 地址 | OpenRouter |
-| LLM_API_KEY | API Key | 必填 |
-| LLM_MODEL | 模型名 | z-ai/glm-5.1 |
-| GITHUB_TOKEN | GitHub Token (可选) | - |
-| CRAWL_SCHEDULE | 定时抓取 cron | 0 0 * * * |
-| API_HOST | FastAPI 监听地址 | 127.0.0.1 |
-| API_PORT | FastAPI 端口 | 8900 |
-| KNOWLEDGE_DIR | 知识库目录 | ./knowledge |
+| Variable | Description | Default |
+|----------|-------------|---------|
+| LLM_API_URL | LLM API endpoint | OpenRouter |
+| LLM_API_KEY | API Key | Required |
+| LLM_MODEL | Model name | z-ai/glm-5.1 |
+| GITHUB_TOKEN | GitHub Token (optional) | - |
+| CRAWL_SCHEDULE | Cron schedule for crawling | 0 0 * * * |
+| API_HOST | FastAPI listen address | 127.0.0.1 |
+| API_PORT | FastAPI port | 8900 |
+| KNOWLEDGE_DIR | Knowledge base directory | ./knowledge |
 
-## 评分体系
+## Scoring System
 
-三个维度各 1-10 分，初始权重各 33.3%：
+Three dimensions, each scored 1-10, with initial equal weights of 33.3%:
 
-| 维度 | 评估内容 |
-|------|---------|
-| 技术先进性 | 技术栈先进性、创新程度、技术深度、前沿性 |
-| 实用性 | 问题解决能力、应用场景、可扩展性、商业价值 |
-| 社区活跃度 | Star增长、Issue响应、PR处理、文档质量 |
+| Dimension | Evaluation Criteria |
+|-----------|-------------------|
+| Technical Advancement | Tech stack sophistication, innovation level, technical depth, cutting-edge relevance |
+| Practicality | Problem-solving capability, use cases, scalability, commercial value |
+| Community Activity | Star growth, Issue response, PR processing, documentation quality |
 
-总评分低于6分自动标记为"待复核"状态。
+Entries with a total score below 6 are automatically flagged as "pending review".
 
 ## License
 
