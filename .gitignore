@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.env
+.venv/
+knowledge/*.md
+!knowledge/index.md
+versions/
+*.egg-info/
+.ruff_cache/
+*.log
+review_history.json
+weights.json

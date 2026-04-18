@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>审核 - AI Knowledge Base</title>
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: #f5f5f5; color: #333; line-height: 1.6; }
+        .container { max-width: 1100px; margin: 0 auto; padding: 20px; }
+        header { background: #1a1a2e; color: #fff; padding: 20px 0; margin-bottom: 24px; }
+        header .container { display: flex; align-items: center; justify-content: space-between; }
+        header h1 { font-size: 1.4em; font-weight: 600; }
+        nav a { color: #ccc; text-decoration: none; margin-left: 16px; font-size: 0.9em; }
+        nav a:hover { color: #fff; }
+        nav a.active { color: #4fc3f7; }
+        h2 { margin-bottom: 16px; font-size: 1.2em; color: #1a1a2e; }
+        .card { background: #fff; border-radius: 6px; padding: 20px; margin-bottom: 16px; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        .card-header { display: flex; justify-content: space-between; align-items: center; margin-bottom: 12px; padding-bottom: 12px; border-bottom: 1px solid #eee; }
+        .card-header h3 { font-size: 1.1em; color: #1a1a2e; }
+        .card-header .score { font-size: 1.2em; font-weight: 600; color: #e65100; }
+        .form-group { margin-bottom: 12px; }
+        .form-group label { display: block; font-size: 0.85em; font-weight: 500; margin-bottom: 4px; color: #555; }
+        .form-group input, .form-group textarea { width: 100%; padding: 8px 12px; border: 1px solid #ddd; border-radius: 4px; font-size: 0.9em; font-family: inherit; }
+        .form-group input:focus, .form-group textarea:focus { outline: none; border-color: #1565c0; box-shadow: 0 0 0 2px rgba(21,101,192,0.1); }
+        .form-row { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 12px; }
+        .btn { display: inline-block; padding: 8px 20px; background: #1565c0; color: #fff; border: none; border-radius: 4px; cursor: pointer; font-size: 0.9em; font-weight: 500; }
+        .btn:hover { background: #0d47a1; }
+        .empty { text-align: center; padding: 40px; color: #999; }
+        .detail-link { color: #1565c0; text-decoration: none; font-size: 0.85em; }
+        .detail-link:hover { text-decoration: underline; }
+        footer { text-align: center; padding: 20px; color: #999; font-size: 0.8em; margin-top: 40px; }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>AI Knowledge Base</h1>
+            <nav>
+                <a href="/">首页</a>
+                <a href="/review" class="active">审核</a>
+                <a href="/api/projects">API</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <h2>待复核项目</h2>
+
+        {% if pending_projects %}
+            {% for p in pending_projects %}
+            <div class="card">
+                <div class="card-header">
+                    <div>
+                        <h3>{{ p.project_name }}</h3>
+                        <a class="detail-link" href="/projects/{{ p.file_path | basename }}">查看详情</a>
+                    </div>
+                    <div class="score">{{ "%.1f"|format(p.score) }}</div>
+                </div>
+
+                <form action="/review/{{ p.project_name }}" method="post">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="tech_score_{{ loop.index }}">技术先进性评分</label>
+                            <input type="number" id="tech_score_{{ loop.index }}" name="tech_score" step="0.1" min="0" max="10" value="0.0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="utility_score_{{ loop.index }}">实用性评分</label>
+                            <input type="number" id="utility_score_{{ loop.index }}" name="utility_score" step="0.1" min="0" max="10" value="0.0" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="community_score_{{ loop.index }}">社区活跃度评分</label>
+                            <input type="number" id="community_score_{{ loop.index }}" name="community_score" step="0.1" min="0" max="10" value="0.0" required>
+                        </div>
+                    </div>
+                    <div class="form-row" style="margin-top:8px;">
+                        <div class="form-group">
+                            <label for="reviewer_{{ loop.index }}">复核人</label>
+                            <input type="text" id="reviewer_{{ loop.index }}" name="reviewer" placeholder="请输入姓名" required>
+                        </div>
+                    </div>
+                    <div class="form-group" style="margin-top:4px;">
+                        <label for="reason_{{ loop.index }}">修改原因</label>
+                        <textarea id="reason_{{ loop.index }}" name="reason" rows="2" placeholder="请说明修改评分的原因" required></textarea>
+                    </div>
+                    <div style="margin-top:12px;">
+                        <button type="submit" class="btn">提交复核</button>
+                    </div>
+                </form>
+            </div>
+            {% endfor %}
+        {% else %}
+        <div class="empty">暂无待复核项目</div>
+        {% endif %}
+    </div>
+
+    <footer>AI Knowledge Base &copy; 2026</footer>
+</body>
+</html>
