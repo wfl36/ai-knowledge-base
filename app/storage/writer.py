@@ -98,33 +98,17 @@ def save_project(project_info: ProjectInfo, analysis: AnalysisResult, knowledge_
     return filepath
 
 
-def save_index(projects: List[ProjectInfo], knowledge_dir: str,
-               analysis_map: dict = None) -> str:
+def save_index(projects: List[ProjectWithScore], knowledge_dir: str) -> str:
     """保存总纲 index.md
 
     Args:
-        projects: 项目信息列表
+        projects: 已评分的项目列表
         knowledge_dir: 知识库目录
-        analysis_map: 可选的 {project_name: AnalysisResult} 映射
     """
 
     os.makedirs(knowledge_dir, exist_ok=True)
 
-    scored_projects = []
-    for p in projects:
-        analysis = analysis_map.get(p.name) if analysis_map else None
-        score = analysis.total_score if analysis else 0.0
-        tags = analysis.tags if analysis else p.tags
-        updated = date.fromisoformat(p.date) if isinstance(p.date, str) else p.date
-        scored_projects.append(ProjectWithScore(
-            name=p.name,
-            score=score,
-            tags=tags,
-            updated_at=updated,
-            link=p.link,
-        ))
-
-    content = generate_index(scored_projects)
+    content = generate_index(projects)
     filepath = os.path.join(knowledge_dir, "index.md")
 
     with open(filepath, "w", encoding="utf-8") as f:

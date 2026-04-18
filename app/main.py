@@ -101,18 +101,18 @@ async def run_pipeline() -> dict:
             scored.tech_score, scored.utility_score, scored.community_score, scored.bonus,
         )
 
-        # 构造 ProjectInfo 和 storage-writer 的 AnalysisResult
+        # 构造 ProjectInfo
         project_info = ProjectInfo(
             name=raw.name,
             description=raw.description,
             tags=scored.tags,
             tech_stack=[raw.language] if raw.language else [],
-            url=raw.url,
-            updated_at=date.today(),
+            link=raw.url,
+            date=str(date.today()),
         )
 
         # 将 agent.models.AnalysisResult 转换为 storage.models.AnalysisResult
-        storage_analysis = _convert_analysis_result(scored, raw)
+        storage_analysis = _convert_analysis_result(scored)
 
         # 存储
         filepath = save_project(project_info, storage_analysis, KNOWLEDGE_DIR)
@@ -123,6 +123,7 @@ async def run_pipeline() -> dict:
             score=scored.total_score,
             tags=scored.tags,
             updated_at=date.today(),
+            link=raw.url,
             filename=os.path.basename(filepath),
         ))
 
@@ -156,7 +157,7 @@ async def run_pipeline() -> dict:
     }
 
 
-def _convert_analysis_result(agent_result, raw_project) -> "app.storage.models.AnalysisResult":
+def _convert_analysis_result(agent_result) -> "app.storage.models.AnalysisResult":
     """将 app.agent.models.AnalysisResult 转换为 app.storage.models.AnalysisResult"""
     from app.storage.models import AnalysisResult as StorageAnalysisResult
     from app.storage.models import ProjectStatus
@@ -167,13 +168,21 @@ def _convert_analysis_result(agent_result, raw_project) -> "app.storage.models.A
     }
     status_text = agent_result.status.value if hasattr(agent_result.status, "value") else str(agent_result.status)
     storage_status = status_map.get(status_text, ProjectStatus.NORMAL)
+    if agent_result.total_score < 6:
+        storage_status = ProjectStatus.PENDING_REVIEW
 
     return StorageAnalysisResult(
-        score=agent_result.total_score,
+        tech_score=agent_result.tech_score,
+        utility_score=agent_result.utility_score,
+        community_score=agent_result.community_score,
+        total_score=agent_result.total_score,
+        bonus=agent_result.bonus,
         status=storage_status,
-        tech_advancement=agent_result.tech_summary or "",
-        practicality=agent_result.utility_summary or "",
-        community_activity=agent_result.community_summary or "",
+        tags=agent_result.tags,
+        summary=agent_result.summary or "",
+        tech_summary=agent_result.tech_summary or "",
+        utility_summary=agent_result.utility_summary or "",
+        community_summary=agent_result.community_summary or "",
     )
 
 
