@@ -46,7 +46,7 @@ _scorer = Scorer()
 
 
 def _load_projects_from_knowledge() -> List[dict]:
-    """Scan knowledge dir and return a list of project dicts for rendering."""
+    """递归扫描 knowledge/ 下的日期子目录，返回项目列表供渲染。"""
     import re
     from pathlib import Path
     from datetime import date
@@ -62,7 +62,8 @@ def _load_projects_from_knowledge() -> List[dict]:
     _re_tags = re.compile(r"\*\*标签：\*\*\s*(.+)", re.MULTILINE)
     _re_date = re.compile(r"\*\*更新日期：\*\*\s*(.+)", re.MULTILINE)
 
-    for md_file in sorted(knowledge_path.glob("*.md")):
+    # 递归扫描所有子目录中的 .md 文件
+    for md_file in sorted(knowledge_path.rglob("*.md")):
         if md_file.name == "index.md":
             continue
         try:
@@ -82,9 +83,16 @@ def _load_projects_from_knowledge() -> List[dict]:
         tags = [t.strip() for t in tags_m.group(1).split(",")] if tags_m else []
         updated = date_m.group(1).strip() if date_m else ""
 
+        # 相对路径: 2026-04-19/project_9.0_2026-04-19.md
+        rel_path = md_file.relative_to(knowledge_path)
+        # 日期目录名（如果有）
+        date_dir = rel_path.parts[0] if len(rel_path.parts) > 1 else ""
+
         projects.append({
             "name": name,
+            "rel_path": str(rel_path),
             "filename": md_file.name,
+            "date_dir": date_dir,
             "score": score,
             "status": status,
             "tags": tags,
@@ -109,13 +117,13 @@ async def index(request: Request):
     })
 
 
-@app.get("/projects/{filename}", response_class=HTMLResponse)
-async def project_detail(request: Request, filename: str):
-    """查看单个项目详情"""
+@app.get("/projects/{date_dir}/{filename}", response_class=HTMLResponse)
+async def project_detail(request: Request, date_dir: str, filename: str):
+    """查看单个项目详情（日期子目录）"""
     from pathlib import Path
     import re
 
-    filepath = Path(_knowledge_dir) / filename
+    filepath = Path(_knowledge_dir) / date_dir / filename
     if not filepath.exists():
         return HTMLResponse("<h1>404 - 项目未找到</h1>", status_code=404)
 
@@ -137,6 +145,7 @@ async def project_detail(request: Request, filename: str):
     project = {
         "name": title_m.group(1).strip() if title_m else filename,
         "filename": filename,
+        "date_dir": date_dir,
         "score": float(score_m.group(1)) if score_m else 0.0,
         "status": status_m.group(1).strip() if status_m else "正常",
         "tags": [t.strip() for t in tags_m.group(1).split(",")] if tags_m else [],

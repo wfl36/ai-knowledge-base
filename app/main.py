@@ -55,7 +55,7 @@ async def run_pipeline() -> dict:
     from app.crawler.github_trending import GitHubTrendingCrawler
     from app.agent.analyzer import ProjectAnalyzer
     from app.agent.scorer import Scorer, WeightManager
-    from app.storage.writer import save_project, save_index
+    from app.storage.writer import save_project, save_index, cleanup_old_dirs
     from app.storage.models import ProjectInfo, ProjectWithScore, sanitize_filename
     from app.storage.version_mgr import VersionManager
     from app.review.manager import ReviewManager
@@ -148,6 +148,14 @@ async def run_pipeline() -> dict:
         logger.warning("版本快照已存在，跳过")
     except Exception as exc:
         logger.error("版本快照失败: %s", exc)
+
+    # 5. 清理过期目录
+    try:
+        removed_dirs = cleanup_old_dirs(KNOWLEDGE_DIR, keep_days=30)
+        if removed_dirs:
+            logger.info("已清理 %d 个过期目录: %s", len(removed_dirs), removed_dirs)
+    except Exception as exc:
+        logger.error("清理过期目录失败: %s", exc)
 
     logger.info("===== Pipeline 完成 =====")
     return {
