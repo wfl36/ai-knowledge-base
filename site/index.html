@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Knowledge Base</title>
+    <style>
+        :root {
+            --bg: #0f0f1a;
+            --surface: #1a1a2e;
+            --surface2: #222240;
+            --border: #2a2a4a;
+            --text: #e0e0e0;
+            --text2: #999;
+            --accent: #4fc3f7;
+            --accent2: #7c4dff;
+            --green: #66bb6a;
+            --orange: #ffa726;
+            --red: #ef5350;
+        }
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; background: var(--bg); color: var(--text); line-height: 1.6; }
+        a { color: var(--accent); text-decoration: none; }
+        a:hover { text-decoration: underline; }
+
+        .container { max-width: 1100px; margin: 0 auto; padding: 0 20px; }
+
+        /* Header */
+        header { background: var(--surface); border-bottom: 1px solid var(--border); padding: 16px 0; position: sticky; top: 0; z-index: 100; }
+        header .container { display: flex; align-items: center; justify-content: space-between; }
+        header h1 { font-size: 1.2em; font-weight: 600; }
+        header h1 span { color: var(--accent); }
+        header nav a { color: var(--text2); margin-left: 20px; font-size: 0.9em; }
+        header nav a:hover, header nav a.active { color: var(--accent); }
+
+        /* Stats */
+        .stats { display: flex; gap: 16px; margin: 24px 0; flex-wrap: wrap; }
+        .stat-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 16px 24px; flex: 1; min-width: 140px; }
+        .stat-card .label { font-size: 0.8em; color: var(--text2); margin-bottom: 4px; }
+        .stat-card .value { font-size: 1.8em; font-weight: 700; color: var(--accent); }
+
+        /* Filter */
+        .filter-bar { display: flex; gap: 12px; margin-bottom: 20px; flex-wrap: wrap; align-items: center; }
+        .filter-bar input, .filter-bar select { background: var(--surface); border: 1px solid var(--border); color: var(--text); padding: 8px 12px; border-radius: 6px; font-size: 0.9em; outline: none; }
+        .filter-bar input:focus, .filter-bar select:focus { border-color: var(--accent); }
+        .filter-bar input { width: 240px; }
+        .tag-filter { display: flex; gap: 6px; flex-wrap: wrap; }
+        .tag-btn { background: var(--surface2); border: 1px solid var(--border); color: var(--text2); padding: 4px 10px; border-radius: 4px; font-size: 0.8em; cursor: pointer; transition: all 0.2s; }
+        .tag-btn:hover, .tag-btn.active { background: var(--accent); color: var(--bg); border-color: var(--accent); }
+
+        /* Project List */
+        .project-list { display: flex; flex-direction: column; gap: 12px; }
+        .project-card { background: var(--surface); border: 1px solid var(--border); border-radius: 8px; padding: 20px; cursor: pointer; transition: all 0.2s; }
+        .project-card:hover { border-color: var(--accent); transform: translateY(-1px); }
+        .project-card .top-row { display: flex; justify-content: space-between; align-items: center; margin-bottom: 8px; }
+        .project-card .name { font-size: 1.1em; font-weight: 600; }
+        .project-card .score-badge { background: linear-gradient(135deg, var(--accent2), var(--accent)); color: #fff; padding: 4px 12px; border-radius: 20px; font-weight: 700; font-size: 0.9em; }
+        .project-card .score-badge.high { background: linear-gradient(135deg, #43a047, #66bb6a); }
+        .project-card .score-badge.mid { background: linear-gradient(135deg, #ef6c00, #ffa726); }
+        .project-card .score-badge.low { background: linear-gradient(135deg, #c62828, #ef5350); }
+        .project-card .desc { color: var(--text2); font-size: 0.9em; margin-bottom: 10px; }
+        .project-card .meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+        .tag { display: inline-block; background: rgba(79,195,247,0.1); color: var(--accent); padding: 2px 8px; border-radius: 3px; font-size: 0.78em; }
+        .date-label { color: var(--text2); font-size: 0.8em; }
+        .status-normal { color: var(--green); font-size: 0.8em; font-weight: 500; }
+        .status-pending { color: var(--orange); font-size: 0.8em; font-weight: 500; }
+
+        /* Detail Modal */
+        .modal-overlay { display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.7); z-index: 200; justify-content: center; align-items: flex-start; padding: 40px 20px; overflow-y: auto; }
+        .modal-overlay.show { display: flex; }
+        .modal { background: var(--surface); border: 1px solid var(--border); border-radius: 12px; max-width: 800px; width: 100%; padding: 32px; position: relative; }
+        .modal-close { position: absolute; top: 16px; right: 16px; background: none; border: none; color: var(--text2); font-size: 1.5em; cursor: pointer; }
+        .modal-close:hover { color: var(--text); }
+        .modal h2 { font-size: 1.4em; margin-bottom: 16px; }
+        .modal .score-big { font-size: 2.4em; font-weight: 700; background: linear-gradient(135deg, var(--accent2), var(--accent)); -webkit-background-clip: text; -webkit-text-fill-color: transparent; }
+        .modal .detail-section { margin-top: 20px; }
+        .modal .detail-section h3 { font-size: 1em; color: var(--accent); margin-bottom: 8px; }
+        .modal .detail-section p { color: var(--text2); font-size: 0.9em; }
+        .modal .score-bar-container { margin-top: 20px; }
+        .score-bar-row { display: flex; align-items: center; gap: 12px; margin-bottom: 10px; }
+        .score-bar-label { width: 80px; font-size: 0.85em; color: var(--text2); text-align: right; }
+        .score-bar-track { flex: 1; height: 8px; background: var(--surface2); border-radius: 4px; overflow: hidden; }
+        .score-bar-fill { height: 100%; border-radius: 4px; transition: width 0.5s; }
+        .score-bar-fill.tech { background: var(--accent); }
+        .score-bar-fill.util { background: var(--accent2); }
+        .score-bar-fill.comm { background: var(--green); }
+        .score-bar-val { width: 40px; font-size: 0.85em; font-weight: 600; }
+        .modal .tags-row { display: flex; gap: 6px; flex-wrap: wrap; margin-top: 12px; }
+        .modal .link-row { margin-top: 16px; }
+
+        /* Empty & Loading */
+        .loading, .empty { text-align: center; padding: 60px 20px; color: var(--text2); }
+        .loading .spinner { display: inline-block; width: 32px; height: 32px; border: 3px solid var(--border); border-top-color: var(--accent); border-radius: 50%; animation: spin 0.8s linear infinite; }
+        @keyframes spin { to { transform: rotate(360deg); } }
+
+        footer { text-align: center; padding: 24px; color: var(--text2); font-size: 0.8em; border-top: 1px solid var(--border); margin-top: 40px; }
+
+        @media (max-width: 600px) {
+            .filter-bar input { width: 100%; }
+            .stats { flex-direction: column; }
+            .modal { padding: 20px; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>🧠 <span>AI</span> Knowledge Base</h1>
+            <nav>
+                <a href="#" class="active">首页</a>
+                <a href="https://github.com/wfl36/ai-knowledge-base">GitHub</a>
+            </nav>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="stats" id="stats"></div>
+
+        <div class="filter-bar">
+            <input type="text" id="search" placeholder="搜索项目名称...">
+            <select id="dateFilter">
+                <option value="">全部日期</option>
+            </select>
+            <div class="tag-filter" id="tagFilter"></div>
+        </div>
+
+        <div class="project-list" id="projectList">
+            <div class="loading"><div class="spinner"></div><p style="margin-top:12px">加载中...</p></div>
+        </div>
+    </div>
+
+    <!-- Detail Modal -->
+    <div class="modal-overlay" id="modal">
+        <div class="modal">
+            <button class="modal-close" onclick="closeModal()">&times;</button>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+
+    <footer>AI Knowledge Base &copy; 2026 · Powered by GitHub Actions + Cloudflare Pages</footer>
+
+    <script>
+    let allData = null;
+    let activeTag = '';
+
+    async function loadData() {
+        try {
+            const res = await fetch('data/data.json');
+            allData = await res.json();
+            renderStats();
+            renderFilters();
+            renderProjects(allData.projects);
+        } catch (e) {
+            document.getElementById('projectList').innerHTML =
+                '<div class="empty">加载数据失败，请刷新重试</div>';
+        }
+    }
+
+    function renderStats() {
+        const d = allData;
+        document.getElementById('stats').innerHTML = `
+            <div class="stat-card"><div class="label">项目总数</div><div class="value">${d.total_projects}</div></div>
+            <div class="stat-card"><div class="label">采集天数</div><div class="value">${d.total_dates}</div></div>
+            <div class="stat-card"><div class="label">最近更新</div><div class="value" style="font-size:1.2em">${d.last_updated}</div></div>
+            <div class="stat-card"><div class="label">热门标签</div><div class="value" style="font-size:1em">${d.top_tags.slice(0,3).map(t=>t.name).join(', ')}</div></div>
+        `;
+    }
+
+    function renderFilters() {
+        const d = allData;
+        // Date filter
+        const sel = document.getElementById('dateFilter');
+        d.dates.forEach(date => {
+            const opt = document.createElement('option');
+            opt.value = date;
+            opt.textContent = date;
+            sel.appendChild(opt);
+        });
+
+        // Tag filter
+        const tf = document.getElementById('tagFilter');
+        d.top_tags.forEach(t => {
+            const btn = document.createElement('button');
+            btn.className = 'tag-btn';
+            btn.textContent = `${t.name} (${t.count})`;
+            btn.onclick = () => {
+                if (activeTag === t.name) { activeTag = ''; btn.classList.remove('active'); }
+                else { activeTag = t.name; document.querySelectorAll('.tag-btn').forEach(b=>b.classList.remove('active')); btn.classList.add('active'); }
+                applyFilters();
+            };
+            tf.appendChild(btn);
+        });
+    }
+
+    function applyFilters() {
+        const search = document.getElementById('search').value.toLowerCase();
+        const dateVal = document.getElementById('dateFilter').value;
+        let filtered = allData.projects;
+
+        if (search) filtered = filtered.filter(p => p.name.toLowerCase().includes(search) || p.description.toLowerCase().includes(search));
+        if (dateVal) filtered = filtered.filter(p => p.date_dir === dateVal);
+        if (activeTag) filtered = filtered.filter(p => p.tags.includes(activeTag));
+
+        renderProjects(filtered);
+    }
+
+    function scoreClass(s) {
+        if (s >= 8.5) return 'high';
+        if (s >= 7.0) return 'mid';
+        return 'low';
+    }
+
+    function renderProjects(projects) {
+        const list = document.getElementById('projectList');
+        if (!projects.length) {
+            list.innerHTML = '<div class="empty">没有匹配的项目</div>';
+            return;
+        }
+        list.innerHTML = projects.map((p, i) => `
+            <div class="project-card" onclick="showDetail(${i})">
+                <div class="top-row">
+                    <div class="name">${escHtml(p.name)}</div>
+                    <div class="score-badge ${scoreClass(p.score)}">${p.score.toFixed(1)}</div>
+                </div>
+                <div class="desc">${escHtml(p.description)}</div>
+                <div class="meta">
+                    ${p.tags.slice(0, 5).map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}
+                    <span class="date-label">${p.date}</span>
+                    <span class="${p.status === '待复核' ? 'status-pending' : 'status-normal'}">${p.status}</span>
+                </div>
+            </div>
+        `).join('');
+
+        // Store current filtered list for detail view
+        window._filteredProjects = projects;
+    }
+
+    function showDetail(idx) {
+        const p = window._filteredProjects[idx];
+        const a = p.analysis;
+        document.getElementById('modalContent').innerHTML = `
+            <h2>${escHtml(p.name)}</h2>
+            <div class="score-big">${p.score.toFixed(1)}</div>
+            <div class="tags-row">${p.tags.map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}</div>
+
+            <div class="score-bar-container">
+                <div class="score-bar-row">
+                    <div class="score-bar-label">技术先进性</div>
+                    <div class="score-bar-track"><div class="score-bar-fill tech" style="width:${a.tech.score*10}%"></div></div>
+                    <div class="score-bar-val">${a.tech.score.toFixed(1)}</div>
+                </div>
+                <div class="score-bar-row">
+                    <div class="score-bar-label">实用性</div>
+                    <div class="score-bar-track"><div class="score-bar-fill util" style="width:${a.utility.score*10}%"></div></div>
+                    <div class="score-bar-val">${a.utility.score.toFixed(1)}</div>
+                </div>
+                <div class="score-bar-row">
+                    <div class="score-bar-label">社区活跃度</div>
+                    <div class="score-bar-track"><div class="score-bar-fill comm" style="width:${a.community.score*10}%"></div></div>
+                    <div class="score-bar-val">${a.community.score.toFixed(1)}</div>
+                </div>
+            </div>
+
+            <div class="detail-section"><h3>📝 项目描述</h3><p>${escHtml(p.description)}</p></div>
+            <div class="detail-section"><h3>🔧 技术栈</h3><p>${p.tech_stack.join(', ') || '未知'}</p></div>
+            <div class="detail-section"><h3>💡 技术先进性</h3><p>${escHtml(a.tech.summary)}</p></div>
+            <div class="detail-section"><h3>🛠 实用性</h3><p>${escHtml(a.utility.summary)}</p></div>
+            <div class="detail-section"><h3>👥 社区活跃度</h3><p>${escHtml(a.community.summary)}</p></div>
+
+            <div class="link-row">🔗 <a href="${escHtml(p.link)}" target="_blank">${escHtml(p.link)}</a></div>
+            <div class="date-label" style="margin-top:8px">更新日期: ${p.date} · 状态: <span class="${p.status === '待复核' ? 'status-pending' : 'status-normal'}">${p.status}</span></div>
+        `;
+        document.getElementById('modal').classList.add('show');
+    }
+
+    function closeModal() {
+        document.getElementById('modal').classList.remove('show');
+    }
+
+    function escHtml(s) {
+        const d = document.createElement('div');
+        d.textContent = s;
+        return d.innerHTML;
+    }
+
+    // Events
+    document.getElementById('search').addEventListener('input', applyFilters);
+    document.getElementById('dateFilter').addEventListener('change', applyFilters);
+    document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeModal(); });
+    document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
+
+    // Init
+    loadData();
+    </script>
+</body>
+</html>

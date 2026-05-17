@@ -37,12 +37,16 @@ jobs:
         run: |
           python -m app.main crawl --knowledge-dir ./knowledge
 
+      - name: Build static site
+        run: |
+          python3 scripts/build_static.py ./knowledge ./site/data
+
       - name: Commit and push results
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          git add knowledge/
+          git add knowledge/ site/data/
           if git diff --staged --quiet; then
             echo "No new articles to commit"
           else
