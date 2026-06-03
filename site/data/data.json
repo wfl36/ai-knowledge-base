@@ -11,28 +11,44 @@
       "count": 13
     },
     {
-      "name": "大语言模型",
-      "count": 4
+      "name": "Agent",
+      "count": 6
     },
     {
-      "name": "AI Agent",
-      "count": 3
+      "name": "RAG",
+      "count": 4
     },
     {
       "name": "代码助手",
       "count": 3
     },
     {
-      "name": "活跃维护",
+      "name": "多模态",
       "count": 3
     },
     {
-      "name": "RAG",
+      "name": "高星标",
       "count": 3
     },
     {
-      "name": "Agent",
+      "name": "聊天机器人",
       "count": 3
+    },
+    {
+      "name": "AI Agent",
+      "count": 2
+    },
+    {
+      "name": "提示工程",
+      "count": 2
+    },
+    {
+      "name": "热门项目",
+      "count": 2
+    },
+    {
+      "name": "知识图谱",
+      "count": 2
     },
     {
       "name": "深度学习",
@@ -47,62 +63,48 @@
       "count": 2
     },
     {
-      "name": "多模态",
+      "name": "LLM",
       "count": 2
     },
     {
-      "name": "自动化",
+      "name": "AI工程",
       "count": 2
     },
     {
-      "name": "高星项目",
+      "name": "提示词工程",
       "count": 2
     },
     {
-      "name": "聊天机器人",
-      "count": 2
-    },
-    {
-      "name": "跨平台",
-      "count": 2
-    },
-    {
-      "name": "智能体",
-      "count": 2
-    },
-    {
-      "name": "高关注度",
-      "count": 2
-    },
-    {
-      "name": "热门项目",
-      "count": 2
-    },
-    {
-      "name": "JavaScript",
+      "name": "软件工程",
       "count": 1
     },
     {
       "name": "性能优化",
+      "count": 1
+    },
+    {
+      "name": "开发工具",
       "count": 1
     }
   ],
   "projects": [
     {
       "name": "affaan-m/ECC",
-      "score": 9.1,
+      "score": 9.0,
       "status": "正常",
       "tags": [
         "AI Agent",
-        "JavaScript",
+        "提示工程",
+        "软件工程",
         "代码助手",
         "性能优化",
+        "开发工具",
         "高质量",
-        "活跃维护"
+        "热门项目"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "affaan-m-ECC_9.1_2026-06-03.md",
+      "filename": "affaan-m-ECC_9.0_2026-06-03.md",
       "description": "The agent harness performance optimization system. Skills, instincts, memory, security, and research-first development for Claude Code, Codex, Opencode, Cursor and beyond.",
       "tech_stack": [
         "JavaScript"
@@ -110,16 +112,16 @@
       "link": "https://github.com/affaan-m/ECC",
       "analysis": {
         "tech": {
-          "score": 8.0,
-          "summary": "ECC 作为一个针对 AI 编程代理的性能优化系统，在架构设计上具有前瞻性。它将 Skills（技能）、Instincts（本能）、Memory（记忆）和 Security（安全）模块化，为 Claude Code、Cursor 等现有 AI 编程工具提供了系统级的增强。虽然底层未涉及基础大模型的算法创新，但在 AI Agent 的工程化、上下文管理及安全防护方面展现了较高的技术先进性，有效解决了当前 AI 编程助手在长程任务和复杂项目中的健壮性问题。"
+          "score": 8.5,
+          "summary": "ECC 项目定位为 AI Agent 的性能优化线束系统，在架构设计上紧跟当前 AI Agent 发展的前沿趋势，将 Skills（技能）、Instincts（本能）、Memory（记忆）和 Security（安全）等核心模块化组件深度整合。其对 Claude Code、Codex、Cursor 等主流 AI 编码工具的广泛适配，展现了优秀的抽象能力和系统扩展性。虽然在底层基础模型算法上并非原创性突破，但在 Agent 编排、上下文管理和安全控制等工程架构层面具有较高的技术先进性。"
         },
         "utility": {
-          "score": 9.5,
-          "summary": "项目具有极高的实用价值。它直接瞄准了开发者在使用 Claude Code、Codex、Cursor 等热门 AI 编程工具时的痛点，通过提供记忆管理、安全校验和技能扩展，显著提升了这些工具在实际开发中的表现和可靠性。其 'research-first' 的开发理念也高度契合当前 AI 辅助编程的最佳实践，极易融入开发者的日常工作流。"
+          "score": 9.0,
+          "summary": "项目直击当前 AI 辅助编程的痛点，通过提供记忆、安全和技能增强，显著弥补了原生 AI 编码工具在长上下文遗忘、代码安全审查和复杂任务拆解上的不足。其面向开发者日常高频使用的工具链（Cursor、Claude Code 等）进行优化，具有极高的实际应用价值，能够直接提升开发者的编码效率与代码质量，易用性和实用性极强。"
         },
         "community": {
-          "score": 9.8,
-          "summary": "项目拥有超过 20 万的 Stars 和 3 万以上的 Forks，展现了现象级的社区关注度和用户基础。尽管今日 Star 增长为 0 可能暗示项目处于维护期或数据统计的瞬时波动，但其庞大的基数已经证明了其广泛的生态影响力和极高的社区参与度，形成了丰富的周边讨论和使用案例。"
+          "score": 9.5,
+          "summary": "该项目在 GitHub 上获得了超过 20 万的 Stars 和 3 万的 Forks，这表明其受到了极大规模的关注和认可，社区参与度极高。庞大的 Fork 数也意味着有大量开发者在此基础上进行二次开发或定制化使用，生态丰富度极佳。尽管今日 Star 增长为 0 可能存在数据统计延迟或项目进入稳定期的情况，但其庞大的基数已充分证明其社区活跃度和影响力。"
         }
       }
     },
@@ -166,12 +168,12 @@
       "tags": [
         "深度学习",
         "语音合成",
-        "大语言模型",
-        "语音生成",
-        "声音克隆",
+        "多模态",
         "TTS",
+        "声音克隆",
+        "语音生成",
         "高质量",
-        "活跃维护"
+        "高星标"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
@@ -184,15 +186,15 @@
       "analysis": {
         "tech": {
           "score": 9.0,
-          "summary": "VoxCPM2采用了Tokenizer-Free的创新架构，摒弃了传统TTS系统中复杂的文本前端处理和音素转换流程，实现了端到端的多语言语音生成。这种设计不仅降低了系统复杂度，还极大提升了跨语言的泛化能力和语音克隆的真实感，在TTS领域具有显著的技术前沿性和架构突破。"
+          "summary": "VoxCPM2采用了创新的Tokenizer-Free架构，摆脱了传统TTS模型对文本分词器的依赖，有效解决了多语言场景下分词器带来的信息损失和跨语言适配难题。其在多语言语音生成、创意声音设计和逼真声音克隆方面展现了先进的算法设计和架构能力，技术壁垒较高。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "该项目直击多语言语音生成、个性化声音设计和少样本语音克隆等核心应用场景。无Tokenizer的特性使得部署和跨语言应用更加便捷，极大地降低了TTS系统的使用门槛，在有声读物、虚拟人、智能客服等领域具有极高的实用价值和商业落地潜力。"
+          "summary": "项目直击多语言TTS、声音克隆和个性化声音设计等高价值应用场景。无分词器设计极大降低了跨语言适配的工程复杂度，使其在有声读物、虚拟数字人、智能客服、内容创作等领域具有极高的实用价值和广阔的商业落地前景，易用性强。"
         },
         "community": {
           "score": 8.5,
-          "summary": "项目获得了超过2.5万的Star和近3千的Fork，显示出极高的社区关注度和开发者参与度。依托OpenBMB团队的强大背景和持续迭代，项目生态正在快速完善，社区反馈积极，为项目的长期发展和维护提供了坚实保障。"
+          "summary": "项目获得了超过2.5万个Star和近3千个Fork，显示出极高的社区关注度和开发者参与度。作为OpenBMB团队的开源项目，具备良好的生态基础和持续迭代的潜力，社区活跃度表现优异。"
         }
       }
     },
@@ -202,13 +204,14 @@
       "status": "正常",
       "tags": [
         "NLP",
-        "大语言模型",
         "上下文压缩",
-        "RAG优化",
-        "降本增效",
-        "开发者工具",
-        "高质量",
-        "实用性强"
+        "RAG",
+        "LLM应用",
+        "成本优化",
+        "Agent工具",
+        "MCP服务器",
+        "高实用性",
+        "易集成"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
@@ -221,15 +224,15 @@
       "analysis": {
         "tech": {
           "score": 8.0,
-          "summary": "项目在LLM应用层技术中表现出色，核心在于针对大模型输入的语义级压缩算法，能够在大幅减少Token的同时保持关键信息不丢失。架构设计灵活，提供了Library、Proxy以及紧跟前沿的MCP Server三种接入方式，高度契合当前AI Agent和RAG的技术演进方向。虽非底层基础模型突破，但在上下文窗口管理和信息密度优化上具有显著的技术先进性。"
+          "summary": "项目专注于LLM上下文压缩技术，通过在数据（工具输出、日志、RAG块）输入模型前进行预处理，实现60-95%的token削减，同时声称保持输出质量。紧跟AI前沿支持MCP协议，架构设计灵活（提供库、代理、服务器三种模式），在RAG和Agent长上下文处理上具有明显的技术优势和工程深度。"
         },
         "utility": {
           "score": 9.5,
-          "summary": "实用性极高，直击当前LLM应用开发中的核心痛点：Token成本高昂与上下文窗口限制。在RAG检索和Agent调用工具场景下，日志、文件和工具输出往往极其冗长，该工具声称能减少60-95%的Token，不仅能显著降低API调用成本，还能提升长文本任务的处理能力与响应速度。多种接入方式也极大降低了开发者的集成门槛。"
+          "summary": "直击当前LLM应用开发中的核心痛点：token成本高昂和上下文窗口限制。支持多种集成方式（库、代理、MCP），可无缝接入现有系统，大幅降低API调用成本并释放更多有效上下文空间，对于构建复杂的AI Agent和RAG应用具有极高的实际应用价值。"
         },
         "community": {
           "score": 8.0,
-          "summary": "项目获得了6500+ Stars和400+ Forks，对于一款垂直领域的LLM开发者工具而言，展现了极高的社区关注度和认可度。说明其解决的痛点具有普遍性，吸引了大量开发者使用和贡献。生态正在快速构建中，尤其是对MCP协议的支持将进一步拓展其社区影响力。"
+          "summary": "项目获得了近7k的Star和近500的Fork，显示出极高的社区关注度和开发者认可度。作为解决普遍痛点的工具类项目，已经积累了可观的用户基础，具备良好的生态发展潜力和社区驱动力。"
         }
       }
     },
@@ -276,13 +279,13 @@
       "status": "正常",
       "tags": [
         "RAG",
-        "LLM应用开发",
         "向量数据库",
         "记忆引擎",
         "AI基础设施",
-        "高质量",
-        "高星项目",
-        "易集成"
+        "聊天机器人",
+        "高星标",
+        "开发者友好",
+        "高性能"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
@@ -295,15 +298,15 @@
       "analysis": {
         "tech": {
           "score": 8.0,
-          "summary": "项目聚焦于 AI 时代的记忆管理，通过抽象出统一的 Memory API，解决了 LLM 长期记忆和上下文管理的痛点。采用 TypeScript 开发，具备高扩展性和快速响应的特点，架构设计优秀。但在底层算法上更多是现有向量检索和 RAG 技术的工程化封装与优化，底层核心算法的突破性略显不足。"
+          "summary": "项目定位为AI时代的记忆引擎，核心技术涉及RAG（检索增强生成）、向量检索与上下文管理。虽然底层向量数据库和检索技术已相对成熟，但项目将其抽象为极简、高性能且可扩展的Memory API，在架构设计和工程实现上具有显著的先进性。使用TypeScript开发也使其在现代全栈和前端AI应用中具备极高的集成便利性。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "极具实用价值。在当前 AI 应用开发中，跨会话记忆和个性化上下文保持是普遍刚需。该项目以 API 形式提供服务，极大地降低了开发者集成记忆功能的门槛，适用于聊天机器人、个人助理、知识库等多种场景，直击行业痛点，易用性和应用价值极高。"
+          "summary": "直击当前大语言模型上下文窗口有限和缺乏长期记忆的核心痛点。通过提供统一的记忆接口，极大降低了开发者为AI应用添加持久化记忆功能的门槛，在聊天机器人、个人助理、代码助手等场景中具有极高的实际应用价值。2.4万+的Star数也充分证明了市场对这一工具的强烈需求。"
         },
         "community": {
           "score": 8.5,
-          "summary": "项目获得了超过 2.4 万的 Star 和两千多的 Fork，显示出极高的社区关注度和开发者认可度。庞大的用户基数为项目的持续迭代和生态建设提供了良好基础，属于社区内极具热度的 AI 基础设施项目。"
+          "summary": "项目获得了24747个Star和2181个Fork，显示出极高的社区关注度和开发者参与热情，具备良好的传播基础和二次开发生态潜力。虽然今日Star增长为0可能受数据快照时间影响，但整体数据表现证明其社区基础庞大，未来生态发展值得期待。"
         }
       }
     },
@@ -313,14 +316,15 @@
       "status": "正常",
       "tags": [
         "多模态",
-        "大语言模型",
         "语音识别",
         "语音合成",
+        "大语言模型",
         "虚拟主播",
         "聊天机器人",
+        "语音助手",
         "高质量",
-        "跨平台",
-        "活跃维护"
+        "活跃维护",
+        "跨平台"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
@@ -333,15 +337,15 @@
       "analysis": {
         "tech": {
           "score": 7.5,
-          "summary": "项目在技术整合方面表现出色，将大语言模型、语音识别（ASR）、语音合成（TTS）、Live2D 面部动捕及 VAD（语音活动检测）等技术无缝结合，解决了实时语音交互中的延迟与语音打断难题。支持跨平台本地运行，工程架构设计优秀，但核心算法依赖第三方，自身原创算法突破性有限。"
+          "summary": "项目在工程架构上表现出色，成功整合了ASR、LLM、TTS与Live2D技术，实现了低延迟的流式数据处理与语音打断机制，支持跨平台本地运行，保护了用户隐私。虽然底层模型依赖外部，但系统级整合与实时交互优化具有较高的技术门槛。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "实用性极高。项目直击 AI 虚拟主播和数字人伴侣的市场痛点，免提语音交互和语音打断功能大幅提升了对话的自然度和沉浸感。本地运行特性保障了隐私安全，跨平台支持降低了用户使用门槛，具有极强的落地应用价值。"
+          "summary": "极具实用价值，为VTuber和虚拟伴侣爱好者提供了一站式、开箱即用的开源解决方案。免提语音交互和语音打断功能极大提升了对话的自然度，本地化运行降低了使用门槛和成本，满足了市场对个性化虚拟角色的强烈需求。"
         },
         "community": {
           "score": 8.5,
-          "summary": "社区活跃度极高，拥有超过 8000 的 Star 和 1000 以上的 Fork，显示出开源社区对该项目的强烈关注和认可。高 Fork 数表明有大量开发者在基于此项目进行二次开发，项目生态丰富度与社区参与度良好。"
+          "summary": "获得了近8500个Star和超1000个Fork，对于垂直领域的应用项目而言表现极为优异，反映出社区的高度认可和活跃的二次开发热情，生态正在快速形成。"
         }
       }
     },
@@ -351,12 +355,13 @@
       "status": "正常",
       "tags": [
         "AI安全",
-        "智能体",
+        "Agent",
         "零信任",
-        "安全治理",
-        "合规工具",
+        "AI治理",
+        "安全合规",
+        "企业级",
         "高质量",
-        "企业级"
+        "微软出品"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
@@ -369,35 +374,35 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "项目聚焦于自主 AI Agent 的安全与治理，引入零信任身份验证、执行沙盒和可靠性工程，全面覆盖 OWASP Agentic Top 10 安全风险。技术架构成熟，将传统安全工程与 AI Agent 特性深度结合，在 Agent 安全领域具有显著的技术前瞻性和工程创新性。"
+          "summary": "项目在AI Agent安全与治理这一前沿领域提出了系统性的技术架构，融合了策略执行、零信任身份验证和执行沙箱等先进理念，特别是全面覆盖了OWASP Agentic Top 10安全风险，展现了极高的架构设计水平和工程先进性，为解决自治代理的不可控性提供了坚实的技术支撑。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "随着 AI Agent 在企业级场景的落地，安全与合规成为核心痛点。该工具包提供策略执行和沙盒隔离，直接解决 Agent 越权、数据泄露、供应链攻击等高风险问题，是企业部署自主 Agent 的关键基础设施，具有极高的实际应用价值和商业刚需属性。"
+          "summary": "随着AI Agent在企业端的加速落地，安全、合规与可靠性已成为最大的阻碍。该工具包直击企业级应用的痛点，提供了从策略限制到运行隔离的全套解决方案，极大降低了Agent越权或执行恶意操作的风险，对企业级AI应用的落地具有极高的实用价值。"
         },
         "community": {
           "score": 7.5,
-          "summary": "项目获得 3820 Stars 和 534 Forks，显示出不错的初期关注度。背靠微软，具备良好的生态潜力和长期维护保障，但目前每日新增星标趋缓，社区生态和第三方贡献仍处于早期建设阶段。"
+          "summary": "项目获得了3836个Star和534个Fork，对于垂直领域的治理工具而言表现优异，体现了业界对Agent安全问题的强烈关注。但今日Star增量为0，可能处于发布后的平稳期或迭代放缓期。依托微软的背景，项目具备长期稳定维护的保障，但作为偏底层治理的工具，社区大众的参与贡献度通常不如应用型项目。"
         }
       }
     },
     {
       "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "score": 8.3,
+      "score": 8.0,
       "status": "正常",
       "tags": [
         "网络安全",
         "AI Agent",
-        "结构化数据",
+        "知识图谱",
         "安全评估",
-        "AI编程助手",
+        "自动化防御",
         "高质量",
         "标准化",
-        "跨平台兼容"
+        "生态丰富"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "mukul975-Anthropic-Cybersecurity-Skills_8.3_2026-06-03.md",
+      "filename": "mukul975-Anthropic-Cybersecurity-Skills_8.0_2026-06-03.md",
       "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
       "tech_stack": [
         "Python"
@@ -405,72 +410,71 @@
       "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
       "analysis": {
         "tech": {
-          "score": 7.5,
-          "summary": "项目在技术层面的创新主要体现在知识工程与标准化上。它将754个网络安全技能结构化，并精准映射到MITRE ATT&CK、NIST CSF 2.0等五大权威安全框架，提出了agentskills.io标准。虽然底层不涉及复杂的算法模型训练，但在AI Agent与网络安全结合的知识表示、跨平台适配和标准化方面展现了较高的工程先进性和架构设计能力。"
+          "score": 6.5,
+          "summary": "项目在技术层面主要体现在知识工程与架构设计上，将754个网络安全技能结构化，并精准映射到MITRE ATT&CK、NIST CSF 2.0等5大主流安全框架，遵循agentskills.io标准。虽然未涉及底层算法或模型的突破性创新，但其跨平台兼容架构（支持Claude Code、Copilot等20+平台）展现了优秀的系统设计与工程化能力。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "项目的实用性极强。它直接解决了AI Agent在网络安全领域'缺乏专业操作规范和技能库'的痛点，覆盖26个安全域，且无缝兼容Claude Code、GitHub Copilot、Cursor等20多个主流AI开发平台。对于安全研究人员和开发者而言，这是开箱即用的宝贵资源，极大降低了安全类AI Agent的开发门槛并提升了实操规范性。"
+          "summary": "实用性极高。项目直接解决了AI Agent在网络安全领域缺乏标准化、专业化技能库的痛点。通过提供即插即用的结构化技能，大幅降低了安全自动化Agent的开发门槛，无论是用于安全评估、自动化防御还是代码安全审查，都能为开发者和安全团队提供巨大的实际应用价值。"
         },
         "community": {
           "score": 8.5,
-          "summary": "项目获得了13625个Stars和1592个Forks，显示出极高的社区关注度和参与度。采用Apache 2.0开源协议也非常利于生态的传播与二次开发。作为安全与AI交叉领域的热门资源，其社区基础扎实，生态潜力巨大，但长期的社区活跃度还需观察后续的持续迭代与贡献者增长情况。"
+          "summary": "社区表现优异，获得了超过1.3万的Stars和1600+的Forks，显示出极高的社区关注度和复用率。广泛兼容20多个主流AI开发平台也证明了其生态整合能力，项目在快速获得认可的同时，也具备成为AI安全Agent技能标准规范的潜力。"
         }
       }
     },
     {
-      "name": "nesquena/hermes-webui",
-      "score": 8.2,
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "score": 7.7,
       "status": "正常",
       "tags": [
-        "Agent",
-        "前端开发",
-        "Python",
-        "聊天机器人",
-        "Web界面",
-        "跨平台",
-        "高星标",
-        "易用"
+        "深度学习",
+        "LLM",
+        "AI工程",
+        "学习资源",
+        "教程",
+        "高质量",
+        "文档完善"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "nesquena-hermes-webui_8.2_2026-06-03.md",
-      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
+      "filename": "rohitg00-ai-engineering-from-scratch_7.7_2026-06-03.md",
+      "description": "Learn it. Build it. Ship it for others.",
       "tech_stack": [
         "Python"
       ],
-      "link": "https://github.com/nesquena/hermes-webui",
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
       "analysis": {
         "tech": {
-          "score": 7.0,
-          "summary": "项目采用 Python 构建后端，提供响应式 Web 和移动端界面，支持与 Hermes Agent 的实时交互。技术架构成熟，侧重于前后端通信和流式数据处理，但在核心算法或底层模型层面无显著创新，属于典型的工程应用封装。"
+          "score": 5.5,
+          "summary": "该项目本质上是一个AI工程领域的系统性学习资源与知识库，而非底层技术框架或算法实现。其技术先进性不体现在代码架构或算法突破上，而是体现在对当前前沿AI工程技术的梳理、归纳与深入浅出的讲解上。项目涵盖了从基础到进阶的AI工程知识体系，技术广度较好，但作为教程类项目，技术深度和创新性相对有限。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "极大地提升了 Hermes Agent 的易用性，支持跨设备（PC和手机）无缝访问，为非技术用户提供了直观友好的交互界面，有效解决了 AI Agent 部署后难以便捷访问的痛点，具有很高的实际应用价值。"
+          "summary": "项目具有极高的实用价值。'Learn it. Build it. Ship it for others' 的理念直击开发者痛点，为想要进入AI工程领域的学习者提供了一条清晰的学习路径。它不仅帮助开发者理解概念，更强调动手构建和实际交付，极大地降低了AI工程的学习门槛，对个人技能提升和职业发展具有显著的指导意义。"
         },
         "community": {
           "score": 8.5,
-          "summary": "项目获得了超过 1.2 万个 Star 和 1500+ Fork，显示出极高的社区关注度和广泛的用户基础。尽管今日 Star 增长为 0 可能表明项目进入稳定期或短暂停滞，但整体社区盘子大，生态基础扎实。"
+          "summary": "项目在GitHub上获得了超过2.7万的Stars和4千多的Forks，显示出极高的社区关注度和广泛的受众基础。这表明该资源深受开发者欢迎，具有强大的社区影响力。不过，作为个人主导的教程类仓库，其日常维护和社区互动更多体现在Star和Fork上，直接的代码贡献者可能相对集中，今日Stars为0也说明项目可能已进入稳定期而非爆发期。"
         }
       }
     },
     {
       "name": "jamwithai/production-agentic-rag-course",
-      "score": 7.8,
+      "score": 7.5,
       "status": "正常",
       "tags": [
         "RAG",
-        "智能体",
-        "大模型应用",
-        "课程",
-        "生产级",
-        "实战",
-        "高关注度"
+        "Agent",
+        "大模型",
+        "AI工程",
+        "知识库",
+        "高质量",
+        "实战导向"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "jamwithai-production-agentic-rag-course_7.8_2026-06-03.md",
+      "filename": "jamwithai-production-agentic-rag-course_7.5_2026-06-03.md",
       "description": "## 技术栈",
       "tech_stack": [
         "Python"
@@ -479,34 +483,33 @@
       "analysis": {
         "tech": {
           "score": 7.5,
-          "summary": "该项目聚焦于当前大模型应用前沿的Agentic RAG（智能体检索增强生成）技术，将Agent的自主规划决策能力与RAG的外部知识检索相结合。虽然作为课程项目本身不涉及底层算法的原创性突破，但其技术架构设计紧跟行业最新实践，涵盖了生产环境下的复杂RAG范式，技术内容具有较高的先进性和工程参考价值。"
+          "summary": "聚焦于 Agentic RAG 这一前沿架构范式，将 Agent 的自主规划、工具调用能力与 RAG 的外部知识检索相结合，代表了当前大模型应用工程化从简单链路向复杂智能体系统演进的重要方向，在应用架构设计上具有较高的先进性。"
         },
         "utility": {
-          "score": 9.0,
-          "summary": "项目具有极高的实用性。'生产级'和'Agentic RAG'直击当前大模型企业落地的核心痛点，即如何构建稳定、可控且能解决复杂业务问题的智能检索系统。高达1488的Fork数表明大量开发者正在复用和实操该课程的代码，其提供的实战指南和代码模板对工程师具有直接的指导作用。"
+          "score": 8.5,
+          "summary": "项目以“生产级”为核心卖点，直击传统 RAG 在复杂业务场景中检索精度低、缺乏推理能力等痛点。通过提供可落地的工程实践代码和架构指南，对 AI 应用开发者和架构师具有极高的实战参考价值，Fork 比例较高也印证了其较强的实操性。"
         },
         "community": {
-          "score": 7.0,
-          "summary": "项目获得了6393个Star和1488个Fork，对于一门技术课程而言，这反映了相当高的社区关注度和参与度。不过今日Star增量为0，说明项目可能处于稳定期或近期更新频率放缓。作为课程类项目，其生态主要围绕学习交流展开，缺乏底层框架那样的持续高频迭代。"
+          "score": 6.5,
+          "summary": "获得了超过 6000 的 Star 和较高的 Fork 数量，显示出广泛的关注和学习热情。但作为一门课程项目，其本质更偏向于静态的知识输出与代码模板，缺乏开源框架类项目那样的社区共建和持续迭代，且今日 Star 增长停滞，长期维护活跃度一般。"
         }
       }
     },
     {
       "name": "revfactory/harness",
-      "score": 7.8,
+      "score": 7.5,
       "status": "正常",
       "tags": [
         "多智能体",
-        "大语言模型",
+        "Agent",
+        "提示词工程",
         "自动化编排",
-        "AI Agent",
-        "任务自动化",
-        "概念创新",
-        "高关注度"
+        "高质量",
+        "系统设计"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "revfactory-harness_7.8_2026-06-03.md",
+      "filename": "revfactory-harness_7.5_2026-06-03.md",
       "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
       "tech_stack": [
         "HTML"
@@ -515,69 +518,33 @@
       "analysis": {
         "tech": {
           "score": 8.0,
-          "summary": "该项目在多智能体系统（MAS）领域提出了'元技能（meta-skill）'的创新概念，能够自动化地设计领域特定的Agent团队、定义角色并生成所需技能。这种将多Agent编排进行抽象和自动生成的架构设计，属于当前AI Agent前沿的元编程与自动化编排方向，具有较高的技术前瞻性。不过，其底层仍依赖现有大语言模型的能力，核心语言标记为HTML可能意味着其更多侧重于工作流配置或前端交互层面的封装，底层算法突破性相对有限。"
+          "summary": "该项目提出了'元技能(Meta-skill)'的创新概念，能够自动设计特定领域的多智能体团队、定义专业代理并生成其所需技能。这种从单一Agent到自动化生成多Agent协作架构的抽象，在当前AI Agent领域具有较好的架构设计前瞻性。不过主要语言为HTML，推测其核心更多依赖于提示词工程与大模型编排，底层算法层面的硬核技术突破相对有限，更多是系统设计层面的创新。"
         },
         "utility": {
-          "score": 8.5,
-          "summary": "项目具有很高的实际应用价值。通过自动化生成Agent团队及其技能，极大地降低了构建复杂多智能体协作系统的门槛。对于需要多角色协同完成的复杂任务（如软件开发、业务流程自动化、复杂问题研究等），该工具能够快速定制并部署专属的AI团队，显著提升开发效率和任务解决能力，易用性和问题解决能力突出。"
+          "score": 7.5,
+          "summary": "项目致力于降低多智能体系统的构建门槛，通过自动化生成Agent团队和技能，极大提升了领域特定AI应用的搭建效率。对于需要复杂角色协作的场景（如虚拟软件公司、多角色游戏等）具有很高的应用价值。但自动生成的Agent和技能在实际执行中的稳定性、可控性以及幻觉问题，可能需要用户在实际使用中不断调试和约束。"
         },
         "community": {
           "score": 7.0,
-          "summary": "项目获得了超过5500个Stars和700多个Forks，显示出良好的社区关注度和一定的用户基础。但今日Stars增量为0，可能意味着项目处于稳定维护期或近期热度有所下降，缺乏爆发性的增长势头。整体生态处于中等偏上水平，有待更多开发者的持续参与和贡献。"
-        }
-      }
-    },
-    {
-      "name": "rohitg00/ai-engineering-from-scratch",
-      "score": 7.8,
-      "status": "正常",
-      "tags": [
-        "深度学习",
-        "AI工程",
-        "学习资源",
-        "教程",
-        "高质量",
-        "高星项目"
-      ],
-      "date": "2026-06-03",
-      "date_dir": "2026-06-03",
-      "filename": "rohitg00-ai-engineering-from-scratch_7.8_2026-06-03.md",
-      "description": "Learn it. Build it. Ship it for others.",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
-      "analysis": {
-        "tech": {
-          "score": 6.5,
-          "summary": "该项目作为AI工程教学资源，其核心价值不在于底层算法或架构的突破性创新，而在于对现有复杂AI技术的解构与重组。它将前沿的AI工程实践以‘从零构建’的方式呈现，要求作者具备深厚的技术功底来化繁为简，但在技术前沿性上相对成熟框架和最新研究略有不足。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "实用性极高。项目秉持‘Learn it. Build it. Ship it’的理念，直击开发者在AI学习过程中‘理论易懂、工程难做’的痛点。通过提供可运行、可复现的代码，帮助开发者跨越从理论理解到实际构建并交付产品的鸿沟，是极具价值的实战指南。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "项目获得了超过2.7万的Star和4.4千的Fork，显示出极高的社区关注度和用户参与度，尤其是Fork数反映了大量开发者正在实际动手跟练。不过作为个人主导的教程类项目，其外部生态丰富度和长期高频迭代可能不如大型开源组织项目，今日Star增量为0也暗示项目可能进入了稳定维护期。"
+          "summary": "项目获得了5558个Stars和737个Forks，显示出了较高的社区关注度和一定的用户基础。但今日Stars增量为0，可能意味着项目已经度过了初期的爆发式增长期，或者近期更新频率有所放缓。整体来看，社区基础扎实，但长尾活跃度和生态丰富度仍需持续维护和运营。"
         }
       }
     },
     {
       "name": "Chachamaru127/claude-code-harness",
-      "score": 7.5,
+      "score": 7.3,
       "status": "正常",
       "tags": [
-        "LLM应用",
         "Agent",
-        "自动化",
+        "LLM应用编排",
         "代码助手",
-        "软件开发",
+        "自动化开发",
         "高质量",
         "实用工具"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "Chachamaru127-claude-code-harness_7.5_2026-06-03.md",
+      "filename": "Chachamaru127-claude-code-harness_7.3_2026-06-03.md",
       "description": "Claude Code Dedicated Development Harness - Achieving High-Quality Development Through an Autonomous Plan→Work→Review Cycle",
       "tech_stack": [
         "Shell"
@@ -585,50 +552,51 @@
       "link": "https://github.com/Chachamaru127/claude-code-harness",
       "analysis": {
         "tech": {
-          "score": 7.0,
-          "summary": "项目在技术上的核心亮点在于对大语言模型（Claude）Agent工作流的工程化编排，通过Shell脚本实现了Plan→Work→Review的自主循环架构。这种自我反思与审查机制有效提升了AI生成代码的可靠性，是当前AI Agent领域的最佳实践之一。不过，项目本质是对现有LLM能力的封装与流程调度，底层算法和架构并未实现根本性突破，技术门槛主要体现在提示词工程和流程设计上。"
+          "score": 6.5,
+          "summary": "该项目在技术实现上主要基于 Shell 脚本，技术门槛相对较低，但其核心创新在于工作流编排设计。它将经典的软件工程实践（Plan→Work→Review）引入到 AI 编码 Agent 的流程控制中，有效缓解了大模型直接生成代码时容易出现的上下文丢失和跑偏问题。虽然不属于底层算法或模型架构的突破，但在 AI 应用架构和 Agent 编排层面展现了巧妙的工程思维。"
         },
         "utility": {
           "score": 8.5,
-          "summary": "实用性非常强。直接使用AI辅助编程时，开发者常面临代码幻觉、逻辑漏洞或架构失控等问题。该项目通过强制引入'计划-执行-审查'的闭环，显著提升了AI生成代码的质量和可用性，降低了人工审查和修复的成本。Shell语言编写使其轻量、易读、易于集成到现有的开发环境或CI/CD流水线中，对追求高效且可靠开发的程序员具有极高的应用价值。"
+          "summary": "项目具有极高的实用价值。针对开发者使用 Claude Code 等 AI 编码工具时面临的生成质量不稳定、缺乏全局规划等痛点，该工具通过强制引入计划与审查环节，显著提升了 AI 辅助开发的质量和可控性。Shell 脚本的实现方式使其轻量且易于集成到现有的开发环境中，2500+ 的 Star 数也印证了其在开发者社区中的强烈需求。"
         },
         "community": {
           "score": 7.0,
-          "summary": "项目获得了2500+的Star和240+的Fork，对于一款针对特定AI工具的辅助脚本而言，这显示了相当可观的社区关注度和用户基础。然而，作为个人开发者的轻量级工具，其生态扩展性和长期维护的稳定性仍有待观察，目前主要处于工具可用阶段，尚未形成大规模的社区贡献生态。"
+          "summary": "项目获得了 2553 个 Star 和 244 个 Fork，对于一款特定于 Claude Code 的辅助工具而言，表现相当出色，说明受到了目标用户群的广泛认可。不过今日 Star 增长为 0，可能意味着项目已度过初期的爆发期，进入平稳维护阶段。作为个人开发者项目，其生态丰富度和长期高频维护的活跃度仍有待进一步观察。"
         }
       }
     },
     {
-      "name": "Leonxlnx/taste-skill",
-      "score": 7.5,
+      "name": "nesquena/hermes-webui",
+      "score": 7.3,
       "status": "正常",
       "tags": [
-        "提示词工程",
-        "文本生成",
-        "AI辅助",
-        "高质量",
-        "热门项目"
+        "Web开发",
+        "Agent",
+        "WebUI",
+        "聊天机器人",
+        "易用性高",
+        "高质量"
       ],
       "date": "2026-06-03",
       "date_dir": "2026-06-03",
-      "filename": "Leonxlnx-taste-skill_7.5_2026-06-03.md",
-      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "filename": "nesquena-hermes-webui_7.3_2026-06-03.md",
+      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
       "tech_stack": [
-        "Shell"
+        "Python"
       ],
-      "link": "https://github.com/Leonxlnx/taste-skill",
+      "link": "https://github.com/nesquena/hermes-webui",
       "analysis": {
         "tech": {
-          "score": 5.0,
-          "summary": "项目主要基于 Shell 脚本实现，核心技术侧重于提示词工程或模型生成参数的配置，旨在优化大语言模型的输出风格。底层技术实现相对简单，缺乏算法或架构层面的创新，但其提示词规则或配置逻辑可能具有较好的工程巧思。"
+          "score": 6.0,
+          "summary": "项目主要侧重于为 Hermes Agent 提供前端交互界面，支持 Web 和移动端访问。技术实现上偏向于工程应用和接口封装，架构设计具备跨平台适配能力，但在核心算法和技术创新方面相对有限。"
         },
         "utility": {
           "score": 8.5,
-          "summary": "直击当前大语言模型生成内容同质化、套路化（即所谓的'slop'）的痛点，通过赋予 AI '好品味' 来过滤无聊和通用的输出。对于需要个性化、高质量文本生成的开发者和用户具有极高的实用价值和广泛的应用场景。"
+          "summary": "项目极大地降低了用户使用 Hermes Agent 的门槛，提供便捷的网页和手机端访问方式，实际应用价值高，解决了用户与 Agent 交互的痛点，拥有大量用户基础（Stars 过万）。"
         },
         "community": {
-          "score": 9.0,
-          "summary": "项目获得了超过 3.1 万的 Star 和两千多的 Fork，显示出极高的社区关注度和认可度。尽管近期增长可能趋于平缓，但庞大的基数证明了其在开发者社区中的广泛影响力和传播度。"
+          "score": 7.5,
+          "summary": "项目获得了超过 1.2 万的 Stars 和 1500+ 的 Forks，表明社区关注度高。不过今日 Stars 增长为 0，可能意味着项目已进入稳定维护期或近期热度有所平缓，整体社区生态表现良好。"
         }
       }
     },
@@ -668,6 +636,41 @@
       }
     },
     {
+      "name": "Leonxlnx/taste-skill",
+      "score": 6.0,
+      "status": "正常",
+      "tags": [
+        "提示词工程",
+        "文本处理",
+        "Shell",
+        "内容生成",
+        "文本优化",
+        "高星标"
+      ],
+      "date": "2026-06-03",
+      "date_dir": "2026-06-03",
+      "filename": "Leonxlnx-taste-skill_6.0_2026-06-03.md",
+      "description": "Taste-Skill - gives your AI good taste. stops the AI from generating boring, generic slop",
+      "tech_stack": [
+        "Shell"
+      ],
+      "link": "https://github.com/Leonxlnx/taste-skill",
+      "analysis": {
+        "tech": {
+          "score": 4.0,
+          "summary": "项目采用 Shell 语言开发，在 AI 领域通常用于提示词工程、文本过滤或简单的自动化流程。从技术栈来看，其底层实现的技术深度和算法先进性相对有限，缺乏复杂的模型架构或深度学习算法创新，更多是依赖于规则或巧妙的提示词策略来改善 AI 输出。"
+        },
+        "utility": {
+          "score": 6.5,
+          "summary": "项目直击当前大语言模型普遍存在的生成内容同质化、平庸化（slop）的痛点，旨在提升 AI 输出的品味和质量，具有明确的实际应用价值。对于希望快速改善 AI 生成效果的用户来说，具备一定的易用性和解决问题的能力，但 Shell 脚本的形态可能限制了其在复杂场景下的集成与扩展。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "项目获得了超过 3.1 万的 Star 和 2300+ 的 Fork，显示出极高的历史关注度和传播度，说明该理念引起了广泛共鸣。然而，今日 Star 增长为 0，表明项目可能已经度过了爆发期，当前的热度和迭代活跃度有所下降，可能处于维护停滞或稳定期。"
+        }
+      }
+    },
+    {
       "name": "ogulcancelik/herdr",
       "score": 0.0,
       "status": "待复核",
@@ -701,20 +704,32 @@
   "projects_by_date": {
     "2026-06-03": [
       "Chachamaru127/claude-code-harness",
+      "Chachamaru127/claude-code-harness",
+      "Leonxlnx/taste-skill",
       "Leonxlnx/taste-skill",
       "Open-LLM-VTuber/Open-LLM-VTuber",
       "OpenBMB/VoxCPM",
       "affaan-m/ECC",
+      "affaan-m/ECC",
       "chopratejas/headroom",
       "colbymchenry/codegraph",
+      "colbymchenry/codegraph",
+      "hardikpandya/stop-slop",
       "hardikpandya/stop-slop",
       "harry0703/MoneyPrinterTurbo",
+      "harry0703/MoneyPrinterTurbo",
+      "jamwithai/production-agentic-rag-course",
       "jamwithai/production-agentic-rag-course",
       "microsoft/agent-governance-toolkit",
       "mukul975/Anthropic-Cybersecurity-Skills",
+      "mukul975/Anthropic-Cybersecurity-Skills",
+      "nesquena/hermes-webui",
       "nesquena/hermes-webui",
       "ogulcancelik/herdr",
+      "ogulcancelik/herdr",
       "revfactory/harness",
+      "revfactory/harness",
+      "rohitg00/ai-engineering-from-scratch",
       "rohitg00/ai-engineering-from-scratch",
       "supermemoryai/supermemory"
     ]
