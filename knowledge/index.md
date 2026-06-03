@@ -1,19 +1,24 @@
 # AI 知识库总纲
 
-> 最后更新: 2026-05-17
-> 项目总数: 12
+> 最后更新: 2026-06-03
+> 项目总数: 17
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | bytedance/UI-TARS-desktop | 8.8 | 多模态, 视觉语言模型, Agent | 正常 | 2026-05-17 | [链接](https://github.com/bytedance/UI-TARS-desktop) |
-| 2 | mattpocock/skills | 8.7 | 提示工程, 自动化脚本, 代码助手 | 正常 | 2026-05-17 | [链接](https://github.com/mattpocock/skills) |
-| 3 | Hmbown/DeepSeek-TUI | 8.6 | Rust, LLM应用, Agent | 正常 | 2026-05-17 | [链接](https://github.com/Hmbown/DeepSeek-TUI) |
-| 4 | K-Dense-AI/scientific-agent-skills | 8.5 | Agent, LLM应用, 科研助手 | 正常 | 2026-05-17 | [链接](https://github.com/K-Dense-AI/scientific-agent-skills) |
-| 5 | obra/superpowers | 8.5 | AI Agent, 自动化, 代码助手 | 正常 | 2026-05-17 | [链接](https://github.com/obra/superpowers) |
-| 6 | rohitg00/agentmemory | 8.5 | AI Agent, 记忆系统, 代码助手 | 正常 | 2026-05-17 | [链接](https://github.com/rohitg00/agentmemory) |
-| 7 | HKUDS/AI-Trader | 8.5 | LLM Agent, 多智能体系统, 量化交易 | 正常 | 2026-05-17 | [链接](https://github.com/HKUDS/AI-Trader) |
-| 8 | millionco/react-doctor | 8.2 | 静态分析, AST, 前端工程化 | 正常 | 2026-05-17 | [链接](https://github.com/millionco/react-doctor) |
-| 9 | tinyhumansai/openhuman | 7.7 | Rust, 本地推理, AI智能体 | 正常 | 2026-05-17 | [链接](https://github.com/tinyhumansai/openhuman) |
-| 10 | decolua/9router | 7.7 | API路由, 中间件, Token优化 | 正常 | 2026-05-17 | [链接](https://github.com/decolua/9router) |
-| 11 | Anil-matcha/Open-Generative-AI | 7.5 | 多模态, 深度学习, 图像生成 | 正常 | 2026-05-17 | [链接](https://github.com/Anil-matcha/Open-Generative-AI) |
-| 12 | yikart/AiToEarn | 7.0 | TypeScript, API集成, AI变现 | 正常 | 2026-05-17 | [链接](https://github.com/yikart/AiToEarn) |
+| 1 | affaan-m/ECC | 9.1 | AI Agent, JavaScript, 代码助手 | 正常 | 2026-06-03 | [链接](https://github.com/affaan-m/ECC) |
+| 2 | colbymchenry/codegraph | 9.0 | 知识图谱, RAG, 静态代码分析 | 正常 | 2026-06-03 | [链接](https://github.com/colbymchenry/codegraph) |
+| 3 | OpenBMB/VoxCPM | 8.8 | 深度学习, 语音合成, 大语言模型 | 正常 | 2026-06-03 | [链接](https://github.com/OpenBMB/VoxCPM) |
+| 4 | chopratejas/headroom | 8.5 | NLP, 大语言模型, 上下文压缩 | 正常 | 2026-06-03 | [链接](https://github.com/chopratejas/headroom) |
+| 5 | supermemoryai/supermemory | 8.5 | RAG, LLM应用开发, 向量数据库 | 正常 | 2026-06-03 | [链接](https://github.com/supermemoryai/supermemory) |
+| 6 | harry0703/MoneyPrinterTurbo | 8.5 | 多模态, LLM, Agent | 正常 | 2026-06-03 | [链接](https://github.com/harry0703/MoneyPrinterTurbo) |
+| 7 | Open-LLM-VTuber/Open-LLM-VTuber | 8.3 | 多模态, 大语言模型, 语音识别 | 正常 | 2026-06-03 | [链接](https://github.com/Open-LLM-VTuber/Open-LLM-VTuber) |
+| 8 | mukul975/Anthropic-Cybersecurity-Skills | 8.3 | 网络安全, AI Agent, 结构化数据 | 正常 | 2026-06-03 | [链接](https://github.com/mukul975/Anthropic-Cybersecurity-Skills) |
+| 9 | microsoft/agent-governance-toolkit | 8.3 | AI安全, 智能体, 零信任 | 正常 | 2026-06-03 | [链接](https://github.com/microsoft/agent-governance-toolkit) |
+| 10 | nesquena/hermes-webui | 8.2 | Agent, 前端开发, Python | 正常 | 2026-06-03 | [链接](https://github.com/nesquena/hermes-webui) |
+| 11 | jamwithai/production-agentic-rag-course | 7.8 | RAG, 智能体, 大模型应用 | 正常 | 2026-06-03 | [链接](https://github.com/jamwithai/production-agentic-rag-course) |
+| 12 | revfactory/harness | 7.8 | 多智能体, 大语言模型, 自动化编排 | 正常 | 2026-06-03 | [链接](https://github.com/revfactory/harness) |
+| 13 | rohitg00/ai-engineering-from-scratch | 7.8 | 深度学习, AI工程, 学习资源 | 正常 | 2026-06-03 | [链接](https://github.com/rohitg00/ai-engineering-from-scratch) |
+| 14 | Leonxlnx/taste-skill | 7.5 | 提示词工程, 文本生成, AI辅助 | 正常 | 2026-06-03 | [链接](https://github.com/Leonxlnx/taste-skill) |
+| 15 | Chachamaru127/claude-code-harness | 7.5 | LLM应用, Agent, 自动化 | 正常 | 2026-06-03 | [链接](https://github.com/Chachamaru127/claude-code-harness) |
+| 16 | hardikpandya/stop-slop | 6.7 | NLP, 提示工程, 文本润色 | 正常 | 2026-06-03 | [链接](https://github.com/hardikpandya/stop-slop) |
+| 17 | ogulcancelik/herdr | 0.0 | - | 待复核 | 2026-06-03 | [链接](https://github.com/ogulcancelik/herdr) |
