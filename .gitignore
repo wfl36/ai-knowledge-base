@@ -8,4 +8,4 @@ versions/
 *.log
 review_history.json
 weights.json
-site/data/
+
