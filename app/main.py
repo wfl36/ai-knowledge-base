@@ -151,7 +151,7 @@ async def run_pipeline() -> dict:
 
     # 5. 清理过期目录
     try:
-        removed_dirs = cleanup_old_dirs(KNOWLEDGE_DIR, keep_days=30)
+        removed_dirs = cleanup_old_dirs(KNOWLEDGE_DIR, keep_days=15)
         if removed_dirs:
             logger.info("已清理 %d 个过期目录: %s", len(removed_dirs), removed_dirs)
     except Exception as exc:
