@@ -61,6 +61,7 @@
         .project-card .desc { color: var(--text2); font-size: 0.9em; margin-bottom: 10px; }
         .project-card .meta { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
         .tag { display: inline-block; background: rgba(79,195,247,0.1); color: var(--accent); padding: 2px 8px; border-radius: 3px; font-size: 0.78em; }
+        .source-badge { display: inline-block; background: rgba(124,77,255,0.15); color: var(--accent2); padding: 2px 8px; border-radius: 3px; font-size: 0.74em; font-weight: 600; text-transform: uppercase; letter-spacing: 0.03em; }
         .date-label { color: var(--text2); font-size: 0.8em; }
         .status-normal { color: var(--green); font-size: 0.8em; font-weight: 500; }
         .status-pending { color: var(--orange); font-size: 0.8em; font-weight: 500; }
@@ -121,6 +122,9 @@
             <select id="dateFilter">
                 <option value="">全部日期</option>
             </select>
+            <select id="sourceFilter">
+                <option value="">全部来源</option>
+            </select>
             <div class="tag-filter" id="tagFilter"></div>
         </div>
 
@@ -142,6 +146,9 @@
     <script>
     let allData = null;
     let activeTag = '';
+
+    const SOURCE_LABELS = { github: 'GitHub', rss: 'RSS', hackernews: 'HN' };
+    function sourceLabel(s) { return SOURCE_LABELS[s] || s; }
 
     async function loadData() {
         try {
@@ -177,6 +184,21 @@
             sel.appendChild(opt);
         });
 
+        // Source filter (老数据无 sources 字段时从 projects 推导)
+        const srcSel = document.getElementById('sourceFilter');
+        let sources = d.sources;
+        if (!sources) {
+            const counts = {};
+            d.projects.forEach(p => { const s = p.source_type || 'github'; counts[s] = (counts[s]||0)+1; });
+            sources = Object.entries(counts).map(([name, count]) => ({ name, count }));
+        }
+        sources.forEach(s => {
+            const opt = document.createElement('option');
+            opt.value = s.name;
+            opt.textContent = `${sourceLabel(s.name)} (${s.count})`;
+            srcSel.appendChild(opt);
+        });
+
         // Tag filter
         const tf = document.getElementById('tagFilter');
         d.top_tags.forEach(t => {
@@ -195,10 +217,12 @@
     function applyFilters() {
         const search = document.getElementById('search').value.toLowerCase();
         const dateVal = document.getElementById('dateFilter').value;
+        const sourceVal = document.getElementById('sourceFilter').value;
         let filtered = allData.projects;
 
-        if (search) filtered = filtered.filter(p => p.name.toLowerCase().includes(search) || p.description.toLowerCase().includes(search));
+        if (search) filtered = filtered.filter(p => p.name.toLowerCase().includes(search) || (p.description || '').toLowerCase().includes(search));
         if (dateVal) filtered = filtered.filter(p => p.date_dir === dateVal);
+        if (sourceVal) filtered = filtered.filter(p => (p.source_type || 'github') === sourceVal);
         if (activeTag) filtered = filtered.filter(p => p.tags.includes(activeTag));
 
         renderProjects(filtered);
@@ -224,6 +248,7 @@
                 </div>
                 <div class="desc">${escHtml(p.description)}</div>
                 <div class="meta">
+                    <span class="source-badge">${escHtml(sourceLabel(p.source_type || 'github'))}</span>
                     ${p.tags.slice(0, 5).map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}
                     <span class="date-label">${p.date}</span>
                     <span class="${p.status === '待复核' ? 'status-pending' : 'status-normal'}">${p.status}</span>
@@ -268,7 +293,7 @@
             <div class="detail-section"><h3>👥 社区活跃度</h3><p>${escHtml(a.community.summary)}</p></div>
 
             <div class="link-row">🔗 <a href="${escHtml(p.link)}" target="_blank">${escHtml(p.link)}</a></div>
-            <div class="date-label" style="margin-top:8px">更新日期: ${p.date} · 状态: <span class="${p.status === '待复核' ? 'status-pending' : 'status-normal'}">${p.status}</span></div>
+            <div class="date-label" style="margin-top:8px">来源: ${escHtml(sourceLabel(p.source_type || 'github'))} · 更新日期: ${p.date} · 状态: <span class="${p.status === '待复核' ? 'status-pending' : 'status-normal'}">${p.status}</span></div>
         `;
         document.getElementById('modal').classList.add('show');
     }
@@ -286,6 +311,7 @@
     // Events
     document.getElementById('search').addEventListener('input', applyFilters);
     document.getElementById('dateFilter').addEventListener('change', applyFilters);
+    document.getElementById('sourceFilter').addEventListener('change', applyFilters);
     document.getElementById('modal').addEventListener('click', e => { if (e.target.id === 'modal') closeModal(); });
     document.addEventListener('keydown', e => { if (e.key === 'Escape') closeModal(); });
 

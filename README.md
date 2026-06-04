@@ -2,12 +2,12 @@
 
 [中文文档](README_CN.md)
 
-> Automatically crawl GitHub Trending AI projects, intelligently analyze and score them, and generate a structured knowledge base with a static web UI.
+> Automatically collect AI content from multiple sources (GitHub Trending, arXiv/blog RSS, Hacker News), intelligently analyze and score it, and generate a structured knowledge base with a static web UI.
 
 ## Features
 
-- **GitHub Trending Crawler** — Daily auto-crawl of AI-related projects (keyword filtering, up to 20 entries)
-- **3D Scoring Agent** — Technical Advancement / Practicality / Community Activity, 1-10 scale
+- **Pluggable Multi-Source Collection** — GitHub Trending + RSS (arXiv / vendor blogs) + Hacker News, unified into a generic `Item` model. Adding a source = adding one file; enabled via `AKB_SOURCES`
+- **Source-Aware 3D Scoring** — Technical Advancement / Practicality / Community Activity, 1-10 scale; the three axes are reinterpreted per source via per-source prompts (e.g. for articles: insight depth / applicability / timeliness)
 - **Dynamic Weight Adjustment** — Auto-adjusts weights based on human review feedback
 - **Bonus Scoring** — Breakthrough innovation projects can receive extra points (up to +2)
 - **Date-based Storage** — Entries organized under `knowledge/YYYY-MM-DD/` subdirectories
@@ -21,8 +21,9 @@
 ai-knowledge-base/
 ├── .github/workflows/     # GitHub Actions scheduled tasks
 ├── app/
-│   ├── crawler/           # GitHub Trending crawler
-│   ├── agent/             # AI scoring agent (LLM-powered)
+│   ├── sources/           # Pluggable sources (github / rss / hackernews) + registry
+│   ├── crawler/           # GitHub Trending crawler (used by sources/github_trending)
+│   ├── agent/             # AI scoring agent (LLM-powered) + per-source prompts
 │   ├── storage/           # Knowledge entry storage
 │   ├── review/            # Human review management
 │   ├── api/               # FastAPI web interface
@@ -75,6 +76,12 @@ python3 scripts/build_static.py ./knowledge ./site/data
 | LLM_MODEL | Model name | z-ai/glm-5.1 |
 | LLM_CONCURRENCY | Concurrent LLM analysis requests (higher = faster, too high may hit rate limits) | 5 |
 | GITHUB_TOKEN | GitHub Token (optional, increases rate limit) | - |
+| AKB_SOURCES | Enabled sources, comma-separated (github,rss,hackernews) | github,rss,hackernews |
+| RSS_FEEDS | RSS/Atom feeds, comma-separated (empty = arXiv cs.AI/cs.CL + HF blog) | (defaults) |
+| RSS_MAX_PER_FEED | Max entries per RSS feed | 10 |
+| HN_QUERY | Hacker News search query | AI OR LLM OR agent |
+| HN_MIN_POINTS | Min HN points to include | 50 |
+| HN_MAX_ITEMS | Max HN items per run | 20 |
 | CRAWL_SCHEDULE | Cron schedule for crawling | 0 0 * * * |
 | API_HOST | FastAPI listen address | 127.0.0.1 |
 | API_PORT | FastAPI port | 8900 |

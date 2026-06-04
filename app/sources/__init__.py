@@ -19,7 +19,7 @@ logger = logging.getLogger(__name__)
 
 __all__ = ["Item", "BaseSource", "build_sources"]
 
-DEFAULT_SOURCES = "github"
+DEFAULT_SOURCES = "github,rss,hackernews"
 
 
 def _make_github() -> BaseSource:

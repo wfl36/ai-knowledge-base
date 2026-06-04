@@ -2,12 +2,12 @@
 
 [English](README.md)
 
-> 自动抓取 GitHub Trending AI 项目，智能分析评分，生成结构化知识库，并提供静态 Web 界面
+> 自动从多个信息源（GitHub Trending、arXiv/博客 RSS、Hacker News）采集 AI 内容，智能分析评分，生成结构化知识库，并提供静态 Web 界面
 
 ## 功能
 
-- **GitHub Trending 爬虫** — 每日自动抓取 AI 相关项目（关键词过滤，最多20条）
-- **三维评分 Agent** — 技术先进性 / 实用性 / 社区活跃度，1-10 分制
+- **可插拔多源采集** — GitHub Trending + RSS（arXiv / 厂商博客）+ Hacker News，统一抽象为通用 `Item`。加一个源 = 加一个文件；由 `AKB_SOURCES` 控制启用
+- **按源自适应三维评分** — 技术先进性 / 实用性 / 社区活跃度，1-10 分制；三维含义按来源用各自提示词重新解释（如文章：洞见深度 / 可落地性 / 时效性）
 - **动态权重调整** — 根据人工复核反馈自动调整权重
 - **特别加分机制** — 突破性创新项目可获得额外加分（最高+2）
 - **按日期归档** — 知识条目按日期存放在 `knowledge/YYYY-MM-DD/` 子目录
@@ -21,8 +21,9 @@
 ai-knowledge-base/
 ├── .github/workflows/     # GitHub Actions 定时任务
 ├── app/
-│   ├── crawler/           # GitHub Trending 爬虫
-│   ├── agent/             # AI 评分 Agent (LLM 驱动)
+│   ├── sources/           # 可插拔信息源 (github / rss / hackernews) + 注册表
+│   ├── crawler/           # GitHub Trending 爬虫 (被 sources/github_trending 复用)
+│   ├── agent/             # AI 评分 Agent (LLM 驱动) + 按源提示词
 │   ├── storage/           # 知识条目存储
 │   ├── review/            # 人工复核管理
 │   ├── api/               # FastAPI Web 界面
@@ -75,6 +76,12 @@ python3 scripts/build_static.py ./knowledge ./site/data
 | LLM_MODEL | 模型名 | z-ai/glm-5.1 |
 | LLM_CONCURRENCY | LLM 分析并发数（越大越快，过大可能触发 API 限流） | 5 |
 | GITHUB_TOKEN | GitHub Token（可选，提升请求频率限制） | - |
+| AKB_SOURCES | 启用的信息源，逗号分隔（github,rss,hackernews） | github,rss,hackernews |
+| RSS_FEEDS | RSS/Atom 订阅源，逗号分隔（留空用默认：arXiv cs.AI/cs.CL + HF 博客） | （默认） |
+| RSS_MAX_PER_FEED | 每个 RSS 源最多抓取条数 | 10 |
+| HN_QUERY | Hacker News 搜索词 | AI OR LLM OR agent |
+| HN_MIN_POINTS | HN 纳入的最低 points | 50 |
+| HN_MAX_ITEMS | 每次运行 HN 最多条数 | 20 |
 | CRAWL_SCHEDULE | 定时抓取 cron | 0 0 * * * |
 | API_HOST | FastAPI 监听地址 | 127.0.0.1 |
 | API_PORT | FastAPI 端口 | 8900 |
