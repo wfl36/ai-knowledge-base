@@ -11,7 +11,11 @@ from .models import AnalysisResult, ProjectInfo, ProjectWithScore, sanitize_file
 # Markdown 生成
 # ---------------------------------------------------------------------------
 
-def generate_project_md(project_info: ProjectInfo, analysis: AnalysisResult) -> str:
+def generate_project_md(
+    project_info: ProjectInfo,
+    analysis: AnalysisResult,
+    source_type: str = "github",
+) -> str:
     """按模板生成单个项目的 Markdown 内容"""
 
     tags_str = ", ".join(analysis.tags) if analysis.tags else "无"
@@ -23,6 +27,7 @@ def generate_project_md(project_info: ProjectInfo, analysis: AnalysisResult) -> 
 **状态：** {analysis.status.value}  
 **标签：** {tags_str}  
 **更新日期：** {project_info.date}  
+**来源：** {source_type}  
 
 ## 项目描述
 {project_info.description}
@@ -76,7 +81,8 @@ def generate_index(projects: List[ProjectWithScore]) -> str:
 # ---------------------------------------------------------------------------
 
 def _project_filename(project_info: ProjectInfo, analysis: AnalysisResult) -> str:
-    safe_name = sanitize_filename(project_info.name)
+    # 截断到 80 字符，避免文章/讨论类长标题超出文件名长度限制
+    safe_name = sanitize_filename(project_info.name)[:80]
     return f"{safe_name}_{analysis.total_score:.1f}_{project_info.date}.md"
 
 
@@ -94,13 +100,18 @@ def _date_dir(knowledge_dir: str, d: date = None) -> str:
 # 文件保存
 # ---------------------------------------------------------------------------
 
-def save_project(project_info: ProjectInfo, analysis: AnalysisResult, knowledge_dir: str) -> str:
+def save_project(
+    project_info: ProjectInfo,
+    analysis: AnalysisResult,
+    knowledge_dir: str,
+    source_type: str = "github",
+) -> str:
     """保存单个项目 Markdown 文件到日期子目录，返回文件路径"""
 
     day_dir = _date_dir(knowledge_dir)
     os.makedirs(day_dir, exist_ok=True)
 
-    content = generate_project_md(project_info, analysis)
+    content = generate_project_md(project_info, analysis, source_type=source_type)
     filename = _project_filename(project_info, analysis)
     filepath = os.path.join(day_dir, filename)
 

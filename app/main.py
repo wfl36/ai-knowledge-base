@@ -53,23 +53,49 @@ async def run_pipeline() -> dict:
     Returns:
         dict 包含本次执行结果的摘要
     """
-    from app.crawler.github_trending import GitHubTrendingCrawler
+    import httpx
+
+    from app.sources import build_sources
     from app.agent.analyzer import ProjectAnalyzer
-    from app.agent.scorer import Scorer, WeightManager
+    from app.agent.scorer import Scorer
     from app.storage.writer import save_project, save_index, cleanup_old_dirs
-    from app.storage.models import ProjectInfo, ProjectWithScore, sanitize_filename
+    from app.storage.models import ProjectInfo, ProjectWithScore
     from app.storage.version_mgr import VersionManager
     from app.review.manager import ReviewManager
 
     logger.info("===== Pipeline 开始 =====")
 
-    # 1. 爬虫
-    crawler = GitHubTrendingCrawler()
-    raw_projects = await crawler.crawl()
-    logger.info("爬虫完成，获取 %d 个 AI 项目", len(raw_projects))
+    # 1. 多源抓取（各源并发，单源失败不影响其余源）
+    sources = build_sources()
+    if not sources:
+        return {"status": "skip", "reason": "未启用任何信息源", "project_count": 0}
+    logger.info("启用信息源: %s", ", ".join(s.source_type for s in sources))
 
-    if not raw_projects:
-        return {"status": "skip", "reason": "未获取到项目", "project_count": 0}
+    fetch_results = await asyncio.gather(
+        *(s.fetch() for s in sources), return_exceptions=True
+    )
+    items = []
+    for src, result in zip(sources, fetch_results):
+        if isinstance(result, Exception):
+            logger.error("信息源 %s 抓取失败: %s", src.source_type, result)
+            continue
+        logger.info("信息源 %s 获取 %d 条", src.source_type, len(result))
+        items.extend(result)
+
+    # 跨源按归一化 URL 去重（首见保留）
+    seen_urls: set = set()
+    deduped = []
+    for it in items:
+        key = it.url.rstrip("/").lower()
+        if key in seen_urls:
+            continue
+        seen_urls.add(key)
+        deduped.append(it)
+    items = deduped
+    logger.info("合并去重后共 %d 条资源", len(items))
+
+    if not items:
+        return {"status": "skip", "reason": "未获取到资源", "project_count": 0}
 
     # 2. Agent 分析 + 评分
     analyzer = ProjectAnalyzer()
@@ -79,49 +105,38 @@ async def run_pipeline() -> dict:
     projects_with_scores: List[ProjectWithScore] = []
     saved_count = 0
 
-    def _build_info_str(raw) -> str:
-        return (
-            f"项目名称: {raw.name}\n"
-            f"描述: {raw.description}\n"
-            f"语言: {raw.language or '未知'}\n"
-            f"Stars: {raw.stars}\n"
-            f"Forks: {raw.forks}\n"
-            f"今日Stars: {raw.stars_today}\n"
-            f"URL: {raw.url}\n"
-        )
-
     # 并发调用 LLM 分析（仅网络部分并发，文件写入仍按原顺序串行）。
     # 用信号量限制并发量，避免触发 API 限流；共享一个 httpx 客户端复用连接。
-    import httpx
-
     sem = asyncio.Semaphore(LLM_CONCURRENCY)
 
-    async def _analyze_one(raw, client):
+    async def _analyze_one(item, client):
         async with sem:
-            return await analyzer.analyze(_build_info_str(raw), client=client)
+            return await analyzer.analyze(
+                item.to_info_str(), client=client, source_type=item.source_type
+            )
 
     async with httpx.AsyncClient(timeout=120.0, http2=False) as llm_client:
         analysis_results = await asyncio.gather(
-            *(_analyze_one(raw, llm_client) for raw in raw_projects)
+            *(_analyze_one(item, llm_client) for item in items)
         )
 
     # 评分 + 存储（按原顺序串行，保证文件写入与索引稳定）
-    for raw, analysis_result in zip(raw_projects, analysis_results):
+    for item, analysis_result in zip(items, analysis_results):
         # 评分计算
         scored = scorer.score(analysis_result)
         logger.info(
-            "项目 %s: 总分=%.2f (tech=%.1f util=%.1f comm=%.1f bonus=%.1f)",
-            raw.name, scored.total_score,
+            "[%s] %s: 总分=%.2f (tech=%.1f util=%.1f comm=%.1f bonus=%.1f)",
+            item.source_type, item.title, scored.total_score,
             scored.tech_score, scored.utility_score, scored.community_score, scored.bonus,
         )
 
         # 构造 ProjectInfo
         project_info = ProjectInfo(
-            name=raw.name,
-            description=raw.description,
+            name=item.title,
+            description=item.summary,
             tags=scored.tags,
-            tech_stack=[raw.language] if raw.language else [],
-            link=raw.url,
+            tech_stack=[item.language] if item.language else [],
+            link=item.url,
             date=str(date.today()),
         )
 
@@ -129,21 +144,23 @@ async def run_pipeline() -> dict:
         storage_analysis = _convert_analysis_result(scored)
 
         # 存储
-        filepath = save_project(project_info, storage_analysis, KNOWLEDGE_DIR)
+        filepath = save_project(
+            project_info, storage_analysis, KNOWLEDGE_DIR, source_type=item.source_type
+        )
         saved_count += 1
 
         projects_with_scores.append(ProjectWithScore(
-            name=raw.name,
+            name=item.title,
             score=scored.total_score,
             tags=scored.tags,
             updated_at=date.today(),
-            link=raw.url,
+            link=item.url,
             filename=os.path.basename(filepath),
         ))
 
         # 判断是否需要复核
         if review_mgr.should_review(scored):
-            logger.info("项目 %s 需要人工复核", raw.name)
+            logger.info("资源 %s 需要人工复核", item.title)
 
     # 3. 生成总纲
     index_path = save_index(projects_with_scores, KNOWLEDGE_DIR)
@@ -174,7 +191,7 @@ async def run_pipeline() -> dict:
     logger.info("===== Pipeline 完成 =====")
     return {
         "status": "ok",
-        "project_count": len(raw_projects),
+        "project_count": len(items),
         "saved_count": saved_count,
     }
 

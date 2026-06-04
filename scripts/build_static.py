@@ -21,6 +21,8 @@ def parse_project_md(filepath: Path, knowledge_dir: Path) -> dict | None:
     status_m = re.search(r"\*\*状态：\*\*\s*(.+)", content)
     tags_m = re.search(r"\*\*标签：\*\*\s*(.+)", content)
     date_m = re.search(r"\*\*更新日期：\*\*\s*(.+)", content)
+    # 来源(附加字段，老文件无此行时默认 github)
+    source_m = re.search(r"\*\*来源：\*\*\s*(.+)", content)
 
     # 提取项目描述
     desc_m = re.search(r"## 项目描述\n+(.+)", content)
@@ -55,6 +57,7 @@ def parse_project_md(filepath: Path, knowledge_dir: Path) -> dict | None:
         "date": date_m.group(1).strip() if date_m else "",
         "date_dir": date_dir,
         "filename": filepath.name,
+        "source_type": source_m.group(1).strip() if source_m else "github",
         "description": description,
         "tech_stack": tech_stack,
         "link": link_m.group(1).strip() if link_m else "",
@@ -121,12 +124,19 @@ def build(knowledge_dir: str, output_dir: str):
 
     top_tags = sorted(all_tags.items(), key=lambda x: x[1], reverse=True)[:20]
 
+    # 按来源统计(供前端来源过滤)
+    source_counts = {}
+    for p in unique_projects:
+        st = p.get("source_type", "github")
+        source_counts[st] = source_counts.get(st, 0) + 1
+
     data = {
         "last_updated": dates[0] if dates else "",
         "total_projects": len(unique_projects),
         "total_dates": len(dates),
         "dates": dates,
         "top_tags": [{"name": t, "count": c} for t, c in top_tags],
+        "sources": [{"name": s, "count": c} for s, c in sorted(source_counts.items(), key=lambda x: x[1], reverse=True)],
         "projects": unique_projects,
         "projects_by_date": {k: [p["name"] for p in v] for k, v in projects_by_date.items()},
     }
