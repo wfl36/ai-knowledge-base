@@ -150,6 +150,12 @@
     const SOURCE_LABELS = { github: 'GitHub', rss: 'RSS', hackernews: 'HN' };
     function sourceLabel(s) { return SOURCE_LABELS[s] || s; }
 
+    // 卡片摘要: 优先综合总结，其次原始描述；截断到 160 字
+    function cardSummary(p) {
+        const txt = (p.summary || p.description || '').trim();
+        return txt.length > 160 ? txt.slice(0, 160) + '…' : txt;
+    }
+
     async function loadData() {
         try {
             const res = await fetch('data/data.json');
@@ -246,7 +252,7 @@
                     <div class="name">${escHtml(p.name)}</div>
                     <div class="score-badge ${scoreClass(p.score)}">${p.score.toFixed(1)}</div>
                 </div>
-                <div class="desc">${escHtml(p.description)}</div>
+                <div class="desc">${escHtml(cardSummary(p))}</div>
                 <div class="meta">
                     <span class="source-badge">${escHtml(sourceLabel(p.source_type || 'github'))}</span>
                     ${p.tags.slice(0, 5).map(t => `<span class="tag">${escHtml(t)}</span>`).join('')}
@@ -286,8 +292,9 @@
                 </div>
             </div>
 
-            <div class="detail-section"><h3>📝 项目描述</h3><p>${escHtml(p.description)}</p></div>
-            <div class="detail-section"><h3>🔧 技术栈</h3><p>${p.tech_stack.join(', ') || '未知'}</p></div>
+            ${p.summary ? `<div class="detail-section"><h3>🧭 综合总结</h3><p>${escHtml(p.summary)}</p></div>` : ''}
+            ${p.description ? `<div class="detail-section"><h3>📝 原文摘要</h3><p>${escHtml(p.description)}</p></div>` : ''}
+            ${(p.tech_stack && p.tech_stack.filter(t => t && t !== '未标注').length) ? `<div class="detail-section"><h3>🔧 技术栈</h3><p>${escHtml(p.tech_stack.join(', '))}</p></div>` : ''}
             <div class="detail-section"><h3>💡 技术先进性</h3><p>${escHtml(a.tech.summary)}</p></div>
             <div class="detail-section"><h3>🛠 实用性</h3><p>${escHtml(a.utility.summary)}</p></div>
             <div class="detail-section"><h3>👥 社区活跃度</h3><p>${escHtml(a.community.summary)}</p></div>

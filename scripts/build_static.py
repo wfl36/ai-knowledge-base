@@ -24,9 +24,15 @@ def parse_project_md(filepath: Path, knowledge_dir: Path) -> dict | None:
     # 来源(附加字段，老文件无此行时默认 github)
     source_m = re.search(r"\*\*来源：\*\*\s*(.+)", content)
 
-    # 提取项目描述
-    desc_m = re.search(r"## 项目描述\n+(.+)", content)
+    # 提取项目描述(限定在本段内，不跨越下一个 ## 标题；空描述返回 "")
+    desc_m = re.search(r"## 项目描述\n(.*?)(?=\n## )", content, re.DOTALL)
     description = desc_m.group(1).strip() if desc_m else ""
+
+    # 提取综合总结(LLM 生成的综合摘要)
+    summary_m = re.search(r"## 综合总结\n(.*?)(?=\n## )", content, re.DOTALL)
+    summary = summary_m.group(1).strip() if summary_m else ""
+    if summary == "无":
+        summary = ""
 
     # 提取技术栈
     tech_m = re.search(r"## 技术栈\n+((?:- .+\n?)+)", content)
@@ -59,6 +65,7 @@ def parse_project_md(filepath: Path, knowledge_dir: Path) -> dict | None:
         "filename": filepath.name,
         "source_type": source_m.group(1).strip() if source_m else "github",
         "description": description,
+        "summary": summary,
         "tech_stack": tech_stack,
         "link": link_m.group(1).strip() if link_m else "",
         "analysis": {

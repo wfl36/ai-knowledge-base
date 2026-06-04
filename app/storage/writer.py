@@ -32,6 +32,9 @@ def generate_project_md(
 ## 项目描述
 {project_info.description}
 
+## 综合总结
+{analysis.summary or "无"}
+
 ## 技术栈
 {tech_stack_str}
 
