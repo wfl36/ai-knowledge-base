@@ -73,6 +73,7 @@ python3 scripts/build_static.py ./knowledge ./site/data
 | LLM_API_URL | LLM API 地址 | OpenRouter |
 | LLM_API_KEY | API Key | 必填 |
 | LLM_MODEL | 模型名 | z-ai/glm-5.1 |
+| LLM_CONCURRENCY | LLM 分析并发数（越大越快，过大可能触发 API 限流） | 5 |
 | GITHUB_TOKEN | GitHub Token（可选，提升请求频率限制） | - |
 | CRAWL_SCHEDULE | 定时抓取 cron | 0 0 * * * |
 | API_HOST | FastAPI 监听地址 | 127.0.0.1 |
