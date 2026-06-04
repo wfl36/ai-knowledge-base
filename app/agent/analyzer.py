@@ -1,6 +1,7 @@
 """项目分析器 - 调用 OpenRouter API 进行三维评分"""
 
 import json
+import logging
 import os
 from typing import Any, Dict, Optional
 
@@ -61,11 +62,16 @@ class ProjectAnalyzer:
     # ------------------------------------------------------------------
     # 公开接口
     # ------------------------------------------------------------------
-    async def analyze(self, project_info: str) -> AnalysisResult:
+    async def analyze(
+        self,
+        project_info: str,
+        client: Optional[httpx.AsyncClient] = None,
+    ) -> AnalysisResult:
         """分析项目并返回三维评分结果。
 
         Args:
             project_info: 项目信息文本（README、描述等）
+            client: 可选的共享 httpx 客户端，用于复用连接（并发场景）
 
         Returns:
             AnalysisResult 完整分析结果
@@ -74,7 +80,7 @@ class ProjectAnalyzer:
             return AnalysisResult(status=AnalysisStatus.FAILED, summary="未配置 LLM_API_KEY")
 
         user_prompt = self._build_user_prompt(project_info)
-        raw_result = await self._call_llm(user_prompt)
+        raw_result = await self._call_llm(user_prompt, client=client)
         if raw_result is None:
             return AnalysisResult(status=AnalysisStatus.FAILED, summary="LLM 调用失败或响应解析失败")
 
@@ -102,8 +108,15 @@ class ProjectAnalyzer:
             f"请严格按照 JSON 格式返回评分结果。"
         )
 
-    async def _call_llm(self, user_prompt: str) -> Optional[LLMRawResult]:
-        """调用 OpenRouter API 并解析响应"""
+    async def _call_llm(
+        self,
+        user_prompt: str,
+        client: Optional[httpx.AsyncClient] = None,
+    ) -> Optional[LLMRawResult]:
+        """调用 OpenRouter API 并解析响应。
+
+        若传入 client 则复用其连接池；否则临时创建一个。
+        """
         headers: Dict[str, str] = {
             "Content-Type": "application/json",
             "Authorization": f"Bearer {self.api_key}",
@@ -119,16 +132,20 @@ class ProjectAnalyzer:
         }
 
         try:
-            async with httpx.AsyncClient(timeout=120.0, http2=False) as client:
+            if client is not None:
                 resp = await client.post(self.api_url, json=payload, headers=headers)
                 resp.raise_for_status()
                 data = resp.json()
+            else:
+                async with httpx.AsyncClient(timeout=120.0, http2=False) as tmp_client:
+                    resp = await tmp_client.post(self.api_url, json=payload, headers=headers)
+                    resp.raise_for_status()
+                    data = resp.json()
 
             content = data["choices"][0]["message"]["content"]
             parsed = json.loads(content)
             return LLMRawResult(**parsed)
-        except (httpx.HTTPError, KeyError, json.JSONDecodeError, Exception) as exc:
+        except Exception as exc:
             # 记录异常但不抛出，返回 None 让上层处理
-            import logging
-            logging.getLogger(__name__).error("LLM API 调用失败: %s", exc)
+            logging.getLogger(__name__).error("LLM API 调用失败: %s", exc, exc_info=True)
             return None

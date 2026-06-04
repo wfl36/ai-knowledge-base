@@ -59,19 +59,20 @@ class ProjectWithScore(BaseModel):
 class VersionInfo(BaseModel):
     """Version snapshot metadata."""
 
-    id: str = Field(..., description="版本ID (时间戳)")
+    version_id: str = Field(..., description="版本ID (时间戳, YYYYMMDD_HHMMSS)")
     created_at: datetime = Field(default_factory=datetime.now, description="创建时间")
-    file_count: int = Field(default=0, description="文件数量")
+    path: str = Field(default="", description="快照目录绝对路径")
 
 
 class DiffResult(BaseModel):
     """Result of comparing two versions."""
 
-    version_a: str
-    version_b: str
-    added: List[str] = Field(default_factory=list, description="新增文件")
-    removed: List[str] = Field(default_factory=list, description="删除文件")
-    modified: List[str] = Field(default_factory=list, description="修改文件")
+    v1: str = Field(..., description="较旧版本ID")
+    v2: str = Field(..., description="较新版本ID")
+    added_files: List[str] = Field(default_factory=list, description="新增文件")
+    removed_files: List[str] = Field(default_factory=list, description="删除文件")
+    modified_files: List[str] = Field(default_factory=list, description="修改文件")
+    detail: str = Field(default="", description="unified diff 文本")
 
 
 def sanitize_filename(name: str) -> str:

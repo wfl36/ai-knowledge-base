@@ -38,6 +38,7 @@ logger = logging.getLogger(__name__)
 KNOWLEDGE_DIR = os.getenv("KNOWLEDGE_DIR", os.path.join(os.path.dirname(os.path.abspath(__file__)), "..", "knowledge"))
 VERSIONS_DIR = os.getenv("VERSIONS_DIR", os.path.join(KNOWLEDGE_DIR, "..", "versions"))
 CRAWL_SCHEDULE = os.getenv("CRAWL_SCHEDULE", "0 0 * * *")  # 默认每天 0 点
+LLM_CONCURRENCY = int(os.getenv("LLM_CONCURRENCY", "5"))  # LLM 分析并发数
 API_HOST = os.getenv("API_HOST", "0.0.0.0")
 API_PORT = int(os.getenv("API_PORT", "8000"))
 
@@ -78,9 +79,8 @@ async def run_pipeline() -> dict:
     projects_with_scores: List[ProjectWithScore] = []
     saved_count = 0
 
-    for raw in raw_projects:
-        # 构造项目信息字符串用于 LLM 分析
-        project_info_str = (
+    def _build_info_str(raw) -> str:
+        return (
             f"项目名称: {raw.name}\n"
             f"描述: {raw.description}\n"
             f"语言: {raw.language or '未知'}\n"
@@ -90,9 +90,23 @@ async def run_pipeline() -> dict:
             f"URL: {raw.url}\n"
         )
 
-        # 调用 LLM 分析
-        analysis_result = await analyzer.analyze(project_info_str)
+    # 并发调用 LLM 分析（仅网络部分并发，文件写入仍按原顺序串行）。
+    # 用信号量限制并发量，避免触发 API 限流；共享一个 httpx 客户端复用连接。
+    import httpx
 
+    sem = asyncio.Semaphore(LLM_CONCURRENCY)
+
+    async def _analyze_one(raw, client):
+        async with sem:
+            return await analyzer.analyze(_build_info_str(raw), client=client)
+
+    async with httpx.AsyncClient(timeout=120.0, http2=False) as llm_client:
+        analysis_results = await asyncio.gather(
+            *(_analyze_one(raw, llm_client) for raw in raw_projects)
+        )
+
+    # 评分 + 存储（按原顺序串行，保证文件写入与索引稳定）
+    for raw, analysis_result in zip(raw_projects, analysis_results):
         # 评分计算
         scored = scorer.score(analysis_result)
         logger.info(

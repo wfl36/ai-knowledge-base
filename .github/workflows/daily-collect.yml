@@ -2,7 +2,9 @@ name: Daily AI Knowledge Collection
 
 on:
   schedule:
-    - cron: "0 0 * * *"  # UTC 0点 = 北京时间8点
+    # 错峰：避开 UTC 整点（尤其午夜）这个最拥堵的时段，
+    # 否则定时任务常被 GitHub 延迟数小时甚至直接丢弃。
+    - cron: "23 18 * * *"  # UTC 18:23 = 北京时间次日 02:23
   workflow_dispatch:
 
 permissions:
