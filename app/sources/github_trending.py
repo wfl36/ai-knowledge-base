@@ -19,12 +19,12 @@ class GitHubTrendingSource(BaseSource):
 
     source_type = "github"
 
-    def __init__(self, max_projects: int = 20) -> None:
+    def __init__(self, max_projects: int = 10) -> None:
         self._crawler = GitHubTrendingCrawler(max_projects=max_projects)
 
     @classmethod
     def from_env(cls) -> "GitHubTrendingSource":
-        max_projects = int(os.getenv("GITHUB_MAX_PROJECTS", "20"))
+        max_projects = int(os.getenv("GITHUB_MAX_PROJECTS", "10"))
         return cls(max_projects=max_projects)
 
     async def fetch(self) -> List[Item]:

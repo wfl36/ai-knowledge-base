@@ -76,6 +76,7 @@ python3 scripts/build_static.py ./knowledge ./site/data
 | LLM_MODEL | Model name | z-ai/glm-5.1 |
 | LLM_CONCURRENCY | Concurrent LLM analysis requests (higher = faster, too high may hit rate limits) | 5 |
 | GITHUB_TOKEN | GitHub Token (optional, increases rate limit) | - |
+| GITHUB_MAX_PROJECTS | Max GitHub Trending projects per run | 10 |
 | AKB_SOURCES | Enabled sources, comma-separated (github,rss,hackernews) | github,rss,hackernews |
 | RSS_FEEDS | RSS/Atom feeds, comma-separated (empty = arXiv cs.AI/cs.CL + HF blog) | (defaults) |
 | RSS_MAX_PER_FEED | Max entries per RSS feed | 10 |

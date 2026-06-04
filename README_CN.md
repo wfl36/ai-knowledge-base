@@ -76,6 +76,7 @@ python3 scripts/build_static.py ./knowledge ./site/data
 | LLM_MODEL | 模型名 | z-ai/glm-5.1 |
 | LLM_CONCURRENCY | LLM 分析并发数（越大越快，过大可能触发 API 限流） | 5 |
 | GITHUB_TOKEN | GitHub Token（可选，提升请求频率限制） | - |
+| GITHUB_MAX_PROJECTS | GitHub Trending 每次最多采集条数 | 10 |
 | AKB_SOURCES | 启用的信息源，逗号分隔（github,rss,hackernews） | github,rss,hackernews |
 | RSS_FEEDS | RSS/Atom 订阅源，逗号分隔（留空用默认：arXiv cs.AI/cs.CL + HF 博客） | （默认） |
 | RSS_MAX_PER_FEED | 每个 RSS 源最多抓取条数 | 10 |
