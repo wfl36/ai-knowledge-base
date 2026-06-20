@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-06-19",
-  "total_projects": 344,
+  "last_updated": "2026-06-20",
+  "total_projects": 320,
   "total_dates": 16,
   "dates": [
+    "2026-06-20",
     "2026-06-19",
     "2026-06-18",
     "2026-06-17",
@@ -17,21 +18,20 @@
     "2026-06-08",
     "2026-06-07",
     "2026-06-06",
-    "2026-06-05",
-    "2026-06-04"
+    "2026-06-05"
   ],
   "top_tags": [
     {
       "name": "论文",
-      "count": 209
+      "count": 203
     },
     {
       "name": "大模型",
-      "count": 134
+      "count": 132
     },
     {
       "name": "Agent",
-      "count": 90
+      "count": 86
     },
     {
       "name": "推理",
@@ -39,7 +39,7 @@
     },
     {
       "name": "高质量",
-      "count": 44
+      "count": 40
     },
     {
       "name": "工程实践",
@@ -47,22 +47,26 @@
     },
     {
       "name": "多模态",
-      "count": 37
+      "count": 36
     },
     {
       "name": "RAG",
-      "count": 23
-    },
-    {
-      "name": "活跃维护",
       "count": 20
     },
     {
-      "name": "医疗AI",
+      "name": "活跃维护",
       "count": 19
     },
     {
+      "name": "多智能体",
+      "count": 18
+    },
+    {
       "name": "AI Agent",
+      "count": 18
+    },
+    {
+      "name": "评估基准",
       "count": 18
     },
     {
@@ -70,46 +74,42 @@
       "count": 18
     },
     {
-      "name": "多智能体",
+      "name": "医疗AI",
       "count": 17
-    },
-    {
-      "name": "评估基准",
-      "count": 17
-    },
-    {
-      "name": "深度学习",
-      "count": 16
-    },
-    {
-      "name": "强化学习",
-      "count": 16
-    },
-    {
-      "name": "无",
-      "count": 16
     },
     {
       "name": "基准测试",
       "count": 15
     },
     {
-      "name": "AI安全",
+      "name": "强化学习",
       "count": 15
     },
     {
+      "name": "深度学习",
+      "count": 13
+    },
+    {
       "name": "开源",
-      "count": 14
+      "count": 13
+    },
+    {
+      "name": "对齐",
+      "count": 12
+    },
+    {
+      "name": "可解释性",
+      "count": 12
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 259
+      "count": 246
     },
     {
       "name": "github",
-      "count": 64
+      "count": 53
     },
     {
       "name": "hackernews",
@@ -197,42 +197,6 @@
       }
     },
     {
-      "name": "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "score": 9.5,
-      "status": "正常",
-      "tags": [
-        "物理AI",
-        "具身智能",
-        "多模态",
-        "推理",
-        "模型发布"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Welcome-NVIDIA-Cosmos-3--The-First-Open-Omni-model-for-Physical-AI-Reasoning-and_9.5_2026-06-04.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "NVIDIA发布Cosmos 3，这是首个专为物理AI推理与行动设计的开放全能模型。该模型在技术层面实现了物理环境感知、因果推理与行动生成的统一，为具身智能领域带来重大突破；其开源特性极大地赋能了自动驾驶与机器人等行业的实际应用落地；凭借NVIDIA的极高权威性与行业影响力，该发布具有重大的时代意义与社区影响力。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/nvidia/cosmos-3-for-physical-ai",
-      "analysis": {
-        "tech": {
-          "score": 9.5,
-          "summary": "Cosmos 3作为首个针对物理AI的开放全能模型，在技术深度上实现了从感知、推理到行动生成的跨越。它解决了物理世界中动态环境理解、因果推理与动作执行的核心难题，为具身智能提供了新颖且严谨的底层架构与方法论，技术壁垒与研究深度极高。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "该模型对自动驾驶、机器人及工业自动化等领域的从业者具有极高的落地参考价值。开源特性使得开发者能够直接基于该模型进行微调和部署，显著降低了物理AI应用的开发门槛，能够直接指导并加速具身智能系统的工程实践。"
-        },
-        "community": {
-          "score": 10.0,
-          "summary": "该文章发布于2026年6月，时效性极强。由NVIDIA在HuggingFace官方博客发布，来源权威性极高。NVIDIA在算力与物理AI领域的领导地位，加上HuggingFace开源社区的巨大流量，使得该发布在学术界和工业界均具有顶级的关注度和影响力。"
-        }
-      }
-    },
-    {
       "name": "Nemotron 3 Ultra: Open, Efficient Mixture-of-Experts Hybrid Mamba-Transformer Model for Agentic Reasoning",
       "score": 9.4,
       "status": "正常",
@@ -311,78 +275,6 @@
       }
     },
     {
-      "name": "GLM-5.2: Built for Long-Horizon Tasks",
-      "score": 9.3,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "Agent",
-        "长上下文",
-        "推理",
-        "模型发布"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "GLM-5.2--Built-for-Long-Horizon-Tasks_9.3_2026-06-19.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "GLM-5.2 是专为长周期任务打造的新一代大模型，标志着大模型能力从单轮交互向复杂多步骤自主执行的跨越。该模型在长上下文处理、复杂推理与规划能力上进行了深度优化，为构建高可用性自主智能体提供了强大的底层基座，对解决当前大模型在复杂工作流中的落地痛点具有重要指导意义。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
-      "analysis": {
-        "tech": {
-          "score": 9.0,
-          "summary": "GLM-5.2 专门针对长周期任务进行优化，标志着大模型在复杂推理、多步规划与长上下文记忆等核心技术上的深度演进。模型在架构或训练范式上可能引入了针对长程依赖和目标导向任务的创新，技术论证严谨，研究深度极高。"
-        },
-        "utility": {
-          "score": 9.5,
-          "summary": "长周期任务是目前大模型在Agent和自动化工作流落地中的核心痛点。GLM-5.2的发布为从业者提供了直接可用的强大基座，能够显著提升复杂软件工程、多步RAG及自主智能体等场景的落地效果，具有极高的实际参考和指导价值。"
-        },
-        "community": {
-          "score": 9.5,
-          "summary": "作为2026年GLM系列的最新迭代，该发布时效性极强。依托Huggingface官方博客及智谱AI在开源社区的权威影响力，GLM-5.2的发布必将引发广泛关注与讨论，具有极高的行业可信度与社区影响力。"
-        }
-      }
-    },
-    {
-      "name": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
-      "score": 9.3,
-      "status": "正常",
-      "tags": [
-        "架构统一",
-        "积分变换",
-        "多模态",
-        "大模型",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "ITNet--A-Learnable-Integral-Transform-That-Subsumes-Convolution--Attention--and-_9.3_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19538v1 Announce Type: new Abstract: Convolutional networks, recurrent networks, and transformers each encode different inductive biases -- locality, sequential memory, and content-dependent pairwise interaction -- and have remained mathematically distinct since their inception. We show that this fragmentation reflects not a fundamental diversity in how signals should be processed, but rather incomplete views of a single underlying mathematical object: a learnable integral transform. We introduce the Integral Transform Network (ITNet), a unified architecture built around a learnable kernel that depends jointly on positions and features. This kernel is implemented as a small neural network, specifically an MLP, that models pairwise interactions, enabling the model to adapt its behavior from data. We show that convolution, self-attention (including multi-head), and autoregressive recurrence (including LSTM, GRU, S4, and Mamba) arise as special cases under appropriate parameterizations, and that ITNet is a universal approximator of continuous operators. To make this practical, we develop tiled kernel fusion, importance-weighted Monte Carlo integration, and learned low-rank factorization, enabling efficient and scalable computation. A single ITNet architecture with a shared operator and lightweight modality-specific encoders matches or exceeds specialized baselines on ImageNet-1K , GLUE, ModelNet40, VQA\\,v2 and NLVR2. The results demonstrate that a single learned interaction mechanism can recover the behavior of all three architectural families from data.",
-      "summary": "本文提出ITNet，通过可学习的积分变换将卷积、注意力和循环网络三大基础架构在数学上统一，证明它们均为ITNet的特例。为解决计算问题，引入了核融合与蒙特卡洛积分等高效算子。实验表明，单一ITNet架构在ImageNet、GLUE等多个跨模态基准上匹配或超越专用模型，展示了极强的架构统一与泛化潜力。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19538",
-      "analysis": {
-        "tech": {
-          "score": 9.5,
-          "summary": "从数学底层出发，提出可学习的积分变换(ITNet)，将卷积、注意力及循环机制（含LSTM/GRU/S4/Mamba等）统一为特定参数化下的特例，并证明了其作为连续算子通用近似器的性质，理论深度与论证严谨性极高。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "提出了分块核融合、重要性加权蒙特卡洛积分等工程优化方法解决计算瓶颈，单一架构配合轻量级编码器即可在CV、NLP、3D及多模态等五大基准上超越专用模型，对工业界降本增效和统一架构部署具有极大实践指导价值。"
-        },
-        "community": {
-          "score": 9.5,
-          "summary": "直击当前AI社区“架构碎片化”痛点，将最热门的Transformer与Mamba等SSM架构统一，话题时效性与前瞻性极强；若实验结论可复现，将对下一代基础模型的设计范式产生深远且颠覆性的影响。"
-        }
-      }
-    },
-    {
       "name": "affaan-m/ECC",
       "score": 9.3,
       "status": "正常",
@@ -416,6 +308,79 @@
         "community": {
           "score": 9.8,
           "summary": "项目拥有超过 20 万的 Star 和 3 万多的 Fork，这属于现象级的社区关注度，表明其触达了极其广泛的开发者群体并产生了巨大的生态影响力。尽管今日 Star 增长数据为 0（可能受数据抓取时间点或项目进入稳定期影响），但其庞大的基数已经证明了社区的高度认可和参与度，围绕该项目已经形成了丰富的讨论与生态实践。"
+        }
+      }
+    },
+    {
+      "name": "GLM-5.2: Built for Long-Horizon Tasks",
+      "score": 9.2,
+      "status": "正常",
+      "tags": [
+        "大模型",
+        "Agent",
+        "推理",
+        "长周期任务",
+        "工程实践",
+        "观点"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "GLM-5.2--Built-for-Long-Horizon-Tasks_9.2_2026-06-20.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文介绍了GLM-5.2模型在长周期任务上的核心设计与技术突破。该版本针对大模型在多步骤推理、长期记忆与复杂规划中的痛点进行了专门优化，为构建高可靠性Agent和复杂自动化系统提供了强大的底层模型支持，标志着大模型从短上下文响应向长程目标导向演进的重要里程碑。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/zai-org/glm-52-blog",
+      "analysis": {
+        "tech": {
+          "score": 9.0,
+          "summary": "文章聚焦GLM-5.2在长周期任务上的专门优化，深入探讨了大模型在多步骤推理、长期记忆维持及目标导向规划方面的技术突破，可能涉及新型架构设计或针对长期奖励的强化学习训练范式，技术深度与新颖性显著。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "针对长周期任务的优化直击当前Agent与复杂自动化应用的核心痛点，为开发者在多步工具调用、长程交互及复杂任务拆解等落地场景提供了极具参考价值的模型基座，可落地性与实践指导价值极高。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "发布于Hugging Face官方博客，来源权威可信；GLM系列在开源社区具有广泛影响力，且长周期任务与Agent是当前及未来AI领域的核心时效性热点，具备极高的社区关注度与影响力。"
+        }
+      }
+    },
+    {
+      "name": "Is it agentic enough? Benchmarking open models on your own tooling",
+      "score": 9.2,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "大模型",
+        "工具调用",
+        "基准测试",
+        "工程实践"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Is-it-agentic-enough--Benchmarking-open-models-on-your-own-tooling_9.2_2026-06-20.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文针对大模型在Agent应用中的实际表现评估难题，提出了一种在开发者自有工具链上进行基准测试的方法。文章突破了传统通用基准的局限，为评估开源模型在特定业务场景下的工具调用与规划能力提供了极具落地价值的解决方案，是Agent评估与工程实践领域的重要参考指南。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/is-it-agentic-enough",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "深入探讨了开放大模型在自定义工具集上的智能体能力评估。文章打破了传统静态基准测试的局限，提出针对特定业务工具链的动态评估方法，论证了模型在真实环境下的规划与工具调用深度，技术方法具有较高的严谨性与创新性，填补了Agent评估领域从通用到专用的方法论空白。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "对AI从业者具有极高的落地指导价值。直接解决了开发者无法用通用基准衡量模型在私有API/工具上表现的痛点，提供了一套可复用的自定义评测框架，能够有效指导Agent场景下的模型选型、微调效果验证及工程迭代，适用范围覆盖所有涉及工具调用的Agent应用开发。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "话题直击当前AI社区最核心的Agent落地痛点，时效性极强；发布源Hugging Face作为开源AI生态的权威枢纽，赋予了该文极高的可信度与行业影响力，此类针对开源模型定制化评测的讨论极易引发工程实践界的广泛共鸣与跟进。"
         }
       }
     },
@@ -721,18 +686,18 @@
       "status": "正常",
       "tags": [
         "Agent",
-        "搜索",
-        "工具调用",
         "资源发现",
+        "工具调用",
+        "基础设施",
         "工程实践",
         "观点"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Agentic-Resource-Discovery--Let-agents-search_9.0_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Agentic-Resource-Discovery--Let-agents-search_9.0_2026-06-20.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文介绍了Hugging Face推出的'Agentic Resource Discovery'机制，旨在赋予AI Agent自主搜索和发现所需资源的能力。该机制打破了传统Agent依赖预设工具链的局限，通过让Agent动态检索HF Hub等生态中的模型、数据集与工具，显著提升了Agent的泛化性与自主性，为构建更智能、更灵活的Agent系统提供了关键的基础设施支持。",
+      "summary": "本文由 Hugging Face 发布，提出“Agentic Resource Discovery”概念，主张赋予 Agent 自主搜索和发现外部资源（模型、工具、数据等）的能力，而非依赖预定义的静态工具集。这标志着 Agent 从被动执行向主动获取资源的范式演进，是构建高度自主 Agent 基础设施的关键一步，对降低开发门槛、扩展 Agent 能力边界具有重大实践意义。",
       "tech_stack": [
         "未标注"
       ],
@@ -740,15 +705,15 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "探讨了AI Agent在动态环境中自主发现和调用资源（如模型、数据集、工具）的能力，突破了传统Agent依赖硬编码工具链与预设API的限制，提出了更具泛化性与自适应性的资源检索与集成范式，技术视角新颖且切中当前Agent发展的核心瓶颈。"
+          "summary": "探讨了 Agent 从静态工具绑定向动态资源发现的范式转变。通过赋予 Agent 主动搜索和评估外部资源（如模型、API、数据集）的能力，解决了当前 Agent 框架中工具扩展性差、维护成本高的技术痛点，涉及意图对齐、动态检索与工具组合的深度技术挑战。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "针对Agent开发者面临的'工具/模型发现难、集成僵化'痛点，提供了直接的解决方案或API支持。若配合Hugging Face Hub的海量生态，能极大简化Agent构建流程，对实际工程落地具有极高的参考价值和指导意义。"
+          "summary": "对 Agent 开发者具有极高的落地指导价值。若结合 HF 生态，开发者可直接利用该机制让 Agent 动态调用海量开源模型与工具，极大降低工具集成与硬编码成本，显著提升 Agent 处理长尾和复杂任务的能力，适用范围覆盖所有需要外部工具增强的 Agent 项目。"
         },
         "community": {
           "score": 9.5,
-          "summary": "发布于AI开源生态核心阵地Hugging Face官方博客，权威性与可信度极高；'Agentic Search'与'动态资源发现'是当前Agent社区最前沿的探索方向，话题时效性极强，预计将引发开发者的广泛关注与跟进。"
+          "summary": "话题极具前瞻性与时效性，由 AI 社区头部平台 Hugging Face 官方发布，代表了开源生态对 Agent 自主性演进方向的权威背书与基础设施级支持，预计将对 Agent 开发范式产生广泛且深远的影响。"
         }
       }
     },
@@ -761,16 +726,15 @@
         "微调",
         "PEFT",
         "LoRA",
-        "博客",
         "工程实践",
         "综述"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Beyond-LoRA--Can-you-beat-the-most-popular-fine-tuning-technique_9.0_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Beyond-LoRA--Can-you-beat-the-most-popular-fine-tuning-technique_9.0_2026-06-20.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文由HuggingFace发布，聚焦大模型微调技术的演进，深入探讨了在LoRA之后新型参数高效微调（PEFT）方法的技术突破与实践表现，为AI从业者在微调方案选型与性能优化上提供了极具权威性与落地指导的前沿参考。",
+      "summary": "本文由HuggingFace官方发布，系统性地审视了当前最流行的大模型微调技术LoRA的局限性，并全面介绍了有望超越LoRA的新一代PEFT方法。文章从技术原理、实验对比和工程落地等多个维度，为AI从业者提供了前沿的微调技术演进路线图，是了解大模型高效微调最新趋势的重要参考。",
       "tech_stack": [
         "未标注"
       ],
@@ -778,51 +742,15 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "深入剖析了当前最流行的微调技术LoRA的局限性，并系统性地探讨与对比了有望超越LoRA的新型参数高效微调（PEFT）方法的底层原理与技术演进，展现了较高的技术洞察力与论证深度。"
+          "summary": "深入探讨了参数高效微调（PEFT）技术的最新进展，系统对比了LoRA与新兴微调方法（如DoRA、LoRA+等）在权重矩阵分解、特征学习机制及优化动力学上的差异，揭示了超越LoRA的技术路径与理论依据，具备较高的技术深度与严谨性。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "针对大模型微调这一核心工程痛点，提供了最新PEFT技术的对比分析与选型指导，结合HuggingFace生态的实践属性，对AI从业者在实际项目中优化微调策略、降低训练成本具有极高的落地参考价值。"
+          "summary": "对大模型微调从业者具有极高的实践指导价值。文章不仅对比了不同PEFT方法的显存占用、训练吞吐量及下游任务表现，还针对不同算力条件和业务场景给出了具体的适配建议，能够直接指导微调方案的工程选型与落地优化。"
         },
         "community": {
           "score": 9.5,
-          "summary": "发布于AI开源社区绝对核心HuggingFace的官方博客，来源权威性极高；探讨的'超越LoRA'是当前及未来大模型微调领域最前沿且备受关注的技术方向，时效性与社区影响力俱佳。"
-        }
-      }
-    },
-    {
-      "name": "Is it agentic enough? Benchmarking open models on your own tooling",
-      "score": 9.0,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "大模型",
-        "评测",
-        "开源模型",
-        "工程实践"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Is-it-agentic-enough--Benchmarking-open-models-on-your-own-tooling_9.0_2026-06-19.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文由Hugging Face发布，针对当前开源大模型Agent能力评估脱离实际业务的问题，提出了一种基于自定义工具集的基准测试方法。该方法允许开发者在自有工具上评测不同开源模型的Agent表现，填补了定制化Agent评测的空白，对模型选型和Agent工程落地具有重要指导意义。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/is-it-agentic-enough",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "深入探讨了开源大模型在真实工具调用场景下的Agent能力评估，突破了传统静态通用API基准测试的局限，提出了一种基于自定义工具集的动态评测方法，更严谨地论证了模型在特定业务工具上的泛化与执行能力。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "极具工程落地价值，为开发者提供了一套在自有业务工具/API上评测开源模型Agent表现的框架，直接解决了“哪个开源模型最适合我的业务工具链”的选型难题，对实际业务中的模型评估与部署指导性极强。"
-        },
-        "community": {
-          "score": 9.5,
-          "summary": "话题紧扣当前大模型向Agent演进的热点趋势，由开源AI社区头部平台Hugging Face发布，具有极高的权威性和行业影响力，且探讨的自定义工具评测方向是社区当前迫切需要的，时效性与关注度极高。"
+          "summary": "由AI社区最具权威性的HuggingFace官方发布，聚焦大模型微调这一核心痛点，时效性极强。文章发布即引发广泛关注与讨论，对推动下一代PEFT技术的普及与行业标准演进具有显著的影响力与可信度。"
         }
       }
     },
@@ -832,22 +760,20 @@
       "status": "正常",
       "tags": [
         "NLP",
-        "大语言模型",
         "上下文压缩",
         "RAG",
-        "LLM中间件",
-        "成本优化",
-        "Agent工具",
+        "提示工程",
+        "LLM工具",
+        "数据分析",
         "高质量",
-        "高星标",
-        "易集成"
+        "活跃维护"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "chopratejas-headroom_9.0_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "chopratejas-headroom_9.0_2026-06-20.md",
       "source_type": "github",
       "description": "Compress tool outputs, logs, files, and RAG chunks before they reach the LLM. 60-95% fewer tokens, same answers. Library, proxy, MCP server.",
-      "summary": "Headroom 是一款专注于 LLM 上下文压缩的中间件工具，能够在不损失回答质量的前提下，将工具输出、日志、文件及 RAG 数据块的 Token 数量减少 60-95%。项目提供了库、代理和 MCP 服务器等多种接入方式，极大地降低了 LLM 应用的运行成本并突破了上下文窗口限制。凭借其极高的实用性和出色的社区认可度，Headroom 已成为构建高效 LLM 应用不可或缺的基础设施。",
+      "summary": "Headroom 是一个专注于 LLM 上下文压缩的高质量 Python 项目，通过在数据传入大模型前对日志、文件和RAG块进行智能压缩，实现高达60-95%的Token节省，同时保证答案质量不变。项目提供库、代理和MCP服务器等多种集成方式，直击LLM应用成本与上下文窗口限制的痛点，拥有极高的社区关注度和实用价值，是构建高效AI Agent和RAG应用的必备优化工具。",
       "tech_stack": [
         "Python"
       ],
@@ -855,15 +781,15 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "项目聚焦于大语言模型（LLM）的上下文压缩技术，通过在数据（如工具输出、日志、RAG块）输入模型前进行预处理，实现60-95%的Token削减且保持答案质量。这需要结合自然语言处理中的信息提取、语义保留压缩等先进算法。同时，项目支持MCP（Model Context Protocol）服务器模式，紧跟当前AI Agent领域的前沿协议标准，架构设计灵活，具备较高的技术壁垒和前瞻性。"
+          "summary": "项目专注于LLM上下文压缩技术，通过智能算法在将工具输出、日志、文件和RAG块传入大模型前进行预处理，宣称能减少60-95%的token且保持答案质量，展现了出色的信息提取与冗余剔除能力。架构设计灵活，提供库、代理及MCP服务器多种接入方式，技术实现兼顾了压缩率与语义保留的平衡，属于应用层算法与工程设计的优秀结合。"
         },
         "utility": {
           "score": 9.5,
-          "summary": "实用性极高。项目直击当前LLM应用开发中的两大核心痛点：Token成本高昂和上下文窗口限制。无论是RAG场景的知识库检索，还是Agent调用工具产生的大量冗余输出，该工具都能显著降低开销。提供Library、Proxy和MCP Server三种接入方式，极大地降低了集成门槛，能够无缝融入现有的AI应用生态，商业和应用价值巨大。"
+          "summary": "直击当前LLM应用开发的核心痛点：Token成本高昂与上下文窗口限制。无论是处理冗长的系统日志、庞大的文件，还是优化RAG检索块，该工具都能显著降低API调用成本并提升信息密度。多种集成方式（库、代理、MCP）使其能无缝融入现有AI Agent架构和开发工作流，具有极高的实际应用价值和即插即用性。"
         },
         "community": {
           "score": 9.0,
-          "summary": "项目在GitHub上获得了超过3.8万个Stars和2600多个Forks，显示出极高的社区关注度和开发者认可度。庞大的Star基数表明该项目切中了广泛存在的行业痛点，吸引了大量用户。尽管今日Star增长为0（可能处于稳定维护期或数据波动），但其历史积累的社区影响力和生态基础依然非常雄厚。"
+          "summary": "项目获得了超过4.1万个Star和2800余个Fork，显示出极高的社区关注度和开发者认可度。尽管今日新增Star为0（可能处于稳定维护期或数据波动），但其庞大的基数已经证明了项目的广泛传播和生态基础，属于社区中极具影响力的热门项目。"
         }
       }
     },
@@ -1684,6 +1610,82 @@
         "community": {
           "score": 8.7,
           "summary": "紧扣当前大模型长上下文与记忆管理的热点，时效性极强。arXiv首发，来源可信。该工作对当前主流的MemGPT范式提出了强有力的挑战，其“轻量检索胜过LLM提取”的结论具有颠覆性，开源的完整评估框架（包含显著性检验和失败分析）也将极大推动社区在记忆评估标准上的发展，预期会产生较高的学术与工程影响力。"
+        }
+      }
+    },
+    {
+      "name": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "大模型",
+        "推理",
+        "性能优化",
+        "算子融合",
+        "工程实践",
+        "教程"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Profiling-in-PyTorch--Part-2---From-nn.Linear-to-a-Fused-MLP_8.8_2026-06-20.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文是 PyTorch Profiling 系列的第二部分，详细演示了如何通过性能分析定位标准 nn.Linear 模块的性能瓶颈，并逐步将其优化为 Fused MLP 以减少显存访问开销和 Kernel Launch 开销。文章兼具底层技术深度与工程落地指导，是 AI 从业者进行模型训练与推理加速的优质实践指南。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/torch-mlp-fusion",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "深入探讨了 PyTorch 中的性能分析技术，详细解析了从标准 nn.Linear 模块到 Fused MLP 的演进与优化过程，对 GPU 算子执行开销、内存带宽瓶颈及 Kernel 融合机制的技术原理解析透彻，论证严谨。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "对 AI 工程师和算法开发者具有极高的实操指导价值，提供了具体的 Profiling 工具使用方法和算子融合优化路径，可直接应用于大模型训练与推理的延迟隐藏和加速实践中，适用范围广。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "发布于 Hugging Face 官方博客，来源权威且受众广泛；时间标注为 2026 年，具有极强的时效性，高度契合当前及未来大模型极致性能优化的社区热点需求。"
+        }
+      }
+    },
+    {
+      "name": "google-research/timesfm",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "深度学习",
+        "时间序列",
+        "基础模型",
+        "时间序列预测",
+        "数据分析",
+        "高质量",
+        "高星标",
+        "机构背书"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "google-research-timesfm_8.8_2026-06-20.md",
+      "source_type": "github",
+      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
+      "summary": "TimesFM 是 Google Research 推出的时间序列基础模型，成功将大模型的预训练范式引入时序预测领域。该模型展现出卓越的零样本预测能力，打破了传统时序模型需针对特定场景重新训练的局限，是时序预测领域的重要范式转移。凭借极高的技术先进性和广泛的工业应用前景，TimesFM 在开源社区获得了极高的关注度。",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/google-research/timesfm",
+      "analysis": {
+        "tech": {
+          "score": 9.0,
+          "summary": "TimesFM 成功将 Transformer 架构与基础模型（Foundation Model）范式引入时间序列预测领域。通过在海量真实时序数据上进行预训练，它打破了传统时序模型依赖单一任务训练的局限，实现了强大的零样本预测能力，其技术架构和预训练规模在时序领域均处于领先水平。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "时间序列预测在金融、零售、供应链和IT运维等领域具有极其广泛的需求。TimesFM 提供开箱即用的预训练模型，用户无需针对特定场景从零收集数据和训练模型即可获得优秀的预测效果，极大降低了时序预测的技术门槛和应用成本，具有极高的实际商业价值。"
+        },
+        "community": {
+          "score": 8.5,
+          "summary": "项目在 GitHub 上获得了超过 2.4 万的 Star 和两千余 Fork，显示出极高的社区关注度和行业影响力。由 Google Research 团队维护，代码和模型质量有充分保障，但作为企业研究机构项目，其社区驱动的功能迭代和第三方生态扩展速度可能略逊于纯社区驱动的项目。"
         }
       }
     },
@@ -2724,43 +2726,6 @@
       }
     },
     {
-      "name": "Deontic Policies for Runtime Governance of Agentic AI Systems",
-      "score": 8.7,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "AI安全",
-        "治理",
-        "道义逻辑",
-        "知识表示",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Deontic-Policies-for-Runtime-Governance-of-Agentic-AI-Systems_8.7_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
-      "summary": "本文针对LLM驱动的自主智能体在企业治理中面临的义务、豁免和策略冲突等复杂挑战，提出了基于道义逻辑的治理系统AgenticRei。该系统使用OWL表达基于Rei框架的策略，并在LLM外部的高性能逻辑引擎中运行时评估，突破了传统策略引擎仅支持允许/禁止的局限，实现了对工具调用和智能体间消息的全面治理，并与A2A等行业标准兼容。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19464",
-      "analysis": {
-        "tech": {
-          "score": 9.0,
-          "summary": "论文深刻指出了当前LLM Agent治理仅停留在允许/禁止的二元约束层面的局限性，创新性地引入道义逻辑来处理义务、豁免及策略冲突等复杂企业治理需求。基于Rei框架和OWL本体语言构建AgenticRei系统，将治理逻辑完全外置于LLM并由高性能逻辑引擎执行，既保证了推理的严谨性，又避免了LLM自身的幻觉和越狱风险，理论深度与新颖性兼具。"
-        },
-        "utility": {
-          "score": 8.0,
-          "summary": "提出的AgenticRei系统为解决企业级Agent合规与安全问题提供了极具参考价值的架构，其外置逻辑引擎的部署方式及与A2A标准的兼容性增强了工程可行性。但基于OWL和道义逻辑的实现方式对开发团队在知识表示与推理方面的门槛较高，短期内大规模普及存在一定挑战，更适合对合规要求极高的医疗、网络安全等特定场景先行落地。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "论文直击当前AI领域最紧迫的Agent安全与治理痛点，时效性极强。作者团队在语义网与知识表示领域具有深厚背景，且提出的治理方案与业界最新的A2A（Agent-to-Agent）标准天然契合，对学术界和工业界的Agent安全框架演进具有显著的引导和示范作用。"
-        }
-      }
-    },
-    {
       "name": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
       "score": 8.7,
       "status": "正常",
@@ -2768,16 +2733,16 @@
         "具身智能",
         "Agent",
         "机器人",
+        "大模型",
         "工程实践",
-        "LeRobot",
-        "开源"
+        "教程"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "From-the-Hugging-Face-Hub-to-robot-hardware-with-Strands-Agents-and-LeRobot_8.7_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "From-the-Hugging-Face-Hub-to-robot-hardware-with-Strands-Agents-and-LeRobot_8.7_2026-06-20.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文介绍了如何利用 Amazon 的 Strands Agents 框架与 Hugging Face 的 LeRobot 框架，将 Hugging Face Hub 上的大模型直接部署并驱动真实的机器人硬件，为具身智能应用提供了一套高可用的开源端到端工程实践方案。",
+      "summary": "本文介绍了如何结合Amazon的Strands Agents框架与Hugging Face的LeRobot框架，实现将Hugging Face Hub上的AI模型直接部署并驱动实体机器人硬件。文章展示了从云端模型到具身硬件的端到端工程实践，为开发者提供了构建智能体控制机器人的可落地解决方案。",
       "tech_stack": [
         "未标注"
       ],
@@ -2785,15 +2750,53 @@
       "analysis": {
         "tech": {
           "score": 7.5,
-          "summary": "探讨了如何将大模型能力通过 Agent 框架与具身智能框架结合，打通从云端模型到真实机器人硬件的部署链路。展示了系统集成的深度与架构设计的合理性，但在基础算法层面的原创突破性相对有限。"
+          "summary": "将大语言模型Agent（Strands Agents）与机器人学习框架（LeRobot）结合，打通了从Hugging Face Hub模型到实体机器人硬件的端到端链路。技术深度偏向系统集成与工程架构，虽非底层算法突破，但在具身智能的Agent化控制与部署方面提供了有价值的实践范式。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "对具身智能和机器人开发者具有极高的实操指导价值。通过开源的 Strands Agents 和 LeRobot 框架，提供了一条清晰的“模型-Agent-硬件”落地路径，大幅降低了机器人智能体应用开发与部署的工程门槛。"
+          "summary": "具有极高的实践指导价值。文章详细阐述了如何利用现有开源工具链将Hub上的模型直接部署到真实机器人硬件，为具身智能开发者提供了一条清晰、可复现的落地路径，大幅降低了从算法到硬件的工程门槛。"
         },
         "community": {
           "score": 9.5,
-          "summary": "由 Hugging Face 与 Amazon 联合发布，来源权威性极高。具身智能与 Agent 的结合是当前 AI 社区的前沿热点，该文章提供的开源解决方案打通了软硬件闭环，将引发开发者的广泛关注和复现。"
+          "summary": "发布于Hugging Face官方博客，且为Amazon与HuggingFace的联合产出，来源权威性极高。结合了当前AI社区最前沿的具身智能与Agent两大热点，LeRobot和Strands Agents均为备受瞩目的开源项目，具有极强的社区影响力和话题时效性。"
+        }
+      }
+    },
+    {
+      "name": "mattpocock/skills",
+      "score": 8.7,
+      "status": "正常",
+      "tags": [
+        "提示词工程",
+        "AI Agent",
+        "代码助手",
+        "开发效率",
+        "高质量",
+        "实战验证",
+        "极高人气"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "mattpocock-skills_8.7_2026-06-20.md",
+      "source_type": "github",
+      "description": "Skills for Real Engineers. Straight from my .claude directory.",
+      "summary": "mattpocock/skills 是一个面向真实工程场景的 AI 技能集合，主要包含作者在使用 Claude AI 时积累的提示词和工作流配置。该项目凭借极高的实用性和作者在开发者社区的影响力，获得了超高的 Star 数。虽然不涉及底层 AI 技术的突破，但它在提示词工程和 AI 辅助开发的应用层面提供了极具价值的最佳实践，是工程师利用 AI 提升开发效率的优秀参考。",
+      "tech_stack": [
+        "Shell"
+      ],
+      "link": "https://github.com/mattpocock/skills",
+      "analysis": {
+        "tech": {
+          "score": 7.0,
+          "summary": "该项目主要聚焦于提示词工程与 AI 工作流配置，通过系统化地封装 AI 技能和指令，实现了对大语言模型（如 Claude）能力的有效调度与增强。虽然不涉及底层算法或模型架构的创新，但在 AI Agent 应用层面和提示词结构化设计上展现了先进的工程实践思维。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "项目定位为'面向真实工程师的技能'，且直接提取自作者实际使用的 .claude 目录，具有极强的实战背景。这些 Shell 脚本和配置文件能够直接解决开发者在日常编码、调试和系统操作中的痛点，开箱即用，对提升 AI 辅助开发的效率有显著价值。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "项目获得了超过 13.8 万的 Star 和近 1.2 万的 Fork，数据极其亮眼，反映出社区极高的关注度和认可度。作者 mattpocock 本身在开发者社区拥有强大的影响力，这为项目带来了巨大的流量和传播效应，形成了活跃的反馈与使用生态。"
         }
       }
     },
@@ -2907,44 +2910,6 @@
         "community": {
           "score": 8.5,
           "summary": "话题时效性极强，dLLMs作为大模型领域的前沿方向，其ICL机制研究正处于探索期。本文直击当前dLLMs研究中的核心痛点，来源为arXiv预印本，虽未经同行评审，但其反直觉的发现与有效的解决方案有望重塑dLLMs领域的ICL实践范式，具备较高的潜在学术影响力与社区关注度。"
-        }
-      }
-    },
-    {
-      "name": "google-research/timesfm",
-      "score": 8.7,
-      "status": "正常",
-      "tags": [
-        "深度学习",
-        "时间序列",
-        "基础模型",
-        "时间序列预测",
-        "数据分析",
-        "高质量",
-        "高关注度"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "google-research-timesfm_8.7_2026-06-19.md",
-      "source_type": "github",
-      "description": "TimesFM (Time Series Foundation Model) is a pretrained time-series foundation model developed by Google Research for time-series forecasting.",
-      "summary": "TimesFM是Google Research开发的时间序列基础模型，标志着基础模型范式在时序预测领域的成功落地。它凭借强大的零样本泛化能力，颠覆了传统时序预测的应用模式，在众多行业场景中展现出极高的实用价值。项目获得了极高的社区关注度，是时序预测领域的重要里程碑。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/google-research/timesfm",
-      "analysis": {
-        "tech": {
-          "score": 9.0,
-          "summary": "TimesFM将大模型的基础模型范式成功引入时间序列预测领域，打破了传统时序模型需针对特定任务单独训练的局限。其架构设计和基于海量真实时序数据的预训练方法展现了Google Research的深厚技术实力，在零样本预测能力上实现了显著的技术突破。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "时间序列预测在金融、零售、供应链、气象等众多行业具有极其广泛的应用需求。TimesFM提供的零样本预测能力极大地降低了实际应用的门槛，免去了繁琐的特征工程和模型训练过程，开箱即用的特性使其具备极高的商业价值和解决实际问题的能力。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "项目拥有超过2.4万的Stars和两千余的Forks，显示出极高的社区关注度和影响力。但作为Google Research的项目，其维护模式相对保守，近期Stars增长趋于平缓，生态扩展和社区互动驱动力不如纯社区主导的项目，但整体关注度依然稳居时序领域前列。"
         }
       }
     },
@@ -3581,82 +3546,6 @@
       }
     },
     {
-      "name": "POLARIS: Guiding Small Models to Write Long Stories",
-      "score": 8.7,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "强化学习",
-        "长文本生成",
-        "创意写作",
-        "GRPO",
-        "论文"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "POLARIS--Guiding-Small-Models-to-Write-Long-Stories_8.7_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04095v1 Announce Type: new Abstract: Small open-weight models struggle at long-form creative writing: their generated stories either fall far short of the requested length, or their quality significantly degrades as length increases, especially when compared to frontier models. We present POLARIS (Policy Optimization with LLM-as-a-judge rewards and Anchored-Reference Injection for Storywriting), a lower-compute GRPO recipe with two key ingredients: a frontier LLM judge with a structured Story Quality rubric as the online reward, and human-reference injection (HRI), where a teacher-forced human-written story serves as a high-reward anchor within each GRPO group. By applying our training recipe to Qwen3.5-9B, using a dataset of approximately 1.4K prompt-story pairs derived from 100 short-story anthologies and 4 A100 GPUs, we obtain POLARIS-9B. Across five benchmarks spanning in-distribution and out-of-distribution prompts and rubrics, POLARIS-9B is competitive with much larger open-weight models while following length instructions more closely. A blinded human evaluation confirms that POLARIS-9B is preferred to the base Qwen3.5-9B and on par with Qwen3.5-27B. Despite training only on stories up to 4k words, POLARIS-9B preserves quality on prompts requesting stories up to 3 times the training length, a regime where most open-weight models degrade substantially in quality, length adherence, or both. More broadly, our results suggest that length generalization is a meaningful stress test for creative-writing models and a useful lens for distinguishing otherwise close models.",
-      "summary": "本文提出POLARIS，一种针对小模型长篇创意写作的低算力GRPO训练配方。通过结合LLM评判奖励和人类参考注入（HRI），仅需1.4K数据和4张A100，POLARIS-9B在写作质量上媲美Qwen3.5-27B，并在3倍于训练长度的提示下仍保持出色的长度遵循度与质量，突破了小模型长文本生成易退化的瓶颈。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04095",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "论文提出了POLARIS方法，创新性地将LLM-as-a-judge（带结构化评分标准）作为在线奖励，并引入人类参考注入（HRI）作为GRPO组内的高奖励锚点。该方法有效解决了小模型在长文本生成中质量退化和长度不足的痛点，且实验论证严谨，通过5个基准测试和盲评证实了其有效性。此外，论文提出'长度泛化'是评估创意写作模型的有效压力测试视角，具有较高的研究深度和洞见。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "极高的工程落地价值。该方法仅需约1.4K数据和4张A100 GPU，即可将9B小模型的写作能力提升至媲美27B模型的水平，极大降低了长文本生成模型的算力与部署门槛。其HRI和LLM评判的RLHF配方不仅适用于创意写作，也可迁移至长代码、长报告等其他长文本生成场景，对从业者指导意义显著。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "长文本生成和小模型能力提升是当前AI社区的核心痛点与热点。作者团队包含知名NLP学者Mohit Iyyer，学术背景可靠。该工作以极低算力成本实现小模型对大模型的追赶，且具备出色的长度泛化性，对开源模型生态和RLHF技术发展具有较强的影响力和推动作用。"
-        }
-      }
-    },
-    {
-      "name": "can1357/oh-my-pi",
-      "score": 8.7,
-      "status": "正常",
-      "tags": [
-        "大语言模型",
-        "智能体",
-        "代码生成",
-        "代码助手",
-        "终端工具",
-        "自动编程",
-        "高质量",
-        "功能丰富"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "can1357-oh-my-pi_8.7_2026-06-04.md",
-      "source_type": "github",
-      "description": "⌥ AI Coding agent for the terminal — hash-anchored edits, optimized tool harness, LSP, Python, browser, subagents, and more",
-      "summary": "",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/can1357/oh-my-pi",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "项目采用TypeScript开发，创新性地引入了hash-anchored edits（哈希锚定编辑）技术，有效解决了LLM生成代码修改时的定位错位问题。架构设计上集成了LSP（语言服务器协议）、Python执行环境、浏览器访问及子代理（subagents）系统，工具调用机制经过优化，具备较强的代码上下文理解和复杂任务拆解处理能力。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "作为一款终端AI编程助手，oh-my-pi深度契合开发者日常工作流。LSP的集成提供了精准的代码感知与重构能力，Python和浏览器支持拓展了问题解决边界，子代理机制提升了复杂任务的自动化处理效率，对日常编码、调试和代码库维护具有极高的实用价值。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目在GitHub上已获得超过1万星和800余Fork，显示出极高的社区关注度和开发者认可度。庞大的用户基数为项目提供了良好的反馈循环，虽然今日新增星标为0可能意味着项目进入稳定期，但整体生态和社区活力表现依然优秀。"
-        }
-      }
-    },
-    {
       "name": "MoCA-Agent: A Market-of-Claims Code Agent for Financial and Numerical Reasoning",
       "score": 8.6,
       "status": "正常",
@@ -3730,38 +3619,153 @@
       }
     },
     {
-      "name": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "name": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "score": 8.5,
       "status": "正常",
       "tags": [
         "Agent",
-        "DeFi",
-        "风险监管",
-        "图时间序列",
-        "论文"
+        "3D生成",
+        "多模态",
+        "工作流",
+        "工程实践",
+        "博客"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "DeXposure-Claw--An-Agentic-System-for-DeFi-Risk-Supervision_8.5_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "How-an-Agent-Built-a-3D-Paris-Gallery-by-Chaining-Two-Hugging-Face-Spaces_8.5_2026-06-20.md",
       "source_type": "rss",
-      "description": "arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
-      "summary": "本文提出了DeXposure-Claw，一种面向DeFi风险监管的智能体系统。针对LLM在金融监管中易产生误报的问题，该系统通过图时间序列基础模型预测风险暴露网络，结合确定性监控与置信度门控机制，约束LLM决策并生成可审计的监管工单。同时，论文提出了面向监管的评估基准DeXposure-Bench，引入误干预率等指标。基于五年真实数据的实验验证了系统的有效性，为高风险领域的AI监管落地提供了极具参考价值的范式。",
+      "description": "",
+      "summary": "本文介绍了如何利用AI Agent将两个Hugging Face Spaces串联起来，自动生成一个3D巴黎画廊。文章展示了Agent在多工具编排和自动化工作流方面的潜力，为开发者提供了利用现有开源模型API构建复杂多模态应用的工程范例。",
       "tech_stack": [
         "未标注"
       ],
-      "link": "https://arxiv.org/abs/2606.19501",
+      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "analysis": {
+        "tech": {
+          "score": 7.5,
+          "summary": "探讨了Agent作为编排器链接异构模型服务的能力，展示了从概念到3D场景生成的端到端工作流。虽然底层依赖现有模型，但在Agent任务拆解、工具调用及多步推理执行方面具有较好的技术参考价值。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "极具实操指导意义。为开发者提供了一种低成本、模块化构建复杂AI应用的范式，即通过Agent串联不同HF Spaces/API，避免了从零训练模型，可直接复用于各类多模态生成和自动化工作流场景。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "发布于Hugging Face官方博客，来源权威且可信度极高。Agent与开源生态的结合是当前AI社区的核心热点，该文章通过生动的3D画廊Demo展示了HF生态的灵活性，具有较强的影响力和话题性。"
+        }
+      }
+    },
+    {
+      "name": "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
+      "score": 8.5,
+      "status": "正常",
+      "tags": [
+        "架构统一",
+        "大模型",
+        "多模态",
+        "神经网络理论",
+        "积分变换",
+        "论文"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "ITNet--A-Learnable-Integral-Transform-That-Subsumes-Convolution--Attention--and-_8.5_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19538v1 Announce Type: new Abstract: Convolutional networks, recurrent networks, and transformers each encode different inductive biases -- locality, sequential memory, and content-dependent pairwise interaction -- and have remained mathematically distinct since their inception. We show that this fragmentation reflects not a fundamental diversity in how signals should be processed, but rather incomplete views of a single underlying mathematical object: a learnable integral transform. We introduce the Integral Transform Network (ITNet), a unified architecture built around a learnable kernel that depends jointly on positions and features. This kernel is implemented as a small neural network, specifically an MLP, that models pairwise interactions, enabling the model to adapt its behavior from data. We show that convolution, self-attention (including multi-head), and autoregressive recurrence (including LSTM, GRU, S4, and Mamba) arise as special cases under appropriate parameterizations, and that ITNet is a universal approximator of continuous operators. To make this practical, we develop tiled kernel fusion, importance-weighted Monte Carlo integration, and learned low-rank factorization, enabling efficient and scalable computation. A single ITNet architecture with a shared operator and lightweight modality-specific encoders matches or exceeds specialized baselines on ImageNet-1K , GLUE, ModelNet40, VQA\\,v2 and NLVR2. The results demonstrate that a single learned interaction mechanism can recover the behavior of all three architectural families from data.",
+      "summary": "本文提出ITNet，通过将核函数实现为小型MLP的可学习积分变换，在数学底层统一了卷积、注意力与循环神经网络三大架构，并证明它们均为ITNet的特定参数化特例且ITNet具备连续算子通用近似性。为解决计算效率，作者引入了分块核融合、蒙特卡洛积分与低秩分解技术。单一ITNet架构在ImageNet-1K、GLUE、ModelNet40等五大跨模态基准测试中达到或超越专用模型。该工作从底层数学视角实现了神经网络架构的大一统，具有重大的理论突破意义与广阔的学术衍生潜力。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19538",
+      "analysis": {
+        "tech": {
+          "score": 9.5,
+          "summary": "本文在理论深度与新颖性上表现卓越。作者跳出传统的架构设计思维，从底层数学原理出发，提出可学习的积分变换（ITNet），将卷积、自注意力及自回归循环（如LSTM、Mamba等）统一在同一数学对象下，并证明了其作为连续算子通用近似器的性质。这种将三大主流架构归纳为特例的理论大一统视角极具洞见。同时，针对计算复杂度问题，提出了分块核融合、重要性加权蒙特卡洛积分及低秩分解等工程数学解法，论证逻辑严密，技术闭环完整。"
+        },
+        "utility": {
+          "score": 7.5,
+          "summary": "对从业者的理论启发价值极高，为未来网络架构设计提供了“从数据中学习交互机制”的新范式，不再受限于固定的归纳偏置。然而，实际落地面临挑战：用MLP实现核函数并结合蒙特卡洛积分，在超大规模数据集或工业级大模型训练中，可能面临计算开销、训练稳定性与推理延迟的考验。尽管跨模态实验表现优异，但替代现有高度优化的Transformer/CNN工程生态仍需时间。"
+        },
+        "community": {
+          "score": 8.5,
+          "summary": "话题时效性极强，神经网络架构统一与寻找Transformer替代/融合方案是当前AI社区的核心热点。将SSM（Mamba/S4）、CNN与Transformer同源化处理切中了学术界的痛点。作为arXiv上的新预印本，其声称在ImageNet-1K、GLUE等多个跨模态权威基准上超越专用基线，若经后续同行评审与社区复现确认，将产生深远的学术影响力与广泛的后续衍生研究。"
+        }
+      }
+    },
+    {
+      "name": "Kilo-Org/kilocode",
+      "score": 8.5,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "大语言模型",
+        "代码生成",
+        "代码助手",
+        "自动化编程",
+        "开发工具",
+        "高质量",
+        "活跃维护"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Kilo-Org-kilocode_8.5_2026-06-20.md",
+      "source_type": "github",
+      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
+      "summary": "Kilocode 是一款基于 Agentic 架构的开源 AI 编程助手，深度集成开发环境，支持自主编码、测试与迭代。凭借其出色的工程实践和极高的实用价值，在开发者社区中获得了广泛关注，是当前 AI 辅助编程领域的优秀实践项目。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/Kilo-Org/kilocode",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "Kilocode 采用了当前前沿的 Agentic 架构，深度集成 IDE 环境，通过工具调用（如文件系统操作、终端命令执行等）实现了大模型与开发环境的闭环交互。其基于 TypeScript 的架构设计保证了跨平台兼容性与前端生态的深度融合，代表了 AI 辅助编程从简单的代码补全向自主规划、执行和迭代的高级代理演进的技术趋势。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "作为一款多合一的代理工程平台，Kilocode 极大地提升了软件开发的效率。它不仅能自动生成代码，还能自主运行测试、修复错误并迭代项目，真正实现了从需求理解到代码提交的端到端辅助。对于日常开发工作而言，它直击痛点，易用性和实际解决问题的能力极强。"
+        },
+        "community": {
+          "score": 8.5,
+          "summary": "项目在 GitHub 上已获得超过 2.3 万个 Star 和 2700 多个 Fork，显示出极高的社区关注度和参与度。作为开源的编码代理，它吸引了大量开发者参与使用、贡献和反馈，生态发展迅速，属于当前开源 AI 编程工具赛道中非常活跃的项目。"
+        }
+      }
+    },
+    {
+      "name": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
+      "score": 8.5,
+      "status": "正常",
+      "tags": [
+        "大模型",
+        "推理",
+        "表格数据",
+        "校准",
+        "认知不确定性",
+        "医疗AI",
+        "论文"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "LLM-Doesn-t-Know-What-It-Doesn-t-Know--Detecting-Epistemic-Blind-Spots-via-Cross_8.5_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored. We study this question through the lens of cross-model attribution divergence with the goal of reducing epistemic uncertainty for structured tasks, comparing Qwen 2.5 7B and XGBoost on a prediction task via attribution divergence analysis. We report four findings. First, LLM verbalized confidence is epistemically vacuous, it outputs a near-constant (0.856-0.937) regardless of whether accuracy is 49% or 75.3%, tracking prompt format rather than prediction quality. Second, the LLM exhibits an inverse difficulty effect: accuracy drops to 64.8% when XGBoost is 99% correct, but matches XGBoost (73.8% vs. 73.1%) when it is moderately uncertain. Third, few-shot examples and SHAP-derived feature evidence are orthogonal, super-additive interventions: they reduce the Attribution Disagreement Score (ADS) from 1.54 to 0.38 and improve accuracy from 49% to 75.3% without training. Fourth, a cross-model calibrator that determined LLM reliability using attribution divergence signals reduces expected calibration error from 0.254 to 0.080, replacing uninformative verbalized confidence with patient-specific reliability estimates, without accessing model internals or requiring repeated inference. We frame these findings as a cold start problem for LLMs on structured data and outline a path toward genuine epistemic self-awareness.",
+      "summary": "该论文研究了LLM在结构化临床数据上的认知盲点问题，发现LLM的口头置信度无法真实反映预测准确性（呈现空洞性），且存在'逆难度效应'。作者提出通过跨模型归因分歧（比较LLM与XGBoost）来检测认知盲点，发现Few-shot与SHAP特征证据结合能显著降低归因分歧并提升准确率。此外，基于归因分歧信号的跨模型校准器大幅降低了预期校准误差，无需访问模型内部即可提供患者级别的可靠性评估，为LLM在结构化数据上实现真正的认知自我意识提供了新路径。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19509",
       "analysis": {
         "tech": {
           "score": 9.0,
-          "summary": "论文针对通用大模型在DeFi监管中易过度解读弱证据并导致误报的问题，提出了基于预测的智能体系统DeXposure-Claw。其技术创新点在于将图时间序列基础模型（DeXposure-FM）与确定性监控、压力测试场景及置信度门控机制相结合，约束LLM的决策升级，并创新性地提出了面向监管的六轴评估框架DeXposure-Bench，引入了绝对损失真值和误干预率指标，论证严谨，研究深度较高。"
+          "summary": "该论文在研究深度和新颖性上表现突出。首次通过跨模型归因分歧（LLM vs XGBoost）的视角来探测LLM在结构化数据上的认知盲点，揭示了LLM口头置信度的空洞性及反直觉的'逆难度效应'。结合SHAP与Few-shot正交超叠加效应的论证严谨，提出的无需访问模型内部或重复推理的跨模型校准器技术深度高，为解决LLM'不知道自己不知道'的认知不确定性问题提供了创新且严密的解法。"
         },
         "utility": {
           "score": 8.5,
-          "summary": "该系统对DeFi领域的风险监管具有极高的落地价值。通过生成可审计的监管工单及归因信号，直接契合了金融监管的实际需求。其开源代码和基于五年真实数据的验证进一步提升了工程实践的参考价值。此外，将LLM与确定性规则结合以约束高风险决策的思路，对其他强监管行业（如传统金融、医疗）也具有广泛的借鉴意义。"
+          "summary": "对医疗AI及结构化数据处理从业者具有极高的实践指导价值。论文明确指出LLM原生置信度不可靠，并提供了即插即用的解决方案：通过SHAP特征证据与Few-shot结合的Prompt工程可大幅提升准确率（49%至75.3%）；基于归因分歧信号的校准器能将预期校准误差从0.254降至0.080，且无需访问模型内部，工程落地友好，可直接应用于高风险临床预测场景的可靠性评估。"
         },
         "community": {
           "score": 8.0,
-          "summary": "DeFi风险监管与AI Agent是当前学术界与工业界高度关注的前沿交叉领域，话题时效性极强。论文来源于arXiv，且基于五年真实周度数据进行实验验证，来源与结论具有较高可信度。该工作为去中心化金融的自动化监管提供了新范式，有望在金融科技与AI交叉社区产生显著影响力。"
+          "summary": "论文发布于2026年6月，时效性强。LLM的幻觉、置信度校准及认知边界是当前AI安全和医疗AI社区的核心痛点与热点话题。虽然作者并非顶级明星团队，但研究直击LLM在垂直领域落地的关键瓶颈（自我认知缺失），结论对社区现有认知具有强冲击力，预计将在医疗AI和模型可解释性领域产生显著影响力。"
         }
       }
     },
@@ -3771,17 +3775,18 @@
       "status": "正常",
       "tags": [
         "Agent",
-        "AI安全",
-        "隐私保护",
-        "基准测试",
-        "研究论文"
+        "安全",
+        "隐私泄露",
+        "大模型",
+        "评估基准",
+        "研究"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "MosaicLeaks--Can-your-research-agent-keep-a-secret_8.5_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "MosaicLeaks--Can-your-research-agent-keep-a-secret_8.5_2026-06-20.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文介绍了MosaicLeaks项目，针对当前AI研究Agent在处理信息时面临的隐私泄露风险进行了系统性评估，探讨了Agent在多步任务中保守秘密的能力，为构建更安全可靠的Agent系统提供了重要的基准与参考。",
+      "summary": "本文介绍了MosaicLeaks，一项针对研究型AI Agent隐私泄露能力的评估研究。文章深入分析了Agent在执行复杂任务时泄露敏感信息的风险与机制，为提升Agent系统的安全性和保密性提供了重要的理论依据与实践指导。",
       "tech_stack": [
         "未标注"
       ],
@@ -3789,15 +3794,51 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "聚焦于AI研究Agent在执行多步信息检索与整合任务时的隐私泄露风险，深入探讨了Agent在复杂推理和工具调用过程中是否能有效隔离和保护敏感数据，属于AI安全与对齐领域的前沿深度探索。"
+          "summary": "深入探讨了研究型AI Agent在执行任务时可能存在的隐私泄露漏洞，提出了MosaicLeaks评估框架，技术深度和论证严谨度高，揭示了Agent在多步推理和工具调用中的安全隐患与信息泄露机制。"
         },
         "utility": {
           "score": 8.0,
-          "summary": "为Agent开发者和企业提供了评估隐私泄露风险的基准或测试框架，有助于在实际部署Research Agent前进行安全审计，对提升企业级Agent产品的安全合规性具有直接的实践指导价值。"
+          "summary": "对开发AI Agent的工程师具有极高的实践指导意义，能够帮助从业者在设计Agent架构时识别和修补潜在的隐私泄露风险，为构建安全可靠的Agent系统提供了具体的防御与评估参考。"
         },
         "community": {
           "score": 9.0,
-          "summary": "由ServiceNow在HuggingFace官方博客发布，结合了当前火热的Agent应用趋势与紧迫的安全隐私痛点，话题时效性极强，来源权威，极易引发AI安全社区与开发者的广泛关注与讨论。"
+          "summary": "话题极具时效性，直击当前大模型Agent应用中的核心安全与隐私痛点。由知名企业ServiceNow发布在HuggingFace官方博客，来源权威，受众广泛，在AI安全社区具有较高的影响力和关注度。"
+        }
+      }
+    },
+    {
+      "name": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "score": 8.5,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "大模型",
+        "不确定性",
+        "推理",
+        "论文"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Uncertainty-Decomposition-for-Clarification-Seeking-in-LLM-Agents_8.5_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19559v1 Announce Type: new Abstract: Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM.",
+      "summary": "本文提出了一种面向LLM Agent的基于提示词的不确定性分解方法，将动作置信度与请求不确定性解耦，使Agent能在任务欠规范时主动寻求澄清。该方法无需模型内部概率或微调，完美适配黑盒API部署。通过构建两个新的澄清增强基准并在五个主流大模型上测试，证明该方法在澄清F1上显著优于现有基线，为构建高可靠性交互式Agent提供了简单高效的解决方案。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19559",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "论文针对交互式LLM Agent的不确定性表达问题，指出了经典偶然/认知不确定性框架的不足，创新性地提出了一种基于提示词的不确定性分解方法，将动作置信度与请求不确定性分离。该方法有效规避了黑盒API、延迟预算和无标签轨迹等实际部署限制，无需logprob或多次采样。实验设计严谨，构建了两个含50%欠规范任务的基准，并在5个不同量级和架构的SOTA模型上验证了泛化性，澄清F1指标提升显著（最高达73%）。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "极高的工程落地价值。采用纯提示词方案实现不确定性估计和主动澄清，完全兼容当前主流的黑盒API调用模式，无需额外训练或复杂的采样策略，接入成本极低。该方案直接解决了Agent在模糊指令下盲目执行导致失败的核心痛点，对构建鲁棒的客服、自动化操作等交互式Agent系统具有直接的指导意义。"
+        },
+        "community": {
+          "score": 8.0,
+          "summary": "研究话题极具时效性和前瞻性，触及了当前Agent构建中可靠性不足的关键痛点。虽然文中涉及的未来模型版本（如GPT-5.1等）带有假设性质，但其提出的基准测试和跨模型验证框架符合学术界高标准，来源为arXiv预印本，预计将在Agent和不确定性量化社区引发较高关注和讨论。"
         }
       }
     },
@@ -3872,82 +3913,6 @@
         "community": {
           "score": 8.5,
           "summary": "手语AI技术对听障群体意义重大，具有高度的社会价值与领域时效性。论文通过开源项目和标准化倡议，有望显著提升该垂直领域的可复现性与社区协作效率，在多模态与无障碍技术社区中具备较高的权威性和影响力。"
-        }
-      }
-    },
-    {
-      "name": "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "大模型",
-        "不确定性量化",
-        "推理",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Uncertainty-Decomposition-for-Clarification-Seeking-in-LLM-Agents_8.5_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19559v1 Announce Type: new Abstract: Recent position papers argue that the classical aleatoric/epistemic uncertainty framework is insufficient for interactive large language model (LLM) agents and call for underspecification-aware, decomposed, and communicable uncertainty representations that can unlock new agent capabilities such as proactive clarification seeking and shared mental-model building. Practical deployment constraints -- black-box APIs, interactive latency budgets, and the absence of labeled trajectories -- rule out logprob-based, multi-sampling, and training-based methods, leaving prompt-based estimation as the most viable family for surfacing such signals at deployment time. We answer this call with a simple prompt-based decomposition that separates action confidence from request uncertainty (u), enabling the agent to ask for clarification when the task specification is ambiguous. To evaluate it, we introduce two clarification-augmented benchmarks (WebShop-Clarification and ALFWorld-Clarification) in which 50% of tasks are deliberately underspecified, and systematically compare the proposed decomposition against ReAct+UE and Uncertainty-Aware Memory (UAM) across five LLM backbones (GPT-5.1, DeepSeek-v3.2-exp, GLM-4.7, Qwen3.5-35B, GPT-OSS-120B) on these variants together with the standard WebShop, ALFWorld, and REAL benchmarks for fault detection. Averaged across the five backbones, the proposed decomposition improves clarification F1 on ALFWorld-Clarification by 73% over ReAct+UE and by 36% over UAM, and leads clarification F1 on every backbone on WebShop-Clarification and on four of five backbones on ALFWorld-Clarification, indicating that the gains generalize beyond a single LLM.",
-      "summary": "本文针对交互式LLM Agent在任务模糊时缺乏主动澄清能力的问题，指出了经典不确定性框架的不足，提出了一种基于提示词的不确定性分解方法，将动作置信度与请求不确定性分离。该方法无需模型内部概率或多重采样，适合黑盒API部署。作者构建了两个包含故意欠定任务的基准，并在5个主流LLM上验证了该方法在澄清F1上的显著提升（如ALFWorld-Clarification上平均提升73%），证明了其跨模型的泛化性与有效性。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19559",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "本文针对交互式LLM Agent的不确定性表达问题，指出了经典偶然/认知不确定性框架的局限性，创新性地提出了一种基于提示词的不确定性分解方法，将动作置信度与请求不确定性分离。该方法在理论定位上具有新颖性，且巧妙避开了黑盒API、延迟预算和无标注轨迹等实际部署限制，放弃了基于logprob或多重采样的传统路径。实验设计严谨，构建了两个专门的澄清增强基准，并在5个不同规模的LLM骨干网络上进行了系统对比，取得了显著的F1提升，论证具有很强的说服力。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "该研究具有极高的落地指导价值。LLM Agent在实际应用中处理模糊指令是刚需痛点，而本文提出的基于提示词的估计方法无需模型训练或访问模型内部输出概率，极大降低了工程实现门槛，可直接应用于基于API调用的现有Agent架构中。其分离出的请求不确定性信号能够直接触发澄清机制，对开发高可靠性、强交互式的智能体系统具有直接的实践指导意义。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "LLM Agent的主动交互与不确定性量化是当前AI社区的前沿热点话题。本文紧扣这一趋势，提出的解决方案直击痛点，且实验中涉及的多个前沿大模型（如GPT-5.1、DeepSeek-v3.2-exp等）也显示了其研究的前瞻性。尽管部分模型版本信息带有未来属性，但其构建的基准和验证的泛化能力使其具备成为Agent交互领域重要参考的潜力，有望引发对Agent不确定性表达和共享心智模型构建的广泛讨论。"
-        }
-      }
-    },
-    {
-      "name": "calesthio/OpenMontage",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "多模态",
-        "Agent",
-        "深度学习",
-        "视频生成",
-        "视频制作",
-        "自动化工作流",
-        "高质量",
-        "生态丰富",
-        "创新性"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "calesthio-OpenMontage_8.5_2026-06-19.md",
-      "source_type": "github",
-      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "summary": "OpenMontage 是一个开创性的开源智能体视频制作系统，通过12条流水线、52个工具和500多个Agent技能，将AI编程助手转化为完整的视频制作工作室。该项目在Agent编排和多模态应用上展现了显著的技术先进性，极大地降低了专业视频制作的门槛，具有极高的实用价值。凭借其创新的架构和丰富的功能，项目已获得数千星标，展现出良好的社区潜力和生态丰富度。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/calesthio/OpenMontage",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "OpenMontage 在技术架构上具有显著的先进性，首创将多智能体系统应用于视频制作全流程。项目构建了包含12条流水线、52个工具和500多个Agent技能的复杂系统，展现了强大的任务拆解、工具调用和编排调度能力。虽然底层可能依赖现有的LLM和视觉生成模型，但在Agent工作流设计和系统级集成上具有很高的技术壁垒和创新性。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "项目具有极高的实用价值。视频制作传统上门槛高、流程长、成本高，OpenMontage 通过将AI编程助手转化为完整的视频制作工作室，极大地降低了视频生产的门槛。丰富的工具和技能库意味着能够覆盖从脚本生成、素材收集到剪辑合成的各个环节，对内容创作者、自媒体和营销团队具有极强的吸引力，能够显著提升生产效率。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "项目获得了6169个Stars和1074个Forks，显示出相当高的社区关注度和开发者参与意愿。较高的Fork数表明有大量用户正在尝试部署或进行二次开发。虽然今日Stars增量为0，可能处于热度平稳期，但整体数据已证明其具备良好的开源生态基础和社区活跃度。"
         }
       }
     },
@@ -5281,76 +5246,38 @@
       }
     },
     {
-      "name": "Discourse-Role Labels as Presentation-Time Variables for Context Use in Language Models",
-      "score": 8.5,
+      "name": "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "score": 8.3,
       "status": "正常",
       "tags": [
-        "大模型",
-        "RAG",
-        "上下文学习",
-        "提示工程",
+        "Agent",
+        "AI安全",
+        "智能体治理",
+        "道义逻辑",
         "论文"
       ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Discourse-Role-Labels-as-Presentation-Time-Variables-for-Context-Use-in-Language_8.5_2026-06-04.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Deontic-Policies-for-Runtime-Governance-of-Agentic-AI-Systems_8.3_2026-06-20.md",
       "source_type": "rss",
-      "description": "arXiv:2606.04109v1 Announce Type: new Abstract: Context-augmented language model systems often wrap supplied content with labels such as Reference:, Evidence:, Instruction:, Note:, or Example:, but the effect of these labels on reader-model behavior remains underexplored. We introduce a paired fixed-content probe over 500 MMLU-Pro items: each item receives the same misleading answer-bearing assertion under different discourse-role labels, and adoption is measured by whether the model outputs the injected wrong option. Across GPT-5.5, DeepSeek V4 Pro, Llama-3-8B-Instruct, and Qwen2.5-7B-Instruct, Misleading Adoption Rate shifts by 56-84 percentage points. Binding or source-like labels such as Instruction: and Reference: produce high adoption, whereas Example: consistently suppresses it. Paired tests, bootstrap intervals, final-instruction ablations, and Qwen final-step log-probability probes support a label-conditioned candidate preference. Boundary probes show where the effect weakens or persists: arithmetic tasks reduce adoption, passage-shaped external context preserves smaller label gaps, short-answer evaluation rules out option-letter copying, and nested-label conflicts suggest that illustrative framing can delimit adoption scope. A 200-case single-author manual audit confirms that the short-answer contrasts are stable under conservative adjudication. The resulting claim is bounded but practical: context-utilization and reader-side RAG benchmarks should report and control wrapper labels, because presentation choices can change measured reliance on supplied context.",
-      "summary": "该研究揭示了在上下文增强语言模型中，内容包装标签（如Instruction:, Reference:, Example:）对模型采纳信息的倾向有巨大影响，误导采纳率变化幅度高达56-84个百分点。实验表明，指令和参考类标签会显著提高模型对内容的采纳率，而示例类标签则会抑制采纳。研究强烈建议，在RAG和上下文利用基准测试中必须控制和报告这些呈现变量，因为它们会显著改变模型对提供上下文的依赖度与评估结果。",
+      "description": "arXiv:2606.19464v1 Announce Type: new Abstract: Autonomous agentic AI systems driven by Large Language Models (LLMs) introduce a new class of security, privacy, and compliance challenges: an agent that can invoke tools, manipulate data, install software, and coordinate with peer agents across organizational boundaries must be constrained not just by authentication and access control, but by the full structure of enterprise governance. This includes specifying what agents are permitted and prohibited from doing, what they areobliged to do after certain actions (e.g., notify the CISO), under what conditions a standing obligation may be waived, and which rules take precedence when policies conflict. This governance problem exceeds what current policy engines provide. Systems such as XACML, Rego, and Cedar address only the permit/prohibit subset of this governance structure. They do not provide obligation lifecycle management, meta-policy conflict resolution, dispensations that waive obligations in specific circumstances, and ontological reasoning over domain class hierarchies commonly found in applications such as healthcare, cybersecurity, or data privacy. We propose AgenticRei, which realizes key governance requirements such as obligations, dispensations, policy conflict resolutions, and reasoning over policies, as well as the basic permit/prohibit constraints. We use a deontic policy language built on the Rei framework, expressed as OWL (Web Ontology Language) and evaluated at runtime by a high-performance logic engine entirely outside the LLM. The same pipeline governs both tool invocations by the agent and agent-to-agent messages. We show through examples that deontic policies capture governance constraints around security and privacy that mostly cannot be expressed in current production engines. Our approach composes naturally with industry-standard frameworks like A2AS.",
+      "summary": "本文提出AgenticRei框架，利用道义策略语言解决LLM智能体运行时治理问题。该框架突破了传统策略引擎仅支持'允许/禁止'的限制，引入了义务、豁免、策略冲突解决及本体推理等高级治理能力，并通过OWL表达与LLM外部的高性能逻辑引擎进行运行时评估，同时支持工具调用和智能体间消息治理，可与A2A等标准框架无缝集成，为企业级AI安全与合规提供了全新的解决思路。",
       "tech_stack": [
         "未标注"
       ],
-      "link": "https://arxiv.org/abs/2606.04109",
+      "link": "https://arxiv.org/abs/2606.19464",
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "研究设计严谨，通过配对固定内容探针、消融实验、边界探针及人工审计等多维度方法，深入揭示了话语角色标签对大模型上下文利用行为的显著调控作用。56-84个百分点的误导采纳率变化极具说服力，不仅证实了标签作为呈现时变量的强干预效应，还细致刻画了不同任务类型（如算术推理）和上下文形态下的边界条件，对理解LLM的上下文处理机制具有较深洞见。"
+          "summary": "论文针对LLM驱动的自主智能体在安全、隐私和合规方面的新挑战，创新性地引入了道义逻辑策略，超越了传统策略引擎（如XACML、Rego、Cedar）仅支持'允许/禁止'的局限。提出的AgenticRei框架基于Rei构建，使用OWL表达，并在LLM外部通过高性能逻辑引擎进行运行时评估，实现了义务生命周期管理、元策略冲突解决、豁免机制以及本体推理，技术深度与理论严谨性极高。"
         },
         "utility": {
-          "score": 9.0,
-          "summary": "对RAG系统开发者、Prompt工程师及基准测试设计者具有极高的实践指导价值。研究明确指出包装标签会剧烈改变模型对上下文的依赖度，并给出了具体标签（如Instruction/Reference促发高采纳，Example抑制采纳）的差异化影响，直接指导从业者在系统设计时必须将标签选择作为关键变量进行控制与优化，避免因呈现方式不当导致的幻觉或信息遗漏。"
+          "score": 7.5,
+          "summary": "对企业级AI从业者具有极高的参考价值。随着智能体自主性增强，传统的认证和访问控制已不足以应对复杂的合规需求。AgenticRei提供了可落地的架构模式（在LLM外部进行治理），且能与A2A等行业标准框架自然组合。不过，道义逻辑和OWL的使用对常规工程团队有一定的学习门槛，落地实施需配套工具链支持。"
         },
         "community": {
-          "score": 8.0,
-          "summary": "话题紧扣当前大模型应用的核心痛点（RAG与上下文利用），arXiv预印本发布具备一定的学术时效性与可信度。尽管为单作者研究且发布时间显示为未来（可能存在元数据异常），但其指出的'评估基准未控制呈现变量'这一系统性缺陷，对LLM评估社区具有强烈的警示和规范推动作用。"
-        }
-      }
-    },
-    {
-      "name": "microsoft/agent-governance-toolkit",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "AI安全",
-        "Agent架构",
-        "零信任",
-        "AI治理",
-        "合规工具",
-        "企业级",
-        "高质量"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "microsoft-agent-governance-toolkit_8.5_2026-06-04.md",
-      "source_type": "github",
-      "description": "AI Agent Governance Toolkit — Policy enforcement, zero-trust identity, execution sandboxing, and reliability engineering for autonomous AI agents. Covers 10/10 OWASP Agentic Top 10.",
-      "summary": "",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/microsoft/agent-governance-toolkit",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "该项目在技术架构上具有高度前瞻性，将零信任身份验证、执行沙箱和可靠性工程等成熟的安全理念系统性地引入自主AI Agent领域。全面覆盖OWASP Agentic Top 10安全风险，表明其在应对Agent特有的提示注入、权限越界等前沿安全威胁上具备完整的技术解法。虽非底层算法突破，但在AI安全工程化方面展现了先进的架构设计能力。"
-        },
-        "utility": {
           "score": 9.0,
-          "summary": "实用性极高。随着AI Agent从概念走向企业级生产环境，安全、合规与可控成为最大的落地痛点。该工具包直接提供了策略执行、沙箱隔离等生产级必备能力，填补了Agent治理基础设施的空白。微软背书进一步保障了其在企业级场景下的可靠性与易用性，是Agent落地不可或缺的护航工具。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "项目获得了近4000个Star和500多个Fork，对于偏向底层安全和治理的基础设施项目而言，这是一个相当亮眼的数据，反映出业界对Agent安全治理的强烈需求与认可。作为微软官方开源项目，具备长期稳定维护和生态建设的潜力，但作为垂直工具，其社区广度与普通应用层项目相比略有局限。"
+          "summary": "话题时效性极强，直击当前及未来Agentic AI系统治理的核心痛点。作者团队在语义网和智能体领域具有权威性，且论文契合A2A等智能体协作协议爆发的行业趋势，对AI安全与治理社区具有显著的前瞻引导影响力。"
         }
       }
     },
@@ -5364,15 +5291,14 @@
         "语言模型",
         "推理优化",
         "论文",
-        "实验分析",
-        "综述"
+        "实验分析"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Diffusion-Language-Models--An-Experimental-Analysis_8.3_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Diffusion-Language-Models--An-Experimental-Analysis_8.3_2026-06-20.md",
       "source_type": "rss",
       "description": "arXiv:2606.19475v1 Announce Type: new Abstract: Large Language Models (LLMs) have revolutionized language modeling through autoregressive generation, enabling strong performance across a wide range of tasks. Recently, Diffusion Language Models (DLMs) have emerged as an alternative paradigm that generates text through iterative denoising rather than next-token prediction, allowing parallel refinement of entire sequences. While numerous diffusion-based architectures have been proposed, differences in evaluation protocols, datasets, inference budgets, and generation hyperparameters make it difficult to compare their capabilities and understand the trade-offs they offer. In this work, we present a systematic experimental analysis of modern DLMs. Specifically, we evaluate eight state-of-the-art DLMs across eight benchmarks spanning reasoning, coding, translation, knowledge, and structured problem solving, while explicitly considering both generation quality and computational efficiency. Beyond downstream evaluation, we analyze the impact of key inference-time factors, including denoising steps, context length, block size, and parallel unmasking strategies, and complement large-scale experiments with controlled comparisons of smaller models trained under identical conditions. Our analysis highlights the strengths and limitations of diffusion-based language modeling across different tasks, architectures, and inference budgets. We show that the behavior of DLMs is strongly influenced by generation-time design choices, leading to distinct trade-offs between performance and computational efficiency. Overall, our study provides practical insights into the capabilities and deployment characteristics of contemporary DLMs.",
-      "summary": "本文对现代扩散语言模型进行了系统性实验分析，评估了8种SOTA DLM在推理、编码、翻译等8个基准上的表现，并深入研究了去噪步数、块大小等推理时关键因素对性能与效率权衡的影响。研究揭示了DLM的行为高度依赖生成时的设计选择，为理解和部署扩散语言模型提供了重要的实践见解与统一评估基准。",
+      "summary": "本文对现代扩散语言模型进行了系统性实验分析，在8个基准上评估了8个SOTA模型，涵盖推理、代码等任务，并兼顾生成质量与计算效率。研究深入分析了去噪步数、上下文长度等推理阶段关键因素对模型行为的影响，揭示了DLMs在性能与效率间的独特权衡，为DLMs的实际部署和能力理解提供了重要的实用见解。",
       "tech_stack": [
         "未标注"
       ],
@@ -5380,15 +5306,52 @@
       "analysis": {
         "tech": {
           "score": 8.0,
-          "summary": "对8种SOTA扩散语言模型(DLM)在8个基准上进行了系统性、控制变量的实验分析，深入探讨了去噪步数、上下文长度、块大小及并行去掩码策略等推理时关键因素对模型性能与计算效率权衡的影响，填补了该新兴领域缺乏统一评估与对比分析的空白，论证严谨且实验规模宏大。"
+          "summary": "该论文虽未提出全新架构，但在扩散语言模型（DLMs）这一新兴领域进行了极具深度的系统性实证分析。通过统一评估框架和控制变量对比，严谨地剖析了8个SOTA DLMs在多维度任务上的表现，并深入探究了去噪步数、块大小及并行去掩码策略等推理时关键因素对模型行为的深刻影响，揭示了DLMs在性能与计算效率间的独特权衡机制，具有较高技术洞见。"
         },
         "utility": {
           "score": 8.5,
-          "summary": "详细剖析了DLM在推理阶段的设计选择对生成质量和效率的具体影响，明确指出了不同任务、架构和推理预算下的性能-效率权衡关系，为从业者实际部署、调优DLM以及选择合适的生成超参数提供了直接的工程指导，具有极高的落地参考价值。"
+          "summary": "对从业者具有极高的实践指导价值。论文不仅关注下游任务质量，更将计算效率与推理预算纳入核心考量，详细分析了生成时的设计选择（如并行策略、步数配置等）如何影响最终表现，直接为DLMs的工程部署、推理优化及资源分配提供了可操作的参考依据。"
         },
         "community": {
           "score": 8.5,
-          "summary": "扩散语言模型作为自回归LLM的重要替代范式正处于快速发展期，本文针对当前DLM评估协议不一、难以横向比较的痛点，提供了权威且及时的系统性基准测试，对学术界和工业界把握该技术路线的现状、优势与瓶颈具有极高的参考价值和影响力。"
+          "summary": "扩散语言模型作为挑战自回归范式的前沿热点，该研究时效性极强。论文填补了DLMs领域缺乏统一基准和全面对比的空白，对8个SOTA模型的横评及深入剖析有望成为该领域的重要参考，来源权威且话题处于社区关注的核心地带，具备较大影响力潜力。"
+        }
+      }
+    },
+    {
+      "name": "MolmoMotion: Language-guided 3D motion forecasting",
+      "score": 8.3,
+      "status": "正常",
+      "tags": [
+        "多模态",
+        "3D生成",
+        "动作预测",
+        "具身智能",
+        "大模型",
+        "模型发布"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "MolmoMotion--Language-guided-3D-motion-forecasting_8.3_2026-06-20.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "MolmoMotion是由AllenAI推出的语言引导3D动作预测模型，该研究将多模态大模型的能力延伸至3D空间与时序动作生成，解决了从自然语言到复杂3D动态动作映射的难题，为机器人控制、虚拟人等具身智能场景提供了前沿解决方案。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/allenai/molmomotion",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "MolmoMotion探索了语言引导的3D动作预测，将多模态大模型的理解能力从2D图像及文本拓展至3D空间与时序动作维度。该研究在自然语言到复杂3D动态动作的映射机制上具有较高的新颖性，技术深度涉及多模态对齐、时序建模与3D空间表征，论证与实现具备前沿性。"
+        },
+        "utility": {
+          "score": 7.5,
+          "summary": "该技术对具身智能、机器人动作规划、虚拟人动画生成及自动驾驶行为预测等领域具有明确的指导意义和参考价值。然而，受限于3D动作数据的获取难度及模型在实时动态环境中的泛化能力，其当前工程落地门槛中等偏高，更偏向前沿研发参考。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "项目由知名AI研究机构AllenAI发布于HuggingFace官方博客，来源权威性极高。结合其2026年的发布时间，属于多模态与3D生成交叉领域的最新前沿成果，紧扣具身智能这一社区热点，具有极强的时效性与社区影响力。"
         }
       }
     },
@@ -5425,152 +5388,6 @@
         "community": {
           "score": 8.5,
           "summary": "研究聚焦大模型多语言能力与跨语言迁移这一热点问题，实验规模庞大（最大达671B参数），结论具有反直觉的颠覆性，对传统NLP跨语言迁移共识提出了有力挑战，具备较高的学术讨论价值和社区影响力。"
-        }
-      }
-    },
-    {
-      "name": "Emergent Alignment",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "对齐",
-        "AI安全",
-        "涌现对齐",
-        "DPO",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Emergent-Alignment_8.3_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an alignment component using Direct Preference Optimization (DPO) to steer the model away from non-ethical outputs. The result is an online technique to align models in a wide range of applications: training, fine-tuning, adversarial prompting, and zero-shot learning. It does not require a weaker or stronger judge, relying instead on a frozen copy of itself. In previous work, the Emergent Misalignment scenario showed a range of emergent unethical behaviors from fine-tuning the model to hack code. Instead, we empirically show how to achieve Emergent Alignment: a single high-level introspective question steers training toward an ethical model under the same code hacking scenario.",
-      "summary": "本文针对大语言模型在微调等场景下容易产生“涌现失准”（非伦理行为）的问题，提出了一种名为“涌现对齐”的在线对齐技术。该方法通过为LLM引入一个审查自身推理和输出的“良心”步骤，并结合直接偏好优化（DPO）的对齐损失，引导模型远离不道德输出。该技术无需外部评判模型，仅依赖模型自身的冻结副本即可在训练、微调、对抗提示和零样本学习等多种场景下实现有效对齐。实验证明，在相同的代码黑客场景下，单一的高层内省问题即可将训练导向符合伦理的模型。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19527",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "提出了“涌现对齐”概念，创新性地引入“良心”内省步骤并结合DPO损失，利用模型自身冻结副本作为评判，无需外部模型干预。方法在代码黑客等高风险场景下验证了其逆转“涌现失准”的有效性，技术深度和新颖性较高。"
-        },
-        "utility": {
-          "score": 8.0,
-          "summary": "该方法提供了一种轻量级、不依赖外部更强/更弱评判模型的在线对齐方案，可直接应用于微调、对抗提示等易受攻击的环节，对提升LLM安全性和落地实践具有较高参考价值与广泛的适用性。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "AI对齐与大模型安全是当前社区的核心焦点，本文针对备受关注的“涌现失准”问题提出了有效的解决思路，话题时效性极强，来源可信，有望在AI安全领域产生较大影响。"
-        }
-      }
-    },
-    {
-      "name": "MolmoMotion: Language-guided 3D motion forecasting",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "3D生成",
-        "多模态",
-        "具身智能",
-        "运动预测",
-        "模型发布"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "MolmoMotion--Language-guided-3D-motion-forecasting_8.3_2026-06-19.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "MolmoMotion是由AllenAI推出的语言引导3D运动预测模型，旨在通过自然语言指令直接生成或预测3D运动轨迹。该项目将多模态大模型的理解能力延伸至3D时序生成领域，为具身智能、游戏动画等场景提供了创新的交互方式，具有极高的技术前瞻性和应用潜力。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/allenai/molmomotion",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "该项目探索了语言引导的3D运动预测，将多模态大模型（如Ai2的Molmo系列）的语义理解能力扩展至3D时序生成领域。跨模态对齐（文本到3D动作）与保持运动物理合理性的技术壁垒较高，方法具有显著的新颖性和研究深度。"
-        },
-        "utility": {
-          "score": 7.5,
-          "summary": "对具身智能、机器人控制、游戏动画及虚拟人开发等领域的从业者具有极高的实践参考价值，能够实现通过自然语言直接驱动3D角色动作生成。但3D动作数据的获取、清洗及工程化部署门槛相对较高，一定程度上限制了其在更广泛场景的普适性。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "由顶级AI研究机构AllenAI发布于HuggingFace官方博客，来源权威性极高。3D生成与具身智能是当前及未来的核心前沿热点，项目时效性强，依托Ai2的开源生态预计将在AI与图形学社区产生较大影响力。"
-        }
-      }
-    },
-    {
-      "name": "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "推理优化",
-        "算子融合",
-        "性能分析",
-        "PyTorch",
-        "工程实践"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Profiling-in-PyTorch--Part-2---From-nn.Linear-to-a-Fused-MLP_8.3_2026-06-19.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文是 Hugging Face 关于 PyTorch Profiling 系列博客的第二部分，重点讲解如何通过性能分析发现模型执行瓶颈，并从基础的 nn.Linear 出发，手把手实现 Fused MLP。文章深入浅出地解释了算子融合如何通过减少内存读写和 Kernel 启动开销来提升性能，为深度学习从业者提供了极具价值的模型加速与工程优化指南。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/torch-mlp-fusion",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "深入探讨了 PyTorch 中的性能分析技术与算子融合原理，从基础的 nn.Linear 逐步推导至融合 MLP 的实现。文章详细剖析了内存带宽瓶颈与 Kernel Launch 开销问题，论证了算子融合在减少显存访问和提升计算效率上的技术逻辑，具有一定的系统级优化深度。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "对 AI 工程师和系统优化人员具有极高的实践指导价值。文章不仅提供了使用 PyTorch Profiler 的具体方法，还给出了从标准模块到融合算子的代码实现路径，从业者可直接将其应用于大模型训练加速或推理部署优化中，落地性极强。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "发布于 Hugging Face 官方博客，来源权威且受众广泛。性能优化是 AI 社区持续关注的核心话题，该文结合 PyTorch 主流框架探讨底层优化，具有很好的时效性和社区参考价值。"
-        }
-      }
-    },
-    {
-      "name": "Kilo-Org/kilocode",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "代码助手",
-        "软件工程",
-        "高质量",
-        "活跃维护",
-        "TypeScript"
-      ],
-      "date": "2026-06-18",
-      "date_dir": "2026-06-18",
-      "filename": "Kilo-Org-kilocode_8.3_2026-06-18.md",
-      "source_type": "github",
-      "description": "Kilo is the all-in-one agentic engineering platform. Build, ship, and iterate faster with the most popular open source coding agent.",
-      "summary": "Kilocode 是一款基于 TypeScript 的一体化开源 AI 编码代理平台，致力于通过 Agent 技术加速软件的构建、发布与迭代。项目在工程化集成与工作流自动化方面表现出色，实用性极强，深受开发者社区认可，已积累了可观的星标数。虽然底层未脱离现有大模型框架，但作为提升研发效率的利器，它是当前 AI 辅助编程领域的优秀实践。",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/Kilo-Org/kilocode",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "Kilocode 作为一个多合一的代理工程平台，其技术核心在于将大语言模型（LLM）与工程化工作流深度结合。项目采用 TypeScript 开发，具备良好的跨平台和生态集成能力。它实现了代码生成、终端操作、浏览器交互等 Agent 工具调用能力，架构设计完善，能够支持复杂的自动化编码和迭代任务。不过，在底层模型算法层面主要依赖现有 LLM 的能力，属于应用层和工程层的创新，未带来基础性的技术突破。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "项目的实用性极高。AI 编码代理是目前大模型落地最成功、需求最迫切的场景之一。Kilocode 主打 'Build, ship, and iterate faster'，直击开发者在编码、测试、部署和迭代过程中的痛点。通过一体化平台的设计，降低了开发者配置和使用多个碎片化工具的门槛，显著提升了软件工程的整体效率，具有极高的实际应用价值。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目拥有超过 2.1 万的 Stars 和近 2700 的 Forks，这表明它已经积累了庞大的用户基础和社区关注度。作为开源编码代理领域的热门项目，它吸引了大量开发者的参与和反馈。虽然今日 Star 增长为 0 可能受短期波动或数据统计时间点影响，但整体的社区体量和活跃度依然处于较高水平，生态丰富度正在快速提升。"
         }
       }
     },
@@ -5683,44 +5500,6 @@
         "community": {
           "score": 8.5,
           "summary": "LLM的推理一致性与可靠性是当前大模型领域的核心痛点与热门研究方向。该论文来自arXiv，针对多步演绎推理中的不稳定性问题提出了创新解法，契合业界对大模型自我反思与推理机制评估的迫切需求。其关于‘自偏好排序’和‘评估机制边界’的发现对学术界和工程界均有重要启发，具备较高的话题时效性与潜在影响力。"
-        }
-      }
-    },
-    {
-      "name": "mattpocock/skills",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "提示词工程",
-        "大语言模型",
-        "代码助手",
-        "开发者工具",
-        "高质量",
-        "实战验证",
-        "极受欢迎"
-      ],
-      "date": "2026-06-17",
-      "date_dir": "2026-06-17",
-      "filename": "mattpocock-skills_8.3_2026-06-17.md",
-      "source_type": "github",
-      "description": "Skills for Real Engineers. Straight from my .claude directory.",
-      "summary": "mattpocock/skills 是一个为AI编程助手（特别是Claude）精心打造的提示词与技能集合项目。它将专家级的AI交互经验沉淀为可复用的配置文件，极大地降低了开发者用好AI工具的门槛。虽然技术上属于应用层的提示词工程，但其极高的实用性和作者强大的社区影响力，使其成为AI开发者工具领域的现象级资源。",
-      "tech_stack": [
-        "Shell"
-      ],
-      "link": "https://github.com/mattpocock/skills",
-      "analysis": {
-        "tech": {
-          "score": 6.5,
-          "summary": "项目本身并非底层算法或架构的突破，而是基于大语言模型（特别是Claude）的提示词工程与工作流编排。通过Shell脚本和配置文件的形式，将复杂的AI交互逻辑封装为可复用的'Skills'，体现了在AI应用层面的巧妙设计与工程化能力，但在纯技术创新维度上相对有限。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "实用性极高。项目直击开发者在使用AI编程助手时的痛点，提供了一套开箱即用、经过实战检验的技能集。通过直接复用专家级配置，开发者可以大幅提升AI助手的编码效率、减少提示词试错成本，对日常软件工程工作有显著的生产力提升作用。"
-        },
-        "community": {
-          "score": 9.5,
-          "summary": "社区活跃度极高，Star数超过13万，Fork数过万，展现了惊人的传播力和开发者认可度。作者Matt Pocock在开发者社区具有极强的号召力，项目契合了当前AI辅助编程的爆发式需求，形成了庞大的用户基础和口碑效应。"
         }
       }
     },
@@ -6431,225 +6210,77 @@
       }
     },
     {
-      "name": "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "架构设计",
-        "术语标准",
-        "观点",
-        "博客"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Harness--Scaffold--and-the-AI-Agent-Terms-Worth-Getting-Right_8.3_2026-06-04.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文由 Hugging Face 发布，旨在澄清和规范 AI Agent 领域的关键术语（如 Harness 与 Scaffold），通过区分约束性框架与支撑性结构，为 Agent 系统的架构设计、工程实践及社区沟通提供了清晰的概念基准与理论指导。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/agent-glossary",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "深入剖析了 AI Agent 领域的核心术语（如 Harness 和 Scaffold），澄清了当前行业内概念混淆的问题，为 Agent 架构的理论框架构建提供了严谨的概念基础，展现了较强的行业洞察与逻辑思辨深度。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "对从业者的实际架构设计和团队沟通具有极高的参考价值。明确区分约束性框架与支撑性结构，能够直接指导开发者在构建 Agent 系统时选择合适的工程模式与交互机制，避免架构设计上的南辕北辙。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "发布于 AI 领域最具权威和影响力的社区 Hugging Face 官方博客，话题紧扣当前最热门的 Agent 领域。在概念泛滥、定义模糊的当下，此类术语标准化与概念澄清工作具有极高的时效性和社区引导力。"
-        }
-      }
-    },
-    {
-      "name": "lyogavin/airllm",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "大语言模型",
-        "模型推理",
-        "显存优化",
-        "大模型部署",
-        "降低门槛",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "lyogavin-airllm_8.3_2026-06-04.md",
-      "source_type": "github",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "summary": "",
-      "tech_stack": [
-        "Jupyter Notebook"
-      ],
-      "link": "https://github.com/lyogavin/airllm",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "AirLLM 采用了创新的层级加载和内存卸载技术，通过逐层将模型参数加载到GPU显存中进行计算，计算完毕后立即释放，从而打破了显存容量对模型大小的绝对限制。虽然在算法底层理论上并非颠覆性创新，但在工程实现上巧妙地解决了极低显存运行超大模型的痛点，将时间换空间的策略做到了极致。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "项目具有极高的实用价值。它使得普通开发者仅凭单张4GB显存的消费级显卡（如RTX 3050/4050等）即可运行70B参数级别的超大模型，极大地降低了超大模型体验和本地部署的硬件门槛。虽然在推理速度上有所牺牲，但对于低频调用、隐私敏感或资源受限的开发者来说，提供了极具吸引力的解决方案。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目获得了近2万 Stars 和超过2000 Forks，显示出极高的社区关注度和开发者认可度。作为解决大模型本地部署痛点的热门工具，吸引了大量受限于硬件的开发者参与讨论和使用，社区生态活跃。"
-        }
-      }
-    },
-    {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "知识工程",
-        "AI Agent",
-        "网络安全",
-        "安全助手",
-        "风险管理",
-        "高质量",
-        "标准化",
-        "跨平台"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "mukul975-Anthropic-Cybersecurity-Skills_8.3_2026-06-04.md",
-      "source_type": "github",
-      "description": "754 structured cybersecurity skills for AI agents · Mapped to 5 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND & NIST AI RMF · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 26 security domains · Apache 2.0",
-      "summary": "",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "该项目在知识工程和本体构建方面具有显著先进性。它并非传统意义上的算法创新，而是将754个网络安全技能进行了高度结构化，并创新性地映射到MITRE ATT&CK、NIST CSF 2.0、MITRE ATLAS等5大权威安全与AI风险管理框架。这种跨框架的对齐与标准化设计（遵循agentskills.io标准），有效解决了AI Agent在网络安全领域执行任务时的知识对齐和规范化问题，为Agent提供了专业级的认知架构。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "项目具有极高的实际应用价值。网络安全是AI Agent落地的关键且高价值场景，该项目直接提供了开箱即用的专业技能库，且广泛兼容Claude Code、GitHub Copilot、Cursor等20余种主流AI开发平台与Agent环境。它极大降低了AI工具在安全分析、防御和测试中的使用门槛，Apache 2.0开源协议也进一步保障了其在企业级应用中的商业友好性。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目获得了超过1.3万的Star和1.6千的Fork，显示出极高的社区关注度和广泛的使用基础。高Fork数表明大量开发者在实际引用或二次开发此技能库。虽然今日Star增长为0可能暗示项目已度过爆发期或处于平稳维护阶段，但整体数据足以证明其在安全和AI开发者社区中的强大影响力和生态认可度。"
-        }
-      }
-    },
-    {
-      "name": "opendataloader-project/opendataloader-pdf",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "文档解析",
-        "数据预处理",
-        "RAG组件",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "opendataloader-project-opendataloader-pdf_8.3_2026-06-04.md",
-      "source_type": "github",
-      "description": "PDF Parser for AI-ready data. Automate PDF accessibility. Open-source.",
-      "summary": "opendataloader-pdf 是一个面向AI数据预处理的Java开源PDF解析器，致力于将复杂的PDF文档转化为大模型可直接使用的结构化数据。项目精准切中RAG和LLM数据清洗的痛点，具备极高的工程实用价值和企业级落地能力，并已积累了庞大的社区关注，是AI数据处理链路中的重要基础设施。",
-      "tech_stack": [
-        "Java"
-      ],
-      "link": "https://github.com/opendataloader-project/opendataloader-pdf",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "项目专注于PDF文档的结构化解析与可访问性自动化，解决传统PDF提取中排版混乱、表格和公式丢失等痛点，输出AI-ready数据。虽然底层PDF解析技术相对成熟，但将其与大模型数据预处理需求深度结合，并在Java生态中实现高并发、高鲁棒性的工程化落地，具备较高的技术工程价值。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "在LLM和RAG（检索增强生成）应用爆发的背景下，高质量的数据提取是核心刚需。该项目直击PDF解析这一普遍痛点，能够显著降低企业构建知识库和数据处理管道的门槛。Java语言的选择也使其极易集成到现有企业级数据工程体系中，实用价值极高。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目拥有超过2.3万的Star数和两千余Fork，表明其受到了广泛的关注和认可，社区基础庞大。尽管今日Star增长为0可能暗示项目进入稳定期或短期热度波动，但整体体量证明了其活跃的社区生态和较高的用户参与度。"
-        }
-      }
-    },
-    {
-      "name": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "name": "REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk",
       "score": 8.2,
       "status": "正常",
       "tags": [
-        "Agent",
         "多模态",
-        "工作流",
-        "3D生成",
-        "工程实践",
-        "博客"
+        "视觉语言模型",
+        "对比学习",
+        "医学图像分析",
+        "阿尔茨海默病",
+        "论文"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "How-an-Agent-Built-a-3D-Paris-Gallery-by-Chaining-Two-Hugging-Face-Spaces_8.2_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "REVEAL----Differentiable-Phenotypic-Grouping-for-Vision-Language-Retinal-Modelin_8.2_2026-06-20.md",
       "source_type": "rss",
-      "description": "",
-      "summary": "本文介绍了如何利用 AI Agent 串联 Hugging Face 上的两个 Spaces，自动构建出一个 3D 巴黎画廊。该实践展示了 Agent 在多工具调用与工作流编排方面的强大能力，为开发者提供了一种基于现有开源模型 API 快速构建复杂多模态应用的低代码新范式。",
+      "description": "arXiv:2606.19522v1 Announce Type: new Abstract: The retina offers a noninvasive window into neurodegenerative disease, capturing subtle structural patterns associated with a risk of future cognitive decline. Vision-language alignment frameworks such as REVEAL have shown that pairing retinal fundus images with structured clinical risk narratives improves early prediction of Alzheimer's disease (AD). A key design choice in these approaches is the use of phenotypic grouping, where individuals with similar risk profiles are treated as multi-positive pairs during contrastive learning. However, existing methods operationalize phenotypic similarity as a discrete construct, relying on hard group assignments that impose rigid supervision and decouple group formation from representation learning. We propose a continuous formulation of phenotypic structure within contrastive learning. Rather than assigning samples to fixed clusters, we model inter-subject similarity as a differentiable weighting function derived from intra-modality embedding similarities in both retinal images and risk profiles. These weights define soft multi-positive relationships through a continuous aggregation operator, enabling graded supervision that reflects the spectrum nature of disease risk. We further introduce a soft-target contrastive objective that jointly learns cross-modal alignment and phenotypic structure in an end-to-end manner. Evaluated on UK Biobank retinal imaging data for incident AD prediction, the proposed framework consistently outperforms discrete group-based contrastive learning and standard vision-language baselines. By treating phenotypic similarity as a learnable, continuous signal rather than a fixed grouping rule, our approach provides a principled and robust foundation for population-scale neurodegenerative risk modeling from multi-modal retinal and clinical data.",
+      "summary": "本文提出REVEAL++框架，针对视网膜图像与临床风险叙述的视觉语言对齐任务，将传统的离散表型分组改进为基于模内嵌入相似性的连续可微软分配，并引入软目标对比学习目标。该方法有效捕捉了疾病风险的连续谱特征，在UK Biobank数据集上的AD风险预测中显著优于现有基线，为神经退行性疾病的无创早筛提供了新范式。",
       "tech_stack": [
         "未标注"
       ],
-      "link": "https://huggingface.co/blog/mishig/spaces-agents-md",
+      "link": "https://arxiv.org/abs/2606.19522",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "提出REVEAL++框架，创新性地将视网膜-语言对比学习中的离散表型分组转化为连续可微的软分配机制。通过模内嵌入相似性构建可微加权函数，定义软多正样本关系，并引入软目标对比学习目标，实现跨模态对齐与表型结构的端到端联合优化。该方法理论严谨，有效解决了疾病风险连续谱的建模难题，技术深度与创新性俱佳。"
+        },
+        "utility": {
+          "score": 8.0,
+          "summary": "针对阿尔茨海默病(AD)的早期无创预测，利用视网膜眼底图像与临床风险叙述进行多模态建模。在UK Biobank大规模数据集上验证了其优于传统硬分组和基线模型的性能，为人口规模的神经退行性疾病风险建模与临床早筛提供了高潜力的实践指导方案。"
+        },
+        "community": {
+          "score": 8.0,
+          "summary": "阿尔茨海默病早筛及医学多模态学习是当前高度关注的前沿交叉领域。论文基于权威的UK Biobank数据集，将对比学习软分配机制引入医学风险预测，切中研究热点，来源可信度高，具备较好的学术影响力和时效性。"
+        }
+      }
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "score": 8.2,
+      "status": "正常",
+      "tags": [
+        "语音合成",
+        "语音识别",
+        "多模态",
+        "语音克隆",
+        "音频编辑",
+        "易用性强",
+        "高星项目"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "jamiepine-voicebox_8.2_2026-06-20.md",
+      "source_type": "github",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "summary": "Voicebox 是一款明星级的开源 AI 语音工作室，致力于提供语音克隆、听写与创作的一站式解决方案。项目凭借 TypeScript 带来的良好易用性和跨平台特性，成功将复杂的底层语音 AI 能力转化为普通用户和开发者触手可及的工具。虽然在底层算法上并非原创突破，但其在应用集成和用户体验上的出色表现，加上超 3 万 Star 的庞大社区基础，使其成为 AI 语音应用领域极具实用价值的标杆项目。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/jamiepine/voicebox",
       "analysis": {
         "tech": {
           "score": 7.0,
-          "summary": "文章展示了 Agent 在工具链编排上的应用，通过串联两个 HF Spaces 实现 3D 场景的自动构建。虽然底层未涉及算法级突破，但在 Agent 工作流、API 自动化调用与多模态组合方面具有较好的工程启发性和新颖度。"
+          "summary": "Voicebox 作为一个开源的 AI 语音工作室，其技术亮点主要体现在优秀的架构设计和多模型集成能力上。项目采用 TypeScript 开发，具备良好的跨平台与 Web 端适配性。它将语音克隆、语音识别（听写）和语音生成等复杂的底层 AI 模型进行了高内聚低耦合的封装，降低了技术接入门槛。然而，该项目主要属于应用层面的整合与创新，底层算法依赖现有的开源语音模型，因此在核心算法的原创性与突破性上相对有限。"
         },
         "utility": {
-          "score": 8.5,
-          "summary": "对从业者具有极高的实操参考价值。该模式提供了一种利用现有开源模型 API 快速搭建多步骤 AI 工作流的范式，开发者可直接借鉴此思路进行自动化内容生成、多模态应用开发及低代码平台搭建，落地性强且适用范围广。"
-        },
-        "community": {
           "score": 9.0,
-          "summary": "来源为 Hugging Face 官方博客，权威性与可信度极高。Agent 编排与多模态生成是当前 AI 社区的核心热点，该文章结合 HF 生态展示了前沿应用，具有极强的时效性和社区示范影响力。"
-        }
-      }
-    },
-    {
-      "name": "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
-      "score": 8.2,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "不确定性量化",
-        "医疗AI",
-        "结构化数据",
-        "推理",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "LLM-Doesn-t-Know-What-It-Doesn-t-Know--Detecting-Epistemic-Blind-Spots-via-Cross_8.2_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19509v1 Announce Type: new Abstract: Large language models (LLMs) are increasingly applied to structured clinical data, yet whether they can recognize the limits of their own knowledge on such tasks remains unexplored. We study this question through the lens of cross-model attribution divergence with the goal of reducing epistemic uncertainty for structured tasks, comparing Qwen 2.5 7B and XGBoost on a prediction task via attribution divergence analysis. We report four findings. First, LLM verbalized confidence is epistemically vacuous, it outputs a near-constant (0.856-0.937) regardless of whether accuracy is 49% or 75.3%, tracking prompt format rather than prediction quality. Second, the LLM exhibits an inverse difficulty effect: accuracy drops to 64.8% when XGBoost is 99% correct, but matches XGBoost (73.8% vs. 73.1%) when it is moderately uncertain. Third, few-shot examples and SHAP-derived feature evidence are orthogonal, super-additive interventions: they reduce the Attribution Disagreement Score (ADS) from 1.54 to 0.38 and improve accuracy from 49% to 75.3% without training. Fourth, a cross-model calibrator that determined LLM reliability using attribution divergence signals reduces expected calibration error from 0.254 to 0.080, replacing uninformative verbalized confidence with patient-specific reliability estimates, without accessing model internals or requiring repeated inference. We frame these findings as a cold start problem for LLMs on structured data and outline a path toward genuine epistemic self-awareness.",
-      "summary": "该论文揭示了LLM在结构化临床数据上存在严重的认知盲点：其语言化置信度与实际准确率脱钩，且表现出反直觉的'逆难度效应'。研究提出通过跨模型归因分歧（对比LLM与XGBoost的归因差异）来检测盲点，发现Few-shot与SHAP特征证据结合能显著提升性能并降低分歧。基于此提出的跨模型校准器，无需模型内部访问即可大幅降低预期校准误差，为高风险场景下LLM的可靠性评估与自我认知提供了创新且落地的解决方案。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19509",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "研究视角新颖，将LLM的'不知道自己不知道'问题（认知盲点）聚焦于结构化临床数据，并通过跨模型归因分歧（LLM vs XGBoost）进行量化。发现了LLM语言化置信度失效和'逆难度效应'等反直觉现象，论证严谨；提出的SHAP与Few-shot正交超加性干预以及跨模型校准器，在方法论上具有较好的深度与创新性。"
-        },
-        "utility": {
-          "score": 8.0,
-          "summary": "对医疗AI等高可靠性场景的落地具有极高的参考价值。明确指出了依赖LLM自我报告置信度的不可靠性，并提供了无需访问模型内部或重复推理的实用校准方案（基于归因分歧信号），直接解决了结构化数据上LLM可靠性评估的痛点，SHAP+Few-shot的提效方法也易于工程实现。"
+          "summary": "项目具有极高的实用价值。语音克隆、听写和创作是目前 AI 落地应用中最热门且需求最旺盛的场景之一。Voicebox 将这些功能整合到一个一站式的 Studio 中，为内容创作者、开发者和普通用户提供了极其便捷的工具链。TypeScript 的技术栈也使得它更容易被广大开发者二次开发和部署，切实解决了传统语音处理工具门槛高、功能分散的痛点。"
         },
         "community": {
-          "score": 8.0,
-          "summary": "话题时效性极强，直击当前大模型领域核心痛点——幻觉与不确定性量化。虽然为arXiv预印本，但针对临床结构化数据的认知盲点研究填补了特定空白，对提升LLM在高风险领域的可信度有显著启发，预计将在AI安全与医疗AI社区引发关注。"
+          "score": 8.5,
+          "summary": "该项目在 GitHub 上获得了超过 3 万的 Star 和近 4 千的 Fork，这表明它拥有极高的社区关注度和庞大的用户基础。虽然今日 Star 增长为 0 可能暗示项目进入了稳定期或维护频率有所放缓，但庞大的基数已经为其积累了丰富的生态和使用案例。整体来看，社区活跃度依然处于较高水平，具备很强的行业影响力。"
         }
       }
     },
@@ -7609,6 +7240,228 @@
       }
     },
     {
+      "name": "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "DeFi",
+        "风险监管",
+        "图神经网络",
+        "时间序列",
+        "论文"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "DeXposure-Claw--An-Agentic-System-for-DeFi-Risk-Supervision_8.0_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19501v1 Announce Type: new Abstract: Decentralized finance exposes supervisors to fast-moving, networked credit risks. General-purpose LLM agents fit this setting poorly: they over-read weak evidence and recommend high-stakes interventions, while existing evaluations offer no regulator-aligned way to measure the resulting false alarms. We introduce DeXposure-Claw, a forecast-grounded agentic supervision system that routes LLM decisions through structured evidence: (1) DeXposure-FM, a graph time-series foundation model, forecasts future exposure networks; (2) deterministic monitors and stress scenarios then turn those forecasts into typed alerts, attribution signals, and scenario evidence; and (3) data-health and confidence gates constrain escalation before DeXposure-Claw emits auditable supervisory tickets with rationales. We further develop DeXposure-Bench, a six-axis evaluation harness, whose decision axis scores tickets against a regulator-aligned absolute-loss ground truth and an explicit false-intervention rate. Experiments on five years of weekly real data fully support our system. Code is at https://github.com/EVIEHub/DeXposure-Claw.",
+      "summary": "本文提出DeXposure-Claw，一个面向DeFi风险监管的代理系统。针对通用LLM在监管场景下易产生高误报的缺陷，该系统通过图时间序列基础模型预测风险敞口，结合确定性监控与置信度门控机制，约束LLM仅基于强证据进行干预，并输出可审计的监管票据。同时，作者开发了六轴评估基准DeXposure-Bench，引入监管对齐的绝对损失和误报率指标。基于5年真实数据的实验验证了系统的有效性，为LLM在高风险金融场景的可靠应用提供了新范式。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19501",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "针对通用LLM在DeFi风险监管中易受弱证据干扰导致高误报的问题，创新性地提出了DeXposure-Claw系统。该系统将LLM决策与结构化证据路由结合，通过图时间序列基础模型（DeXposure-FM）预测风险敞口，并利用确定性监控和置信度门控约束LLM的升级干预，显著提升了决策的严谨性与可控性。同时提出的DeXposure-Bench评估基准，首次引入监管对齐的绝对损失和误报率指标，填补了该领域评估体系的空白。"
+        },
+        "utility": {
+          "score": 8.0,
+          "summary": "对DeFi协议和金融监管机构具有极高的实践指导意义。系统通过门控机制有效降低了误报带来的不必要干预成本，输出的可审计监管票据符合实际合规需求。基于5年真实数据的验证和开源代码/评估基准，使得风控从业者可以直接参考或复用其架构进行DeFi风险监控系统的开发与评估。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "结合了当前两大热点——AI Agent与DeFi，切中了LLM在金融等高风险领域落地的核心痛点（幻觉与误报）。作者团队来自学术界，且开源了代码与基准测试，具备较高的权威性和社区传播潜力。虽然发布时间标注为2026年略显异常，但其探讨的议题极具时效性与现实意义。"
+        }
+      }
+    },
+    {
+      "name": "Emergent Alignment",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "大模型",
+        "对齐",
+        "涌现",
+        "DPO",
+        "自我纠正",
+        "论文"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Emergent-Alignment_8.0_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19527v1 Announce Type: new Abstract: Can Large Language Models (LLMs) discern when their own outputs are misaligned with human ethics? And can they self-correct? We endow an LLM with a conscience step that reviews its own reasoning and outputs, and we extend the training loss with an alignment component using Direct Preference Optimization (DPO) to steer the model away from non-ethical outputs. The result is an online technique to align models in a wide range of applications: training, fine-tuning, adversarial prompting, and zero-shot learning. It does not require a weaker or stronger judge, relying instead on a frozen copy of itself. In previous work, the Emergent Misalignment scenario showed a range of emergent unethical behaviors from fine-tuning the model to hack code. Instead, we empirically show how to achieve Emergent Alignment: a single high-level introspective question steers training toward an ethical model under the same code hacking scenario.",
+      "summary": "本文提出了一种名为'涌现对齐'（Emergent Alignment）的大模型在线对齐新方法。通过引入'良心步骤'让模型审查自身输出，并利用模型自身的冻结副本结合DPO算法进行偏好优化，无需外部评判模型即可引导模型远离非伦理输出。该方法适用于训练、微调、对抗提示等多种场景，并在先前容易引发'涌现错位'的代码黑客场景中，仅通过单一高层内省问题即成功实现了模型对齐，为大模型安全提供了一种低成本、高泛化的实用解决方案。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19527",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "本文在技术视角上具有较高的新颖性与深度。针对大模型对齐问题，创新性地提出了'良心步骤'（conscience step）让模型进行自我审查，并巧妙地利用模型自身的冻结副本替代外部评判模型，结合DPO算法实现在线对齐。该方法不仅在机制上区别于传统的RLHF或依赖外部奖励模型的对齐方案，更在概念上逆转了先前'涌现错位'（Emergent Misalignment）的负面现象，提出了'涌现对齐'（Emergent Alignment），论证逻辑自洽，技术路径清晰。"
+        },
+        "utility": {
+          "score": 8.0,
+          "summary": "对AI从业者的工程实践具有极高的参考价值。该方案无需额外训练更弱或更强的评判模型，仅依赖模型自身的冻结副本进行对齐，大幅降低了计算资源和数据标注成本。同时，该技术适用范围广泛，覆盖了从预训练、微调到对抗提示和零样本学习等多种实际应用场景，为资源受限下的模型安全对齐提供了一条极具落地潜力的轻量级路径。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "大模型对齐与涌现行为是当前AI社区高度关注的核心议题，话题时效性极强。论文直击'微调导致模型涌现不道德行为'这一痛点，提出的'涌现对齐'概念若被广泛验证，将在社区产生显著影响。来源为arXiv预印本，虽为单作者且发表时间标识较新（2026年），但其探讨的问题和提出的轻量级解法契合当前学术界与工业界对高效、低成本对齐方案的迫切需求，具备较高的潜在影响力和可信度。"
+        }
+      }
+    },
+    {
+      "name": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "NLP应用",
+        "语义检索",
+        "课程评估",
+        "教育计算",
+        "论文",
+        "实证研究"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Measuring-Curriculum-Alignment-across-Topical-Coverage--Competency--and-Cognitiv_8.0_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the current guidelines and how that coverage shifts when the guidelines are restructured. We address this with a human-in-the-loop pipeline that measures a program's coverage of an external body of knowledge, applied longitudinally to one accredited BSc in Computer Science against Computer Science Curricula 2013 (CS2013) and 2023 (CS2023). The pipeline represents the program and each guideline as structured corpora, generates candidate course-to-knowledge-unit matches by semantic retrieval, and confirms them through human judgment under an explicit coverage definition. Of seven benchmarked retrievers, a reciprocal-rank-fusion ensemble was strongest, and a reputed long-context model underperformed a small sentence model, so retriever choice must be measured. Both maps were validated by an independent second rater (Cohen's kappa 0.64 for CS2023, 0.69 for CS2013). The program covers 49.7% of CS2023 and 50.9% of CS2013 knowledge units, near-constant across a decade. Extending the same retrieve-then-confirm design to competency articulation and cognitive depth shows that the program articulates the competency for ~88% of covered units under each guideline, yet delivers it at the recommended depth for 76% of present units under CS2023 against 95% under CS2013, a gap reflecting the newer guideline's raised expectations, not the program. The longitudinal comparison separates persistent structural gaps (parallel and distributed computing, foundations of programming languages, systems fundamentals), uncovered against both guidelines and ABET, from differences that reflect the standard's evolution. The instrument is reusable and available from the authors on request.",
+      "summary": "本文提出了一种人在环的流水线框架，用于纵向测量计算机本科课程对国际指南（CS2013与CS2023）的对齐度。该框架结合语义检索（实证发现互惠排名融合集成效果最佳，且长上下文模型表现不及小句子模型）与人工验证，从主题覆盖、能力表达和认知深度三个维度进行评估。研究发现，样本课程的能力表达率约88%，但在新标准CS2023下，达到推荐认知深度的比例显著下降（76% vs CS2013的95%），这反映了新标准期望的提升而非课程退化。该工具可复用，为高校课程体系改革与标准对齐提供了可靠的量化依据。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2606.19469",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "论文提出了一种结合语义检索与人工校验的'人在环'流水线，用于量化评估课程体系与外部知识体的对齐度。技术层面具有较高严谨性，不仅对比了7种检索模型（发现互惠排名融合集成效果最佳，且知名长上下文模型表现不及小句子模型，提供了有价值的实证洞见），还通过Cohen's kappa验证了人工标注的可靠性。评估维度从传统的主题覆盖度扩展至能力表达和认知深度，方法论完整且具有深度。"
+        },
+        "utility": {
+          "score": 8.5,
+          "summary": "对高校计算机科学教育管理者和课程设计者具有极高的落地指导价值。该框架提供了一套可复用、可重现的评估工具，能精准定位课程体系与最新CS2023标准之间的结构性差距（如并行与分布式计算等），并能区分出是课程本身的持续缺失还是标准演进带来的新要求，可直接指导教学大纲的修订与认证准备。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "CS2023作为最新发布的计算机科学课程国际指南，本文针对其进行的纵向对比分析具有很强的时效性和现实意义。来源为arXiv预印本，作者群具有学术背景，可信度良好。虽然受众主要限于CS教育领域，不及通用大模型技术破圈，但在该垂直社区内具有显著的参考价值和影响力。"
+        }
+      }
+    },
+    {
+      "name": "Migrating Your GitHub CI to Hugging Face Jobs",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "MLOps",
+        "CI/CD",
+        "HuggingFace",
+        "工程实践",
+        "教程"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Migrating-Your-GitHub-CI-to-Hugging-Face-Jobs_8.0_2026-06-20.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文是 Hugging Face 官方发布的工程实践指南，详细介绍了如何将现有的 GitHub CI 工作流迁移至 Hugging Face Jobs。文章提供了具体的迁移步骤、配置转换方法及最佳实践，旨在帮助 AI 开发者更好地利用 HF 生态的计算资源与集成优势，降低 CI/CD 运维成本并提升构建效率。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
+      "analysis": {
+        "tech": {
+          "score": 5.5,
+          "summary": "文章属于工程实践类，技术深度相对有限，不涉及算法或理论创新。主要聚焦于 CI/CD 流程的迁移方案、配置对比及 Hugging Face Jobs 的架构特性，对系统级迁移的细节和潜在坑点有直接的指导意义，但缺乏底层技术洞见。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "实操性极强，直接面向有 CI 迁移需求的 AI 开发者，提供从 GitHub Actions 到 Hugging Face Jobs 的具体迁移步骤与配置映射，能显著降低开发者的试错成本，对深度使用 HF 生态的从业者具有极高的参考和落地指导价值。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "来源为 Hugging Face 官方博客，权威性与可信度极高。发布时间显示其为 HF Jobs 新特性的前沿指南，时效性极强。结合 Hugging Face 在开源 AI 社区的统治级影响力，该文具有广泛的受众和极高的社区关注度。"
+        }
+      }
+    },
+    {
+      "name": "calesthio/OpenMontage",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "多智能体",
+        "LLM应用",
+        "视频处理",
+        "视频生成",
+        "自动化工作流",
+        "功能丰富",
+        "高质量"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "calesthio-OpenMontage_8.0_2026-06-20.md",
+      "source_type": "github",
+      "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
+      "summary": "OpenMontage 是一个极具创新性的开源代理式视频制作系统，它巧妙地将多智能体协作架构应用于视频生产领域，通过丰富的流水线、工具和技能组合，将复杂的视频制作过程自动化、智能化。该项目不仅技术架构先进，更在实用性上实现了突破，大幅降低了视频创作门槛，具有广阔的商业和应用前景，是 AI Agent 在多模态内容生成领域的重要实践。",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/calesthio/OpenMontage",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "OpenMontage 在技术架构上具有显著的先进性，它将当前前沿的 Agentic（智能体）架构引入到视频制作领域。项目通过编排 12 条流水线、整合 52 种工具和 500 多个智能体技能，实现了复杂工作流的自动化拆解与执行。这种将大语言模型的规划与工具调用能力深度结合并应用于多步骤、多模态视频生产的工程实践，展现了极高的系统设计水平和技术创新度。"
+        },
+        "utility": {
+          "score": 8.5,
+          "summary": "项目具有极高的实用价值和应用潜力。它将 AI 编码助手转变为完整的视频制作工作室，极大地降低了专业视频制作的技术门槛与时间成本。对于内容创作者、营销团队和自媒体而言，能够通过自然语言或简单指令完成复杂的视频生产，解决了传统视频制作流程繁琐、工具学习成本高的痛点，应用场景广泛且落地性强。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "项目获得了近 7000 个 Star 和超过 1100 个 Fork，显示出相当高的社区关注度和用户参与意愿，Fork 比例较高表明有大量开发者尝试进行二次开发或本地部署。作为首个开源的代理式视频制作系统，其初期吸引力强劲，但今日 Star 增长为 0 可能暗示项目正处于稳定期或需要更多持续的维护更新来保持社区活跃度，整体生态处于快速构建阶段。"
+        }
+      }
+    },
+    {
+      "name": "withastro/flue",
+      "score": 8.0,
+      "status": "正常",
+      "tags": [
+        "AI Agent",
+        "TypeScript",
+        "沙盒执行",
+        "代码执行",
+        "自动化工作流",
+        "高质量"
+      ],
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "withastro-flue_8.0_2026-06-20.md",
+      "source_type": "github",
+      "description": "The sandbox agent framework.",
+      "summary": "withastro/flue 是一个基于 TypeScript 的沙盒 Agent 框架，核心解决 AI Agent 执行过程中的安全隔离问题。项目技术架构先进，实用价值极高，特别是在代码生成与自动化执行场景下。依托 Astro 团队的社区影响力，项目具备良好的发展潜力，是构建安全 AI Agent 的重要基础设施。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/withastro/flue",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "项目专注于构建沙盒环境下的 AI Agent 框架，采用 TypeScript 开发。沙盒执行机制有效解决了 Agent 在执行代码和系统命令时的安全隔离问题，架构设计契合当前 AI Agent 对安全可控执行的核心需求，技术理念与工程实践均较为先进。"
+        },
+        "utility": {
+          "score": 8.5,
+          "summary": "为 AI Agent 提供了安全的执行沙盒，极大降低了 Agent 执行不可信代码或系统操作带来的风险。在代码解释器、自动化编程助手、复杂工作流自动化等场景中具有极高的应用价值，且与 JS/TS 生态无缝衔接，易于前端和全栈开发者集成使用。"
+        },
+        "community": {
+          "score": 7.5,
+          "summary": "项目已获得 6000+ Stars 和 340 Forks，显示出良好的社区关注度。背靠知名前端框架 Astro 团队，具备较强的社区号召力和维护保障，但近期 Star 增长停滞，生态丰富度和第三方贡献仍需时间沉淀。"
+        }
+      }
+    },
+    {
       "name": "Detecting Hallucinations for Large Language Model-based Knowledge Graph Reasoning",
       "score": 8.0,
       "status": "正常",
@@ -7679,118 +7532,6 @@
         "community": {
           "score": 8.0,
           "summary": "LLM偏见与对齐是当前AI领域的核心热点，话题时效性极高。文章来自arXiv预印本，学术来源可信。虽然案例研究使用的基座模型较老，但其提出的可视化审计视角对社区具有较好的启发意义和影响力。"
-        }
-      }
-    },
-    {
-      "name": "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
-      "score": 8.0,
-      "status": "正常",
-      "tags": [
-        "大模型应用",
-        "RAG",
-        "语义检索",
-        "教育",
-        "课程评估",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Measuring-Curriculum-Alignment-across-Topical-Coverage--Competency--and-Cognitiv_8.0_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19469v1 Announce Type: new Abstract: Undergraduate computer science is governed by international curricular guidelines revised about once a decade, yet programs lack a reliable, reproducible way to measure how completely they cover the current guidelines and how that coverage shifts when the guidelines are restructured. We address this with a human-in-the-loop pipeline that measures a program's coverage of an external body of knowledge, applied longitudinally to one accredited BSc in Computer Science against Computer Science Curricula 2013 (CS2013) and 2023 (CS2023). The pipeline represents the program and each guideline as structured corpora, generates candidate course-to-knowledge-unit matches by semantic retrieval, and confirms them through human judgment under an explicit coverage definition. Of seven benchmarked retrievers, a reciprocal-rank-fusion ensemble was strongest, and a reputed long-context model underperformed a small sentence model, so retriever choice must be measured. Both maps were validated by an independent second rater (Cohen's kappa 0.64 for CS2023, 0.69 for CS2013). The program covers 49.7% of CS2023 and 50.9% of CS2013 knowledge units, near-constant across a decade. Extending the same retrieve-then-confirm design to competency articulation and cognitive depth shows that the program articulates the competency for ~88% of covered units under each guideline, yet delivers it at the recommended depth for 76% of present units under CS2023 against 95% under CS2013, a gap reflecting the newer guideline's raised expectations, not the program. The longitudinal comparison separates persistent structural gaps (parallel and distributed computing, foundations of programming languages, systems fundamentals), uncovered against both guidelines and ABET, from differences that reflect the standard's evolution. The instrument is reusable and available from the authors on request.",
-      "summary": "本文提出一种人机协同流水线，利用语义检索与人工确认评估计算机本科课程与CS2013/CS2023指南的对齐度。研究发现长上下文模型检索表现不及小句子模型，且课程在CS2023下的认知深度对齐度因标准提高而显著下降。该框架能有效区分长期结构性缺口与标准演进差异，工具可复用，对高等教育课程评估与设计具有重要实践价值。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19469",
-      "analysis": {
-        "tech": {
-          "score": 8.0,
-          "summary": "提出了一种基于人机协同的流水线，结合语义检索（倒数秩融合集成）与人工判断来测量课程与知识体系的对齐度。实证发现 reputed 长上下文模型在特定检索任务上不如小句子模型，强调了检索器选择必须经过实证测量；并将对齐度评估从主题覆盖扩展至能力表达与认知深度，方法论严谨（通过Cohen's kappa验证了评分者间信度）。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "该框架可直接用于高校计算机科学课程与CS2013/CS2023指南及ABET认证的对齐度评估，帮助教育者精准识别长期结构性缺口（如并行与分布式计算等）与标准演进带来的差异。工具具有可复用性，作者可应要求提供，对课程设计和教育管理具有极高的实践指导价值。"
-        },
-        "community": {
-          "score": 7.5,
-          "summary": "紧扣最新发布的CS2023计算机科学课程指南，时效性强。研究由高校学者完成，发布于arXiv，对计算机教育社区及认证机构具有较高的参考价值和可信度，能够为全球高校应对新一轮课程大纲改革提供数据支撑。"
-        }
-      }
-    },
-    {
-      "name": "REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk",
-      "score": 8.0,
-      "status": "正常",
-      "tags": [
-        "多模态",
-        "医疗AI",
-        "视觉语言模型",
-        "对比学习",
-        "阿尔茨海默病",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "REVEAL----Differentiable-Phenotypic-Grouping-for-Vision-Language-Retinal-Modelin_8.0_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19522v1 Announce Type: new Abstract: The retina offers a noninvasive window into neurodegenerative disease, capturing subtle structural patterns associated with a risk of future cognitive decline. Vision-language alignment frameworks such as REVEAL have shown that pairing retinal fundus images with structured clinical risk narratives improves early prediction of Alzheimer's disease (AD). A key design choice in these approaches is the use of phenotypic grouping, where individuals with similar risk profiles are treated as multi-positive pairs during contrastive learning. However, existing methods operationalize phenotypic similarity as a discrete construct, relying on hard group assignments that impose rigid supervision and decouple group formation from representation learning. We propose a continuous formulation of phenotypic structure within contrastive learning. Rather than assigning samples to fixed clusters, we model inter-subject similarity as a differentiable weighting function derived from intra-modality embedding similarities in both retinal images and risk profiles. These weights define soft multi-positive relationships through a continuous aggregation operator, enabling graded supervision that reflects the spectrum nature of disease risk. We further introduce a soft-target contrastive objective that jointly learns cross-modal alignment and phenotypic structure in an end-to-end manner. Evaluated on UK Biobank retinal imaging data for incident AD prediction, the proposed framework consistently outperforms discrete group-based contrastive learning and standard vision-language baselines. By treating phenotypic similarity as a learnable, continuous signal rather than a fixed grouping rule, our approach provides a principled and robust foundation for population-scale neurodegenerative risk modeling from multi-modal retinal and clinical data.",
-      "summary": "本文提出REVEAL++框架，针对视网膜图像与临床风险叙述的视觉语言对齐任务，将传统对比学习中的离散表型分组改进为基于可微加权函数的连续性表型建模。通过引入软目标对比目标，实现了跨模态对齐与表型结构的端到端学习，更精准地反映疾病风险的连续谱特征。在UK Biobank数据集上的AD发病预测实验中，该框架显著优于离散分组基线及标准视觉语言模型，为多模态神经退行性疾病风险建模提供了新范式。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19522",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "提出了一种在对比学习中构建表型结构的连续性方法（REVEAL++），将传统的离散/硬性表型分组转化为基于模内嵌入相似度的可微加权函数。引入软目标对比学习目标，实现了跨模态对齐与表型结构的端到端联合学习，在方法论上更符合疾病风险连续谱的本质，技术深度与严谨性较高。"
-        },
-        "utility": {
-          "score": 7.5,
-          "summary": "对医学AI从业者具有较高参考价值，特别是针对阿尔茨海默病等神经退行性疾病的早期无创筛查。其“软多正例对比学习”范式可推广至其他具有连续性疾病特征或风险分级的医学多模态任务中，但实际落地依赖高质量配对的视觉-语言临床数据。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "话题处于医学影像与视觉-语言对齐的交叉前沿，极具时效性。基于UK Biobank大规模数据集验证，来源可信度高。视网膜作为神经退行性疾病无创窗口的理念，结合前沿的连续性对比学习，在医疗AI社区有较大潜在影响力。"
-        }
-      }
-    },
-    {
-      "name": "withastro/flue",
-      "score": 8.0,
-      "status": "正常",
-      "tags": [
-        "Agent框架",
-        "沙盒隔离",
-        "TypeScript",
-        "代码执行",
-        "AI安全",
-        "大厂背书",
-        "开发者友好"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "withastro-flue_8.0_2026-06-19.md",
-      "source_type": "github",
-      "description": "The sandbox agent framework.",
-      "summary": "Flue是由知名Web框架Astro团队推出的沙盒智能体框架。它创造性地将安全沙盒机制与AI Agent执行相结合，有效解决了Agent在执行动态代码和系统操作时的安全隐患。基于TypeScript构建，对Web生态极其友好，具备极高的实用价值。依托Astro的社区影响力，项目已获得良好关注，是构建安全AI应用的优选基础设施。",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/withastro/flue",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "将沙盒隔离机制与AI Agent框架深度结合，解决了Agent执行代码和系统操作时的安全性痛点。基于TypeScript实现，契合Web生态，架构设计合理，但在底层沙盒技术上更多是工程整合而非算法突破。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "实用性极高。AI Agent在执行代码或系统交互时面临严重的安全风险，沙盒机制是解决该痛点的刚需。Flue为开发者提供了开箱即用的安全执行环境，且基于TypeScript，对广大Web和全栈开发者极其友好，能快速集成到现有应用中。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "背靠withastro（Astro框架的维护组织），拥有强大的社区基础和品牌背书。近6千的Star数表明项目已获得显著关注。虽然今日Star增量为0，但整体生态潜力和开发者关注度依然处于较高水平。"
         }
       }
     },
@@ -9197,76 +8938,76 @@
       }
     },
     {
-      "name": "HKUDS/Vibe-Trading",
-      "score": 8.0,
+      "name": "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "score": 7.8,
       "status": "正常",
       "tags": [
-        "深度学习",
-        "LLM",
-        "Agent",
-        "量化交易",
-        "金融分析",
-        "自动交易",
-        "高星项目"
+        "多智能体",
+        "大模型",
+        "推理",
+        "意见动力学",
+        "论文"
       ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "HKUDS-Vibe-Trading_8.0_2026-06-04.md",
-      "source_type": "github",
-      "description": "\"Vibe-Trading: Your Personal Trading Agent\"",
-      "summary": "",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "Hidden-Anchors-in-Multi-Agent-LLM-Deliberation_7.8_2026-06-20.md",
+      "source_type": "rss",
+      "description": "arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
+      "summary": "本文针对多智能体LLM审议机制缺乏理论建模的问题，创新性地提出了基于'隐藏锚点'的闭环动力系统模型。该模型指出每个智能体都存在持续影响其观点的内部信念（锚点），成功解释了智能体置信度突破初始信念凸包的现象，并提供了锚点恢复与泛化验证方法。研究在三个开源模型家族上的实验表明，锚点影响力相当但位置不同，只有当锚点远离初始意见时，审议才会突破凸包并需要完整的闭环模型来解释。该成果为多智能体LLM系统的行为理解提供了重要的理论突破。",
       "tech_stack": [
-        "Python"
+        "未标注"
       ],
-      "link": "https://github.com/HKUDS/Vibe-Trading",
+      "link": "https://arxiv.org/abs/2606.19494",
       "analysis": {
         "tech": {
-          "score": 7.5,
-          "summary": "Vibe-Trading 作为一个由 HKUDS（香港大学数据科学实验室）推出的交易智能体项目，大概率融合了大语言模型（LLM）的推理能力与金融时间序列分析或强化学习技术。将 LLM 作为 Agent 的核心大脑来解析市场情绪、处理多源异构金融数据并执行交易策略，是当前 AI Agent 架构在垂直领域的典型应用。虽然技术栈属于当前前沿的 Agent 范式，但在底层算法和模型架构上更多是现有技术的工程化组合，未构成基础理论的突破性创新。"
+          "score": 8.5,
+          "summary": "论文创新性地将多智能体LLM审议建模为闭环动力系统，引入了'隐藏锚点'（内部信念）概念，弥补了经典意见动力学模型（如DeGroot和Friedkin-Johnsen）仅考虑群体羊群效应的不足。该模型严谨地解释了智能体置信度突破初始信念凸包的反直觉现象，并提出了从审议过程中恢复锚点的方法及泛化性检验，理论深度与新颖性俱佳。"
         },
         "utility": {
-          "score": 8.5,
-          "summary": "项目具有极高的实际应用价值。量化交易和智能投顾一直是金融领域的刚需，而 'Your Personal Trading Agent' 的定位强调了其易用性和个人定制化能力，大幅降低了普通投资者使用 AI 辅助交易的门槛。Python 技术栈也使得其易于集成各类金融 API 和数据源。不过，金融市场的极端波动性和 API 限制等现实问题，对其在实盘中的稳定性和可靠性提出了较高要求。"
+          "score": 7.0,
+          "summary": "研究为理解和设计多智能体LLM系统提供了重要的理论指导。通过揭示'隐藏锚点'对审议结果的影响机制，从业者可以更精准地评估不同底层模型在多智能体协作中的行为特征，判断何时必须采用闭环建模。不过，该成果偏向理论解释与机制分析，对工程实践的直接指导（如具体的算法优化或架构设计）仍需进一步转化落地。"
         },
         "community": {
           "score": 8.0,
-          "summary": "项目在 GitHub 上获得了超过 1 万的 Stars 和 2000+ 的 Forks，显示出极高的社区关注度和开发者参与意愿，说明 AI+金融赛道极具吸引力。但今日 Stars 增长为 0，可能意味着项目已经度过了初期的爆发式传播期，或者当前处于维护停滞状态。整体而言，其社区基础庞大，生态潜力可观，但需持续迭代以保持活跃度。"
+          "summary": "多智能体协作与大模型推理是当前AI领域的核心热点，该研究切中要害。论文发表于arXiv，巧妙结合了经典社会学的意见动力学与现代LLM行为，具有很高的学术权威性与话题时效性。其对多智能体交互中涌现行为的理论解释，对后续研究社区具有较强的启发和引导影响力。"
         }
       }
     },
     {
-      "name": "When Retrieval Doesn't Help: A Large-Scale Study of Biomedical RAG",
-      "score": 8.0,
+      "name": "twentyhq/twenty",
+      "score": 7.8,
       "status": "正常",
       "tags": [
-        "RAG",
-        "医疗AI",
-        "大模型",
-        "评估/实证研究",
-        "论文"
+        "TypeScript",
+        "CRM",
+        "企业应用",
+        "AI集成",
+        "开源替代",
+        "高质量",
+        "活跃维护"
       ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "When-Retrieval-Doesn-t-Help--A-Large-Scale-Study-of-Biomedical-RAG_8.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04127v1 Announce Type: new Abstract: Medical question answering is a high-stakes setting where factual errors can have serious consequences. Retrieval-augmented generation (RAG) is widely viewed as a promising solution, and prior work has reported substantial gains for large medical QA models. We revisit this assumption across a broad range of open-weight instruction-tuned models spanning 7B to 72B parameters. Across five models, ten biomedical QA datasets, four retrieval methods, and four retrieval corpora, we find that retrieval yields only small and inconsistent improvements over a no-retrieval baseline, typically within 1-2 points. In contrast, the choice of backbone model has a much larger effect than the choice of retriever or corpus, and expert and layman retrieval sources perform similarly in most settings. These results suggest that the main bottleneck is not retrieval quality alone, but the model's limited ability to use retrieved evidence effectively.",
-      "summary": "本文对生物医学问答中的RAG技术进行了大规模系统性研究，发现RAG仅带来微小且不一致的提升，骨干模型的影响远大于检索组件。研究指出，当前系统的主要瓶颈在于模型有效利用检索证据的能力不足，而非检索质量，这对盲目依赖RAG的行业现状提出了重要警示。",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "twentyhq-twenty_7.8_2026-06-20.md",
+      "source_type": "github",
+      "description": "The open alternative to Salesforce, designed for AI.",
+      "summary": "Twenty是一个定位为'AI驱动的Salesforce开源替代品'的CRM系统，基于TypeScript构建。项目在实用性方面表现突出，解决了中小企业对高性价比CRM系统的迫切需求，AI集成能力增强了产品竞争力。社区关注度极高（50K+ Stars），生态基础良好。技术层面虽非AI核心创新，但在AI应用整合和开源CRM领域具有重要价值。适合寻求Salesforce替代方案的中小企业和关注开源CRM生态的开发者。",
       "tech_stack": [
-        "未标注"
+        "TypeScript"
       ],
-      "link": "https://arxiv.org/abs/2606.04127",
+      "link": "https://github.com/twentyhq/twenty",
       "analysis": {
         "tech": {
-          "score": 8.5,
-          "summary": "研究通过大规模系统性实验（5个模型、10个数据集、4种检索方法和4个语料库）挑战了RAG在生物医学问答中普遍有效的假设。发现RAG仅带来1-2分的微小且不一致的提升，骨干模型的选择影响远大于检索组件，且专业与业余检索源效果相当。核心洞见在于瓶颈在于模型有效利用检索证据的能力不足，而非检索质量本身，论证严谨且具有反直觉的启发性。"
+          "score": 6.5,
+          "summary": "Twenty是一个基于TypeScript开发的开源CRM系统，定位为Salesforce的开源替代品。技术架构采用现代Web技术栈，'designed for AI'的设计理念表明其具备AI集成能力，可能支持AI辅助的数据分析、客户洞察等功能。然而，项目核心仍是CRM业务系统，在AI算法或模型层面的创新性有限，更多是AI应用层面的整合而非底层技术突破。"
         },
         "utility": {
-          "score": 7.5,
-          "summary": "对医疗AI从业者具有重要参考价值，提示在医疗等高风险场景不应盲目依赖RAG来解决事实错误问题。实践指导意义在于：优化基座模型的选择和提升其利用外部证据的能力，比单纯优化检索器或语料库的投入产出比更高。但论文主要揭示问题，未提供解决模型利用能力不足的具体工程方案，落地指导略有局限。"
+          "score": 8.5,
+          "summary": "作为Salesforce的开源替代品，Twenty具有极高的实用价值。Salesforce昂贵的 licensing 费用一直是中小企业的痛点，Twenty提供了免费开源的选择。CRM是企业核心业务系统，市场需求巨大。AI增强功能可以提升销售效率、客户管理和数据分析能力，对中小企业尤其有吸引力。50K+的Stars也证明了市场对这类工具的强烈需求。"
         },
         "community": {
-          "score": 8.0,
-          "summary": "话题极具时效性和争议性，直击当前大模型应用最广泛的RAG技术痛点。arXiv预印本，来源可信。挑战了“RAG包治百病”的行业共识，在AI和医疗信息学社区极易引发关注和讨论，具有较高的影响力潜力。"
+          "score": 8.5,
+          "summary": "项目获得50790 Stars和7407 Forks，显示出极高的社区关注度和参与度，属于GitHub上最热门的项目之一。这一数据表明社区对该项目的高度认可和期待。不过今日Stars为0可能暗示项目处于稳定期或近期更新较少，需要关注长期维护的持续性。整体而言，社区生态活跃，贡献者基础扎实。"
         }
       }
     },
@@ -9561,81 +9302,6 @@
       }
     },
     {
-      "name": "Expert-Aware Refusal Steering",
-      "score": 7.8,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "MoE",
-        "安全对齐",
-        "机制可解释性",
-        "论文"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Expert-Aware-Refusal-Steering_7.8_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04160v1 Announce Type: new Abstract: Safety alignment in instruction-tuned large language models (LLMs) depends on a model's ability to reliably refuse to respond to harmful or disallowed requests. Recent work has shown that a steering vector can be applied to a dense LLM during inference to effectively suppress refusal behavior, inducing response to harmful requests. We extend this refusal steering method to three open-source Mixture-of-Experts (MoE) LLMs and find that steering performance is uninhibited by the complex routing patterns inherent to the MoE architecture. We then propose two expert-aware refusal steering methods that leverage refusal-specific expert routing patterns and expert-specific steering directions to suppress normal refusal behavior. We find that refusal behavior can be effectively steered based on the output of a single expert. Our results show that refusal signals captured by steering methods differ from expert routing behavior, suggesting a substantial role for attention in MoE refusal behavior.",
-      "summary": "本文将大模型的拒绝行为引导技术扩展至MoE架构，提出了两种专家感知的拒绝引导方法。研究发现MoE的路由模式并未阻碍引导效果，且拒绝行为可由单一专家输出控制，同时揭示了注意力机制在MoE拒绝行为中的关键作用，为MoE模型的安全对齐与红队测试提供了重要洞见。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04160",
-      "analysis": {
-        "tech": {
-          "score": 8.0,
-          "summary": "将拒绝引导方法从稠密大模型扩展至MoE架构，提出了两种利用拒绝特定路由模式和专家特定引导方向的专家感知方法。研究发现MoE复杂的路由模式并未阻碍引导效果，且拒绝行为可基于单一专家输出被有效引导，揭示了注意力机制而非路由在MoE拒绝行为中的重要作用，具有较高的机制可解释性研究深度。"
-        },
-        "utility": {
-          "score": 7.0,
-          "summary": "对AI安全红队测试和MoE模型的对齐加固具有直接参考价值。通过揭示单一专家即可控制拒绝行为以及注意力机制的作用，为开发更鲁棒的MoE安全对齐策略提供了明确的切入点，但主要面向安全研究人员，普通开发者落地场景较窄。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "紧扣当前大模型领域的两大热点：MoE架构与安全对齐。随着MoE模型的广泛普及，其特有的安全漏洞与机制研究极具时效性和关注度。arXiv论文来源可信，对社区理解并防御MoE模型的安全风险有较好的启发意义和影响力。"
-        }
-      }
-    },
-    {
-      "name": "OpenMOSS/MOSS-TTS",
-      "score": 7.8,
-      "status": "正常",
-      "tags": [
-        "深度学习",
-        "语音合成",
-        "多模态",
-        "语音生成",
-        "音效生成",
-        "虚拟人",
-        "高质量",
-        "功能丰富"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "OpenMOSS-MOSS-TTS_7.8_2026-06-04.md",
-      "source_type": "github",
-      "description": "MOSS‑TTS Family is an open‑source speech and sound generation model family from MOSI.AI and the OpenMOSS team. It is designed for high‑fidelity, high‑expressiveness, and complex real‑world scenarios, covering stable long‑form speech, multi‑speaker dialogue, voice/character design, environmental sound effects, and real‑time streaming TTS.",
-      "summary": "",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/OpenMOSS/MOSS-TTS",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "MOSS-TTS 在技术层面展现了较高的先进性，其不仅局限于基础的文本转语音，而是针对复杂现实场景进行了深度优化。项目攻克了长篇语音合成的稳定性、多说话人对话的连贯性、声音与角色定制化设计以及实时流式输出等当前TTS领域的技术难点，并扩展至环境音效生成，架构设计全面且前沿。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "项目具有极高的实用价值。高保真、高表现力和实时流式输出是语音交互落地的核心痛点，MOSS-TTS 对这些特性的支持使其能够无缝接入虚拟人、有声书、游戏配音、智能客服等实际业务场景。多说话人对话和音效生成能力进一步拓宽了其应用边界，极大地提升了开发者的集成效率。"
-        },
-        "community": {
-          "score": 6.5,
-          "summary": "项目目前拥有近3000个Star和200多个Fork，表明其已获得一定的开源社区关注和认可。但相比于同领域的头部开源TTS项目，其社区规模和参与度仍有提升空间，且近期Star增长趋缓，生态丰富度和社区贡献活力需进一步加强以维持长期发展。"
-        }
-      }
-    },
-    {
       "name": "Ensembles of Large Language Models for Identifying EQ-5D Studies in PubMed Based on Their Abstracts",
       "score": 7.7,
       "status": "正常",
@@ -9668,42 +9334,6 @@
         "community": {
           "score": 7.5,
           "summary": "利用LLM自动化文献筛选是当前医疗AI与NLP交叉领域的热点，时效性强。研究基于专家人工标注的PubMed数据集进行验证，来源与结论可信度较高。使用了较新的模型系列（如gemini-2.5-pro和gemma-3系列），贴合前沿，但作为arXiv预印本，其学术影响力的沉淀仍需同行评审和社区引用的进一步检验。"
-        }
-      }
-    },
-    {
-      "name": "Hidden Anchors in Multi-Agent LLM Deliberation",
-      "score": 7.7,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "Agent",
-        "多智能体",
-        "推理",
-        "论文"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Hidden-Anchors-in-Multi-Agent-LLM-Deliberation_7.7_2026-06-19.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.19494v1 Announce Type: new Abstract: Multi-agent LLM deliberation, where agents exchange and revise answers over several rounds, is increasingly used to improve reasoning and accuracy, yet how and why it works is rarely modelled. Such deliberation mirrors how humans reach decisions. As social animals we are pulled both by the group, the herd effect that classical opinion-dynamics models such as DeGroot and Friedkin--Johnsen capture, and by our own internal belief, which they do not. We model multi-agent deliberation as a closed-loop dynamical system in which each agent carries a hidden internal belief, its anchor, that continually pulls its opinion regardless of its neighbours. We show this anchor can be recovered from the deliberation alone, and that it explains a behaviour classical consensus rules forbid: an agent's confidence in the correct answer can climb past where any agent started, escaping the space (convexhull) formed by the initial beliefs. Checking whether the recovered anchor also predicts held-out runs (generalizes) gives a simple test for when a model is truly driven bysuch an anchor. Across three open-weight model families this is a spectrum, not all-or-nothing. All anchors' influence are about equally strongly, but they differ in where the anchor sits, and only when it sits far from the initial opinions does deliberation escape the hull and need the full closed-loop model.",
-      "summary": "本文提出将多智能体LLM审议建模为带有“隐藏锚点”（内部信念）的闭环动力系统，突破了经典共识模型无法解释智能体置信度逃逸初始凸包的局限。研究证明该锚点可从审议过程中恢复，且其位置决定了审议是否能产生超越初始状态的涌现，为理解和评估多智能体LLM系统的决策机制提供了全新理论框架。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.19494",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "将多智能体LLM审议建模为带有隐藏内部信念（锚点）的闭环动力系统，突破了经典DeGroot等共识模型无法解释智能体置信度超越初始凸包的局限。研究不仅从数学动力系统角度严谨论证了该机制，还提出了锚点恢复算法及泛化测试方法，理论深度与新颖性极高。"
-        },
-        "utility": {
-          "score": 6.5,
-          "summary": "研究偏向底层机制解释，直接工程落地性有限。但其提出的'锚点恢复'和'泛化测试'方法，可为多智能体系统的行为评估、调试和架构设计提供理论指导，帮助从业者判断多智能体审议结果的有效性与可靠性，避免盲目依赖多智能体投票。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "多智能体LLM交互与涌现是当前AI领域的前沿热点，该研究紧扣时效；arXiv预印本具备学术规范，其突破经典共识模型的观点有望引发社区对多智能体协同机制的深入探讨与验证。"
         }
       }
     },
@@ -10069,152 +9699,6 @@
         "community": {
           "score": 7.5,
           "summary": "扩散模型在推理和离散搜索领域的应用是当前学术界的前沿探索方向，该工作具有较好的时效性。论文来自arXiv，并附有开源代码，可复现性较强；在极具挑战性的Royle 17-clue基准测试上展现了显著优于传统启发式基线的表现，证明了其在困难实例上的有效性，具备一定的学术影响力和社区关注度潜力。"
-        }
-      }
-    },
-    {
-      "name": "Cross-Prompt Generalization in Detecting AI-Generated Fake News Using Interpretable Linguistic Features",
-      "score": 7.7,
-      "status": "正常",
-      "tags": [
-        "AI检测",
-        "虚假新闻",
-        "大模型",
-        "泛化性",
-        "论文"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Cross-Prompt-Generalization-in-Detecting-AI-Generated-Fake-News-Using-Interpreta_7.7_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04199v1 Announce Type: new Abstract: The increasing use of large language models has raised concerns about the spread of AI-generated fake news, particularly under varying prompting strategies. Most existing detection models are trained and evaluated under a single generation setting, leaving their ability to generalize across unseen prompts unclear. In this study, we investigate cross-prompt generalization in fake news detection using three datasets of AI-generated articles produced under distinct prompts, combined with real news articles. We extract interpretable linguistic features capturing lexical diversity, readability, and emotion-based characteristics and evaluate a random forest classifier under a cross-prompt framework, where models trained on one prompt are tested on another. Across all six train-test combinations, performance remains consistently high, with AUC values ranging from 0.988 to 1.000. Analysis of feature distributions shows that AI-generated text exhibits increased lexical diversity, reduced readability, and substantially lower emotional intensity compared to the overall dataset, with variations across prompts. Despite these distributional shifts, the classifier maintains strong performance, indicating that these features capture stable properties of AI-generated text that generalize across prompting strategies. These findings suggest that feature-based approaches can provide robust detection of AI-generated fake news under prompt variability.",
-      "summary": "",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04199",
-      "analysis": {
-        "tech": {
-          "score": 7.0,
-          "summary": "研究聚焦于AI生成虚假新闻检测中的跨提示泛化问题。采用可解释的语言特征（词汇多样性、可读性、情感）结合随机森林分类器，发现AI文本具有词汇多样性高、可读性低和情感强度低的特点。尽管不同提示下特征分布存在偏移，但模型在六种跨提示组合中仍保持0.988-1.000的极高AUC，证明了这些特征的跨提示稳定性。方法相对传统，但实验设计严谨，结论明确。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "对从业者具有较高参考价值。基于可解释特征和随机森林的方案轻量且易于部署，相比大型神经网络检测器成本更低且可解释性更强。跨提示泛化能力的验证解决了实际应用中提示策略多变的痛点，为构建鲁棒、低延迟的AI生成内容检测系统提供了切实可行的工程实践方向。"
-        },
-        "community": {
-          "score": 7.5,
-          "summary": "选题紧扣当前大模型滥用和虚假信息传播的社会热点，具有极高的时效性和现实意义。作为arXiv预印本，其学术规范可信度良好。虽然极端的AUC数值可能引发对数据集难度和边界条件的讨论，但其对跨提示泛化性的关注填补了现有检测模型评估的空白，有望引起AI安全和内容风控领域的广泛关注。"
-        }
-      }
-    },
-    {
-      "name": "nesquena/hermes-webui",
-      "score": 7.7,
-      "status": "正常",
-      "tags": [
-        "LLM",
-        "Web开发",
-        "聊天机器人",
-        "用户界面",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "nesquena-hermes-webui_7.7_2026-06-04.md",
-      "source_type": "github",
-      "description": "Hermes WebUI: The best way to use Hermes Agent from the web or from your phone!",
-      "summary": "",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/nesquena/hermes-webui",
-      "analysis": {
-        "tech": {
-          "score": 6.5,
-          "summary": "项目主要侧重于工程实现与系统集成，将Hermes Agent大语言模型的能力通过Web和移动端界面呈现。技术架构上采用Python后端配合响应式前端设计，保证了跨平台的兼容性，但在AI底层算法或模型架构上并无原创性突破，技术先进性主要体现在良好的系统封装与交互设计上。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "实用性极高。它解决了普通用户难以便捷使用Hermes Agent的痛点，支持网页和手机访问大大降低了使用门槛，提供了直观的对话交互界面，对于希望快速部署和体验大模型的个人或企业具有很高的应用价值。"
-        },
-        "community": {
-          "score": 8.0,
-          "summary": "社区活跃度较高，拥有超过1.3万的Stars和近1.6千的Forks，表明项目受到了广泛的关注和认可。不过今日Stars增长为0，可能意味着项目已进入成熟稳定期或当前处于维护状态，整体生态和社区基础依然扎实。"
-        }
-      }
-    },
-    {
-      "name": "ogulcancelik/herdr",
-      "score": 7.7,
-      "status": "正常",
-      "tags": [
-        "Rust",
-        "AI Agent",
-        "终端工具",
-        "Agent管理",
-        "高性能",
-        "开发者友好"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "ogulcancelik-herdr_7.7_2026-06-04.md",
-      "source_type": "github",
-      "description": "agent multiplexer that lives in your terminal.",
-      "summary": "",
-      "tech_stack": [
-        "Rust"
-      ],
-      "link": "https://github.com/ogulcancelik/herdr",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "项目采用 Rust 语言构建，在系统架构上具有天然的内存安全和高并发处理优势，非常适合构建底层的终端工具。'Agent Multiplexer' 的概念将终端复用器（类似 tmux）的设计思想引入 AI Agent 管理中，在多 Agent 并发调度和会话隔离的工程实现上具有创新性，但在核心 AI 算法层面并无突破。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "实用性极高。随着 AI Agent 的普及，开发者面临在多个 Agent 和会话之间频繁切换的痛点。该项目将 Agent 管理带入开发者最熟悉的终端环境，实现了轻量级、低延迟的多路复用体验，极大地提升了开发者与多个 AI 交互的效率，直击实际工作流痛点。"
-        },
-        "community": {
-          "score": 7.0,
-          "summary": "项目获得了 4149 个 Stars 和 260 个 Forks，对于一款相对硬核的终端开发者工具而言，表现相当出色，说明社区对该方向有强烈的认可和需求。但今日 Stars 增长为 0，可能意味着项目已度过初期的爆发期或近期迭代有所放缓，生态和长期活跃度仍需进一步观察。"
-        }
-      }
-    },
-    {
-      "name": "Migrating Your GitHub CI to Hugging Face Jobs",
-      "score": 7.5,
-      "status": "正常",
-      "tags": [
-        "MLOps",
-        "Hugging Face",
-        "CI/CD",
-        "工程实践",
-        "博客"
-      ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "Migrating-Your-GitHub-CI-to-Hugging-Face-Jobs_7.5_2026-06-19.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文是一篇发布于Hugging Face官方博客的工程实践指南，详细介绍了如何将现有的GitHub CI工作流迁移至Hugging Face Jobs。文章为AI开发者提供了清晰的操作步骤，有助于他们更好地利用HF生态进行自动化模型训练与部署，具有很高的实操价值和社区时效性。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/github-ci-hf-jobs",
-      "analysis": {
-        "tech": {
-          "score": 5.0,
-          "summary": "文章主要介绍如何将GitHub CI流程迁移至Hugging Face Jobs，属于平台工具的工程实践指南，技术深度一般，无底层算法或理论创新，但针对特定平台工具的迁移方案具有一定的针对性和完整性。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "对使用Hugging Face生态进行模型开发、训练和部署的工程师具有极高的实操价值，提供了明确的迁移路径和操作步骤，可落地性极强，适用范围覆盖所有需要优化AI开发工作流的HF用户。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "来源为Hugging Face官方博客，权威性与可信度极高；HF Jobs作为平台新特性，话题时效性强，且对开源AI社区的开发者工作流有直接且广泛的影响。"
         }
       }
     },
@@ -11427,97 +10911,23 @@
       }
     },
     {
-      "name": "ACAT: A Collaborative Platform for Efficient Aspect-Based Sentiment Dataset Annotation",
-      "score": 7.0,
-      "status": "正常",
-      "tags": [
-        "ABSA",
-        "数据标注",
-        "NLP",
-        "情感分析",
-        "论文",
-        "工程实践",
-        "工具"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "ACAT--A-Collaborative-Platform-for-Efficient-Aspect-Based-Sentiment-Dataset-Anno_7.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04189v1 Announce Type: new Abstract: Aspect-Based Sentiment Analysis (ABSA) requires high-quality datasets to train reliable models. However, existing annotation tools treat output as flat files, leaving researchers to manually consolidate multi-annotator data, reconstruct relational structures, and compute reliability metrics through custom scripts. This paper introduces ACAT (Aspect-based sentiment analysis Collaborative Annotation Tool), a web-based platform natively supporting four ABSA workflows: (1) Aspect-Category Sentiment Analysis, (2) Clause-Level Segmentation, (3) Aspect-Term Sentiment Analysis with character-level position tracking, and (4) Aspect Sentiment Triplet Extraction with dual span offset preservation. Its core contribution is an automated Extract, Transform, Load (ETL) pipeline that aligns collaborative annotations and computes Inter-Annotator Agreement (IAA) metrics directly at export, yielding training-ready datasets. In a preliminary validation on 1,002 restaurant reviews with two annotators of differing expertise, ACAT achieves a median annotation time of 31.58 seconds and a raw IAA ranging from 0.78 to 0.86 across all tasks.",
-      "summary": "本文介绍了ACAT，一个基于Web的ABSA协同标注平台，原生支持四种ABSA工作流。其核心贡献是开发了自动化ETL管道，能够对齐多标注者数据并自动计算IAA指标，直接输出可用于模型训练的数据集。初步验证表明，该工具在保证较高标注一致性（0.78-0.86）的同时有效提升了标注效率，对ABSA数据构建具有较高实用价值。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04189",
-      "analysis": {
-        "tech": {
-          "score": 6.5,
-          "summary": "ACAT在技术深度上偏向工程实现与系统集成，核心创新在于将多标注者的协同标注、ETL数据对齐与IAA一致性计算自动化，解决了传统ABSA标注中需手动合并与计算指标的痛点。虽未提出突破性的底层算法或理论，但对ABSA数据构建流程的系统性优化具有较好的严谨性和工程深度。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "对NLP从业者和ABSA研究者具有极高的实用价值。平台原生支持四种主流ABSA任务，自动化ETL管道和IAA计算极大降低了数据清洗和评估门槛，直接输出训练就绪的数据集，能显著提升数据标注的效率和质量控制水平，适用范围明确且落地性强。"
-        },
-        "community": {
-          "score": 6.0,
-          "summary": "ABSA数据标注是NLP领域的持续需求，该工具具有较好的时效性。但来源为arXiv预印本，且初步验证规模较小（仅2名标注者，1002条数据），缺乏大规模、多标注者场景的充分验证，来源权威性与社区影响力目前处于中等偏上水平。"
-        }
-      }
-    },
-    {
-      "name": "Computational conceptual history of scientific concepts: From early digital methods to LLMs",
-      "score": 7.0,
-      "status": "正常",
-      "tags": [
-        "大模型",
-        "数字人文",
-        "科学史",
-        "词汇语义变化",
-        "计算社会科学",
-        "综述"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Computational-conceptual-history-of-scientific-concepts--From-early-digital-meth_7.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04118v1 Announce Type: new Abstract: This article situates large language models (LLMs) within the longer history of computational approaches to concept analysis in the history, philosophy, and sociology of science (HPSS). We examine what LLMs add to existing methods, how they inherit longstanding problems, and review recent case studies that employ them. In the first part, we reconstruct computational conceptual history before LLMs by bringing together three strands of work: early digital methods in HPSS, distributional approaches from digital history and related research, and lexical semantic change detection. We provide an overview of the main challenges and opportunities, focusing on corpus construction, operationalization and modelling choices, and evaluation and interpretation. In the second part, we turn to the era of LLMs, starting with a short introduction to LLMs before reviewing LLM-based work on lexical semantic change detection and relevant case studies in HPSS. We then revisit the earlier methodological questions, showing how issues of corpus construction, model choice and training data, operationalization trade-offs, and evaluation and interpretation play out in LLM-based workflows.",
-      "summary": "本文综述了科学史、哲学与社会学（HPSS）领域中概念分析计算方法的发展历程，重点对比了LLM时代前后的方法论差异。文章不仅回顾了早期数字方法、分布方法和词汇语义变化检测，还深入分析了LLM在语料库构建、模型选择、操作化及评估解释等环节带来的新机遇与继承的旧问题，为数字人文与计算社会科学研究者提供了系统的方法论反思与指导。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04118",
-      "analysis": {
-        "tech": {
-          "score": 8.0,
-          "summary": "系统梳理了科学史、哲学与社会学（HPSS）领域中概念分析计算方法的演进，从早期数字方法到LLMs，深入探讨了语料库构建、操作化建模及评估解释等核心方法论问题，展现了较强的跨学科研究深度与反思洞见。"
-        },
-        "utility": {
-          "score": 5.5,
-          "summary": "主要为数字人文、计算社会科学及科学史领域的研究者提供方法论指导与文献参考，帮助其理解LLM在词汇语义变化检测等工作流中的适用性与权衡，但对通用AI工程实践的落地指导价值有限。"
-        },
-        "community": {
-          "score": 7.5,
-          "summary": "紧扣LLM在跨学科研究中的应用热点，时效性强；依托arXiv平台发布，梳理了从传统方法到前沿LLM的完整脉络，对数字人文与计算社会科学社区具有较高的参考价值和可信度。"
-        }
-      }
-    },
-    {
       "name": "palmier-io/palmier-pro",
       "score": 6.8,
       "status": "正常",
       "tags": [
         "CV",
+        "多模态",
         "视频编辑",
-        "macOS应用",
+        "内容创作",
         "原生应用",
-        "实用工具"
+        "高质量"
       ],
-      "date": "2026-06-19",
-      "date_dir": "2026-06-19",
-      "filename": "palmier-io-palmier-pro_6.8_2026-06-19.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "palmier-io-palmier-pro_6.8_2026-06-20.md",
       "source_type": "github",
       "description": "macOS video editor built for AI",
-      "summary": "Palmier Pro是一款专为macOS打造的AI视频编辑器，通过集成AI技术简化视频剪辑流程。项目在实用性上表现突出，能够满足内容创作者的提效需求，但在技术突破和社区长期活跃度上仍有提升空间。",
+      "summary": "Palmier Pro是一款专为macOS设计的AI原生视频编辑器，通过集成AI功能简化了视频创作流程，对内容创作者极具实用价值，但在底层AI算法上无重大突破，社区活跃度表现中规中矩。",
       "tech_stack": [
         "Swift"
       ],
@@ -11525,15 +10935,15 @@
       "analysis": {
         "tech": {
           "score": 6.5,
-          "summary": "项目使用Swift开发macOS原生视频编辑器，并集成了AI功能。技术栈符合macOS生态，AI集成提升了编辑效率，但缺乏底层算法的突破性创新，主要偏向应用层的技术整合。"
+          "summary": "项目采用Swift开发，提供原生macOS体验，技术亮点在于将AI能力（如智能剪辑、语音识别、自动处理等）深度集成到视频编辑工作流中。但其核心更偏向应用层工程架构与API集成，而非底层AI算法的创新。"
         },
         "utility": {
           "score": 8.0,
-          "summary": "针对macOS用户的AI视频编辑工具，能够有效降低视频剪辑的门槛，提升创作者的效率。视频编辑结合AI是当前的高频需求，实用性较高。"
+          "summary": "针对macOS用户提供了AI驱动的视频编辑体验，极大降低了视频剪辑的门槛，对于自媒体和内容创作者具有很高的实际应用价值，原生应用通常也能提供更流畅的操作体验。"
         },
         "community": {
           "score": 6.0,
-          "summary": "项目获得了1700+的星标和一定数量的Fork，说明受到了部分开发者和用户的关注。但近期星标增长停滞，社区活跃度有待提升。"
+          "summary": "项目获得了3000+星和200+fork，显示出一定的用户关注度。但近期Star增长停滞（今日0星），且作为桌面端应用，社区代码贡献和生态扩展相对有限，主要依赖核心团队维护。"
         }
       }
     },
@@ -11972,42 +11382,6 @@
       }
     },
     {
-      "name": "hardikpandya/stop-slop",
-      "score": 6.2,
-      "status": "正常",
-      "tags": [
-        "提示词工程",
-        "文本处理",
-        "写作助手",
-        "高热度",
-        "痛点解决"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "hardikpandya-stop-slop_6.2_2026-06-04.md",
-      "source_type": "github",
-      "description": "A skill file for removing AI tells from prose",
-      "summary": "",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://github.com/hardikpandya/stop-slop",
-      "analysis": {
-        "tech": {
-          "score": 2.5,
-          "summary": "项目本质为提示词工程或特定AI工具的配置文件，不涉及底层算法、模型架构或复杂系统设计，技术门槛较低。其核心价值在于对AI生成文本常见特征词和套路的经验性总结，缺乏技术深度与创新。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "直击当前AI辅助写作的核心痛点——'AI味'过重。通过移除如'delve'、'tapestry'等AI高频套话，能显著提升生成文本的自然度和人类真实感。对于内容创作者、文案人员和开发者而言，具有极高的实际应用价值和立竿见影的效果。"
-        },
-        "community": {
-          "score": 7.5,
-          "summary": "项目获得了超过8500个Star和近600个Fork，显示出社区对该痛点的高度共鸣和极大关注。但作为轻量级的配置/技能文件，其持续迭代的代码需求较低，长期维护和深度生态建设的活跃度相对有限，属于高热度但低交互的项目类型。"
-        }
-      }
-    },
-    {
       "name": "Show HN: A big tech dev experience for an open source CMS",
       "score": 6.0,
       "status": "正常",
@@ -12190,37 +11564,36 @@
     },
     {
       "name": "owainlewis/awesome-artificial-intelligence",
-      "score": 5.2,
+      "score": 4.7,
       "status": "待复核",
       "tags": [
-        "人工智能",
         "学习资源",
         "知识库",
-        "精选",
+        "精选列表",
         "高Star"
       ],
-      "date": "2026-06-18",
-      "date_dir": "2026-06-18",
-      "filename": "owainlewis-awesome-artificial-intelligence_5.2_2026-06-18.md",
+      "date": "2026-06-20",
+      "date_dir": "2026-06-20",
+      "filename": "owainlewis-awesome-artificial-intelligence_4.7_2026-06-20.md",
       "source_type": "github",
       "description": "A curated list of Artificial Intelligence (AI) courses, books, video lectures and papers.",
-      "summary": "这是一个高人气的AI领域精选资源列表，汇集了丰富的课程、书籍、视频和论文链接。项目本身无技术创新，但作为学习导航和资料索引具有极高的参考价值。社区关注度高但维护频率较低，适合作为AI学习的辅助书签。",
+      "summary": "一个高人气的AI学习资源精选列表，收录了大量优质的课程、书籍、视频和论文。虽然不具备技术实现和创新，但作为知识导航工具极具参考价值，适合AI初学者和进阶者系统学习使用。",
       "tech_stack": [
         "未标注"
       ],
       "link": "https://github.com/owainlewis/awesome-artificial-intelligence",
       "analysis": {
         "tech": {
-          "score": 2.0,
-          "summary": "该项目为纯资源汇总列表（Awesome List），本身不包含任何代码实现、算法设计或架构创新，技术先进性极低，仅体现了信息检索与分类整理的能力。"
+          "score": 1.0,
+          "summary": "该项目是一个纯粹的AI学习资源汇总列表（Awesome List），本身不包含任何代码实现、算法设计或架构创新，技术先进性极低。"
         },
         "utility": {
-          "score": 7.5,
-          "summary": "作为AI领域的精选资源库，汇集了课程、书籍、视频和论文，为初学者入门和研究人员查阅文献提供了极大的便利，具有很高的参考和导航价值。但由于仅提供链接而无实际工具功能，实用性上限受限。"
+          "score": 7.0,
+          "summary": "作为学习导航工具具有很高的实用价值，为AI初学者和研究者精选了课程、书籍、视频和论文，极大降低了信息检索成本，但缺乏直接解决工程问题的工具属性。"
         },
         "community": {
           "score": 6.0,
-          "summary": "项目获得了超过1.4万的Star和两千多的Fork，说明受众广、关注度高。但作为资源列表，其维护主要依赖不定期的PR补充，今日Star增量为0，缺乏活跃的代码迭代和社区讨论，属于低频维护项目。"
+          "summary": "项目累计获得了超过1.4万的Star和两千多的Fork，说明历史上受到了广泛的关注和认可；但今日Star增长为0，可能意味着项目近期维护活跃度下降或进入停滞期。"
         }
       }
     },
@@ -12511,233 +11884,41 @@
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2606.04244"
         }
       }
-    },
-    {
-      "name": "A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "A-Systematic-Analysis-of-Linguistic-Features-in-AI-Generated-Text-Detection-Acro_0.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04177v1 Announce Type: new Abstract: Interpretable linguistic features offer a promising approach for explaining why a given text appears machine-generated, particularly for non-expert users. However, existing findings on which features reliably indicate LLM-generated text remain fragmented across feature sets, models, and text domains. To address this gap, we conduct a large-scale empirical study assessing the robustness of linguistic signals for characterizing AI-generated text. Our analysis covers 284 interpretable linguistic features across outputs from 27 LLMs and ten text domains under cross-model and cross-domain generalization settings. We show that classifiers based solely on linguistic features can reliably distinguish AI-generated from human-written text. However, many previously proposed indicators prove strongly context-dependent, with the exception of measures of lexical richness, which remain robust signals across model families and text domains. These results demonstrate which linguistic signals generalize across contexts and provide a foundation for more reliable, interpretable analyses of AI-generated language.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04177",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2606.04177"
-        }
-      }
-    },
-    {
-      "name": "MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "MM-BizRAG--Rethinking-Multimodal-Retrieval-Augmented-Generation-for-General-Purp_0.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04231v1 Announce Type: new Abstract: Recent advances in multimodal retrieval-augmented generation (MM-RAG) have shifted toward minimal parsing, relying on page-level images for producing retriever embeddings and for answer generation. While efficient, this trend often neglects explicit handling of the rich, structured information in complex enterprise documents, instead depending on pre-trained embeddings or vision-language models to implicitly capture such structure. In this work, we take a more direct approach: MM-BizRAG proactively extracts and represents document structure via a document structure-aware split that dynamically routes documents through orientation-specific ingestion pipelines, applying explicit layout-aware parsing for vertically structured documents (e.g., reports) and holistic page-level representations for horizontally structured documents (e.g., slide decks). A unified LLM-driven artifact transformation pipeline with placeholder-based positional alignment preserves natural reading order, while inference-time multimodal assembly decouples retrieval representations from generation context, enabling richer, more grounded answers without any finetuning requirement. Through experiments on a large, heterogeneous enterprise dataset and two public benchmarks (SlideVQA and FinRAGBench-V), MM-BizRAG consistently outperforms state-of-the-art vision-centric baselines by up to 32% points, with especially strong gains on report-style layouts. Furthermore, we introduce FastRAGEval, a single-call LLM Judge metric for fine-grained generative recall that halves RAGChecker's cost while achieving stronger human alignment.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04231",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2606.04231"
-        }
-      }
-    },
-    {
-      "name": "Open-LLM-VTuber/Open-LLM-VTuber",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Open-LLM-VTuber-Open-LLM-VTuber_0.0_2026-06-04.md",
-      "source_type": "github",
-      "description": "Talk to any LLM with hands-free voice interaction, voice interruption, and Live2D taking face running locally across platforms",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/Open-LLM-VTuber/Open-LLM-VTuber",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/Open-LLM-VTuber/Open-LLM-VTuber"
-        }
-      }
-    },
-    {
-      "name": "SaliMory: Orchestrating Cognitive Memory for Conversational Agents",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "SaliMory--Orchestrating-Cognitive-Memory-for-Conversational-Agents_0.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "arXiv:2606.04120v1 Announce Type: new Abstract: Conversational agents that serve as lifelong companions must maintain persistent memory across all interactions. However, simply expanding context windows with raw retrieval degrades reasoning quality, while training memory agents via standard reinforcement learning creates a severe credit assignment bottleneck in a multi-stage pipeline. To solve this, we introduce SALIMORY, a framework that trains a single language model to manage a cognitively-structured memory-spanning user facts, preferences, and working memory. By introducing a hierarchical stage-wise process reward and reward-decomposed contrastive refinement, SALIMORY provides isolated supervision for distinct memory operations (selective filtering, consolidation, and cue-driven recall) end-to-end. SALIMORY cuts memory-attributed failures by one-third, outperforms the state-of-the-art by over 10% in end-to-end accuracy, and more than doubles the Good Personalization rate.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2606.04120",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2606.04120"
-        }
-      }
-    },
-    {
-      "name": "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "Shipping-a-Trillion-Parameters-With-a-Hub-Bucket--Delta-Weight-Sync-in-TRL_0.0_2026-06-04.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/delta-weight-sync",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://huggingface.co/blog/delta-weight-sync"
-        }
-      }
-    },
-    {
-      "name": "colbymchenry/codegraph",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "colbymchenry-codegraph_0.0_2026-06-04.md",
-      "source_type": "github",
-      "description": "Pre-indexed code knowledge graph for Claude Code, Codex, Gemini, Cursor, OpenCode, AntiGravity, Kiro, and Hermes Agent — fewer tokens, fewer tool calls, 100% local",
-      "summary": "",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/colbymchenry/codegraph",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/colbymchenry/codegraph"
-        }
-      }
-    },
-    {
-      "name": "revfactory/harness",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-06-04",
-      "date_dir": "2026-06-04",
-      "filename": "revfactory-harness_0.0_2026-06-04.md",
-      "source_type": "github",
-      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
-      "summary": "",
-      "tech_stack": [
-        "HTML"
-      ],
-      "link": "https://github.com/revfactory/harness",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/revfactory/harness"
-        }
-      }
     }
   ],
   "projects_by_date": {
+    "2026-06-20": [
+      "Agentic Resource Discovery: Let agents search",
+      "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "DeXposure-Claw: An Agentic System for DeFi Risk Supervision",
+      "Deontic Policies for Runtime Governance of Agentic AI Systems",
+      "Diffusion Language Models: An Experimental Analysis",
+      "Emergent Alignment",
+      "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "GLM-5.2: Built for Long-Horizon Tasks",
+      "Hidden Anchors in Multi-Agent LLM Deliberation",
+      "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
+      "ITNet: A Learnable Integral Transform That Subsumes Convolution, Attention, and Recurrence",
+      "Is it agentic enough? Benchmarking open models on your own tooling",
+      "Kilo-Org/kilocode",
+      "LLM Doesn't Know What It Doesn't Know: Detecting Epistemic Blind Spots via Cross-Model Attribution Divergence on Clinical Tabular Data",
+      "Measuring Curriculum Alignment across Topical Coverage, Competency, and Cognitive Depth: A Longitudinal Framework Applied to CS2013 and CS2023",
+      "Migrating Your GitHub CI to Hugging Face Jobs",
+      "MolmoMotion: Language-guided 3D motion forecasting",
+      "MosaicLeaks: Can your research agent keep a secret?",
+      "Profiling in PyTorch (Part 2): From nn.Linear to a Fused MLP",
+      "REVEAL++: Differentiable Phenotypic Grouping for Vision-Language Retinal Modeling of Alzheimer's Disease Risk",
+      "Uncertainty Decomposition for Clarification Seeking in LLM Agents",
+      "calesthio/OpenMontage",
+      "chopratejas/headroom",
+      "google-research/timesfm",
+      "jamiepine/voicebox",
+      "mattpocock/skills",
+      "owainlewis/awesome-artificial-intelligence",
+      "palmier-io/palmier-pro",
+      "twentyhq/twenty",
+      "withastro/flue"
+    ],
     "2026-06-19": [
       "Agentic Resource Discovery: Let agents search",
       "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
@@ -13536,175 +12717,6 @@
       "github/copilot-sdk",
       "harry0703/MoneyPrinterTurbo",
       "mvanhorn/last30days-skill"
-    ],
-    "2026-06-04": [
-      "A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models",
-      "A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models",
-      "A Systematic Analysis of Linguistic Features in AI-Generated Text Detection Across Domains and Models",
-      "ACAT: A Collaborative Platform for Efficient Aspect-Based Sentiment Dataset Annotation",
-      "ACAT: A Collaborative Platform for Efficient Aspect-Based Sentiment Dataset Annotation",
-      "Adding MCP Tools to Reachy Mini",
-      "Adding MCP Tools to Reachy Mini",
-      "Adding MCP Tools to Reachy Mini",
-      "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "Can Generalist Agents Automate Data Curation?",
-      "Can Generalist Agents Automate Data Curation?",
-      "Can Generalist Agents Automate Data Curation?",
-      "Characterizing initial human-AI proof formalization workflows",
-      "Characterizing initial human-AI proof formalization workflows",
-      "Computational conceptual history of scientific concepts: From early digital methods to LLMs",
-      "Computational conceptual history of scientific concepts: From early digital methods to LLMs",
-      "Consensus is Strategically Insufficient: Reasoning-Trace Disagreement as a Knowledge-Representation Signal",
-      "Cross-Prompt Generalization in Detecting AI-Generated Fake News Using Interpretable Linguistic Features",
-      "Cross-Prompt Generalization in Detecting AI-Generated Fake News Using Interpretable Linguistic Features",
-      "Cross-Prompt Generalization in Detecting AI-Generated Fake News Using Interpretable Linguistic Features",
-      "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "Direct Preference Optimization Beyond Chatbots",
-      "Direct Preference Optimization Beyond Chatbots",
-      "Discourse-Role Labels as Presentation-Time Variables for Context Use in Language Models",
-      "Discourse-Role Labels as Presentation-Time Variables for Context Use in Language Models",
-      "Discourse-Role Labels as Presentation-Time Variables for Context Use in Language Models",
-      "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "Expert-Aware Refusal Steering",
-      "Expert-Aware Refusal Steering",
-      "HKUDS/Vibe-Trading",
-      "HKUDS/Vibe-Trading",
-      "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "Harness, Scaffold, and the AI Agent Terms Worth Getting Right",
-      "Holo3.1: Fast & Local Computer Use Agents",
-      "Holo3.1: Fast & Local Computer Use Agents",
-      "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "Launch HN: Airweave (YC X25) – Let agents search any app",
-      "Launch HN: Airweave (YC X25) – Let agents search any app",
-      "Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking",
-      "Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking",
-      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
-      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
-      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
-      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
-      "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
-      "Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems",
-      "Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI",
-      "Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI",
-      "Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry",
-      "Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry",
-      "Leonxlnx/taste-skill",
-      "Leonxlnx/taste-skill",
-      "MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A",
-      "MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A",
-      "MM-BizRAG: Rethinking Multimodal Retrieval-Augmented Generation for General Purpose Enterprise Q&A",
-      "NVIDIA/cosmos",
-      "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "NousResearch/hermes-agent",
-      "NousResearch/hermes-agent",
-      "NousResearch/hermes-agent",
-      "NousResearch/hermes-agent",
-      "Open-LLM-VTuber/Open-LLM-VTuber",
-      "Open-LLM-VTuber/Open-LLM-VTuber",
-      "Open-LLM-VTuber/Open-LLM-VTuber",
-      "OpenMOSS/MOSS-TTS",
-      "POLARIS: Guiding Small Models to Write Long Stories",
-      "POLARIS: Guiding Small Models to Write Long Stories",
-      "PaddlePaddle/PaddleOCR",
-      "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-      "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-      "Reachy Mini goes fully local",
-      "Reachy Mini goes fully local",
-      "Reachy Mini goes fully local",
-      "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
-      "SMAC-Talk: A Natural Language Extension of the StarCraft Multi-Agent Challenge for Large Language Models",
-      "SaliMory: Orchestrating Cognitive Memory for Conversational Agents",
-      "SaliMory: Orchestrating Cognitive Memory for Conversational Agents",
-      "SaliMory: Orchestrating Cognitive Memory for Conversational Agents",
-      "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "Shipping a Trillion Parameters With a Hub Bucket: Delta Weight Sync in TRL",
-      "Show HN: A big tech dev experience for an open source CMS",
-      "Show HN: A big tech dev experience for an open source CMS",
-      "Show HN: A big tech dev experience for an open source CMS",
-      "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-      "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-      "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
-      "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
-      "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
-      "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
-      "Show HN: Darwin – Automate Your GitHub Project with AI",
-      "Show HN: Darwin – Automate Your GitHub Project with AI",
-      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
-      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
-      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
-      "Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually",
-      "Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually",
-      "Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust",
-      "Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust",
-      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
-      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
-      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
-      "Show HN: Pickaxe – A TypeScript library for building AI agents",
-      "Show HN: Pipelex – Declarative language for repeatable AI workflows",
-      "Show HN: Pipelex – Declarative language for repeatable AI workflows",
-      "Show HN: Pipelex – Declarative language for repeatable AI workflows",
-      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
-      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
-      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
-      "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
-      "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
-      "StepPRM-RTL: Stepwise Process-Reward Guided LLM Fine-Tuning for Enhanced RTL Synthesis",
-      "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
-      "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
-      "Stumbling Into AI Emotional Dependence: How Routine AI Interactions Reshape Human Connection",
-      "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-      "The Saturation Trap and the Subjectivity of Intervention Timing: Why Affect-Based Triggers and LLM Judges Fail to Time Interventions on Autonomous Agents",
-      "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
-      "Thinking Through Signs: PEEL as a Semiotic Scaffolding for Epistemically Accountable AI-Enabled Research",
-      "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
-      "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
-      "Toward Pre-Deployment Assurance for Enterprise AI Agents: Ontology-Grounded Simulation and Trust Certification",
-      "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
-      "VAMPS: Visual-Assisted Mathematical Problem Solving Benchmark",
-      "Welcome NVIDIA Cosmos 3: The First Open Omni-model for Physical AI Reasoning and Action",
-      "When Retrieval Doesn't Help: A Large-Scale Study of Biomedical RAG",
-      "When Retrieval Doesn't Help: A Large-Scale Study of Biomedical RAG",
-      "affaan-m/ECC",
-      "affaan-m/ECC",
-      "affaan-m/ECC",
-      "affaan-m/ECC",
-      "can1357/oh-my-pi",
-      "chopratejas/headroom",
-      "chopratejas/headroom",
-      "chopratejas/headroom",
-      "colbymchenry/codegraph",
-      "colbymchenry/codegraph",
-      "github/copilot-sdk",
-      "hardikpandya/stop-slop",
-      "hardikpandya/stop-slop",
-      "harry0703/MoneyPrinterTurbo",
-      "harry0703/MoneyPrinterTurbo",
-      "harry0703/MoneyPrinterTurbo",
-      "lyogavin/airllm",
-      "lyogavin/airllm",
-      "lyogavin/airllm",
-      "microsoft/agent-governance-toolkit",
-      "mukul975/Anthropic-Cybersecurity-Skills",
-      "mukul975/Anthropic-Cybersecurity-Skills",
-      "mvanhorn/last30days-skill",
-      "nesquena/hermes-webui",
-      "nesquena/hermes-webui",
-      "ogulcancelik/herdr",
-      "ogulcancelik/herdr",
-      "opendataloader-project/opendataloader-pdf",
-      "opendataloader-project/opendataloader-pdf",
-      "revfactory/harness",
-      "revfactory/harness",
-      "revfactory/harness",
-      "rohitg00/ai-engineering-from-scratch",
-      "rohitg00/ai-engineering-from-scratch",
-      "supermemoryai/supermemory",
-      "supermemoryai/supermemory"
     ]
   }
 }
