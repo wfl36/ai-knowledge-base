@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-06-22",
-  "total_projects": 290,
+  "last_updated": "2026-06-23",
+  "total_projects": 291,
   "total_dates": 16,
   "dates": [
+    "2026-06-23",
     "2026-06-22",
     "2026-06-21",
     "2026-06-20",
@@ -17,8 +18,7 @@
     "2026-06-11",
     "2026-06-10",
     "2026-06-09",
-    "2026-06-08",
-    "2026-06-07"
+    "2026-06-08"
   ],
   "top_tags": [
     {
@@ -27,47 +27,47 @@
     },
     {
       "name": "大模型",
-      "count": 116
+      "count": 119
     },
     {
       "name": "Agent",
-      "count": 79
+      "count": 83
     },
     {
       "name": "推理",
       "count": 41
     },
     {
+      "name": "工程实践",
+      "count": 37
+    },
+    {
       "name": "高质量",
-      "count": 39
+      "count": 36
     },
     {
       "name": "多模态",
       "count": 34
     },
     {
-      "name": "工程实践",
-      "count": 33
-    },
-    {
-      "name": "活跃维护",
-      "count": 18
-    },
-    {
-      "name": "RAG",
-      "count": 18
-    },
-    {
-      "name": "AI Agent",
-      "count": 18
-    },
-    {
       "name": "发布",
       "count": 18
     },
     {
+      "name": "RAG",
+      "count": 17
+    },
+    {
       "name": "评估基准",
       "count": 17
+    },
+    {
+      "name": "AI Agent",
+      "count": 17
+    },
+    {
+      "name": "活跃维护",
+      "count": 16
     },
     {
       "name": "多智能体",
@@ -75,19 +75,23 @@
     },
     {
       "name": "医疗AI",
-      "count": 16
-    },
-    {
-      "name": "基准测试",
-      "count": 14
+      "count": 15
     },
     {
       "name": "强化学习",
       "count": 14
     },
     {
+      "name": "高星标",
+      "count": 13
+    },
+    {
+      "name": "基准测试",
+      "count": 13
+    },
+    {
       "name": "开源",
-      "count": 14
+      "count": 13
     },
     {
       "name": "NLP",
@@ -96,20 +100,16 @@
     {
       "name": "对齐",
       "count": 12
-    },
-    {
-      "name": "AI安全",
-      "count": 12
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 215
+      "count": 218
     },
     {
       "name": "github",
-      "count": 54
+      "count": 52
     },
     {
       "name": "hackernews",
@@ -117,46 +117,6 @@
     }
   ],
   "projects": [
-    {
-      "name": "ggml-org/llama.cpp",
-      "score": 9.7,
-      "status": "正常",
-      "tags": [
-        "深度学习",
-        "LLM推理",
-        "模型量化",
-        "本地部署",
-        "边缘计算",
-        "高质量",
-        "活跃维护",
-        "快速迭代",
-        "极致优化"
-      ],
-      "date": "2026-06-07",
-      "date_dir": "2026-06-07",
-      "filename": "ggml-org-llama.cpp_9.7_2026-06-07.md",
-      "source_type": "github",
-      "description": "LLM inference in C/C++",
-      "summary": "llama.cpp 是开源大模型生态中不可或缺的底层推理引擎，通过纯 C/C++ 和极致的量化技术，打破了消费级硬件运行大模型的壁垒。它以极低的门槛、极高的性能和广泛的模型支持，成为了本地 LLM 部署的事实标准，并催生了繁荣的端侧 AI 应用生态。",
-      "tech_stack": [
-        "C++"
-      ],
-      "link": "https://github.com/ggml-org/llama.cpp",
-      "analysis": {
-        "tech": {
-          "score": 9.0,
-          "summary": "llama.cpp 在算法底层架构上虽非从零创新，但在工程实现和系统优化上具有极高的先进性。项目通过纯 C/C++ 实现了极简依赖，打破了 Python 重型生态的束缚；自研的 GGUF 模型格式和丰富的量化技术（如 Q4_K_M 等）大幅压缩模型体积并降低内存占用；同时针对各种硬件底层（x86 SIMD、Apple Metal、NVIDIA CUDA、Vulkan 等）进行了极致的算子优化和内存管理，使得在消费级甚至边缘设备上运行百亿参数大模型成为可能。"
-        },
-        "utility": {
-          "score": 10.0,
-          "summary": "实用性极高，几乎成为本地大模型推理的行业标准基础设施。它直接解决了大模型部署成本高、硬件门槛苛刻的核心痛点。不仅支持市面上绝大多数主流开源大模型（Llama, Qwen, Mistral 等），还衍生出了 Ollama、LM Studio 等大量上层易用工具，极大地推动了 LLM 在个人 PC 和端侧设备上的普及与应用落地。"
-        },
-        "community": {
-          "score": 10.0,
-          "summary": "社区活跃度处于顶级水平，拥有超过 11 万的 Star 和近 2 万的 Fork。项目迭代极其迅速，每当有新的主流大模型发布，社区能在极短时间内完成适配和 PR 合并。Issue 讨论热烈，贡献者遍布全球，形成了包含底层开发者、模型转换者和上层应用构建者的庞大且繁荣的生态系统。"
-        }
-      }
-    },
     {
       "name": "DeepSeek-V4: Towards Highly Efficient Million-Token Context Intelligence",
       "score": 9.6,
@@ -232,6 +192,44 @@
         "community": {
           "score": 9.5,
           "summary": "由 NVIDIA 官方庞大团队发布，来源权威性极高。聚焦 MoE、Mamba、长上下文与 Agent 推理等当前 AI 社区最热门前沿方向，时效性极强。作为 Nemotron 系列的最强版本，其开源策略与卓越性能必将对开源大模型及 Agent 生态产生重大且深远的影响。"
+        }
+      }
+    },
+    {
+      "name": "NousResearch/hermes-agent",
+      "score": 9.2,
+      "status": "正常",
+      "tags": [
+        "大语言模型",
+        "Agent",
+        "智能体",
+        "个人助理",
+        "高星标",
+        "高质量",
+        "活跃维护"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "NousResearch-hermes-agent_9.2_2026-06-23.md",
+      "source_type": "github",
+      "description": "The agent that grows with you",
+      "summary": "NousResearch/hermes-agent是一个基于顶级开源大模型Hermos构建的智能体项目，主打'与你共同成长'的个性化与持续适应能力。凭借极其庞大的社区基础（超20万Stars）和NousResearch的技术底蕴，该项目在AI Agent赛道中具备极高的实用潜力和生态统治力，是开源智能体领域的标杆级项目。",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/NousResearch/hermes-agent",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "基于NousResearch顶尖的Hermes系列大语言模型，项目在指令遵循、函数调用和减少幻觉方面具备深厚的技术积累。'The agent that grows with you'的理念暗示其可能采用了先进的长期记忆管理、个性化持续学习或动态自适应架构，在当前大多为静态响应的Agent框架中具有较好的技术前瞻性与创新性。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "作为一款强调'与你共同成长'的智能体，项目在个人助理、自动化任务编排和个性化交互方面具有极高的实用价值。Python语言保证了其易用性与生态兼容性，能够有效解决传统AI助手在长期交互中的上下文遗忘和需求变迁问题，为用户提供越用越懂你的体验。"
+        },
+        "community": {
+          "score": 10.0,
+          "summary": "项目拥有超过20万的Stars和3.5万的Forks，展现出极其罕见的全球顶配级社区关注度与参与度。这表明项目在开发者生态中具有现象级的影响力，不仅意味着极高的认可度，也代表着极其丰富的衍生生态、插件支持和二次开发活跃度。"
         }
       }
     },
@@ -532,43 +530,6 @@
       }
     },
     {
-      "name": "NousResearch/hermes-agent",
-      "score": 9.1,
-      "status": "正常",
-      "tags": [
-        "AI Agent",
-        "大语言模型",
-        "持续学习",
-        "个性化助手",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-07",
-      "date_dir": "2026-06-07",
-      "filename": "NousResearch-hermes-agent_9.1_2026-06-07.md",
-      "source_type": "github",
-      "description": "The agent that grows with you",
-      "summary": "NousResearch/hermes-agent是一个极具创新性的个性化AI智能体项目，主打'伴随用户成长'的持续学习能力。凭借NousResearch的技术底蕴和超高的社区热度，该项目在实用性、技术前沿性和生态活跃度上均表现卓越，是AI Agent领域的重要开源力量。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/NousResearch/hermes-agent",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "项目由知名开源AI组织NousResearch推出，主打'与你共同成长'的Agent理念，暗示其具备持续学习、个性化适应或记忆增强等前沿Agent架构设计。技术栈基于Python，结合NousResearch在大模型微调和对齐方面的深厚积累，技术先进性显著。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "作为能够伴随用户成长和演进的智能体，该项目在个性化助手、自动化工作流等场景下具有极高的应用价值。庞大的Star数和Fork数也印证了其在开发者群体中的广泛实用性和易用性。"
-        },
-        "community": {
-          "score": 9.8,
-          "summary": "项目获得了超过18.5万的Star和3.1万的Fork，展现出极其惊人的社区关注度和参与度，生态基础极为庞大，属于顶级开源项目级别的社区活跃度。"
-        }
-      }
-    },
-    {
       "name": "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
       "score": 9.0,
       "status": "正常",
@@ -576,15 +537,15 @@
         "大模型",
         "微调",
         "PEFT",
-        "博客",
-        "技术对比"
+        "工程实践",
+        "技术解析"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "Beyond-LoRA--Can-you-beat-the-most-popular-fine-tuning-technique_9.0_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "Beyond-LoRA--Can-you-beat-the-most-popular-fine-tuning-technique_9.0_2026-06-23.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文探讨了超越当前最流行的参数高效微调技术 LoRA 的新方法，对比分析了多种新兴 PEFT 算法在性能与资源消耗上的表现，为大模型从业者提供了更具潜力的微调实践新思路与替代方案。",
+      "summary": "本文探讨了超越LoRA的新型参数高效微调（PEFT）技术，分析了LoRA的局限性并介绍了更具潜力的替代方案。作为Hugging Face官方发布的内容，该文章不仅具有深厚的技术洞见，更为从业者提供了极具落地价值的微调优化路径，是大模型微调领域的重要参考。",
       "tech_stack": [
         "未标注"
       ],
@@ -592,15 +553,52 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "深入探讨并对比了多种试图超越 LoRA 的新型参数高效微调（PEFT）技术，剖析了它们在参数量、显存占用与模型表征能力上的权衡，论证了下一代微调算法在解耦与拟合能力上的演进方向，具备较高的技术深度。"
+          "summary": "深入剖析LoRA等主流参数高效微调（PEFT）技术的局限性，探讨并对比新型微调方法（如DoRA、LoRA+等）在参数效率、表征能力和收敛速度上的技术突破，展现了较高的研究深度与前沿洞见。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "对大模型微调从业者具有极高的实践指导价值，提供了 LoRA 之外的新选项与优化思路，能够直接指导开发者在特定算力条件或极致性能需求场景下选择更优的微调策略，落地适用性极强。"
+          "summary": "针对大模型微调这一核心工程痛点，提供了超越传统LoRA的实践方案。结合Hugging Face的PEFT库生态，对AI从业者在降低训练成本、提升模型效果方面具有极高的实操指导价值与落地参考性。"
         },
         "community": {
           "score": 9.5,
-          "summary": "发布于 AI 社区最具权威性的 Hugging Face 官方博客，话题直击当前大模型落地的核心痛点与前沿热点，具有极高的时效性、来源可信度与社区影响力，极易引发从业者的广泛关注与讨论。"
+          "summary": "发布于Hugging Face官方博客，具备极高的行业权威性与可信度。话题直击当前大模型社区最关注的微调效率与效果瓶颈，具有广泛的受众基础和强烈的时效性。"
+        }
+      }
+    },
+    {
+      "name": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "score": 9.0,
+      "status": "正常",
+      "tags": [
+        "具身智能",
+        "Agent",
+        "机器人",
+        "工程实践",
+        "LeRobot",
+        "开源模型"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "From-the-Hugging-Face-Hub-to-robot-hardware-with-Strands-Agents-and-LeRobot_9.0_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文介绍了如何通过 Amazon Strands Agents 和 Hugging Face LeRobot，将 Hub 上的模型无缝部署到真实机器人硬件上。文章打通了从大模型 Agent 到物理硬件控制的全链路，为具身智能的开发与落地提供了极具实操价值的工程指南。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "探讨了如何利用 Amazon Strands Agents 框架与 Hugging Face LeRobot 库，将 Hub 上的开源模型直接部署并驱动真实机器人硬件。展示了大语言模型作为 Agent 大脑与物理世界交互的技术链路，体现了从云端模型到端侧硬件控制的深度整合能力与前沿探索。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "为机器人开发者和具身智能从业者提供了一条清晰的端到端实践路径。通过结合 Strands 的 Agent 编排能力和 LeRobot 的硬件控制接口，开发者可以快速将 HF Hub 上的模型验证并落地到真实机器人上，大幅降低了从算法研究到硬件部署的门槛，实操指导价值极高。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "由 Hugging Face 官方发布并联合 Amazon 共同推出，来源权威性极高。具身智能与 Agent 的结合是当前 AI 社区最前沿和最受关注的方向之一，该文章打通了开源生态到物理硬件的壁垒，对开源机器人社区的发展具有显著的推动作用和广泛的影响力。"
         }
       }
     },
@@ -611,17 +609,16 @@
       "tags": [
         "Agent",
         "大模型",
-        "基准测试",
-        "工具调用",
+        "评估/基准测试",
         "工程实践",
-        "方法论"
+        "观点"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "Is-it-agentic-enough--Benchmarking-open-models-on-your-own-tooling_9.0_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "Is-it-agentic-enough--Benchmarking-open-models-on-your-own-tooling_9.0_2026-06-23.md",
       "source_type": "rss",
       "description": "",
-      "summary": "本文针对开源模型在Agent场景下的能力评估问题，指出现有通用基准测试无法真实反映模型在特定私有工具链上的表现，进而提出了一套'在自有工具上评估模型'的定制化基准测试方法论，帮助开发者更准确地衡量和选择适合自身业务的大模型。",
+      "summary": "本文介绍了如何在自定义工具集上对开源大模型进行Agent能力基准测试，解决了传统静态评测榜单与实际业务工具不匹配的痛点。文章为开发者提供了一套评估模型在真实业务场景下工具调用和多步推理能力的实用框架，具有极高的工程实践参考价值。",
       "tech_stack": [
         "未标注"
       ],
@@ -629,54 +626,15 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "文章突破了传统通用Agent基准测试的局限，提出针对开发者自有工具链进行模型能力评估的新颖方法论。深入分析了开源模型在特定、私有工具环境下的工具调用与推理深度，严谨论证了通用评测分数与实际业务表现之间存在的差异，技术洞见深刻。"
-        },
-        "utility": {
-          "score": 9.5,
-          "summary": "极具落地指导价值。文章提供的方法允许开发者构建针对自身业务工具的定制化基准测试，直接解决了通用评测与私有业务场景脱节的核心痛点，为Agent的模型选型、工具适配和开发迭代提供了切实可行的评估路径与工具参考。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "话题紧扣当前AI Agent热潮与开源模型发展痛点，时效性极强。发布在Hugging Face官方博客，来源具有极高的权威性与可信度，对开源社区在Agent评估标准从'通用化'向'定制化'转变方面具有重要且广泛的引导影响力。"
-        }
-      }
-    },
-    {
-      "name": "bytedance/deer-flow",
-      "score": 9.0,
-      "status": "正常",
-      "tags": [
-        "多智能体",
-        "大语言模型",
-        "自动化",
-        "代码助手",
-        "研究助手",
-        "内容创作",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "bytedance-deer-flow_9.0_2026-06-22.md",
-      "source_type": "github",
-      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
-      "summary": "Deer-Flow 是字节跳动开源的长周期超级智能体框架，凭借沙箱、记忆和子智能体等机制，有效解决了复杂任务的自动化执行与多步推理问题。其出色的架构设计、极高的社区关注度以及广泛的实际应用场景，使其成为当前 AI Agent 领域极具实用价值和影响力的项目之一。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/bytedance/deer-flow",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "Deer-Flow 是一个面向长周期任务的超级智能体框架，集成了沙箱、记忆、工具、技能、子智能体和消息网关等核心组件。在多智能体协作、状态维持和复杂任务拆解与执行上展现了较强的架构设计能力，处于当前 Agent 技术发展的前沿，属于优秀的工程整合与创新实践。"
+          "summary": "文章针对当前Agent基准测试脱离实际业务工具生态的痛点，提出了在自定义工具集上评估开源模型Agent能力的方法。技术深度体现在对工具定义解析、多步推理与动作执行一致性、以及Agent非确定性输出的评估机制探讨，论证了标准化评测与定制化评测之间的鸿沟及解决思路。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "该项目能够处理从几分钟到几小时不同级别的复杂任务，涵盖研究、编码和创作等多种高频应用场景。通过引入沙箱和记忆机制，有效解决了大模型在长周期任务中易中断、易出错的痛点，极大地提升了AI在实际生产中的自动化能力，具有极高的应用价值和易用性。"
+          "summary": "对AI从业者和开发者具有极高的落地指导价值。它提供了一套‘自带工具进行评测’的框架思路，使开发者不再依赖通用但脱离业务的静态榜单，而是能直接评估Llama、Qwen等开源模型在自身特定API和工具链上的真实表现，直接指导Agent架构设计和模型选型。"
         },
         "community": {
           "score": 9.5,
-          "summary": "项目获得了超过 7.3 万的 Star 和近 1 万的 Fork，显示出极高的社区关注度和庞大的用户基础。作为字节跳动开源的项目，其自带大厂光环，吸引了大量开发者参与和二次开发，生态丰富且具备强大的社区驱动力。"
+          "summary": "由AI社区最具权威性的平台Hugging Face发布，来源可信度极高。发布时间处于Agent技术爆发与行业标准化探索的关键期，话题直击当前Agent开发中‘模型榜单分数高但实际不好用’的核心痛点，具有极强的时效性和社区影响力。"
         }
       }
     },
@@ -1502,42 +1460,192 @@
       }
     },
     {
+      "name": "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "WebML",
+        "大模型",
+        "前端工程",
+        "工程实践"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "Experimenting-with-the-proposed-Cross-Origin-Storage-API-in-Transformers.js_8.8_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文介绍了在 Transformers.js 中实验性支持拟议的 Cross-Origin Storage API 的探索，旨在解决浏览器端大模型权重的跨域存储与复用难题。该方案有望打破不同网站间的模型缓存孤岛，显著降低 WebML 应用的带宽消耗和加载时间，为前端 AI 推理的规模化落地提供了极具价值的工程实践参考。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/cross-origin-storage",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "文章探讨了将拟议的 Cross-Origin Storage API 引入 Transformers.js 的工程实验。技术视角聚焦于解决浏览器端运行大模型时的核心痛点——模型权重的跨域缓存与共享，避免不同站点重复下载相同模型。该探索将前沿 Web 标准提案与机器学习推理相结合，论证逻辑清晰，具有较好的技术前瞻性和工程深度，但属于应用层面的创新而非底层算法突破。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "对 WebML 开发者和前端工程师具有极高的落地参考价值。浏览器端大模型面临的最大阻碍之一就是模型体积带来的加载与存储开销，若 Cross-Origin Storage API 得以普及，将直接指导开发者优化模型缓存策略，大幅降低带宽成本和用户首屏等待时间，适用范围覆盖所有依赖浏览器端推理的 Web 应用。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "文章发布于 Hugging Face 官方博客，来源权威性极高，代表了 WebML 领域的核心演进方向。探讨的话题涉及最新的 Web 标准提案与 AI 基础设施的结合，时效性极强，且 Transformers.js 社区活跃，此类解决实际部署痛点的议题往往能在前端与 AI 交叉社区引发高度关注和讨论。"
+        }
+      }
+    },
+    {
+      "name": "MosaicLeaks: Can your research agent keep a secret?",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "安全",
+        "隐私",
+        "红队测试",
+        "基准测试",
+        "博客"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "MosaicLeaks--Can-your-research-agent-keep-a-secret_8.8_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文介绍了MosaicLeaks，一个针对Research Agent隐私泄露风险的评估基准研究，旨在检验AI Agent在处理敏感信息时能否保守秘密。该工作为Agent的安全红队测试和隐私保护提供了重要参考与评估工具，直击当前Agent应用落地的核心安全痛点。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "深入探讨了Research Agent在执行复杂任务时的隐私泄露与信息安全风险，提出了针对Agent保密能力的评估框架或基准测试。该研究填补了当前Agent能力评估中安全维度的空白，技术针对性强，对理解大模型在工具调用与多步推理中的信息边界具有重要洞见。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "为AI Agent开发者与安全团队提供了直接可用的评估工具与红队测试基准，能够有效检验Agent在处理敏感数据时的泄露风险，对构建安全可靠的Agent应用架构、完善系统提示词及权限隔离机制具有极高的实践指导价值。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "由知名企业ServiceNow在Hugging Face官方博客发布，来源权威且可信度高；聚焦于AI Agent爆发期最紧迫的安全与隐私痛点，话题极具时效性与行业影响力，极易引发开发者社区对Agent安全性的广泛关注与讨论。"
+        }
+      }
+    },
+    {
       "name": "calesthio/OpenMontage",
       "score": 8.8,
       "status": "正常",
       "tags": [
-        "多智能体",
+        "智能体",
+        "多模态",
+        "深度学习",
         "视频生成",
-        "工作流编排",
         "视频制作",
-        "代码助手",
-        "内容创作",
+        "自动化工作流",
         "高质量",
-        "高星数",
-        "功能丰富"
+        "活跃维护",
+        "高星项目"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "calesthio-OpenMontage_8.8_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "calesthio-OpenMontage_8.8_2026-06-23.md",
       "source_type": "github",
       "description": "World's first open-source, agentic video production system. 12 pipelines, 52 tools, 500+ agent skills. Turn your AI coding assistant into a full video production studio.",
-      "summary": "OpenMontage是全球首个开源的智能体视频生产系统，通过12个流水线、52种工具和500多个智能体技能，将AI编程助手转化为完整的视频制作工作室。该项目在多智能体协作与视频生成工作流编排上展现了极高的技术先进性，极大地降低了视频内容创作的门槛，具有突出的实用价值。凭借过万的Star数，该项目已获得广泛的社区认可，属于AI视频生成与Agent结合领域的突破性创新项目。",
+      "summary": "OpenMontage 是世界首个开源的智能体驱动视频制作系统，通过整合12条流水线、52个工具和500多种技能，将AI助手转化为全功能视频工作室。项目在Agent编排与系统架构上具有突破性，实用性极强，且凭借超1.5万的高星数展现了强大的社区影响力与生态潜力。",
       "tech_stack": [
         "Python"
       ],
       "link": "https://github.com/calesthio/OpenMontage",
       "analysis": {
         "tech": {
-          "score": 9.0,
-          "summary": "项目定位为全球首个开源智能体视频生产系统，采用多智能体协作架构，整合了12个流水线、52种工具和500多个智能体技能。将AI编程助手转化为视频生产工作室，在复杂工作流编排、工具调用和Agent协同方面展现了极高的技术先进性和创新性。"
+          "score": 8.5,
+          "summary": "项目首创了智能体驱动的视频制作系统架构，通过12条流水线、52个工具和500+智能体技能的复杂编排，实现了多工具协同与系统级工程创新。虽然底层可能依赖现有大模型与视频生成技术，但在Agent工作流设计、技能解耦与模块化编排方面具有显著的技术先进性。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "极大地降低了视频生产的门槛，将开发者常用的AI代码助手转变为全能的视频制作工作室。丰富的流水线和技能覆盖了视频制作的各个环节，为内容创作者和开发者提供了极具价值的实际应用解决方案，实用性极高。"
+          "summary": "将AI编码助手转化为全功能视频制作工作室，直击视频制作门槛高、流程繁琐的痛点。端到端的自动化视频生产流程极大地降低了创作门槛，提升了开发者和创作者的工作效率，应用场景明确且实际应用价值极高。"
         },
         "community": {
-          "score": 8.5,
-          "summary": "项目获得了11697个Star和1524个Fork，显示出极高的社区关注度和用户参与度。庞大的Fork数表明有大量开发者正在基于该项目进行二次开发或实践，社区生态基础扎实。"
+          "score": 9.0,
+          "summary": "项目在GitHub上获得了超过15000个Star和1800+个Fork，属于开源AI项目中的顶流水平，反映出极高的社区参与度和关注度。庞大的Fork数也表明有大量开发者正在基于该项目进行二次开发，生态基础非常坚实。"
+        }
+      }
+    },
+    {
+      "name": "koala73/worldmonitor",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "NLP",
+        "数据可视化",
+        "实时数据处理",
+        "情报监测",
+        "新闻聚合",
+        "数据分析",
+        "仪表盘",
+        "高质量",
+        "高关注度"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "koala73-worldmonitor_8.8_2026-06-23.md",
+      "source_type": "github",
+      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
+      "summary": "WorldMonitor 是一个基于 TypeScript 开发的实时全球情报仪表盘项目，利用 AI 技术实现新闻聚合、地缘政治监测和基础设施追踪。该项目在系统集成与AI应用层面表现出较高的技术先进性，尤其在多源数据实时处理与态势感知可视化方面。其实用性极强，为金融、安全及跨国决策提供了高效的情报支持。凭借近6万的Star和近万的Fork，该项目拥有庞大的用户基础和极高的社区关注度，是一个成熟且极具应用价值的AI赋能信息聚合平台。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/koala73/worldmonitor",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "项目基于TypeScript构建，采用AI驱动的信息聚合与监测架构。技术先进性主要体现在多源异构数据的实时流处理、自然语言处理(NLP)在新闻与地缘政治信息上的抽取与分类，以及复杂态势感知的可视化交互设计上。虽然未在底层AI算法上实现根本性突破，但在系统工程整合与AI应用落地层面展现了较高的技术水准。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "实用性极高。全球情报仪表盘、新闻聚合、地缘政治监测及基础设施追踪等功能，直击金融投资、国际关系研究、安全防范及跨国企业战略决策等领域的痛点。统一的态势感知界面大幅降低了信息获取与理解的门槛，具有极高的商业价值与现实应用意义。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "社区活跃度极高。项目拥有近6万的Star和近1万的Fork，显示出惊人的用户关注度和广泛的使用基础。虽然今日Star增长为0，可能意味着项目已进入成熟稳定期而非早期爆发期，但其历史积累的庞大社区规模和潜在的生态丰富度依然不容忽视。"
+        }
+      }
+    },
+    {
+      "name": "mukul975/Anthropic-Cybersecurity-Skills",
+      "score": 8.8,
+      "status": "正常",
+      "tags": [
+        "AI Agent",
+        "知识工程",
+        "网络安全",
+        "安全合规",
+        "高质量",
+        "开箱即用",
+        "标准化"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "mukul975-Anthropic-Cybersecurity-Skills_8.8_2026-06-23.md",
+      "source_type": "github",
+      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
+      "summary": "该项目为AI代理提供了817个结构化的网络安全技能，并成功映射到6大权威安全框架。通过采用agentskills.io标准，项目实现了与Claude Code、GitHub Copilot等20多个主流AI开发平台的无缝兼容，极大降低了AI在网络安全领域应用的门槛。项目在知识结构化和跨平台适配方面表现优异，具有极高的实用价值，是安全领域AI Agent落地的重要基础设施。",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
+      "analysis": {
+        "tech": {
+          "score": 8.0,
+          "summary": "项目在AI Agent技能结构化和知识工程方面表现出色，将817个网络安全技能精准映射到MITRE ATT&CK、NIST CSF 2.0等6大权威安全框架，并采用agentskills.io标准，实现了与Claude Code、Copilot等20多个主流AI开发平台的无缝兼容。虽然非底层算法突破，但其结构化数据设计、标准化接口和跨平台适配能力展现了极高的工程水准和技术价值。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "实用性极高。网络安全领域专业门槛高，该项目直接为AI代理提供了开箱即用的结构化安全技能库，涵盖了29个安全域，极大降低了AI辅助安全测试、防御和合规审查的落地门槛。兼容主流AI编程助手，使得安全人员可以直接利用现有工具提升工作效率，解决了AI在专业安全领域'懂语言但缺技能'的核心痛点。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "社区关注度极高，已获得近2万Stars和两千余Forks，显示出极强的吸引力和传播力。采用Apache 2.0开源协议，有利于二次开发和生态繁荣。跨平台特性也为其带来了更广泛的开发者基础，尽管短期Star增速可能趋缓，但作为安全领域AI Agent的基础设施级项目，其长期社区活跃度和生态潜力值得期待。"
         }
       }
     },
@@ -2467,6 +2575,117 @@
       }
     },
     {
+      "name": "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "score": 8.7,
+      "status": "正常",
+      "tags": [
+        "Agent",
+        "大模型",
+        "工程实践",
+        "开源项目"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "Build-real-agentic-apps-using-CUGA--two-dozen-working-examples-on-a-lightweight-_8.7_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "IBM Research在Hugging Face博客上发布了CUGA轻量级Agent框架，并提供了24个真实可运行的Agentic应用示例。该框架主打轻量级与高可组合性，为开发者构建真实世界的Agent应用提供了极具参考价值的工程实践指南与现成代码模板。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/ibm-research/cuga-apps",
+      "analysis": {
+        "tech": {
+          "score": 7.5,
+          "summary": "文章介绍了IBM Research推出的CUGA轻量级Agent框架，其技术亮点在于‘轻量级线束’设计理念与高可组合性，通过两打真实应用示例验证了该架构在构建Agentic应用时的通用性与扩展性，工程架构深度较高，但非底层算法理论突破。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "具有极高的落地参考价值。文章不仅提供了轻量级的开发框架，还直接附带24个可运行的真实Agentic应用示例，为AI开发者提供了丰富的实战参考与代码模板，能够快速指导Agent应用的开发实践。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "话题紧扣当前AI业界最热门的Agent方向，时效性极强；来源为Hugging Face官方博客且由IBM Research背书，具备极高的权威性与社区影响力，能够引发开发者的广泛关注。"
+        }
+      }
+    },
+    {
+      "name": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "score": 8.7,
+      "status": "正常",
+      "tags": [
+        "OCR",
+        "多语言",
+        "轻量化模型",
+        "计算机视觉",
+        "工程实践",
+        "模型发布"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "PP-OCRv6-on-Hugging-Face--50-Language-OCR-from-1.5M-to-34.5M-Parameters_8.7_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "百度PaddlePaddle在Hugging Face发布了PP-OCRv6模型，该版本实现了对50种语言的支持，并提供了从1.5M到34.5M不同参数量的模型版本，以灵活适配从边缘计算到云端服务器的多样化部署需求，展现了极强的工业落地价值与开箱即用的便捷性。",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "analysis": {
+        "tech": {
+          "score": 7.5,
+          "summary": "PP-OCRv6 延续了该系列高效的工业级路线，核心技术亮点在于实现了从1.5M到34.5M的参数规模缩放，并支持50种语言的识别。这体现了在模型架构设计上的灵活性与多语言泛化能力，论证严谨且工程深度足，但属于渐进式技术迭代，缺乏底层架构的根本性突破。"
+        },
+        "utility": {
+          "score": 9.5,
+          "summary": "具有极高的落地指导价值。1.5M的极小参数量完美适配移动端与边缘设备部署，34.5M版本则满足服务端高精度场景，50种语言支持极大拓宽了全球化业务应用范围。同时，模型上架Hugging Face大幅降低了开发者的调用与集成门槛，可直接投入生产环境。"
+        },
+        "community": {
+          "score": 9.0,
+          "summary": "来源为百度PaddlePaddle官方与Hugging Face官方博客，权威性与可信度极高。OCR多语言支持与端侧轻量化部署是当前AI社区持续关注的热点，时效性强。PP-OCR系列在开源社区一直拥有庞大的用户基础，此次发布必将引起广泛关注与迭代。"
+        }
+      }
+    },
+    {
+      "name": "bytedance/deer-flow",
+      "score": 8.7,
+      "status": "正常",
+      "tags": [
+        "多智能体",
+        "Agent框架",
+        "深度学习",
+        "代码助手",
+        "自动化研究",
+        "任务自动化",
+        "高质量",
+        "活跃维护"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "bytedance-deer-flow_8.7_2026-06-23.md",
+      "source_type": "github",
+      "description": "An open-source long-horizon SuperAgent harness that researches, codes, and creates. With the help of sandboxes, memories, tools, skill, subagents and message gateway, it handles different levels of tasks that could take minutes to hours.",
+      "summary": "DeerFlow 是字节跳动推出的开源长周期 SuperAgent 框架，通过整合沙盒、记忆、子代理等核心模块，致力于解决复杂长耗时任务的自动化执行问题。项目架构设计优秀，社区热度极高，是当前 AI Agent 领域极具代表性的高质量开源实践。",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/bytedance/deer-flow",
+      "analysis": {
+        "tech": {
+          "score": 8.5,
+          "summary": "DeerFlow 是字节跳动开源的长周期 SuperAgent 框架，技术架构设计先进。项目创新性地集成了沙盒、记忆、工具、技能、子代理和消息网关等核心组件，能够有效支持复杂长耗时任务的分解、调度与执行，在多智能体协同、状态保持和安全管理方面表现出色。"
+        },
+        "utility": {
+          "score": 8.0,
+          "summary": "项目具备极高的实际应用价值，能够处理研究、编码和内容创作等耗时从几分钟到几小时不等的复杂任务。沙盒机制保障了代码执行和系统调用的安全性，丰富的工具和记忆系统提升了任务完成的连贯性与可靠性，但在超长周期任务中的容错与纠偏仍需使用者进行一定的人工干预。"
+        },
+        "community": {
+          "score": 9.5,
+          "summary": "项目在 GitHub 上获得了超过 7.3 万的 Star 和近万的 Fork，展现了现象级的社区关注度和参与度。依托字节跳动的品牌影响力和庞大的开发者基础，项目生态丰富，社区活跃度极高，具备强大的可持续发展潜力。"
+        }
+      }
+    },
+    {
       "name": "Panniantong/Agent-Reach",
       "score": 8.7,
       "status": "正常",
@@ -2501,47 +2720,6 @@
         "community": {
           "score": 9.0,
           "summary": "项目获得了高达37755个Stars和近3000个Forks，显示出极高的社区关注度和参与度，表明该需求切中开发者痛点且项目质量得到了广泛认可。庞大的Fork数也意味着存在大量潜在的二次开发和生态扩展。尽管今日Star增量为0可能暗示项目已度过爆发期或进入稳定维护阶段，但其积累的社区基数已足够支撑丰富的生态与问题反馈。"
-        }
-      }
-    },
-    {
-      "name": "mukul975/Anthropic-Cybersecurity-Skills",
-      "score": 8.7,
-      "status": "正常",
-      "tags": [
-        "AI Agent",
-        "网络安全",
-        "知识图谱",
-        "安全合规",
-        "自动化攻防",
-        "代码助手",
-        "高质量",
-        "标准化",
-        "兼容性强",
-        "活跃维护"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "mukul975-Anthropic-Cybersecurity-Skills_8.7_2026-06-22.md",
-      "source_type": "github",
-      "description": "817 structured cybersecurity skills for AI agents · Mapped to 6 frameworks: MITRE ATT&CK, NIST CSF 2.0, MITRE ATLAS, D3FEND, NIST AI RMF & MITRE F3 (Fight Fraud) · agentskills.io standard · Works with Claude Code, GitHub Copilot, Codex CLI, Cursor, Gemini CLI & 20+ platforms · 29 security domains · Apache 2.0",
-      "summary": "Anthropic-Cybersecurity-Skills 是一个专为AI Agent设计的结构化网络安全技能库，包含817个技能并深度映射至6大权威安全框架。它通过agentskills.io标准实现了领域知识的标准化，并完美兼容20+主流AI编程与Agent平台，极大提升了AI在安全合规与自动化攻防等场景的实用性与专业度。凭借极高的社区关注度与友好的开源协议，该项目已成为AI网络安全领域的重要基础设施。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/mukul975/Anthropic-Cybersecurity-Skills",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "项目在AI Agent与网络安全结合的知识工程上具有显著创新性。通过将817个技能精准映射到MITRE ATT&CK、NIST CSF 2.0等6大权威安全框架，并遵循agentskills.io标准，实现了高度结构化与标准化的领域知识表示，为AI Agent执行专业安全任务提供了坚实的技术基础。虽非底层算法突破，但在跨平台技能调用架构与知识图谱构建上具有先进性。"
-        },
-        "utility": {
-          "score": 9.5,
-          "summary": "实用性极高。项目直接解决了AI Agent缺乏专业网络安全领域知识的痛点，提供了即插即用的结构化技能库。其完美兼容Claude Code、GitHub Copilot、Cursor等20+主流AI开发与Agent平台，覆盖29个安全领域，对安全合规检测、自动化攻防演练、代码安全审计等实际场景具有巨大的落地价值和易用性。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "社区活跃度极高。项目获得了超过1.8万的Stars和2千多的Forks，对于一个细分领域的技能库项目而言，显示出极强的社区吸引力和开发者认可度。采用Apache 2.0开源协议，极大地促进了社区贡献和商业生态的衍生。广泛的平台兼容性也为其构建了丰富且活跃的应用生态。"
         }
       }
     },
@@ -3180,18 +3358,18 @@
       "score": 8.5,
       "status": "正常",
       "tags": [
+        "3D生成",
+        "动作预测",
         "多模态",
-        "3D视觉",
         "具身智能",
-        "动作生成",
         "模型发布"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "MolmoMotion--Language-guided-3D-motion-forecasting_8.5_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "MolmoMotion--Language-guided-3D-motion-forecasting_8.5_2026-06-23.md",
       "source_type": "rss",
       "description": "",
-      "summary": "MolmoMotion是由Allen AI提出的一种语言引导的3D动作预测模型，该模型将多模态大模型Molmo的视觉语言理解能力拓展至3D动态空间，实现了通过自然语言指令精准预测和生成3D动作。该研究为具身智能、机器人控制及动画生成等领域提供了重要的技术支撑，具备极高的学术价值与落地潜力。",
+      "summary": "MolmoMotion是由Allen AI提出的语言引导3D动作预测模型，旨在通过自然语言指令实现对3D动作的精准预测与生成。该工作将多模态大模型的语义理解能力与3D动作空间深度结合，为动画生成、机器人控制及具身智能领域提供了极具潜力的交互与生成方案。",
       "tech_stack": [
         "未标注"
       ],
@@ -3199,88 +3377,90 @@
       "analysis": {
         "tech": {
           "score": 8.5,
-          "summary": "将多模态大模型（Molmo）的视觉语言理解能力拓展至3D动作预测空间，解决了自然语言指令与动态3D人体/物体动作对齐及长时序预测的技术难点，研究视角新颖，技术深度与论证严谨度较高。"
+          "summary": "将多模态大模型的语言理解能力与3D动作空间深度结合，探索了语言引导的3D动作预测方法。该工作在多模态对齐与3D表征学习方面展现了较好的新颖性与技术深度，为理解与生成连续3D动作提供了新的研究视角。"
         },
         "utility": {
           "score": 8.0,
-          "summary": "对具身智能、游戏动画、自动驾驶和机器人控制等领域的从业者具有极高的参考价值，语言引导的交互方式大幅降低了3D动作生成与预测的工程落地门槛，适用范围广泛。"
+          "summary": "对动画制作、游戏开发、机器人控制及具身智能等需要3D动作生成与预测的领域具有极高的实用参考价值。自然语言作为交互接口大幅降低了3D动作控制的门槛，具备广泛的落地应用潜力。"
         },
         "community": {
           "score": 9.0,
-          "summary": "由知名开源机构Allen AI发布于Hugging Face官方博客，来源权威性极高；语言引导的3D动作预测高度契合当前具身智能与多模态大模型的发展浪潮，时效性与行业影响力显著。"
+          "summary": "发布在极具影响力的Hugging Face Blog，且出自知名AI研究机构Allen AI，权威性与可信度高。结合了当前大模型向具身智能与3D生成延伸的热点趋势，时效性强，社区关注度高。"
         }
       }
     },
     {
-      "name": "MosaicLeaks: Can your research agent keep a secret?",
+      "name": "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
       "score": 8.5,
       "status": "正常",
       "tags": [
-        "Agent",
-        "AI安全",
-        "隐私保护",
-        "基准测试",
-        "研究"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "MosaicLeaks--Can-your-research-agent-keep-a-secret_8.5_2026-06-22.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "ServiceNow发布MosaicLeaks研究，重点探讨研究型AI Agent在执行任务时的隐私与数据泄露风险，为Agent安全评估提供了新的视角与基准，对开发者构建安全的Agent系统具有重要指导意义。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/ServiceNow/mosaicleaks",
-      "analysis": {
-        "tech": {
-          "score": 8.5,
-          "summary": "聚焦研究型AI Agent在执行多步推理与工具调用过程中的隐私泄露与数据安全问题，针对Agent在复杂任务流中的信息越界与泄露机制进行了深度剖析，填补了Agent安全性评估领域的空白。"
-        },
-        "utility": {
-          "score": 8.0,
-          "summary": "为构建企业级Agent、RAG系统及自动化研究工具的开发者提供了关键的安全评估基准，能够直接指导Agent沙箱设计、数据脱敏策略及安全防护机制的落地实践。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "由ServiceNow在HuggingFace官方博客发布，来源权威且聚焦当前AI社区高度关注的Agent安全与隐私痛点，时间节点具有极强的前瞻性与时效性，极易引发行业共鸣与讨论。"
-        }
-      }
-    },
-    {
-      "name": "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "OCR",
-        "多语言",
-        "轻量化",
-        "计算机视觉",
+        "AI辅助编程",
+        "软件工程",
+        "CI/CD",
+        "DevOps",
         "工程实践",
-        "开源模型"
+        "博客"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "PP-OCRv6-on-Hugging-Face--50-Language-OCR-from-1.5M-to-34.5M-Parameters_8.5_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "Shipping-huggingface_hub-every-week-with-AI--open-tools--and-a-human-in-the-loop_8.5_2026-06-23.md",
       "source_type": "rss",
       "description": "",
-      "summary": "百度飞桨发布PP-OCRv6，在Hugging Face上开源了支持50种语言的OCR模型系列。该版本提供了从1.5M到34.5M不同参数规模的模型，兼顾了边缘设备的轻量化部署与服务器端的高精度需求，进一步巩固了PP-OCR在工业界易用、高效的领先地位。",
+      "summary": "本文由 Hugging Face 官方发布，详细介绍了其 Hub 项目如何通过结合 AI 技术、开源工具以及“人在回路”机制，实现每周高频、高质量的软件交付。文章分享了在 CI/CD 流程中引入 AI 自动化的工程实践经验，强调了人类审查在保障发布安全性中的关键作用，为业界提供了极具价值的 DevOps 现代化参考范式。",
       "tech_stack": [
         "未标注"
       ],
-      "link": "https://huggingface.co/blog/PaddlePaddle/pp-ocrv6",
+      "link": "https://huggingface.co/blog/huggingface-hub-release-ci",
       "analysis": {
         "tech": {
           "score": 7.0,
-          "summary": "PP-OCRv6在多语言统一建模和模型参数可伸缩性（1.5M至34.5M）方面展现了扎实的工程与架构设计能力，支持50种语言体现了数据与训练策略的深厚积累。但整体属于工业级方案的渐进式迭代，缺乏底层理论或架构的颠覆性创新。"
+          "summary": "文章探讨了将 AI 技术深度集成到高频软件交付（每周发布）的 CI/CD 流程中的工程架构与实践。分析了 AI 在自动化代码审查、测试生成及变更日志归纳等环节的应用，并严谨论证了在自动化流程中引入“人在回路”机制对于保障系统稳定性、处理边缘情况及把控发布质量的必要性，展现了较高的工程深度与架构严谨性。"
         },
         "utility": {
+          "score": 9.0,
+          "summary": "对软件研发与 DevOps 团队具有极高的落地参考价值。文章以 Hugging Face Hub 这一大型开源项目为蓝本，展示了如何利用 AI 与开源工具切实加速发布周期，其“AI 自动化生成/审查 + 人类最终把关”的协作模式可直接复用于企业级 CI/CD 流程的改造与提效，适用范围广泛。"
+        },
+        "community": {
           "score": 9.5,
-          "summary": "极具实用价值。提供从1.5M到34.5M的参数规模选择，完美覆盖移动端/边缘计算轻量化部署与服务器端高精度需求。支持50种语言极大拓宽了全球化业务适用范围，且托管于Hugging Face大幅降低了开发者的接入与部署门槛。"
+          "summary": "来源于 Hugging Face 官方博客，具备顶级的开源社区权威性与可信度。AI 辅助软件工程与自动化交付是当前及未来技术社区的核心热点，该文章结合顶级开源项目的真实实战经验，具有极强的时效性与行业影响力。"
+        }
+      }
+    },
+    {
+      "name": "jamiepine/voicebox",
+      "score": 8.5,
+      "status": "正常",
+      "tags": [
+        "语音合成",
+        "语音克隆",
+        "多模态",
+        "音频生成",
+        "语音助手",
+        "高质量",
+        "易用性高"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "jamiepine-voicebox_8.5_2026-06-23.md",
+      "source_type": "github",
+      "description": "The open-source AI voice studio. Clone, dictate, create.",
+      "summary": "Voicebox 是一款广受欢迎的开源 AI 语音工作室，通过 TypeScript 将复杂的语音克隆、听写与生成技术整合为易用的工具链。它虽未在底层算法上实现突破，但凭借出色的工程化封装和极高的易用性，成为 AI 语音领域极具实用价值的集成应用平台。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/jamiepine/voicebox",
+      "analysis": {
+        "tech": {
+          "score": 7.5,
+          "summary": "Voicebox 是一个基于 TypeScript 构建的开源 AI 语音工作室，其技术核心在于对现有主流语音克隆、识别和合成模型的优秀架构集成与封装，降低了开发者调用底层模型的门槛，提供了良好的工程化设计，但在底层 AI 算法本身并无原创性突破。"
+        },
+        "utility": {
+          "score": 9.0,
+          "summary": "提供了一站式的语音克隆、听写和创作功能，极大地提升了普通用户和开发者使用 AI 语音技术的便利性。凭借其直观的界面和集成化功能，解决了多模型切换和部署繁琐的痛点，具有极高的实际应用价值。"
         },
         "community": {
           "score": 9.0,
-          "summary": "话题时效性高（最新v6版本），来源极具权威性。PaddlePaddle作为主流框架，其PP-OCR系列在开源社区拥有庞大的用户基础和良好口碑，结合Hugging Face平台的广泛影响力，必将引起开发者社区的强烈关注与使用。"
+          "summary": "拥有超过 3.3 万的 Star 和近 4 千的 Fork，显示出极高的社区关注度和参与度。庞大的用户基数意味着丰富的周边生态和问题反馈渠道，整体社区基础极为雄厚。"
         }
       }
     },
@@ -3318,46 +3498,6 @@
         "community": {
           "score": 8.5,
           "summary": "发布于Hugging Face官方博客，来源权威且受众广泛。性能优化与算子融合是AI社区持续关注的核心工程痛点，该文提供的实战经验具有很高的时效性和社区影响力，能够引发开发者的广泛共鸣与实践。"
-        }
-      }
-    },
-    {
-      "name": "ZhuLinsen/daily_stock_analysis",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "LLM应用",
-        "数据分析",
-        "金融分析",
-        "股票分析",
-        "自动推送",
-        "高Star",
-        "高Fork",
-        "实用工具",
-        "零成本"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "ZhuLinsen-daily_stock_analysis_8.5_2026-06-22.md",
-      "source_type": "github",
-      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
-      "summary": "daily_stock_analysis 是一个现象级的 LLM 应用项目，它将大语言模型成功落地于股票市场分析场景。项目通过整合多源行情数据与实时新闻，结合自动化推送与决策看板，为用户提供了一站式的智能金融分析体验。其最大的亮点在于极高的实用性和极低的使用门槛（零成本定时运行），成功吸引了海量用户参与和部署。虽然在AI底层技术上并非突破性创新，但在工程化整合与场景落地方面表现卓越，是LLM在垂直领域应用的优秀范例。",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
-      "analysis": {
-        "tech": {
-          "score": 7.0,
-          "summary": "项目在技术层面主要侧重于LLM的工程化应用而非底层算法创新。它巧妙地将大语言模型与多源数据抓取（行情、新闻）、数据清洗、Prompt工程以及定时任务（如GitHub Actions实现零成本运行）相结合，构建了一套完整的自动化分析流水线。架构设计合理，工程整合度高，但在AI核心技术（如模型训练、深度学习算法）上属于应用级创新，无底层突破。"
-        },
-        "utility": {
-          "score": 9.5,
-          "summary": "实用性极强。项目直击散户和金融分析师获取多市场信息碎片化的痛点，通过LLM整合行情与实时新闻生成决策看板并自动推送，大幅降低信息获取与分析门槛。特别是'零成本定时运行'的设计，极大降低了普通用户的使用门槛和财务成本，4万+的Fork数充分证明了其在实际应用中的巨大价值和用户需求。"
-        },
-        "community": {
-          "score": 9.0,
-          "summary": "社区活跃度极高。项目获得了超过4.5万的Stars和4.1万的Forks，这属于现象级的数据表现，说明项目引发了广泛的关注和大量的二次开发/部署尝试。尽管今日新增Stars为0可能意味着项目已进入稳定成熟期或热度有所回落，但其庞大的用户基数和传播广度已经形成了丰富的周边生态和讨论基础。"
         }
       }
     },
@@ -4652,82 +4792,6 @@
       }
     },
     {
-      "name": "supermemoryai/supermemory",
-      "score": 8.5,
-      "status": "正常",
-      "tags": [
-        "RAG",
-        "向量数据库",
-        "大模型记忆",
-        "AI基础设施",
-        "知识库",
-        "记忆引擎",
-        "高质量",
-        "活跃维护"
-      ],
-      "date": "2026-06-07",
-      "date_dir": "2026-06-07",
-      "filename": "supermemoryai-supermemory_8.5_2026-06-07.md",
-      "source_type": "github",
-      "description": "Memory engine and app that is extremely fast, scalable. The Memory API for the AI era.",
-      "summary": "Supermemory是一个面向AI时代的记忆引擎和API，致力于解决大模型的无状态痛点。它通过极速、可扩展的架构设计，为开发者提供了便捷的长期记忆和知识检索接入能力，极大地提升了AI应用的个性化体验。项目在工程和实用性上表现优异，社区热度极高，是构建现代AI应用不可或缺的基础设施之一。",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/supermemoryai/supermemory",
-      "analysis": {
-        "tech": {
-          "score": 8.0,
-          "summary": "项目采用TypeScript构建，聚焦于解决大模型时代的上下文记忆问题。架构设计强调极速和可扩展性，通过统一的Memory API整合了向量检索和RAG（检索增强生成）相关技术，工程实现优秀，有效解决了大模型长文本和跨会话记忆的工程挑战。但在底层算法上属于现有技术的应用与架构封装，未构成根本性的算法突破。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "直击大模型无状态和上下文丢失的核心痛点，为开发者提供即插即用的记忆解决方案。极大地降低了构建个性化AI应用、知识库和长期记忆助手的开发门槛，API设计友好，具有极高的实际应用价值和商业潜力。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "拥有超过2.5万的Star和两千多的Fork，显示出极高的社区关注度和开发者认可度。作为AI基础设施类项目，已经形成了较强的生态吸引力，社区参与度活跃，生态正在快速丰富中。"
-        }
-      }
-    },
-    {
-      "name": "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "Agent",
-        "具身智能",
-        "机器人",
-        "LeRobot",
-        "工程实践",
-        "博客"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "From-the-Hugging-Face-Hub-to-robot-hardware-with-Strands-Agents-and-LeRobot_8.3_2026-06-22.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文介绍了如何利用Amazon的Strands Agents框架与Hugging Face的LeRobot框架，将Hub上的模型直接部署并控制真实的机器人硬件，为开发者提供了一套从云端模型到具身智能硬件落地的端到端工程实践方案。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/amazon/strands-lerobot-hub-to-hardware",
-      "analysis": {
-        "tech": {
-          "score": 6.5,
-          "summary": "文章聚焦于将大模型与机器人硬件结合的工程实践，展示了Strands Agents与LeRobot框架的协同工作流。虽然缺乏底层算法或理论上的创新，但在系统集成和端到端部署方面提供了清晰的技术路径，具备一定的应用层技术深度。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "对具身智能和机器人开发者具有极高的实用价值。文章打通了从云端模型库到本地机器人硬件的部署闭环，提供了可复现的工具链和操作指南，能够直接指导开发者进行Agent控制机器人的落地实践。"
-        },
-        "community": {
-          "score": 9.5,
-          "summary": "话题具有极强的时效性和行业热度。来源为Hugging Face官方博客，结合了Amazon Strands Agents与HF LeRobot两大主流开源生态，在开源社区和具身智能领域具备高关注度和权威可信度。"
-        }
-      }
-    },
-    {
       "name": "How an Agent Built a 3D Paris Gallery by Chaining Two Hugging Face Spaces",
       "score": 8.3,
       "status": "正常",
@@ -4761,45 +4825,6 @@
         "community": {
           "score": 9.0,
           "summary": "来源于 Hugging Face 官方博客，作者为 HF 核心成员，权威性与可信度极高。Agent 与多模态生成结合是当前 AI 社区的热点前沿，该实践紧跟技术趋势，为开源社区探索 Agent 生态联动提供了标杆案例，具有广泛的关注度。"
-        }
-      }
-    },
-    {
-      "name": "koala73/worldmonitor",
-      "score": 8.3,
-      "status": "正常",
-      "tags": [
-        "NLP",
-        "数据可视化",
-        "情报分析",
-        "新闻聚合",
-        "态势感知",
-        "数据分析",
-        "高质量",
-        "高星项目"
-      ],
-      "date": "2026-06-21",
-      "date_dir": "2026-06-21",
-      "filename": "koala73-worldmonitor_8.3_2026-06-21.md",
-      "source_type": "github",
-      "description": "Real-time global intelligence dashboard. AI-powered news aggregation, geopolitical monitoring, and infrastructure tracking in a unified situational awareness interface",
-      "summary": "WorldMonitor 是一个基于 TypeScript 的实时全球情报态势感知仪表板，利用 AI 技术聚合全球新闻并监测地缘政治与基础设施动态。项目在实用性上表现卓越，为专业领域提供了高效的信息过滤与决策支持工具；技术层面虽非底层算法突破，但系统整合与工程实现优秀；同时，项目凭借近 6 万的 Star 数展现了强大的社区影响力和生态基础，是一款高质量且极具应用价值的 AI 赋能数据分析项目。",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/koala73/worldmonitor",
-      "analysis": {
-        "tech": {
-          "score": 7.5,
-          "summary": "项目采用 TypeScript 构建，结合 AI 技术实现了新闻聚合、地缘政治监测和基础设施跟踪等功能。虽然在底层算法上并未体现出突破性创新，主要依赖于现有大模型能力（如 NLP、信息抽取）进行应用层面的整合，但其系统架构设计出色，能够将多源异构数据融合并在统一的态势感知界面中实时呈现，具备较高的工程技术含量和架构合理性。"
-        },
-        "utility": {
-          "score": 9.0,
-          "summary": "实用性极强。实时全球情报仪表板对于金融投资、地缘政治分析、国家安全、跨国企业风控等领域具有极高的应用价值。它将分散的全球资讯和基础设施动态进行 AI 提炼与可视化，极大降低了信息获取门槛，提升了决策效率，直击信息过载时代的痛点。"
-        },
-        "community": {
-          "score": 8.5,
-          "summary": "项目获得了近 6 万的 Stars 和超过 9 千的 Forks，显示出极高的社区关注度和广泛的影响力。尽管今日 Star 增长为 0，可能意味着项目已进入稳定期或近期迭代放缓，但庞大的基数依然表明其拥有活跃的潜在贡献者和庞大的用户基础，生态丰富度较高。"
         }
       }
     },
@@ -5655,40 +5680,38 @@
       }
     },
     {
-      "name": "Crosstalk-Solutions/project-nomad",
-      "score": 8.3,
+      "name": "We got local models to triage the OpenClaw repo for FREE!*",
+      "score": 8.2,
       "status": "正常",
       "tags": [
-        "边缘AI",
-        "离线计算",
-        "生存工具",
-        "离线助手",
-        "应急系统",
-        "高质量",
-        "高星标"
+        "大模型",
+        "Agent",
+        "工程实践",
+        "代码审查",
+        "DevOps"
       ],
-      "date": "2026-06-07",
-      "date_dir": "2026-06-07",
-      "filename": "Crosstalk-Solutions-project-nomad_8.3_2026-06-07.md",
-      "source_type": "github",
-      "description": "Project N.O.M.A.D, is a self-contained, offline survival computer packed with critical tools, knowledge, and AI to keep you informed and empowered—anytime, anywhere.",
-      "summary": "Project N.O.M.A.D 是一个高人气的离线生存计算机项目，通过TypeScript将AI与关键生存工具、知识库深度整合，实现了无网环境下的智能辅助。其独特的应用场景和强大的离线能力使其在极客和应急准备社区中备受推崇，具有极高的实用价值和社区影响力。",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "We-got-local-models-to-triage-the-OpenClaw-repo-for-FREE_8.2_2026-06-23.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "本文介绍了如何利用免费的本地大模型实现对OpenClaw开源仓库PR的自动分流。该方案不仅实现了零成本落地，还通过本地化运行保障了代码隐私，为开源维护者和企业DevOps团队提供了高可复用的自动化代码审查新范式。",
       "tech_stack": [
-        "TypeScript"
+        "未标注"
       ],
-      "link": "https://github.com/Crosstalk-Solutions/project-nomad",
+      "link": "https://huggingface.co/blog/local-models-pr-triage",
       "analysis": {
         "tech": {
-          "score": 7.5,
-          "summary": "项目采用TypeScript构建，结合了离线计算与边缘AI技术，在无网或资源受限环境下实现了AI模型的自包含运行。架构设计上具有较高的工程集成度，成功将复杂的AI能力下沉至本地离线环境，但在底层AI算法层面更多属于应用级创新而非基础性突破。"
+          "score": 7.0,
+          "summary": "探讨了如何利用本地运行的开源大模型对开源代码库的Pull Request进行自动分流与分类。技术实现侧重于工程化应用与Prompt优化，而非底层算法创新，展示了本地模型在特定垂直任务（代码审查辅助）上的可用性与成本控制（免费）。"
         },
         "utility": {
-          "score": 8.5,
-          "summary": "项目专注于极端或断网环境下的生存与信息获取需求，集成了关键工具、知识库与AI助手。对于应急准备、野外生存、隐私保护及网络不稳定场景具有极高的实用价值，真正做到了'anytime, anywhere'的赋能。"
+          "score": 9.0,
+          "summary": "对开源项目维护者和DevOps团队具有极高的参考价值。提供了一种低成本、保护隐私（本地运行）的自动化PR分流方案，可直接复用于各类代码仓库的日常维护，有效缓解人力审查的瓶颈问题。"
         },
         "community": {
-          "score": 9.0,
-          "summary": "项目拥有近3万星标和近3千Fork，显示出极高的社区关注度和参与度。庞大的受众基础表明该项目切中了特定人群的痛点，生态基础扎实，具有广泛的极客和生存主义受众群体。"
+          "score": 8.5,
+          "summary": "发布于Hugging Face官方博客，具有很高的权威性和社区关注度。话题直击开源社区维护成本高的痛点，'FREE'和'Local Models'的标签极具吸引力，在开发者社区中容易引发共鸣和广泛讨论。"
         }
       }
     },
@@ -6468,41 +6491,40 @@
       }
     },
     {
-      "name": "jamiepine/voicebox",
+      "name": "ZhuLinsen/daily_stock_analysis",
       "score": 8.0,
       "status": "正常",
       "tags": [
-        "多模态",
-        "语音合成",
-        "语音识别",
-        "声音克隆",
-        "音频生成",
-        "开源",
-        "高质量",
-        "易用"
+        "LLM应用",
+        "数据分析",
+        "金融分析",
+        "股票分析",
+        "高星标",
+        "易部署",
+        "零成本"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "jamiepine-voicebox_8.0_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "ZhuLinsen-daily_stock_analysis_8.0_2026-06-23.md",
       "source_type": "github",
-      "description": "The open-source AI voice studio. Clone, dictate, create.",
-      "summary": "Voicebox是一个极受欢迎的开源AI语音工作室，提供声音克隆、听写和创作等一站式功能。它基于TypeScript构建，将复杂的AI语音模型封装为易用的界面，具有极高的实用价值和庞大的社区支持。虽然底层AI算法非原创突破，但作为优秀的集成应用工具，它极大地降低了AI语音技术的应用门槛。",
+      "description": "LLM 驱动的多市场股票智能分析系统：多源行情、实时新闻、决策看板与自动推送，支持零成本定时运行。 LLM-powered multi-market stock analysis system with multi-source market data, real-time news, decision dashboard, automated notifications, and cost-free scheduled runs.",
+      "summary": "这是一个基于LLM的多市场股票智能分析系统，通过整合多源行情与实时新闻，提供从数据分析到决策看板及自动推送的全链路功能。项目技术集成度高，实用性极强且支持零成本运行，深受大众欢迎，拥有庞大的用户和部署基数，是LLM在金融投研领域极具代表性的落地应用。",
       "tech_stack": [
-        "TypeScript"
+        "Python"
       ],
-      "link": "https://github.com/jamiepine/voicebox",
+      "link": "https://github.com/ZhuLinsen/daily_stock_analysis",
       "analysis": {
         "tech": {
           "score": 6.5,
-          "summary": "项目基于TypeScript构建，定位为AI语音工作室的集成应用层，而非底层算法创新。其技术亮点在于将复杂的语音克隆、语音识别与合成等AI能力进行了良好的工程化封装与架构设计，提供了友好的交互界面，降低了技术使用门槛，但核心AI能力主要依赖于现有的开源模型或第三方API。"
+          "summary": "项目在技术层面主要侧重于工程集成与应用落地，将LLM能力与多源金融数据（行情、新闻）结合，构建了包含数据获取、智能分析、决策看板和自动推送的完整链路。架构设计合理，支持零成本定时运行（如利用GitHub Actions等Serverless方案），但核心并未在底层算法或模型架构上产生突破，属于典型的LLM应用层开发。"
         },
         "utility": {
           "score": 9.0,
-          "summary": "实用性极高。项目集成了声音克隆、听写和创作等高频需求功能，为内容创作者、播客和开发者提供了一站式的AI语音解决方案。超过3.2万的Star数充分证明了其在解决实际问题和易用性方面的巨大市场价值和应用潜力。"
+          "summary": "实用性极强，直击个人投资者在多市场股票分析中的痛点。系统整合了行情数据、实时新闻解读与自动推送，形成闭环决策辅助工具。特别是'零成本定时运行'的特性极大降低了普通用户的部署和使用门槛，超高的Fork数也印证了其极高的实操价值和易用性。"
         },
         "community": {
           "score": 8.5,
-          "summary": "社区活跃度非常高。项目获得了超过3.2万个Star和近4千个Fork，显示出庞大的用户基础和极高的关注度。尽管今日Star增量为0（可能处于版本稳定期或数据抓取节点波动），但其整体社区规模、潜在贡献者数量和生态影响力在开源AI语音工具中名列前茅。"
+          "summary": "项目拥有惊人的Star和Fork数量（近4.7万Star，4.2万Fork），Fork/Star比例极高，说明大量用户不仅关注，更直接将其克隆部署，具有极其广泛的用户基础和传播度。尽管今日新增Star为0可能意味着项目已过爆发期或进入稳定维护期，但其积累的社区体量和生态影响力依然不容小觑。"
         }
       }
     },
@@ -7981,6 +8003,44 @@
       }
     },
     {
+      "name": "JCodesMore/ai-website-cloner-template",
+      "score": 7.8,
+      "status": "正常",
+      "tags": [
+        "代码生成",
+        "多模态",
+        "前端开发",
+        "网站克隆",
+        "代码助手",
+        "高星标",
+        "易用"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "JCodesMore-ai-website-cloner-template_7.8_2026-06-23.md",
+      "source_type": "github",
+      "description": "Clone any website with one command using AI coding agents",
+      "summary": "ai-website-cloner-template 是一个基于 TypeScript 的高星标项目，旨在通过一条命令利用 AI 编码代理克隆任意网站。该项目巧妙地将多模态大模型的视觉理解和代码生成能力应用于前端开发领域，极大地降低了网站还原和原型开发的门槛，具有极高的实用价值。虽然技术上属于应用层编排而非底层算法突破，但其出色的易用性和明确的痛点解决能力使其获得了社区的广泛认可。",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/JCodesMore/ai-website-cloner-template",
+      "analysis": {
+        "tech": {
+          "score": 6.5,
+          "summary": "该项目属于典型的AI应用层编排，核心在于利用多模态大模型的视觉理解与代码生成能力，结合AI编码代理（如Cursor、Cline等）实现从截图/URL到前端代码的转换。技术架构上主要是一个脚手架或模板，集成了精心设计的Prompt和工作流，本身在底层算法或架构设计上并无突破性创新，但巧妙地发挥了现有AI Agent的潜力。"
+        },
+        "utility": {
+          "score": 8.5,
+          "summary": "项目直击前端开发和UI设计的痛点，'一键克隆网站'的卖点极具吸引力，能够大幅提升网页还原、原型开发或借鉴参考的效率。使用门槛极低（one command），应用场景非常明确，对于需要快速出页面的开发者或设计师而言具有极高的实用价值，尽管复杂交互和响应式的还原度可能存在局限。"
+        },
+        "community": {
+          "score": 8.5,
+          "summary": "项目获得了超过1.8万的Stars和近2800的Forks，显示出极高的社区关注度和广泛的用户基础。Fork数量高说明大量用户实际下载并尝试使用了该模板。虽然今日Star增量为0可能意味着项目已过爆发期或进入稳定维护阶段，但其整体数据表现依然证明了其强大的社区影响力和生态认可度。"
+        }
+      }
+    },
+    {
       "name": "Hidden Anchors in Multi-Agent LLM Deliberation",
       "score": 7.8,
       "status": "正常",
@@ -8349,35 +8409,34 @@
       "score": 7.7,
       "status": "正常",
       "tags": [
-        "多模态",
-        "计算机视觉",
+        "CV",
         "视频编辑",
-        "智能剪辑",
-        "原生应用",
-        "高质量"
+        "桌面应用",
+        "高质量",
+        "原生体验"
       ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "palmier-io-palmier-pro_7.7_2026-06-22.md",
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "palmier-io-palmier-pro_7.7_2026-06-23.md",
       "source_type": "github",
       "description": "macOS video editor built for AI",
-      "summary": "Palmier Pro 是一款专为 macOS 打造的 AI 原生视频编辑器，通过深度集成AI模型实现智能剪辑功能，为视频创作者提供了高效、易用的生产力工具。项目在原生体验和AI工程结合上表现优异，具有很高的实用价值，但近期社区活跃度有所放缓，需持续迭代以保持竞争力。",
+      "summary": "Palmier Pro 是一款基于 macOS 的原生 AI 视频编辑器，通过集成 AI 技术大幅提升视频剪辑效率。项目凭借优秀的原生体验和实用的 AI 功能获得了较高的社区认可，非常适合 macOS 平台的内容创作者使用，但在跨平台支持和底层算法创新上仍有提升空间。",
       "tech_stack": [
         "Swift"
       ],
       "link": "https://github.com/palmier-io/palmier-pro",
       "analysis": {
         "tech": {
-          "score": 7.5,
-          "summary": "项目采用Swift原生构建，针对macOS和Apple Silicon进行了架构优化，深度集成了多种AI能力（如语音识别、场景检测、智能剪辑等）。虽然在底层AI算法上更多是集成与应用而非原创突破，但在桌面端高效调用和协同多模态AI模型方面具有较好的工程先进性。"
+          "score": 7.0,
+          "summary": "项目采用 Swift 原生开发，针对 macOS 平台进行了深度优化，结合了计算机视觉和音频处理等 AI 技术实现视频编辑的自动化与智能化。技术集成度高，原生性能表现优异，但在底层 AI 算法上更多是应用现有模型，未呈现颠覆性创新。"
         },
         "utility": {
           "score": 8.5,
-          "summary": "视频编辑是内容创作的高频需求，结合AI能力（如自动生成字幕、智能去静音、AI辅助裁剪等）能够大幅降低创作门槛并提升剪辑效率。作为macOS原生应用，其性能和用户体验优于跨平台Electron类应用，对Mac用户群体具有极高的实用价值。"
+          "summary": "专为 macOS 用户打造的 AI 视频编辑器，直击内容创作者的效率痛点。AI 辅助功能（如智能剪辑、自动字幕、场景检测等）具有极高的实际应用价值，能显著降低视频编辑门槛和时间成本。但受限于单一操作系统，受众范围有一定局限性。"
         },
         "community": {
-          "score": 7.0,
-          "summary": "项目获得了7100+ Stars和近500 Forks，说明在初期或特定圈层内获得了显著的关注和认可。但近期（今日Stars为0）增长停滞，可能处于功能稳定期或维护节奏放缓，社区互动和生态丰富度仍有提升空间。"
+          "score": 7.5,
+          "summary": "项目获得了超过 8000 个 Star 和 500 多个 Fork，显示出较高的社区关注度和用户基础。作为垂直领域的工具类项目，这一数据表现优秀。不过近期 Star 增长趋缓，需关注后续的持续迭代、插件生态建设及社区贡献者活跃度。"
         }
       }
     },
@@ -9258,45 +9317,6 @@
       }
     },
     {
-      "name": "JCodesMore/ai-website-cloner-template",
-      "score": 7.3,
-      "status": "正常",
-      "tags": [
-        "多模态",
-        "LLM应用",
-        "前端开发",
-        "代码助手",
-        "网站克隆",
-        "UI生成",
-        "高星标",
-        "易用"
-      ],
-      "date": "2026-06-22",
-      "date_dir": "2026-06-22",
-      "filename": "JCodesMore-ai-website-cloner-template_7.3_2026-06-22.md",
-      "source_type": "github",
-      "description": "Clone any website with one command using AI coding agents",
-      "summary": "ai-website-cloner-template 是一个基于 TypeScript 的 AI 辅助前端开发工具，利用 AI 编程代理实现一键网站克隆。项目实用性极强，能显著提升前端开发与原型设计效率；技术层面属于典型的 LLM 应用层封装，缺乏底层算法突破；社区基础庞大但近期活跃度有放缓趋势，整体是一个优秀的 AI 提效工具而非底层技术革新。",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/JCodesMore/ai-website-cloner-template",
-      "analysis": {
-        "tech": {
-          "score": 6.0,
-          "summary": "项目在技术层面主要侧重于应用层的工程化封装与工作流编排，通过整合现有的 AI 编程代理（如多模态大模型和代码生成 Agent）实现从网页解析到代码生成的自动化。架构设计合理，降低了用户使用 AI 的门槛，但底层依赖通用大模型能力，自身在算法或底层架构上缺乏原创性突破，技术壁垒相对较低。"
-        },
-        "utility": {
-          "score": 8.5,
-          "summary": "实用性表现优异，'一键克隆'直击前端开发者和设计师的痛点，极大缩短了从参考设计到生成可用代码的周期。对于快速原型构建、UI 仿制和前端项目初始化具有极高的应用价值。尽管生成的代码可能仍需人工微调，但作为提效工具，其实际解决问题的能力十分突出。"
-        },
-        "community": {
-          "score": 7.5,
-          "summary": "项目获得了超过 1.7 万的 Star 和 2700+ 的 Fork，显示出极高的初期关注度和广泛的用户基础。然而今日 Star 增长为 0，可能意味着项目已度过爆发期或近期迭代放缓。作为模板类项目，其 Fork 数高表明使用率高，但开源社区的长期互动和贡献活跃度可能受限。"
-        }
-      }
-    },
-    {
       "name": "asgeirtj/system_prompts_leaks",
       "score": 7.3,
       "status": "正常",
@@ -9557,6 +9577,44 @@
       }
     },
     {
+      "name": "revfactory/harness",
+      "score": 7.2,
+      "status": "正常",
+      "tags": [
+        "多智能体",
+        "Agent",
+        "提示词工程",
+        "智能体编排",
+        "自动化工作流",
+        "高星标",
+        "概念创新"
+      ],
+      "date": "2026-06-23",
+      "date_dir": "2026-06-23",
+      "filename": "revfactory-harness_7.2_2026-06-23.md",
+      "source_type": "github",
+      "description": "A meta-skill that designs domain-specific agent teams, defines specialized agents, and generates the skills they use.",
+      "summary": "Harness 是一个创新的多智能体自动化构建项目，通过'元技能'实现了特定领域智能体团队的自动设计与技能生成。该项目在Agent编排自动化方面具有较高价值，有效降低了多智能体系统的开发门槛，并已获得可观的社区关注。",
+      "tech_stack": [
+        "HTML"
+      ],
+      "link": "https://github.com/revfactory/harness",
+      "analysis": {
+        "tech": {
+          "score": 7.5,
+          "summary": "项目提出了'meta-skill'（元技能）的创新概念，能够自动设计特定领域的多智能体团队、定义专业智能体并生成其所需技能。在当前多智能体编排领域具有一定的前瞻性，将Agent的构建从手动配置提升到了自动化生成的层面，但主要语言为HTML，底层技术实现可能更偏向于提示词工程和配置编排，深度相对有限。"
+        },
+        "utility": {
+          "score": 7.0,
+          "summary": "对于需要快速搭建复杂多智能体协作系统的开发者和企业而言，该项目能够显著降低开发门槛和配置成本。通过自动化生成团队和技能，提高了AI工作流的构建效率，但在复杂业务场景下的稳定性和可控性仍需进一步验证。"
+        },
+        "community": {
+          "score": 7.0,
+          "summary": "项目获得了7403个Stars和1045个Forks，显示出较高的社区关注度和良好的受众基础。不过今日Stars增长为0，可能意味着项目已度过初期的爆发期，当前处于稳定维护或热度下降阶段。"
+        }
+      }
+    },
+    {
       "name": "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
       "score": 7.2,
       "status": "正常",
@@ -9699,42 +9757,6 @@
         "community": {
           "score": 7.0,
           "summary": "获得了超过5000个Star和700多个Fork，显示出社区对该领域的高度关注和强烈的学习需求。但作为个人主导的教程型项目，其长期维护频率、外部贡献者参与度及生态扩展相对有限，今日Star增长停滞也反映出项目热度趋于平稳。"
-        }
-      }
-    },
-    {
-      "name": "Amazing Digital Dentures (a failed project)",
-      "score": 7.2,
-      "status": "正常",
-      "tags": [
-        "3D生成",
-        "医疗AI",
-        "小模型",
-        "工程实践",
-        "复盘"
-      ],
-      "date": "2026-06-07",
-      "date_dir": "2026-06-07",
-      "filename": "Amazing-Digital-Dentures--a-failed-project_7.2_2026-06-07.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "本文记录了在Hugging Face黑客松中尝试利用AI技术生成“数字假牙”但最终失败的项目复盘。文章分享了项目的技术探索过程、遇到的瓶颈以及失败原因，为AI在医疗垂直领域（特别是3D生成与牙科）的应用提供了宝贵的避坑经验与工程反思。",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/build-small-hackathon/amazingdigitaldentures",
-      "analysis": {
-        "tech": {
-          "score": 7.0,
-          "summary": "虽然项目最终失败，但失败复盘往往揭示了特定技术（如3D生成、小模型在医疗垂直领域的应用）的局限性与技术瓶颈，具有反向验证的研究深度与工程洞见。"
-        },
-        "utility": {
-          "score": 7.5,
-          "summary": "作为失败案例，对试图在AI+牙科/医疗3D生成领域探索的从业者具有极高的避坑价值，提供了真实的试错经验，有助于调整技术路线和预期。"
-        },
-        "community": {
-          "score": 7.0,
-          "summary": "发布于Hugging Face官方博客的黑客松专题，来源权威且可信度高。AI在垂直医疗领域的应用是当前热点，但“数字假牙”受众相对小众，影响力适中。"
         }
       }
     },
@@ -10800,6 +10822,28 @@
     }
   ],
   "projects_by_date": {
+    "2026-06-23": [
+      "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
+      "Build real agentic apps using CUGA: two dozen working examples on a lightweight harness",
+      "Experimenting with the proposed Cross-Origin Storage API in Transformers.js",
+      "From the Hugging Face Hub to robot hardware with Strands Agents and LeRobot",
+      "Is it agentic enough? Benchmarking open models on your own tooling",
+      "JCodesMore/ai-website-cloner-template",
+      "MolmoMotion: Language-guided 3D motion forecasting",
+      "MosaicLeaks: Can your research agent keep a secret?",
+      "NousResearch/hermes-agent",
+      "PP-OCRv6 on Hugging Face: 50-Language OCR from 1.5M to 34.5M Parameters",
+      "Shipping huggingface_hub every week with AI, open tools, and a human in the loop",
+      "We got local models to triage the OpenClaw repo for FREE!*",
+      "ZhuLinsen/daily_stock_analysis",
+      "bytedance/deer-flow",
+      "calesthio/OpenMontage",
+      "jamiepine/voicebox",
+      "koala73/worldmonitor",
+      "mukul975/Anthropic-Cybersecurity-Skills",
+      "palmier-io/palmier-pro",
+      "revfactory/harness"
+    ],
     "2026-06-22": [
       "Agentic Resource Discovery: Let agents search",
       "Beyond LoRA: Can you beat the most popular fine-tuning technique?",
@@ -11518,48 +11562,6 @@
       "mvanhorn/last30days-skill",
       "phuryn/pm-skills",
       "santifer/career-ops"
-    ],
-    "2026-06-07": [
-      "Adding MCP Tools to Reachy Mini",
-      "Amazing Digital Dentures (a failed project)",
-      "Beyond LLMs: Why Scalable Enterprise AI Adoption Depends on Agent Logic",
-      "Crosstalk-Solutions/project-nomad",
-      "Designing the hf CLI as an agent-optimized way to work with the Hub",
-      "Direct Preference Optimization Beyond Chatbots",
-      "EVA-Bench Data 2.0: 3 Domains, 121 Tools, 213 Scenarios",
-      "Holo3.1: Fast & Local Computer Use Agents",
-      "Introducing Mellum2: A 12B Mixture-of-Experts Model by JetBrains",
-      "Launch HN: Airweave (YC X25) – Let agents search any app",
-      "Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking",
-      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
-      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
-      "Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems",
-      "Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI",
-      "Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry",
-      "Leonxlnx/taste-skill",
-      "Nemotron 3.5 Content Safety: Customizable Multimodal Safety for Global Enterprise AI",
-      "NousResearch/hermes-agent",
-      "Profiling in PyTorch (Part 1): A Beginner's Guide to torch.profiler",
-      "Show HN: A big tech dev experience for an open source CMS",
-      "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-      "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
-      "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
-      "Show HN: Darwin – Automate Your GitHub Project with AI",
-      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
-      "Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually",
-      "Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust",
-      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
-      "Show HN: Pickaxe – A TypeScript library for building AI agents",
-      "Show HN: Pipelex – Declarative language for repeatable AI workflows",
-      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
-      "aaif-goose/goose",
-      "chopratejas/headroom",
-      "ggml-org/llama.cpp",
-      "harry0703/MoneyPrinterTurbo",
-      "mvanhorn/last30days-skill",
-      "supermemoryai/supermemory",
-      "yikart/AiToEarn"
     ]
   }
 }
