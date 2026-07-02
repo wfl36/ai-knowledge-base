@@ -1,47 +1,47 @@
 # AI 知识库总纲
 
-> 最后更新: 2026-07-01
+> 最后更新: 2026-07-02
 > 项目总数: 40
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | RoPoLL: Robust Panel of LLM Judges | 9.2 | 大模型评估, LLM-as-Judge, 鲁棒统计 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30931) |
-| 2 | AgRefactor: Self-Evolving Agentic Workflow for HLS Compatibility and Performance | 9.2 | Agent, 大模型, EDA | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30949) |
-| 3 | DiScoFormer: One transformer for density and score, across distributions | 9.1 | 生成模型, Transformer, 扩散模型 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/allenai/discoformer) |
-| 4 | When Does Learning to Stop Help? A Cost-Aware Study of Early Exits in Reasoning Models | 9.0 | 推理模型, 推理优化, 早退机制 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30852) |
-| 5 | Using AI Agents to Automate Black-Box Audits of Personalization Algorithms at Scale | 9.0 | Agent, 算法审计, 个性化推荐 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30801) |
-| 6 | Hugging Face and Cerebras bring Gemma 4 to real-time voice AI | 9.0 | 大模型, 语音AI, 实时推理 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/cerebras-gemma4-voice-ai) |
-| 7 | Why Specialization Is Inevitable | 9.0 | 大模型, Agent, 领域模型 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable) |
-| 8 | usestrix/strix | 8.8 | 网络安全, AI Agent, 大语言模型 | 正常 | 2026-07-01 | [链接](https://github.com/usestrix/strix) |
-| 9 | allenai/olmocr | 8.8 | 深度学习, 多模态, OCR | 正常 | 2026-07-01 | [链接](https://github.com/allenai/olmocr) |
-| 10 | Why Solve It Twice? Hierarchical Accumulation of Skills for Transfer-Efficient ML Engineering | 8.8 | Agent, 多智能体, AutoML | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30911) |
-| 11 | Training Therapeutic Judges and Multi-Agent Systems for Human-Aligned Mental Health Support | 8.8 | 大模型, Agent, 心理健康 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30887) |
-| 12 | ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | 8.8 | Agent, 代码迁移, 基准测试 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/ibm-research/scarfbench) |
-| 13 | What Drives Interactive Improvement from Feedback? | 8.7 | Agent, 推理, 评估 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30774) |
-| 14 | A Single Rewrite Suffices: Empirical Lessons from Production Skill Description Optimization | 8.7 | Agent, 大模型, 路由 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30775) |
-| 15 | Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World | 8.7 | 语音识别, ASR, Benchmark | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/ffasr-leaderboard) |
-| 16 | Shipping huggingface_hub every week with AI, open tools, and a human in the loop | 8.7 | AI for SE, DevOps, CI/CD | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/huggingface-hub-release-ci) |
-| 17 | Experimenting with the proposed Cross-Origin Storage API in Transformers.js | 8.7 | 大模型, 端侧部署, Web标准 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/cross-origin-storage) |
-| 18 | logto-io/logto | 8.5 | 身份认证, 授权, OAuth | 正常 | 2026-07-01 | [链接](https://github.com/logto-io/logto) |
-| 19 | Contrastive Reflection for Iterative Prompt Optimization | 8.5 | 大模型, Agent, RAG | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30840) |
-| 20 | When Calibration Rankings Reverse: Accuracy-Controlled Evaluation for Fair Comparison of LLMs | 8.5 | 大模型, 评估, 校准 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30814) |
-| 21 | diegosouzapw/OmniRoute | 8.3 | API网关, Token压缩, 多模态 | 正常 | 2026-07-01 | [链接](https://github.com/diegosouzapw/OmniRoute) |
-| 22 | Featuring Every Eval Ever Results on Hugging Face Model Pages | 8.3 | 大模型, 评测, 开源社区 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/eee-community-evals) |
-| 23 | Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel | 8.3 | 大模型, 微调, 性能优化 | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel) |
-| 24 | Beyond expert users: agents should help users construct preferences, not just elicit them | 8.2 | Agent, 交互设计, 推荐系统 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30863) |
-| 25 | HKUDS/Vibe-Trading | 8.0 | 深度学习, LLM, 智能体 | 正常 | 2026-07-01 | [链接](https://github.com/HKUDS/Vibe-Trading) |
-| 26 | Test-Time Verification for Text-to-SQL via Outcome Reward Models | 8.0 | Text-to-SQL, 大模型, 推理 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30851) |
-| 27 | Beyond Clean Text: Evaluating Encoder and Decoder Robustness for Bangla Event Detection in Noisy Text | 8.0 | 事件检测, 鲁棒性, 低资源语言 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30914) |
-| 28 | Unclecheng-li/VulnClaw | 7.8 | AI Agent, 网络安全, 渗透测试 | 正常 | 2026-07-01 | [链接](https://github.com/Unclecheng-li/VulnClaw) |
-| 29 | BayesBench: Evaluating LLM Belief Trajectories Under Multi-Turn Evidence Accumulation | 7.8 | 大模型, 推理, 评估 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30850) |
-| 30 | Run a vLLM Server on HF Jobs in One Command | 7.8 | 大模型, 推理, vLLM | 正常 | 2026-07-01 | [链接](https://huggingface.co/blog/vllm-jobs) |
-| 31 | Indi-RomCoM: Code-Mixed Benchmark for Evaluating LLMs on Romanized Indic-English Instructions | 7.7 | 大模型, 多语言, 评估基准 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30790) |
-| 32 | Investigating Multi-Agent Deliberation in Law | 7.5 | 多智能体, 法律AI, 大模型 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30906) |
-| 33 | How Can AI Find My Model? A Model-Finding Experimental Study Considering Data Formats, Embeddings, and Retrieval Strategies | 7.3 | 信息检索, 嵌入模型, RAG | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30846) |
-| 34 | facebook/astryx | 7.2 | 前端开发, Agent交互, 设计系统 | 正常 | 2026-07-01 | [链接](https://github.com/facebook/astryx) |
-| 35 | togatoga/karukan | 7.2 | 深度学习, NLP, Rust | 正常 | 2026-07-01 | [链接](https://github.com/togatoga/karukan) |
-| 36 | microsoft/AI-For-Beginners | 7.2 | 深度学习, NLP, CV | 正常 | 2026-07-01 | [链接](https://github.com/microsoft/AI-For-Beginners) |
-| 37 | When transformers learn "impossible" languages, what do they learn? | 6.8 | 大模型, 语言学, 认知科学 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30815) |
-| 38 | Multilingual Polarization Detection Using Transformer-Based Models with Class Weighting and Threshold Tuning | 6.5 | NLP, 多语言, 极化检测 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30857) |
-| 39 | Bridging Scientific Heritage: An Arabic--Russian Parallel Corpus and LLM Benchmark for Sustainable Knowledge Transfer | 6.0 | 大模型, 机器翻译, 多语言 | 正常 | 2026-07-01 | [链接](https://arxiv.org/abs/2606.30943) |
-| 40 | msitarzewski/agency-agents | 4.0 | Agent, 提示词工程, 虚拟团队 | 待复核 | 2026-07-01 | [链接](https://github.com/msitarzewski/agency-agents) |
+| 1 | pytorch/pytorch | 9.8 | 深度学习, 模型训练, 高质量 | 正常 | 2026-07-02 | [链接](https://github.com/pytorch/pytorch) |
+| 2 | usestrix/strix | 9.0 | AI Agent, 网络安全, LLM应用 | 正常 | 2026-07-02 | [链接](https://github.com/usestrix/strix) |
+| 3 | affaan-m/ECC | 9.0 | AI Agent, 代码助手, 性能优化 | 正常 | 2026-07-02 | [链接](https://github.com/affaan-m/ECC) |
+| 4 | Why Specialization Is Inevitable | 9.0 | 大模型, 专业化模型, SLM | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/Dharma-AI/why-specialization-is-inevitable) |
+| 5 | langflow-ai/langflow | 8.9 | LLM编排, Agent, 低代码开发 | 正常 | 2026-07-02 | [链接](https://github.com/langflow-ai/langflow) |
+| 6 | agentskills/agentskills | 8.8 | 智能体, 协议规范, AI基础设施 | 正常 | 2026-07-02 | [链接](https://github.com/agentskills/agentskills) |
+| 7 | RareDxR1: Autonomous Medical Reasoning for Rare Disease Diagnosis Beyond Human Annotation | 8.7 | 大模型, 推理, 医疗AI | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00147) |
+| 8 | SLIM-RL: Risk-Budgeted Random-Masking RL for Diffusion LLMs Without Trajectory Slicing | 8.7 | 大模型, 扩散模型, 强化学习 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00208) |
+| 9 | ScarfBench: Benchmarking AI Agents for Enterprise Java Framework Migration | 8.7 | Agent, 代码迁移, 基准测试 | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/ibm-research/scarfbench) |
+| 10 | Introducing the FFASR Leaderboard: Benchmarking ASR in the Real World | 8.7 | ASR, 评测基准, 语音技术 | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/ffasr-leaderboard) |
+| 11 | Shipping huggingface_hub every week with AI, open tools, and a human in the loop | 8.7 | AI辅助开发, CI/CD, DevOps | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/huggingface-hub-release-ci) |
+| 12 | santifer/career-ops | 8.5 | 大语言模型, Agent, 求职助手 | 正常 | 2026-07-02 | [链接](https://github.com/santifer/career-ops) |
+| 13 | obra/superpowers | 8.5 | 智能体, 提示词工程, 代码助手 | 正常 | 2026-07-02 | [链接](https://github.com/obra/superpowers) |
+| 14 | Making Failure Safe: A Constrained, Verifiable Agent Framework for Open-Web Data Collection | 8.5 | Agent, 数据收集, 代码生成 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00035) |
+| 15 | Seed2.0 Model Card: Towards Intelligence Frontier for Real-World Complexity | 8.5 | 大模型, 推理, 多模态 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00248) |
+| 16 | Benchmarking Frontier LLMs on Arabic Cultural and Sociolinguistic Knowledge: A Cross-Evaluation Framework with Human SME Ground Truth | 8.5 | 大模型评测, LLM-as-a-Judge, 多语言/方言 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00139) |
+| 17 | ALEE: Any-Language Evaluation of Embeddings via English-Centric Minimal Pairs | 8.5 | 嵌入评估, 多语言, 跨语言 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00171) |
+| 18 | Accelerating Transformers Fine-Tuning with NVIDIA NeMo AutoModel | 8.5 | 大模型, 微调, 性能优化 | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/nvidia/accelerating-fine-tuning-nvidia-nemo-automodel) |
+| 19 | From Signals to Structure: How Memory Architecture Drives Language Emergence in LLM Agents | 8.4 | Agent, 多智能体, 语言涌现 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00233) |
+| 20 | xbtlin/ai-berkshire | 8.3 | 多Agent, LLM应用, 价值投资 | 正常 | 2026-07-02 | [链接](https://github.com/xbtlin/ai-berkshire) |
+| 21 | Identifying and Resolving Pitfalls of Knowledge-Based VQA Benchmarks: Auditing, Repairing, and Augmenting | 8.3 | VQA, 多模态, 评估基准 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00159) |
+| 22 | Hugging Face and Cerebras bring Gemma 4 to real-time voice AI | 8.3 | 大模型, 语音AI, 推理优化 | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/cerebras-gemma4-voice-ai) |
+| 23 | Featuring Every Eval Ever Results on Hugging Face Model Pages | 8.3 | 大模型, 评测, 开源生态 | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/eee-community-evals) |
+| 24 | Bounded Morality: Defining the Space of Moral Computation | 8.2 | AI对齐, 道德计算, AI安全 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00002) |
+| 25 | DiScoFormer: One transformer for density and score, across distributions | 8.2 | 生成模型, 概率建模, Transformer | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/allenai/discoformer) |
+| 26 | HKUDS/Vibe-Trading | 8.0 | 深度学习, LLM, 智能体 | 正常 | 2026-07-02 | [链接](https://github.com/HKUDS/Vibe-Trading) |
+| 27 | Constructing Epistemic AI Literacy: Detecting Epistemic Aims and Processes in Student-AI Co-Programming | 8.0 | AI素养, 人机协同, 认知科学 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00211) |
+| 28 | Controllable Narrative Rendering for Enhanced Assisted Writing | 8.0 | 大模型, 写作辅助, 叙事生成 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00009) |
+| 29 | Harnessing the Latent Space: From Steering Vectors to Model Calibrators for Control and Trust | 8.0 | 大模型, 可解释性, 潜空间 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00083) |
+| 30 | Readable but Not Controllable: Neuron-Level Evidence for Medical LLM Hallucination | 8.0 | 大模型, 幻觉, 医疗AI | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00158) |
+| 31 | The MMM Data Model -- A Normative Specification for Knowledge Interoperability in a Decentralisable Knowledge Commons | 7.8 | 知识表示, 数据模型, 去中心化 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00032) |
+| 32 | Hate Speech Detection in Turkish and Arabic Languages: A Comprehensive Study | 7.8 | NLP, 仇恨言论检测, 多语言 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00143) |
+| 33 | Constructive Alignment: Governing Preference Dynamics in Human-AI Interaction | 7.7 | AI对齐, 偏好动态, 控制论 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00001) |
+| 34 | Solution space path planning for supporting en-route air traffic control | 7.7 | 路径规划, 人机协同, 空管系统 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00064) |
+| 35 | msitarzewski/agency-agents | 7.5 | Agent编排, Prompt工程, 自动化工作流 | 正常 | 2026-07-02 | [链接](https://github.com/msitarzewski/agency-agents) |
+| 36 | A Contextual-Bandit Oversight Game with Two-Sided Informational Asymmetry | 7.5 | AI安全, 对齐, 监督博弈 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00155) |
+| 37 | Persona Without Substrate: Regime-Dependence and the LLM Individuation Problem | 7.5 | 大模型, 可解释性, 表示工程 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00006) |
+| 38 | Structural Pattern Mining in Inka Khipus: Unsupervised Clustering, Provenance Classification, and a Computational Validation of the Santa Valley Match | 7.5 | 机器学习, 无监督聚类, 可解释性 | 正常 | 2026-07-02 | [链接](https://arxiv.org/abs/2607.00185) |
+| 39 | Experimenting with the proposed Cross-Origin Storage API in Transformers.js | 7.5 | 大模型, 工程实践, WebAI | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/cross-origin-storage) |
+| 40 | Run a vLLM Server on HF Jobs in One Command | 7.2 | 大模型, 推理, vLLM | 正常 | 2026-07-02 | [链接](https://huggingface.co/blog/vllm-jobs) |
