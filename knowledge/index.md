@@ -1,67 +1,67 @@
 # AI 知识库总纲
 
-> 最后更新: 2026-07-22
+> 最后更新: 2026-07-23
 > 项目总数: 60
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | dottxt-ai/outlines | 9.2 | 大语言模型, 约束解码, 自然语言处理 | 正常 | 2026-07-22 | [链接](https://github.com/dottxt-ai/outlines) |
-| 2 | The State of Simulation for Physical AI: An Overview | 9.0 | 物理AI, 仿真, 机器人 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai) |
-| 3 | What building Shippy taught us about building agents | 9.0 | Agent, 工程实践, 大模型 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/allenai/shippy-tech-blog) |
-| 4 | Model Routing Is Simple. Until It Isn’t. | 9.0 | 大模型, 模型路由, 工程实践 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt) |
-| 5 | Introducing Real World VoiceEQ: Measuring the human quality of voice AI | 9.0 | 语音AI, 评估基准, 语音合成 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/real-world-voiceeq) |
-| 6 | Profiling in PyTorch (Part 3): Attention is all you profile | 9.0 | 大模型, 性能优化, PyTorch | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/torch-attention-profile) |
-| 7 | koala73/worldmonitor | 8.8 | NLP, 知识图谱, 数据可视化 | 正常 | 2026-07-22 | [链接](https://github.com/koala73/worldmonitor) |
-| 8 | shiyu-coder/Kronos | 8.8 | 深度学习, NLP, 大语言模型 | 正常 | 2026-07-22 | [链接](https://github.com/shiyu-coder/Kronos) |
-| 9 | Structured Output Collapses Answer Diversity Across 44 Language Models | 8.8 | 大模型, 结构化输出, 多样性 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18476) |
-| 10 | Search-on-Graph-R1: Training Large Language Models to Search Knowledge Graphs with Reinforcement Learning | 8.8 | 大模型, 知识图谱, 强化学习 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18481) |
-| 11 | Grabette: an open system to record robot-manipulation data | 8.8 | 具身智能, 机器人, 数据采集 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/grabette) |
-| 12 | jamiepine/voicebox | 8.7 | 语音合成, 语音克隆, 语音识别 | 正常 | 2026-07-22 | [链接](https://github.com/jamiepine/voicebox) |
-| 13 | diegosouzapw/OmniRoute | 8.7 | API网关, 大语言模型, Token压缩 | 正常 | 2026-07-22 | [链接](https://github.com/diegosouzapw/OmniRoute) |
-| 14 | tirth8205/code-review-graph | 8.7 | 代码图谱, MCP, 上下文优化 | 正常 | 2026-07-22 | [链接](https://github.com/tirth8205/code-review-graph) |
-| 15 | A Classifier That Teaches Itself: Self-Improving, Frozen-gate Training (SIFT) for Dynamic Document Classification | 8.7 | 大模型, 文档分类, 持续学习 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18358) |
-| 16 | PathReportEval: A Systematic Benchmark for Pathology Report Generation | 8.7 | 多模态, 医疗AI, 病理报告 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18448) |
-| 17 | Native-speed vLLM transformers modeling backend | 8.7 | 大模型, 推理, 工程优化 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/native-speed-vllm-transformers-backend) |
-| 18 | BatchDAG: LLM-Planned Execution Graphs for Scalable Ad-Hoc Analysis Over Enterprise Data | 8.5 | 大模型, Agent, 数据分析 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18241) |
-| 19 | AI Tool Discovery at Scale: All You Need is DNS | 8.5 | Agent, 工具发现, DNS | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18242) |
-| 20 | Beyond Accuracy and Cost: Latency-Aware LLM Query Routing for Dynamic Workloads | 8.5 | 大模型, 推理优化, LLM路由 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18253) |
-| 21 | Convolution for Large Language Models | 8.5 | 大模型, 架构优化, 卷积 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18413) |
-| 22 | Relay-Bench: Evaluating LLMs on Multi-Domain Reasoning Chains | 8.5 | 大模型, 推理, Agent | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18438) |
-| 23 | Security incident disclosure — July 2026 | 8.3 | 安全, 供应链安全, 安全公告 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/security-incident-july-2026) |
-| 24 | Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity | 8.3 | AI基础设施, HPC, GPU调度 | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=48356312) |
-| 25 | Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust | 8.3 | LLMOps, 可观测性, 开源项目 | 正常 | 2026-07-22 | [链接](https://github.com/lmnr-ai/lmnr) |
-| 26 | MILP-Evo: Closed-Loop Fully Automatic Design of MILP Solvers | 8.2 | 大模型, 运筹优化, MILP | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18252) |
-| 27 | Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems | 8.2 | AI Agent, Human-in-the-loop, AI安全 | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=42247368) |
-| 28 | Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents | 8.2 | AI Agent, Computer-Use, 虚拟化 | 正常 | 2026-07-22 | [链接](https://github.com/trycua/cua) |
-| 29 | Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents | 8.2 | Voice AI, LLM Evaluation, Automated Testing | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=41257369) |
-| 30 | Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry | 8.2 | LLM可观测性, 幻觉检测, OpenTelemetry | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=40985609) |
-| 31 | ComposioHQ/awesome-claude-skills | 8.0 | LLM, Agent, 工作流定制 | 正常 | 2026-07-22 | [链接](https://github.com/ComposioHQ/awesome-claude-skills) |
-| 32 | SysAdmin: Measuring Instrumental Power-Seeking in Frontier AI | 8.0 | AI安全, 对齐, 权力寻求 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18239) |
-| 33 | Calibrated Selective Fact-Checking via Evidence Chain Evaluation | 8.0 | 大模型, 事实验证, Agent | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18240) |
-| 34 | Computational models of pragmatic reasoning with flexible generation of meaning and expression alternatives | 8.0 | 大模型, 推理, 语用学 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18443) |
-| 35 | Using Fine-Tuned LLMs to Identify Indicators of Vulnerability in UK Police Incident Logs | 8.0 | 大模型, 微调, 公共安全 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18446) |
-| 36 | Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking | 8.0 | RAG, 文本处理, 开源库 | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=44225930) |
-| 37 | Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI | 8.0 | 隐私计算, 机密计算, AI推理 | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=43996555) |
-| 38 | rohitg00/ai-engineering-from-scratch | 7.8 | AI工程, 深度学习, 机器学习 | 正常 | 2026-07-22 | [链接](https://github.com/rohitg00/ai-engineering-from-scratch) |
-| 39 | From Agent Failure Paths to Quantified Residual Risk: A Compositional Framework for Resilient Agentic AI | 7.8 | Agent, AI安全, 风险评估 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18243) |
-| 40 | Integro-differential equations in angular stabilization of drone motion by distributed feedback control | 7.7 | 无人机, 控制理论, 积分微分方程 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18251) |
-| 41 | Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually | 7.7 | AI Agent, 开发工具, 低代码 | 正常 | 2026-07-22 | [链接](https://github.com/inkeep/agents) |
-| 42 | Launch HN: Airweave (YC X25) – Let agents search any app | 7.7 | AI Agent, RAG, MCP | 正常 | 2026-07-22 | [链接](https://github.com/airweave-ai/airweave) |
-| 43 | Phionyx: A Deterministic AI Runtime Architecture with Structured State Management and Pre-Response Governance | 7.5 | 大模型, AI治理, 确定性架构 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18246) |
-| 44 | Show HN: BrowserOS – "Claude Cowork" in the browser | 7.5 | AI Agent, 浏览器, 开源 | 正常 | 2026-07-22 | [链接](https://github.com/browseros-ai/BrowserOS) |
-| 45 | Show HN: Pickaxe – A TypeScript library for building AI agents | 7.5 | AI Agent, Infrastructure, 开源 | 正常 | 2026-07-22 | [链接](https://github.com/hatchet-dev/pickaxe) |
-| 46 | Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers | 7.5 | MCP, Agent, Web-Automation | 正常 | 2026-07-22 | [链接](https://github.com/hyperbrowserai/mcp) |
-| 47 | Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents | 7.5 | AI Agent, 数据分析, BI工具 | 正常 | 2026-07-22 | [链接](https://bitboard.work/) |
-| 48 | Building a European Multilingual Evaluation Dataset: The MMLU Localisation Project within the EMT Network | 7.3 | 大模型, 评估, 多语言 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18432) |
-| 49 | Newer Models, Same Advantage | 7.3 | 大模型, 观点, 博客 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages) |
-| 50 | Welcome Inkling by Thinking Machines | 7.3 | 开源模型, 轻量级模型, 边缘计算 | 正常 | 2026-07-22 | [链接](https://huggingface.co/blog/thinkingmachines-inkling) |
-| 51 | Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant | 7.3 | AI助手, RAG, 开源软件 | 正常 | 2026-07-22 | [链接](https://github.com/Mintplex-Labs/anything-llm) |
-| 52 | Show HN: Sourcebot – Self-hosted Perplexity for your codebase | 7.3 | 代码理解, AI编程, 智能搜索 | 正常 | 2026-07-22 | [链接](https://github.com/sourcebot-dev/sourcebot/releases/tag/v4.6.0) |
-| 53 | Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment | 7.3 | RAG, 超参数优化, LLM应用 | 正常 | 2026-07-22 | [链接](https://news.ycombinator.com/item?id=41459121) |
-| 54 | SAAG: Structured Agent Assessment and Grounding | 7.2 | Agent, 评估, 函数调用 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18245) |
-| 55 | agegr/pi-web | 7.0 | 前端开发, TypeScript, 代码助手 | 正常 | 2026-07-22 | [链接](https://github.com/agegr/pi-web) |
-| 56 | ayghri/i-have-adhd | 6.8 | Prompt工程, 代码助手, 辅助工具 | 正常 | 2026-07-22 | [链接](https://github.com/ayghri/i-have-adhd) |
-| 57 | Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner | 6.7 | GitHub Actions, DevOps, 开发者工具 | 正常 | 2026-07-22 | [链接](https://github.com/fchimpan/gh-slimify) |
-| 58 | Show HN: Darwin – Automate Your GitHub Project with AI | 6.7 | AI Agent, GitHub, LLM | 正常 | 2026-07-22 | [链接](https://darwin-ai.dev) |
-| 59 | Decoding EEG Signals to Explore Next-Word Predictability in the Human Brain | 6.2 | EEG, 认知科学, 神经语言学 | 正常 | 2026-07-22 | [链接](https://arxiv.org/abs/2607.18321) |
-| 60 | Show HN: A big tech dev experience for an open source CMS | 5.7 | 开源CMS, AI开发环境, 发布 | 待复核 | 2026-07-22 | [链接](https://contentfoundry.com/) |
+| 1 | The State of Simulation for Physical AI: An Overview | 9.2 | 物理AI, 具身智能, 仿真 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/nvidia/state-of-simulation-for-physical-ai) |
+| 2 | shiyu-coder/Kronos | 9.0 | 深度学习, 时序模型, 多模态 | 正常 | 2026-07-23 | [链接](https://github.com/shiyu-coder/Kronos) |
+| 3 | diegosouzapw/OmniRoute | 9.0 | API网关, 模型路由, 代码助手 | 正常 | 2026-07-23 | [链接](https://github.com/diegosouzapw/OmniRoute) |
+| 4 | tirth8205/code-review-graph | 9.0 | 知识图谱, 代码分析, MCP | 正常 | 2026-07-23 | [链接](https://github.com/tirth8205/code-review-graph) |
+| 5 | Stochastic Primal-Dual Decoding for Multiobjective Generative Recommender Systems | 9.0 | 推荐系统, 生成式模型, 多目标优化 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19357) |
+| 6 | What building Shippy taught us about building agents | 9.0 | Agent, 工程实践, 架构设计 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/allenai/shippy-tech-blog) |
+| 7 | Profiling in PyTorch (Part 3): Attention is all you profile | 9.0 | 大模型, 性能优化, PyTorch | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/torch-attention-profile) |
+| 8 | koala73/worldmonitor | 8.8 | 数据可视化, NLP, 实时数据处理 | 正常 | 2026-07-23 | [链接](https://github.com/koala73/worldmonitor) |
+| 9 | OpenEvoShield: Dual Non-Stationary Continual Defense for Open-World Multi-Agent System Attacks | 8.8 | Agent, 大模型安全, 多智能体系统 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19351) |
+| 10 | Information Discernment in Large Language Models | 8.8 | 大模型, 对齐, RAG | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19355) |
+| 11 | Profile-Graph Memory for LLM Agents: Implicit Cross-Entity Traversal through Narrative Profiles | 8.8 | Agent, 长期记忆, 多跳推理 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19359) |
+| 12 | Multi-Mask Diffusion Language Models for Few-Step Generation | 8.8 | 大模型, 扩散模型, 掩码扩散 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19686) |
+| 13 | Model Routing Is Simple. Until It Isn’t. | 8.8 | 大模型, 模型路由, 推理优化 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/ibm-research/model-routing-is-simple-until-it-isnt) |
+| 14 | alibaba/open-code-review | 8.7 | 大语言模型, 代码分析, 混合架构 | 正常 | 2026-07-23 | [链接](https://github.com/alibaba/open-code-review) |
+| 15 | FineServe: A Fine-Grained Dataset and Characterization of Global LLM Serving Workloads | 8.7 | 大模型, LLM Serving, 系统优化 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19349) |
+| 16 | NEXUS: Structured Runtime Safety for Tool-Using LLM Agents | 8.7 | Agent, 大模型, 安全 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19356) |
+| 17 | LISA: Linear-Indexed Sparse Attention for Efficient Long-Context Reasoning | 8.7 | 长上下文, 推理, 稀疏注意力 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19358) |
+| 18 | Stateful Guardrails for Multi-Turn LLM Systems: A Conversational Risk Accumulation Framework | 8.5 | 大模型, 安全, 多轮对话 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19361) |
+| 19 | On the Computational Complexity of Structural Generalization | 8.5 | 大模型, 推理, 计算复杂性 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19573) |
+| 20 | Bringing Nunchaku 4-bit Diffusion Inference to Diffusers | 8.5 | 扩散模型, 模型量化, 推理优化 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/nunchaku-diffusers) |
+| 21 | Grabette: an open system to record robot-manipulation data | 8.5 | 具身智能, 机器人, 数据集 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/grabette) |
+| 22 | Security incident disclosure — July 2026 | 8.5 | 安全, 基础设施, 供应链安全 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/security-incident-july-2026) |
+| 23 | Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents | 8.5 | AI Agent, 虚拟化, 桌面自动化 | 正常 | 2026-07-23 | [链接](https://github.com/trycua/cua) |
+| 24 | SLPO: Scaling Latent Reasoning via a Surrogate Policy | 8.4 | 大模型, 推理, 强化学习 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19691) |
+| 25 | Benchmarking Confidential GPU Inference on NVIDIA H100 under Intel TDX | 8.3 | 大模型, 推理, 机密计算 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19353) |
+| 26 | Adaptive Capitulation: A Structural Failure Mode of LLM Responses in Vulnerability Contexts | 8.3 | 大模型, AI安全, 对齐 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19629) |
+| 27 | Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity | 8.3 | HPC, GPU调度, 算力优化 | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=48356312) |
+| 28 | Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust | 8.3 | LLMOps, 可观测性, Rust | 正常 | 2026-07-23 | [链接](https://github.com/lmnr-ai/lmnr) |
+| 29 | Nutlope/hallmark | 8.2 | 提示词工程, 前端开发, 代码助手 | 正常 | 2026-07-23 | [链接](https://github.com/Nutlope/hallmark) |
+| 30 | Reference-Free Evaluation of Reasoning in Open-Ended Question Answering | 8.2 | 大模型, 推理, 评估 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19678) |
+| 31 | Newer Models, Same Advantage | 8.2 | 大模型, 评估基准, 工程实践 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages) |
+| 32 | Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems | 8.2 | AI Agent, Human-in-the-loop, AI Infrastructure | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=42247368) |
+| 33 | Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI | 8.2 | 隐私计算, 可信执行环境, 云端AI | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=43996555) |
+| 34 | Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry | 8.2 | LLM, 可观测性, 发布 | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=40985609) |
+| 35 | earthtojake/text-to-cad | 8.0 | Agent, 多模态, CAD | 正常 | 2026-07-23 | [链接](https://github.com/earthtojake/text-to-cad) |
+| 36 | FormulaSPIN: Self-Play Fine-Tuning for Natural Language to Spreadsheet Formula Generation | 8.0 | 大模型, 代码生成, 自博弈 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19354) |
+| 37 | When Reasoning Narrows the Move: Diversity Collapse in LLM Game Play | 8.0 | 大模型, 推理, Agent | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19523) |
+| 38 | Scaling Laws for Hypernetwork-Based Knowledge Injection in Large Language Models | 8.0 | 大模型, 知识注入, 缩放定律 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19604) |
+| 39 | Welcome Inkling by Thinking Machines | 8.0 | 大模型, 开源模型, 工程实践 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/thinkingmachines-inkling) |
+| 40 | Introducing Real World VoiceEQ: Measuring the human quality of voice AI | 8.0 | 语音AI, 评估基准, 情感计算 | 正常 | 2026-07-23 | [链接](https://huggingface.co/blog/real-world-voiceeq) |
+| 41 | Lightweight Person-Place Relation Extraction from Historical Newspapers with Dependency Graphs and Proximity Features | 7.8 | 关系抽取, 轻量级模型, 数字人文 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19718) |
+| 42 | Show HN: BrowserOS – "Claude Cowork" in the browser | 7.8 | AI浏览器, Agent, 开源 | 正常 | 2026-07-23 | [链接](https://github.com/browseros-ai/BrowserOS) |
+| 43 | Show HN: Pickaxe – A TypeScript library for building AI agents | 7.8 | AI Agent, Infrastructure, TypeScript | 正常 | 2026-07-23 | [链接](https://github.com/hatchet-dev/pickaxe) |
+| 44 | Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers | 7.8 | AI Agent, Web Automation, MCP | 正常 | 2026-07-23 | [链接](https://github.com/hyperbrowserai/mcp) |
+| 45 | Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking | 7.8 | RAG, Chunking, Embedding | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=44225930) |
+| 46 | Launch HN: Airweave (YC X25) – Let agents search any app | 7.8 | AI Agent, RAG, MCP | 正常 | 2026-07-23 | [链接](https://github.com/airweave-ai/airweave) |
+| 47 | Task Competence Is Not Instruction Following: Evaluating Instruction-Conflicting Behavior in Small Language Models | 7.7 | 小模型, 指令遵循, 模型评估 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19608) |
+| 48 | Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant | 7.7 | RAG, AI助手, 本地部署 | 正常 | 2026-07-23 | [链接](https://github.com/Mintplex-Labs/anything-llm) |
+| 49 | Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually | 7.7 | AI Agent, 开发工具, 发布 | 正常 | 2026-07-23 | [链接](https://github.com/inkeep/agents) |
+| 50 | Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents | 7.7 | Voice AI, LLM Evaluation, Automated Testing | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=41257369) |
+| 51 | Show HN: Darwin – Automate Your GitHub Project with AI | 7.3 | AI Agent, LLM, DevTool | 正常 | 2026-07-23 | [链接](https://darwin-ai.dev) |
+| 52 | Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents | 7.2 | AI Agent, 数据分析, BI | 正常 | 2026-07-23 | [链接](https://bitboard.work/) |
+| 53 | Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment | 7.2 | RAG, 超参数优化, 幻觉 | 正常 | 2026-07-23 | [链接](https://news.ycombinator.com/item?id=41459121) |
+| 54 | citrolabs/ego-lite | 6.8 | JavaScript, Web Agent, 人机协同 | 正常 | 2026-07-23 | [链接](https://github.com/citrolabs/ego-lite) |
+| 55 | ComposioHQ/awesome-claude-skills | 6.8 | 大语言模型, Agent, 工作流定制 | 正常 | 2026-07-23 | [链接](https://github.com/ComposioHQ/awesome-claude-skills) |
+| 56 | Show HN: Sourcebot – Self-hosted Perplexity for your codebase | 6.8 | 代码理解, LLM应用, 开发工具 | 正常 | 2026-07-23 | [链接](https://github.com/sourcebot-dev/sourcebot/releases/tag/v4.6.0) |
+| 57 | Hybrid LSTM-Graph Neural Framework for Robust Financial Fraud Detection and Adversarial Resilience | 6.5 | 反欺诈, 图神经网络, 金融科技 | 正常 | 2026-07-23 | [链接](https://arxiv.org/abs/2607.19350) |
+| 58 | agegr/pi-web | 5.8 | 前端开发, TypeScript, 代码助手 | 待复核 | 2026-07-23 | [链接](https://github.com/agegr/pi-web) |
+| 59 | Show HN: A big tech dev experience for an open source CMS | 5.8 | 开源CMS, AI辅助开发, 开发者体验 | 待复核 | 2026-07-23 | [链接](https://contentfoundry.com/) |
+| 60 | Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner | 5.0 | DevOps, CI/CD, GitHub Actions | 待复核 | 2026-07-23 | [链接](https://github.com/fchimpan/gh-slimify) |
