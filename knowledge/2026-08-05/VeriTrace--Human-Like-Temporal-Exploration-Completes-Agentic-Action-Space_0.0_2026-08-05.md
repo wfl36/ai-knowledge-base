@@ -1,0 +1,29 @@
+# VeriTrace: Human-Like Temporal Exploration Completes Agentic Action Space
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-08-05  
+**来源：** rss  
+
+## 项目描述
+arXiv:2608.02878v1 Announce Type: new Abstract: Large language models have shown promise for automated Verilog RTL generation, yet state-of-the-art multi-agent systems plateau at ~95% accuracy on standard benchmarks. We trace this ceiling to an incomplete debugging action space: existing systems restrict which signals the agent can inspect, which time windows it can query, or both, reducing debugging to pattern matching on a narrow, predetermined view of circuit behavior rather than hypothesis-driven root-cause analysis. We present VeriTrace, a multi-agent system whose Inspector agent operates over a complete debugging action space, with independent control over signal selection, time-window bounds, and iteration depth. This capability, which we term Agentic Temporal Exploration, enables the agent to form hypotheses about failure causes, query the waveform for evidence, and refine its understanding iteratively, mirroring the exploratory process of human verification engineers. VeriTrace achieves 100\% Pass@1 on VerilogEval-V2, the first system to attain perfect functional correctness on this benchmark. On a shared Claude Sonnet 4.0 backbone, VeriTrace outperforms the strongest reproduced baseline by +5.1%, demonstrating that debugging agency closes the final accuracy gap.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2608.02878
