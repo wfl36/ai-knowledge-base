@@ -5,40 +5,40 @@
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | TencentCloud/TencentDB-Agent-Memory | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/TencentCloud/TencentDB-Agent-Memory) |
+| 1 | PrimeIntellect-ai/prime-agent | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/PrimeIntellect-ai/prime-agent) |
 | 2 | addyosmani/agent-skills | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/addyosmani/agent-skills) |
 | 3 | cloudflare/computer | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/cloudflare/computer) |
 | 4 | mattpocock/skills | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/mattpocock/skills) |
-| 5 | huangruiteng/loopx | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/huangruiteng/loopx) |
-| 6 | Significant-Gravitas/AutoGPT | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/Significant-Gravitas/AutoGPT) |
-| 7 | tirth8205/code-review-graph | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/tirth8205/code-review-graph) |
-| 8 | esengine/DeepSeek-Reasonix | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/esengine/DeepSeek-Reasonix) |
-| 9 | obra/superpowers | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/obra/superpowers) |
+| 5 | obra/superpowers | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/obra/superpowers) |
+| 6 | semantica-agi/semantica | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/semantica-agi/semantica) |
+| 7 | Significant-Gravitas/AutoGPT | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/Significant-Gravitas/AutoGPT) |
+| 8 | unclebob/swarm-forge | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/unclebob/swarm-forge) |
+| 9 | google/skills | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/google/skills) |
 | 10 | zhaoxuya520/reverse-skill | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://github.com/zhaoxuya520/reverse-skill) |
-| 11 | A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS) | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04012) |
-| 12 | The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04066) |
-| 13 | Monte Carlo Tree Search for Table-to-Multimodal Report Generation | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04071) |
-| 14 | FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04077) |
-| 15 | FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04095) |
-| 16 | BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04156) |
-| 17 | Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04190) |
-| 18 | MatrAIx: Simulating the World with 8.3 Billion Persona Agents | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04205) |
-| 19 | Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04232) |
-| 20 | The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04285) |
-| 21 | Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04015) |
-| 22 | When More Becomes Less: Position-Dependent Repetition Effects in Language Models | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04021) |
-| 23 | Reconstructing Persistent Worlds from Narratives for Narrative-Grounded Interactive Experiences | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04037) |
-| 24 | Learning Sexism Detection Using Multi-Agent Perspectivist Preference Optimization | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04056) |
-| 25 | Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04160) |
-| 26 | Visualizing Graph-to-Answer Mechanism Recovery in Materials-Science Hypothesis Generation | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04170) |
-| 27 | Test, then Route: How Language Models Execute In-Context Conditional Rules Across Models and Languages | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04183) |
-| 28 | Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04186) |
-| 29 | Patients-like-me: A Variational LM--GNN Framework for Explainable Clinical Prediction | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04193) |
-| 30 | Hallucinations on the Board: Tool-Augmented Evaluation of LLM Chess Commentary | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.04240) |
-| 31 | Baseten on Hugging Face Inference Providers 🔥 | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/baseten) |
-| 32 | Deploy local agents everywhere with LFM2.5-2.6B | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b) |
-| 33 | GPU Management: Why Idle GPUs Are the New Grounded Aircraft | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/Dharma-AI/gpu-management) |
-| 34 | The OlmoEarth Platform: Geospatial inference at planetary scale | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/allenai/olmoearth-infrastructure) |
+| 11 | Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05159) |
+| 12 | The Ignition Index: Measuring Global Workspace Dynamics in Language Models | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05160) |
+| 13 | Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05168) |
+| 14 | From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05203) |
+| 15 | SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05204) |
+| 16 | Abstract Event Causal Rules: Induction and Application | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05205) |
+| 17 | Otter: A Time-Aware, History-Conditioned Human Chess AI | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05206) |
+| 18 | SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05212) |
+| 19 | PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05218) |
+| 20 | When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05219) |
+| 21 | Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05151) |
+| 22 | Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05152) |
+| 23 | Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05153) |
+| 24 | RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05154) |
+| 25 | Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05155) |
+| 26 | Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05156) |
+| 27 | Large Language Models Threaten Double-blind Review | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05157) |
+| 28 | Safe Evolution with Circuit Anchors | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05158) |
+| 29 | SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05161) |
+| 30 | PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://arxiv.org/abs/2608.05162) |
+| 31 | TutorMoments: Do AI tutors know when to help and when to hold back? | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/allenai/tutormoments) |
+| 32 | Baseten on Hugging Face Inference Providers 🔥 | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/baseten) |
+| 33 | Deploy local agents everywhere with LFM2.5-2.6B | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b) |
+| 34 | GPU Management: Why Idle GPUs Are the New Grounded Aircraft | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/Dharma-AI/gpu-management) |
 | 35 | NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/nvidia/cosmos-h-dreams) |
 | 36 | Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
 | 37 | Bringing Nunchaku 4-bit Diffusion Inference to Diffusers | 0.0 | - | 待复核 | 2026-08-07 | [链接](https://huggingface.co/blog/nunchaku-diffusers) |

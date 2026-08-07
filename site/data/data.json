@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-07",
-  "total_projects": 271,
+  "total_projects": 296,
   "total_dates": 15,
   "dates": [
     "2026-08-07",
@@ -22,7 +22,7 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 211
+      "count": 236
     },
     {
       "name": "论文",
@@ -104,11 +104,11 @@
   "sources": [
     {
       "name": "rss",
-      "count": 207
+      "count": 228
     },
     {
       "name": "github",
-      "count": 44
+      "count": 48
     },
     {
       "name": "hackernews",
@@ -2351,6 +2351,38 @@
       }
     },
     {
+      "name": "Abstract Event Causal Rules: Induction and Application",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Abstract-Event-Causal-Rules--Induction-and-Application_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05205v1 Announce Type: new Abstract: Event-centric intelligent analytical systems heavily depend on explicit causal event knowledge for risk early warning, decision-making support and narrative comprehension. Nevertheless, existing instance-level causal pairs suffer severe generalization deficits on low-frequency long-tail and unseen event combinations. To address this limitation, this work proposes Abstract Event Causal Rule (AECR), a novel relation-level causal abstraction paradigm that transforms concrete cause-effect pairs into generalized abstract causal logic while retaining their intrinsic causal relationships. We design a multi-agent Concrete-to-Abstract Causal Induction (CACI) system coupled with similarity-constrained clustering to distill trustworthy AECRs from noisy raw causal data, based on which two complete AECR knowledge bases are built. To validate the practical utility of abstract causal knowledge, we propose an Abstract Rule-Guided Causal Attention Encoder (AR-GCAE), which injects the retrieved AECRs into the causality Graph Event Prediction (CGEP) benchmark task via rule-guided attention layers and gated representation fusion. Quantitative experimental results reveal that applying AECRs substantially strengthens the generalization capacity of event causal reasoning and brings consistent performance improvements to event prediction, with the most prominent gains observed on rare and unseen event samples.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05205",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05205"
+        }
+      }
+    },
+    {
       "name": "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
       "score": 0.0,
       "status": "待复核",
@@ -2379,6 +2411,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.04190"
+        }
+      }
+    },
+    {
+      "name": "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Agentic-Nesting--A-New-Methodology-for-Existing-Enterprise-Application-Integrati_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05159v1 Announce Type: new Abstract: Enterprise operations extensively rely on multiple heterogeneous business systems and information applications, which also result in severe data silos and process fragmentation. Enterprises have invested considerable financial and material resources in building these applications, however, effectively leveraging and orchestrating them remains a formidable challenge. Conventional approaches to enterprise application integration, encompassing middleware architectures such as Enterprise Service Bus (ESB), API gateway infrastructures, and Robotic Process Automation (RPA), suffer from inherent limitations like high architectural coupling, escalating operation and maintenance costs, and limited intelligence capabilities. This paper proposes Agentic Nesting, a multi-agent collaboration framework in which existing enterprise applications are encapsulated as autonomous AI agents within a hierarchically nested structure. Rather than flat interconnection, agents are organized into layered stewardship topologies that mirror the compositional complexity of enterprise ecosystems. The framework extracts a digital agent proxy from each legacy application to enable natural-language interaction and autonomous manipulation, coordinates multiple agents through a central orchestrator for task decomposition and dynamic dispatching, and exposes a unified conversational interface for cross-application querying and process orchestration. The main contributions of this paper are the proposition of the \"Application-as-Agent\" integration paradigm and the \"Conversation-as-Integration\" interaction philosophy, together with an exploration of the generalization potential of this methodology in scenarios encompassing heterogeneous system coordination, and large-scale data applications.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05159",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05159"
         }
       }
     },
@@ -2443,6 +2507,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/baseten"
+        }
+      }
+    },
+    {
+      "name": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Beyond-Sentiment--Comparing-Traditional-NLP-and-LLM-Based-Multi-Dimensional-Anal_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05155v1 Announce Type: new Abstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social sciences and humanities (SSH). In this paper, we present a comparative study of RoBERTa-based sentiment analysis and an LLM-based multi-dimensional framing analysis platform applied to a corpus of 50 political news articles from 17 international media outlets. The results reveal a critical limitation we term neutral collapse: RoBERTa classifies 70% of articles as neutral, effectively flattening substantively rich political content into an analytically uninformative category. We find that 23% of neutral-classified articles exhibit negative probability scores above 0.30. By contrast, the LLM-based approach captures political bias direction and intensity, sensationalism, emotional appeal, and political framing -- yielding multi-dimensional analytical outputs aligned with SSH epistemologies. We argue that for political media analysis, traditional SA alone is insufficient, and that LLM-based multi-dimensional frameworks offer a more epistemologically adequate computational lens for SSH research needs.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05155",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05155"
         }
       }
     },
@@ -2607,6 +2703,38 @@
       }
     },
     {
+      "name": "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "From-Continuous-Predictors-to-Clinical-Thresholds--Early-Evidence-on-Performance_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05203v1 Announce Type: new Abstract: Machine learning models achieve strong predictive accuracy for 90-day outcome prediction in acute ischaemic stroke, yet clinical adoption is limited by the misalignment of model explanations with clinicians' reasoning. Motivated by a clinician user study calling for clinical guideline-aligned cut-offs, we ask whether continuous predictors can be replaced by clinically informed categorical encodings without sacrificing performance. On a multi-centre European registry stratified into three treatment cohorts, we compare standard and fully categorised gradient-boosted models, the latter using stroke guideline-aligned, treatment-specific thresholds. The fully categorised models are statistically indistinguishable from their continuous counterparts in two of the treatment cohorts, with a significant drop in predictive accuracy in one cohort. Global feature importance rankings remain consistent, suggesting that discretising continuous predictors into guideline-based categories preserves the core hierarchy of prognostic factors across all treatment groups. Guideline-based categorisation is thus a viable design choice for stroke-outcome models.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05203",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05203"
+        }
+      }
+    },
+    {
       "name": "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "score": 0.0,
       "status": "待复核",
@@ -2731,6 +2859,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.04232"
+        }
+      }
+    },
+    {
+      "name": "Large Language Models Threaten Double-blind Review",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Large-Language-Models-Threaten-Double-blind-Review_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05157v1 Announce Type: new Abstract: Double blind peer review serves as the scientific community primary defense against status and affiliation bias. Its effectiveness rests on the assumption that anonymized manuscripts convey scientific merit without revealing their authors. While authorship can often be recovered using citation networks or stylistic markers, we show that this assumption is increasingly fragile in the presence of large language models (LLMs). Using only titles and abstracts from papers published after model training, we find that LLMs collapse anonymity more efficiently than humans, with belief concentrating onto a small subset of plausible authors drawn from pools of five domain expert candidates. This vulnerability persists even when stylistic and bibliographic cues are excluded, indicating that stable patterns in problem framing and research focus function as latent conceptual signatures of authorship. Together, these findings indicate that double blind review is vulnerable to automated semantic inference, necessitating a revaluation of how anonymity and fairness are maintained in an AI augmented research ecosystem.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05157",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05157"
         }
       }
     },
@@ -3119,6 +3279,38 @@
       }
     },
     {
+      "name": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Mean-Field-Dynamics-of-Chain-of-Thought-Reasoning-in-Large-Language-Models_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05152v1 Announce Type: new Abstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framework that seeks statistical regularities and theoretical interpretations in LLM reasoning without simplifying the model architecture or making analogies to existing physical systems. We formulate LLM reasoning as a guided discovery process on a clue graph, and derive a one-dimensional ordinary differential equation for the fraction of discovered clues using the mean-field approximation. Experimentally, clue tokens are identified using the normalized surprisal of a student LLM on the outputs of a teacher LLM, and statistical regularities are obtained by averaging over many reasoning chains of thought. Our experiments show that the resulting statistical regularities are reproducible within the same dataset and can be fitted by the solving the proposed theoretical equation.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05152",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05152"
+        }
+      }
+    },
+    {
       "name": "Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap",
       "score": 0.0,
       "status": "待复核",
@@ -3247,6 +3439,70 @@
       }
     },
     {
+      "name": "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Otter--A-Time-Aware--History-Conditioned-Human-Chess-AI_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05206v1 Announce Type: new Abstract: Otter is a 15.3M-parameter human chess AI that predicts human move selection by modeling play as a time-aware, sequential process rather than treating each position in isolation. It combines two conditioning signals: (1) a move history encoder that conditions predictions on the last 20 moves, capturing opening preferences, positional drift, and intra-game behavioral tendencies; and (2) a time control module that modulates predictions based on clock pressure. Otter is trained on 6.1 billion positions from 117 million Lichess rapid games over 30 days on a single T4 GPU. Otter achieves 55.23% top-1 and 90.95% top-5 move-prediction accuracy, surpassing the prior state-of-the-art human chess model, Maia 2, with far fewer parameters and less training data. Across 11 Elo brackets (<1100 to >=2000), accuracy peaks at 57.38% in the 1900-1999 bracket. These results show that modeling chess as a time-aware, sequential activity yields more human-accurate move prediction than position-only approaches, using a smaller model. Code, trained models, and complete training logs are publicly released.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05206",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05206"
+        }
+      }
+    },
+    {
+      "name": "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "PD-GS--Phoneme-Driven-3DGS-for-Audio-Driven-Talking-Heads_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05218v1 Announce Type: new Abstract: 3D Gaussian Splatting (3DGS) enables fast, photorealistic talking-head rendering, yet accurate lip articulation remains elusive: mouth motion is often over-smoothed and may violate hard articulatory constraints such as bilabial closures, producing the notorious ``leaky mouth'' artifact. A key difficulty is that brief, discrete articulatory events are inferred from a continuous acoustic embedding under a regression objective, which biases predictions toward averaged mouth configurations. While modern self-supervised speech encoders provide rich prosodic and phonetic cues, they do not provide an explicit, frame-aligned linguistic target that reliably disambiguates closure-level events. We propose \\textbf{Phoneme-Driven Gaussian Splatting (PD-GS)}, which augments a 3DGS talker with time-aligned phoneme tokens obtained from an automatic ASR and forced-alignment pipeline. Our core component, the \\textbf{Linguistic Fusion Module (LFM)}, adaptively fuses continuous audio context with discrete phoneme embeddings through a learned gate, allowing the model to preserve smooth audio-driven dynamics while strengthening phoneme guidance on articulation-critical segments. PD-GS is trained purely from monocular video using image reconstruction and lip landmark supervision. On HDTF, PD-GS achieves the best lip geometry among the compared baselines (LMD 2.66) and qualitatively reduces closure violations in challenging phoneme sequences, yielding more linguistically faithful neural avatars.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05218",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05218"
+        }
+      }
+    },
+    {
       "name": "Patients-like-me: A Variational LM--GNN Framework for Explainable Clinical Prediction",
       "score": 0.0,
       "status": "待复核",
@@ -3275,6 +3531,102 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.04193"
+        }
+      }
+    },
+    {
+      "name": "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "PoolBench--A-Benchmark-for-Pooling-Strategies-in-Concept-Representation-Evaluati_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05162v1 Announce Type: new Abstract: Pooling is a consequential but under-examined design choice in decoder-only concept representation work: practitioners must collapse token-level hidden states into a passage-level vector, yet no shared protocol exists for comparing this choice across concepts, models, and tasks. Reported gains are confounded by simultaneous changes in dataset, layer, construction method, and pooling rule, making principled decisions impossible. We introduce PoolBench, a benchmark that isolates pooling as the experimental variable under a fixed evaluation protocol. PoolBench covers 17 concepts, 19 pooling strategies, and 3 open-weight decoder-only models (Llama-3.1-8B, Gemma-2-9B, Mistral-7B), evaluated on a single audited corpus of 37,693 real-text passages. The primary axis is linear separability (D1/AUROC); steered concept prevalence (D2/SCP) and output-level disentanglement (D3) serve as diagnostic axes. The primary finding is decisive: W4_hierarchical reaches a cross-model mean AUROC of 0.7799, while the widely adopted P1_last_token baseline reaches only 0.7640 and is statistically significantly worse (Friedman+Nemenyi, p = 2.0e-36; 77 significant pairs among 18 effective strategies). Rankings are stable across layers (rho = 0.961--0.990). A key negative result: strong detection does not imply strong steering -- D2 and D3 are substantially weaker than D1 for most concepts, indicating a fundamental representational limit rather than a pooling failure. On mid-difficulty concepts, W4_hierarchical outperforms P1_last_token by 0.042--0.113 AUROC; construction method choice (DiffMean vs. REPE) has a larger effect (delta AUROC 0.15) than pooling (delta AUROC 0.016), establishing the correct practical hierarchy. We release the corpus, pre-extracted activations, scorer models, steering vectors, and evaluation code as a reusable protocol for pooling research.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05162",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05162"
+        }
+      }
+    },
+    {
+      "name": "PrimeIntellect-ai/prime-agent",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "PrimeIntellect-ai-prime-agent_0.0_2026-08-07.md",
+      "source_type": "github",
+      "description": "A self-improving RLM agent for coding workflows and long-running autonomous tasks.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/PrimeIntellect-ai/prime-agent",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/PrimeIntellect-ai/prime-agent"
+        }
+      }
+    },
+    {
+      "name": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "RIG-RoPE--Relation--and-Instance-Gated-Rotary-Positional-Encoding-with-Duration-_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05154v1 Announce Type: new Abstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and width subspaces. This report identifies two limitations of static multidimensional position assignment in interleaved multimodal contexts. First, height/width rotations may be applied to token pairs whose spatial displacement is not a well-defined geometric object, producing cross-modal and inter-instance spatial interference. Second, temporal coordinates are often treated as equal-step counters, so a text token, an image block, and a video segment can advance the temporal phase by comparable amounts despite different information density. We propose RIG-RoPE, a relation- and instance-gated RoPE mechanism with duration-aware temporal coordinates. RIG-RoPE augments each token with a modality indicator, a visual instance identifier, and a scalar information-duration coordinate. It enables H/W rotations only for query-key pairs from the same visual instance; otherwise the unknown spatial displacement is marginalized rather than set to zero. Temporal rotations use interpolated cumulative block durations: text tokens consume unit duration, images use a dimension-aware logarithmic spatial scale, and videos further apply a logarithmic temporal extension over effective frames. We provide a gauge-invariance argument for avoiding ordinary cross-instance spatial rotation, an impossibility result for static IDs under shared H/W subspaces, and a duration-consistency argument against equal-step multimodal time. RIG-RoPE adds no learned parameters and can be implemented inside tiled attention kernels with constant additional metadata per token. This preliminary report establishes the formulation and validation path without claiming empirical superiority.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05154",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05154"
         }
       }
     },
@@ -3311,6 +3663,102 @@
       }
     },
     {
+      "name": "Safe Evolution with Circuit Anchors",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Safe-Evolution-with-Circuit-Anchors_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05158v1 Announce Type: new Abstract: In biological evolution, unconstrained mutation can lead to catastrophic outcomes: organisms may evolve enhanced capabilities while losing essential functions for survival. Nature's solution is \\textit{developmental constraints}, where core regulatory genes remain anchored while peripheral genes adapt freely. We observe that current self-evolution algorithms for large language models lack analogous constraints. They optimize purely for capability, implicitly assuming safety will be preserved. Our experiments reveal this assumption to be dangerously wrong: models can \\textit{misevolve} into powerful yet dangerous entities. Inspired by how Hox genes anchor body structure across $500$ million years of evolution, we propose \\textbf{Circuit-Anchored Evolution (CAE)}. Using mechanistic interpretability, we identify a tiny \\textit{safety circuit}, comprising less than $2$\\% of model features, that causally mediates safety behaviors. We anchor this circuit during evolution, constraining it within a small displacement bound while allowing the remaining features to evolve freely. This mirrors the biological principle of \\textit{evolvability with constraint}: preserving what is essential while adapting what is peripheral. Experiments across $3$ model families and two evolution algorithms demonstrate that CAE achieves superior safety preservation with minimal capability loss, substantially outperforming explicit reward-based constraints in both effectiveness and efficiency. Just as developmental constraints prevent biological evolution from producing nonviable organisms, circuit anchoring prevents model evolution from producing capable but dangerous systems.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05158",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05158"
+        }
+      }
+    },
+    {
+      "name": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Scaffold-Mediated-Post-Training--Co-Evolving-Model-Parameters-and-Procedural-Sca_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05156v1 Announce Type: new Abstract: Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it difficult to automatically acquire and internalize complex strategies. We propose scaffold-mediated post-training: procedural scaffolds are organized into an evolvable graph structure that co-evolves with model parameters through discovery, distillation, and dynamic recompilation. We instantiate this paradigm as Skill Training. On FeatureBench, automatically discovered skills improve the passed rate by 8.1pp, and after progressive distillation the model still achieves a 27.7% passed rate without any external scaffold (distillation retention rate 85.2%, defined as post-distillation / with-skill passed rate), significantly outperforming standard SFT on the same data.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05156",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05156"
+        }
+      }
+    },
+    {
+      "name": "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "SearchAuditor--Auditing-and-Attributing-Failures-in-Long-Horizon-Search-Agents_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05212v1 Announce Type: new Abstract: Deep search agents tackle challenging questions through long-horizon web interactions, a process that is both complex and fragile: small reasoning errors may propagate through long, noisy trajectories into fluent but incorrect answers. Diagnosing such failures is difficult, requiring the manual inspection of extremely long execution traces, which could be beyond human capacity. We therefore introduce SearchAuditBench, a benchmark that evaluates whether LLM auditors can localize, attribute, and repair these failures, thereby reducing the human burden. SearchAuditBench comprises 1,243 failed trajectories, averaging 73.1 messages and 65.1K tokens, collected from eight open-weight models on five deep-search benchmarks, each expert-annotated with the critical error step, a search-specific root cause, and a reference repair with grading rubrics. We further propose SearchAuditor, a multi-perspective auditing framework that effectively localizes, attributes, and repairs search-agent failures through evidence-grounded adjudication. Experimental results show that even the strongest baseline, when powered by a frontier model like GPT-5.5, attains only a 26.6% end-to-end pass rate. In contrast, our SearchAuditor consistently outperforms all baselines across different frontier models, achieving an end-to-end pass rate of 32.3%, and resuming failed runs with its repairs enables agents to better recover from errors.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05212",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05212"
+        }
+      }
+    },
+    {
       "name": "Security incident disclosure — July 2026",
       "score": 0.0,
       "status": "待复核",
@@ -3339,6 +3787,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/security-incident-july-2026"
+        }
+      }
+    },
+    {
+      "name": "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "SemiAdapt-Instruct--Extensible-Instruction-Tuning-via-Latent-Domain-Specialised-_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05161v1 Announce Type: new Abstract: Instruction-tuned LLMs are deployed into environments where domains evolve, yet extending a fine-tuned model's capabilities without full retraining remains an unsolved practical challenge. We present SemiAdapt-Instruct, a modular framework that discovers latent instruction domains, trains per-domain LoRA adapters in parallel, and performs parameter-free routing, incorporating new domains via single-adapter training without modifying existing components. SemiAdapt-Instruct outperforms full model fine-tuning across all configurations on both ROUGE-L and LLM-as-a-judge evaluation, while matching single LoRA fine-tuning and delivering extensibility that monolithic approaches cannot provide. We empirically demonstrate this extensibility by showing that updating a single adapter with new domain data outperforms all monolithic baselines. Our study also finds that independent discovery methods converge on the same specialisation-friendly domains. These findings demonstrate that decomposing heterogeneous instruction data into latent domains enables extensible NLP systems where evolving domains require only targeted single-adapter updates, eliminating the need for full model retraining.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05161",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05161"
         }
       }
     },
@@ -3727,6 +4207,70 @@
       }
     },
     {
+      "name": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Simulator-Grounded-Large-Language-Models-for-Industrial-Causal-Reasoning--Tool-U_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05151v1 Announce Type: new Abstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". We compare three concrete ways to ground a frozen Qwen2.5-32B-Instruct model in an architecturally interpretable wastewater simulator (CCSS-IX): a live simulator oracle (Method 1), structured parameter injection (Method 2), and a Decoupled Recall-Reasoning (DRR) retriever (Method 3). On a 198-question causal benchmark the three reach 99.5%, 79%, and 75.8%, forming a deployment ladder above the strongest retrieval-augmented baseline at 48%. The DRR retriever has 110M parameters and trains per plant in ~17 seconds; after cross-plant transfer to a biologically distinct plant it still reaches 88%, while Method 2's static table cannot transfer. On a 60-question counterfactual benchmark only Method 3 handles queries about what happens after an intervention: +16.3 pp over Method 2, paired 95% CI [+7.1, +26.4] pp, with 100% on the timescale and operating-regime categories. On the AI2 Reasoning Challenge (ARC) with an OpenBookQA fact corpus, the same selective-retrieval mechanism reaches 79% versus unconstrained Llama-3.1-8B 76% and full-injection 74%, a +3 pp out-of-domain replication that argues against a result specific to wastewater treatment. We provide the first single-simulator comparison of live tool-use, static parameter injection, and learned numerical-parameter retrieval for industrial causal question answering.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05151",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05151"
+        }
+      }
+    },
+    {
+      "name": "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "SkillTrace--Multi-Trace-Provenance-Auditing-for-LLM-Agent-Skill-Reuse_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05204v1 Announce Type: new Abstract: LLM-agent ecosystems are rapidly growing around reusable skills: mixed-modality packages of metadata, natural-language instructions, code, tools, references, and operational workflows. As skills become marketplace artifacts, auditing their reuse is no longer the same problem as ordinary code clone detection. Existing detectors target single-modality source code or whole-package similarity, yet skill reuse evidence is distributed across authored text, implementation fragments, and operational structure. As a result, they can miss reuse that preserves only one part of a skill. We present SKILLTRACE, a multi-trace provenance auditing framework for LLM-agent skill reuse. SKILLTRACE extracts three provenance traces: Expression, Implementation, and Operational. It represents the Operational Trace as a Skill Operational Graph (SOG) that captures activation, procedure, and resource-flow structure. An LLM assists only the Operational-trace extraction, once at ingestion; at audit time SKILLTRACE compares cached traces deterministically, calibrates each trace against same-function strict negatives, and reports which trace supports a reuse decision. On SKILLTRACE-BENCH, with 820 transformed reuse positives over 100 marketplace anchors and 751 negative controls, SKILLTRACE achieves AUROC 0.938 and F1 0.898. A 36,446-skill wild audit further shows that trace-attributed evidence surfaces actionable reuse review queues beyond repository-level baselines.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05204",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05204"
+        }
+      }
+    },
+    {
       "name": "TencentCloud/TencentDB-Agent-Memory",
       "score": 0.0,
       "status": "待复核",
@@ -3787,6 +4331,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.04183"
+        }
+      }
+    },
+    {
+      "name": "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "The-Ignition-Index--Measuring-Global-Workspace-Dynamics-in-Language-Models_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05160v1 Announce Type: new Abstract: We introduce the Ignition Index (I), a validated scalar metric that operationalizes Global Workspace Theory's (GWT) all-or-none ignition prediction in transformer language models. The metric fits a four-parameter sigmoid to per-layer linear probe accuracy as a function of input signal strength, extracting steepness parameter beta-hat: high values indicate abrupt, ignition-like transitions; low values indicate graded build-up. Across 11 models spanning five architecture families, shuffled-label controls demonstrate 9.6-fold selectivity for genuine linguistic structure over spurious probe capacity (p < 0.001, Mann-Whitney U-test). We find: (1) Feedforward transformers exceed SSMs by 89% in aggregate beta-hat (p < 1e-13, Cohen's d = 0.52), with Mamba exhibiting near-linear profiles consistent with absent global broadcast. (2) Huginn-3.5B exhibits 2.12-fold higher ignition along its iteration axis than its depth axis, demonstrating that recurrent architectures manifest workspace-like transitions along the recurrence dimension. (3) Pythia-410M shows a PELT-detected phase transition at training step 256 (+67%), preceding induction-head formation. (4) Hypotheses linking ignition to model scale and signal strength were not confirmed, suggesting transformer architectures may saturate available ignition mechanisms. The Ignition Index provides the first validated quantitative bridge between GWT's dynamical predictions and mechanistic interpretability, with 9.6-fold measurement selectivity and architecture-level discriminability not previously characterized in the scaling literature. Code: https://github.com/saman-rahbar/ignition-index",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05160",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05160"
         }
       }
     },
@@ -3919,6 +4495,70 @@
       }
     },
     {
+      "name": "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "TutorMoments--Do-AI-tutors-know-when-to-help-and-when-to-hold-back_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/allenai/tutormoments",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/allenai/tutormoments"
+        }
+      }
+    },
+    {
+      "name": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Universal-Pathologies--Conditional-Consequences--A-Triple-Robustness-Analysis-of_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05153v1 Announce Type: new Abstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local e5-small -> Azure text-embedding-3-small), corpus (DO-178C typed-edge requirements -> Wikipedia paragraph chains via MuSiQue), and judge (paired GPT-5.4 x GPT-4.1) across 4,440 main-matrix runs, 600 cross-corpus runs, and 1,200 paired faithfulness judgments. (C2a) Over-citation is architecturally universal: GraphRAG emits 11-15 IDs per answer at citation precision 0.12-0.23 and retrieval recall 0.68-0.87 across all three settings. (C2b) Its faithfulness consequence is corpus-conditional: in typed-edge DO-178C, GraphRAG faithfulness collapses 74%->40% across hops; on Wikipedia chains the same pipeline rises 42%->58% because over-cited paragraphs remain topically supporting. (C1) Stratum-conditional winners are corpus-conditional but embedder-robust: vanilla wins 2-hop on DO-178C, GraphRAG wins 2-hop on MuSiQue, identical under either embedder. (C3) Single-judge LLM faithfulness is fragile to retrieval state: same-judge self-kappa across embedders is 0.137 for GPT-5.4 (verdict change on 41% of items). A learned router on dense embeddings alone reaches macro-F1 0.86 on hop classification (C4). We argue triple-robustness is the minimum bar for trustworthy RAG architecture claims.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05153",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05153"
+        }
+      }
+    },
+    {
       "name": "Visualizing Graph-to-Answer Mechanism Recovery in Materials-Science Hypothesis Generation",
       "score": 0.0,
       "status": "待复核",
@@ -3979,6 +4619,70 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.04021"
+        }
+      }
+    },
+    {
+      "name": "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "When-Privileged-Guidance-Misaligns--State-Matched-Routing-and-Contextualized-Sel_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05219v1 Announce Type: new Abstract: Privileged on-policy distillation provides dense supervision for multi-turn agents by allowing a synchronized teacher to re-score the student's response at every turn with access to training-only references, such as successful trajectories. In interactive environments, however, the student's preceding actions continually change the execution state. As the student takes different actions or completes subgoals in a different order, its rollout may reach states not covered by the reference, making the reference an unreliable source of guidance for the state actually reached. Applying privileged distillation indiscriminately therefore creates state--reference mismatch. This mismatch motivates a central objective: providing privileged reference guidance that remains compatible with the student's current execution state. We introduce State-Matched Routing and Contextualized Self-Distillation (SMRC-SD), which explicitly determines when and how a privileged trajectory should guide an on-policy student. At each turn, SMRC-SD verifies whether the student's current execution state matches a supported state along the reference trajectory. Distillation is applied only at matched states, filtering out turns for which the reference lacks locally compatible guidance. For each matched state, SMRC-SD further constructs state-conditioned teacher context from the successful trajectory, grounding supervision in the state actually reached. Across ALFWorld and WebShop, SMRC-SD consistently outperforms unconditional successful full-path distillation. With Qwen3-1.7B, it improves task success from $0.746$ to $0.865$ on ALFWorld and from $0.574$ to $0.693$ on WebShop. Controlled routing and context ablations support both selecting locally supported turns and constructing state-compatible teacher context as contributors to these gains. Code is available at https://github.com/liujunzhuo/SMRC-SD.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05219",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05219"
+        }
+      }
+    },
+    {
+      "name": "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "Woodpecker-Distillation--Weak-Models-Diagnose-Reasoning-Bugs-in-Strong-Models_0.0_2026-08-07.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.05168v1 Announce Type: new Abstract: Large language models often fail on reasoning tasks despite possessing the capability to solve them. We argue that many such failures arise from localized reasoning bugs in intermediate steps rather than from global incompetence. We show that these bugs are frequently repairable: inserting a short patch generated by a weak probe model after the same strong-model reasoning prefix can redirect the trajectory toward a correct solution. However, this corrective effect is not reliably internalized by directly fine-tuning on weak patches or repaired trajectories, suggesting that the useful signal lies not in the intervention text itself, but in how it reshapes the model's future reasoning distribution. We therefore propose Woodpecker Distillation, a weak-to-strong training framework that learns from contrastive local interventions. Our method contrasts successful and unsuccessful weak-model patches at the same prefix, constructs a corrective teacher distribution from their induced future token predictions, and distills this signal into the strong model. Experiments on mathematical reasoning benchmarks show that Woodpecker Distillation consistently improves strong-model performance and outperforms direct imitation baselines.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.05168",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05168"
         }
       }
     },
@@ -4079,6 +4783,38 @@
       }
     },
     {
+      "name": "google/skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "google-skills_0.0_2026-08-07.md",
+      "source_type": "github",
+      "description": "Agent Skills for Google products and technologies",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/google/skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/google/skills"
+        }
+      }
+    },
+    {
       "name": "huangruiteng/loopx",
       "score": 0.0,
       "status": "待复核",
@@ -4175,6 +4911,38 @@
       }
     },
     {
+      "name": "semantica-agi/semantica",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "semantica-agi-semantica_0.0_2026-08-07.md",
+      "source_type": "github",
+      "description": "Graph-Native Infrastructure for Context and Accountable AI Systems",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/semantica-agi/semantica",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/semantica-agi/semantica"
+        }
+      }
+    },
+    {
       "name": "tirth8205/code-review-graph",
       "score": 0.0,
       "status": "待复核",
@@ -4203,6 +4971,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/tirth8205/code-review-graph"
+        }
+      }
+    },
+    {
+      "name": "unclebob/swarm-forge",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-07",
+      "date_dir": "2026-08-07",
+      "filename": "unclebob-swarm-forge_0.0_2026-08-07.md",
+      "source_type": "github",
+      "description": "A simple tool for coordinating several AI agents.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Clojure"
+      ],
+      "link": "https://github.com/unclebob/swarm-forge",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/unclebob/swarm-forge"
         }
       }
     },
@@ -9074,18 +9874,23 @@
   "projects_by_date": {
     "2026-08-07": [
       "A Long-Run Persistence Theory for AI Systems under the Redundancy-Adjusted Artificial Age Score (AAS)",
+      "Abstract Event Causal Rules: Induction and Application",
       "Adversarially Robust Abductive Fusion of Pre-trained Transformer-based Perception Models",
+      "Agentic Nesting: A New Methodology for Existing Enterprise Application Integration and Services",
       "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
       "Baseten on Hugging Face Inference Providers 🔥",
+      "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
       "BrainBench: Benchmarking Large Language Models for Comprehensive EEG Understanding",
       "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
       "Deploy local agents everywhere with LFM2.5-2.6B",
       "FinPerMA: A Theory-Informed, Event-Grounded Personalized-Memory Benchmark for LLM Agents",
       "FinProBench: Evaluating Financial AI Agents with Role-Grounded Rubrics Derived from Professional Deliverables",
+      "From Continuous Predictors to Clinical Thresholds: Early Evidence on Performance Trade-offs of Guideline-Based Categorisation for Ischaemic Stroke Outcome Prediction",
       "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
       "Grabette: an open system to record robot-manipulation data",
       "Hallucinations on the Board: Tool-Augmented Evaluation of LLM Chess Commentary",
       "Interoceptive Attention as Dynamic Homeostatic Prioritization in a Foraging Agent",
+      "Large Language Models Threaten Double-blind Review",
       "Large Language Models for Low-Resource Languages: A Conceptual Framework for an Electronic Explanatory Dictionary of the Tajik Language",
       "Launch HN: Airweave (YC X25) – Let agents search any app",
       "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
@@ -9098,13 +9903,23 @@
       "Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry",
       "Learning Sexism Detection Using Multi-Agent Perspectivist Preference Optimization",
       "MatrAIx: Simulating the World with 8.3 Billion Persona Agents",
+      "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
       "Mind the Cap: Output-Budget Regimes Change the Measured Multilingual Reasoning Gap",
       "Monte Carlo Tree Search for Table-to-Multimodal Report Generation",
       "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
       "Newer Models, Same Advantage",
+      "Otter: A Time-Aware, History-Conditioned Human Chess AI",
+      "PD-GS: Phoneme-Driven 3DGS for Audio-Driven Talking Heads",
       "Patients-like-me: A Variational LM--GNN Framework for Explainable Clinical Prediction",
+      "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
+      "PrimeIntellect-ai/prime-agent",
+      "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
       "Reconstructing Persistent Worlds from Narratives for Narrative-Grounded Interactive Experiences",
+      "Safe Evolution with Circuit Anchors",
+      "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
+      "SearchAuditor: Auditing and Attributing Failures in Long-Horizon Search Agents",
       "Security incident disclosure — July 2026",
+      "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
       "Show HN: A big tech dev experience for an open source CMS",
       "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
       "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
@@ -9117,21 +9932,31 @@
       "Show HN: Pickaxe – A TypeScript library for building AI agents",
       "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
       "Significant-Gravitas/AutoGPT",
+      "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
+      "SkillTrace: Multi-Trace Provenance Auditing for LLM-Agent Skill Reuse",
       "TencentCloud/TencentDB-Agent-Memory",
       "Test, then Route: How Language Models Execute In-Context Conditional Rules Across Models and Languages",
+      "The Ignition Index: Measuring Global Workspace Dynamics in Language Models",
       "The LLM Proposes, the Executive Disposes: A Self-Verifying Agent Instrument that Dissociates Commitment Drift from Binding Drift in Long-Horizon Agents",
       "The OlmoEarth Platform: Geospatial inference at planetary scale",
       "The RAIL Principles for Neurosymbolic AI: Reasoning, Assurances, Interfacing and Learning",
       "Transfer Learning for Named Entity Recognition of Classical Latin through LLM Prompting",
+      "TutorMoments: Do AI tutors know when to help and when to hold back?",
+      "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
       "Visualizing Graph-to-Answer Mechanism Recovery in Materials-Science Hypothesis Generation",
       "When More Becomes Less: Position-Dependent Repetition Effects in Language Models",
+      "When Privileged Guidance Misaligns: State-Matched Routing and Contextualized Self-Distillation for Multi-Turn Agents",
+      "Woodpecker Distillation: Weak Models Diagnose Reasoning Bugs in Strong Models",
       "addyosmani/agent-skills",
       "cloudflare/computer",
       "esengine/DeepSeek-Reasonix",
+      "google/skills",
       "huangruiteng/loopx",
       "mattpocock/skills",
       "obra/superpowers",
+      "semantica-agi/semantica",
       "tirth8205/code-review-graph",
+      "unclebob/swarm-forge",
       "zhaoxuya520/reverse-skill"
     ],
     "2026-08-05": [
