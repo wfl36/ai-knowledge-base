@@ -1,57 +1,47 @@
 # AI 知识库总纲
 
-> 最后更新: 2026-08-08
-> 项目总数: 50
+> 最后更新: 2026-08-09
+> 项目总数: 40
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | PrimeIntellect-ai/prime-agent | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/PrimeIntellect-ai/prime-agent) |
-| 2 | addyosmani/agent-skills | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/addyosmani/agent-skills) |
-| 3 | google/skills | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/google/skills) |
-| 4 | mattpocock/skills | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/mattpocock/skills) |
-| 5 | TauricResearch/TradingAgents | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/TauricResearch/TradingAgents) |
-| 6 | zhaoxuya520/reverse-skill | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/zhaoxuya520/reverse-skill) |
-| 7 | TencentCloud/TencentDB-Agent-Memory | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/TencentCloud/TencentDB-Agent-Memory) |
-| 8 | lyogavin/airllm | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/lyogavin/airllm) |
-| 9 | microsoft/AI-For-Beginners | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/microsoft/AI-For-Beginners) |
-| 10 | esengine/DeepSeek-Reasonix | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/esengine/DeepSeek-Reasonix) |
-| 11 | Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05151) |
-| 12 | Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05152) |
-| 13 | Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05153) |
-| 14 | RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05154) |
-| 15 | Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05155) |
-| 16 | Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05156) |
-| 17 | Large Language Models Threaten Double-blind Review | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05157) |
-| 18 | Safe Evolution with Circuit Anchors | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05158) |
-| 19 | SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05161) |
-| 20 | PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://arxiv.org/abs/2608.05162) |
-| 21 | TutorMoments: Do AI tutors know when to help and when to hold back? | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/allenai/tutormoments) |
-| 22 | Baseten on Hugging Face Inference Providers 🔥 | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/baseten) |
-| 23 | Deploy local agents everywhere with LFM2.5-2.6B | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b) |
-| 24 | GPU Management: Why Idle GPUs Are the New Grounded Aircraft | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/Dharma-AI/gpu-management) |
-| 25 | NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/nvidia/cosmos-h-dreams) |
-| 26 | Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
-| 27 | Bringing Nunchaku 4-bit Diffusion Inference to Diffusers | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/nunchaku-diffusers) |
-| 28 | Grabette: an open system to record robot-manipulation data | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/grabette) |
-| 29 | Newer Models, Same Advantage | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages) |
-| 30 | Security incident disclosure — July 2026 | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://huggingface.co/blog/security-incident-july-2026) |
-| 31 | Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=42247368) |
-| 32 | Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/fchimpan/gh-slimify) |
-| 33 | Show HN: BrowserOS – "Claude Cowork" in the browser | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/browseros-ai/BrowserOS) |
-| 34 | Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=48356312) |
-| 35 | Show HN: Pickaxe – A TypeScript library for building AI agents | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/hatchet-dev/pickaxe) |
-| 36 | Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/trycua/cua) |
-| 37 | Show HN: Darwin – Automate Your GitHub Project with AI | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://darwin-ai.dev) |
-| 38 | Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/hyperbrowserai/mcp) |
-| 39 | Show HN: A big tech dev experience for an open source CMS | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://contentfoundry.com/) |
-| 40 | Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://bitboard.work/) |
-| 41 | Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/Mintplex-Labs/anything-llm) |
-| 42 | Show HN: Sourcebot – Self-hosted Perplexity for your codebase | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/sourcebot-dev/sourcebot/releases/tag/v4.6.0) |
-| 43 | Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/inkeep/agents) |
-| 44 | Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=44225930) |
-| 45 | Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=41459121) |
-| 46 | Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/lmnr-ai/lmnr) |
-| 47 | Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=43996555) |
-| 48 | Launch HN: Airweave (YC X25) – Let agents search any app | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://github.com/airweave-ai/airweave) |
-| 49 | Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=41257369) |
-| 50 | Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry | 0.0 | - | 待复核 | 2026-08-08 | [链接](https://news.ycombinator.com/item?id=40985609) |
+| 1 | PrimeIntellect-ai/prime-agent | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/PrimeIntellect-ai/prime-agent) |
+| 2 | vitali87/code-graph-rag | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/vitali87/code-graph-rag) |
+| 3 | msitarzewski/agency-agents | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/msitarzewski/agency-agents) |
+| 4 | addyosmani/agent-skills | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/addyosmani/agent-skills) |
+| 5 | ZhuLinsen/daily_stock_analysis | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/ZhuLinsen/daily_stock_analysis) |
+| 6 | google/skills | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/google/skills) |
+| 7 | Comfy-Org/ComfyUI | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/Comfy-Org/ComfyUI) |
+| 8 | harveyai/harvey-labs | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/harveyai/harvey-labs) |
+| 9 | zhaoxuya520/reverse-skill | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/zhaoxuya520/reverse-skill) |
+| 10 | TencentCloud/TencentDB-Agent-Memory | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/TencentCloud/TencentDB-Agent-Memory) |
+| 11 | TutorMoments: Do AI tutors know when to help and when to hold back? | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/allenai/tutormoments) |
+| 12 | Baseten on Hugging Face Inference Providers 🔥 | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/baseten) |
+| 13 | Deploy local agents everywhere with LFM2.5-2.6B | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/LiquidAI/lfm2-5-2-6b) |
+| 14 | GPU Management: Why Idle GPUs Are the New Grounded Aircraft | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/Dharma-AI/gpu-management) |
+| 15 | NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/nvidia/cosmos-h-dreams) |
+| 16 | Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/agent-intrusion-technical-timeline) |
+| 17 | Bringing Nunchaku 4-bit Diffusion Inference to Diffusers | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/nunchaku-diffusers) |
+| 18 | Grabette: an open system to record robot-manipulation data | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/grabette) |
+| 19 | Newer Models, Same Advantage | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/Dharma-AI/newer-models-same-advantages) |
+| 20 | Security incident disclosure — July 2026 | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://huggingface.co/blog/security-incident-july-2026) |
+| 21 | Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=42247368) |
+| 22 | Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/fchimpan/gh-slimify) |
+| 23 | Show HN: BrowserOS – "Claude Cowork" in the browser | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/browseros-ai/BrowserOS) |
+| 24 | Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=48356312) |
+| 25 | Show HN: Pickaxe – A TypeScript library for building AI agents | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/hatchet-dev/pickaxe) |
+| 26 | Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/trycua/cua) |
+| 27 | Show HN: Darwin – Automate Your GitHub Project with AI | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://darwin-ai.dev) |
+| 28 | Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/hyperbrowserai/mcp) |
+| 29 | Show HN: A big tech dev experience for an open source CMS | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://contentfoundry.com/) |
+| 30 | Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://bitboard.work/) |
+| 31 | Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/Mintplex-Labs/anything-llm) |
+| 32 | Show HN: Sourcebot – Self-hosted Perplexity for your codebase | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/sourcebot-dev/sourcebot/releases/tag/v4.6.0) |
+| 33 | Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/inkeep/agents) |
+| 34 | Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=44225930) |
+| 35 | Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=41459121) |
+| 36 | Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/lmnr-ai/lmnr) |
+| 37 | Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=43996555) |
+| 38 | Launch HN: Airweave (YC X25) – Let agents search any app | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://github.com/airweave-ai/airweave) |
+| 39 | Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=41257369) |
+| 40 | Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry | 0.0 | - | 待复核 | 2026-08-09 | [链接](https://news.ycombinator.com/item?id=40985609) |
