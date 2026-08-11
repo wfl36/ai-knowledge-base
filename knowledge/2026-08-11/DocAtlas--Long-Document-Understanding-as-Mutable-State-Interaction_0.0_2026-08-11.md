@@ -1,0 +1,29 @@
+# DocAtlas: Long-Document Understanding as Mutable-State Interaction
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-08-11  
+**来源：** rss  
+
+## 项目描述
+arXiv:2608.07527v1 Announce Type: new Abstract: Long-document understanding requires models to find and combine evidence across many pages, layouts, tables, figures, and charts. Existing retrieval-augmented systems usually select evidence from a static index before generation, while recent agentic systems add multi-turn tool use but often rely on frozen proprietary backbones whose behavior is set by prompts. We present DocAtlas, a system that treats long-document understanding as a mutable-state information-seeking process. We instantiate DocAtlas as a mutable document harness: an external environment that determines what document information is searched, read, stored, reviewed, and shown to the model at each step. Given a document and question, the harness exposes search, reading, note-taking, and review tools, maintains a hierarchical tree and note store, and updates both as the agent records evidence. DocAtlas combines self-improving retrieval, selective evidence access, and active working memory under a fixed context budget. The same harness supports inference-time use with large VLMs and end-to-end reinforcement learning for compact VLM agents. With GPT-5.4, DocAtlas reaches 71.4\% on MMLongBench-Doc, exceeding the human-expert reference of 65.8\%. A Qwen3.5-4B VLM trained with end-to-end RL in the DocAtlas environment reaches 63.7\%, compared with a 54.4\% direct-input baseline, showing that mutable document-harness design can improve compact document agents by a large margin.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2608.07527
