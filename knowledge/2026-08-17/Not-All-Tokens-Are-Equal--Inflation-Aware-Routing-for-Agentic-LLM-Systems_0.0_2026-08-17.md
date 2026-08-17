@@ -1,0 +1,29 @@
+# Not All Tokens Are Equal: Inflation-Aware Routing for Agentic LLM Systems
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-08-17  
+**来源：** rss  
+
+## 项目描述
+arXiv:2608.13571v1 Announce Type: new Abstract: When a language model fails to answer a query on the first attempt, an agentic system retries, consuming additional tokens each time. This retry overhead creates a gap between what a model's per-token price implies and what a full workflow actually costs. We call this gap \emph{token inflation} and define it as the ratio of true workflow cost to single-call cost. Systems like FrugalGPT route based on the latter, which can underestimate real cost by more than $2\times$ on difficult tasks. We address this with InflationAgent, a four-stage router that (1) measures token inflation systematically across model tiers and task types, finding inflation as high as $4.25\times$ for a 7B model on multi-hop question answering; (2) introduces CoT Branching Entropy (CBE), a pre-execution difficulty signal computed entirely from local inference, which predicts high inflation with AUROC 0.887; and (3) selects models by maximizing a Semantic Exchange Rate (SER) that divides expected accuracy by predicted true cost, with a fresh-escalation policy that discards failed chains before routing to a stronger model. On GSM8K under a fixed budget, InflationAgent achieves 94.7\% accuracy versus 91.0\% for FrugalGPT while using 31\% fewer tokens, and we show that forwarding a failed reasoning chain to GPT-4o reduces its accuracy by up to 34.8 percentage points, validating the fresh-escalation design.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2608.13571
