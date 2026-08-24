@@ -1,8 +1,9 @@
 {
-  "last_updated": "2026-08-23",
-  "total_projects": 320,
+  "last_updated": "2026-08-24",
+  "total_projects": 332,
   "total_dates": 16,
   "dates": [
+    "2026-08-24",
     "2026-08-23",
     "2026-08-22",
     "2026-08-21",
@@ -17,23 +18,22 @@
     "2026-08-12",
     "2026-08-11",
     "2026-08-10",
-    "2026-08-09",
-    "2026-08-08"
+    "2026-08-09"
   ],
   "top_tags": [
     {
       "name": "无",
-      "count": 320
+      "count": 332
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 235
+      "count": 245
     },
     {
       "name": "github",
-      "count": 63
+      "count": 65
     },
     {
       "name": "hackernews",
@@ -42,22 +42,22 @@
   ],
   "projects": [
     {
-      "name": "Comfy-Org/ComfyUI",
+      "name": "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Comfy-Org-ComfyUI_0.0_2026-08-23.md",
-      "source_type": "github",
-      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "A-Survey-on-Foundations-and-Frontiers-of-Multimodal-Agentic-Frameworks--Techniqu_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20379v1 Announce Type: new Abstract: Advances in large language models (LLMs) have fueled a wave of research into agency: the ability to reason, plan, and act. This effort has produced agentic frameworks that orchestrate perception, memory, and decision-making around powerful LLM backbones. With the advent of large multimodal models (LMMs), these systems can process and integrate diverse modalities, including images, audio, and video, thereby improving their real-world applicability. Yet, while surveys of LLM-based agents exist, the role of multimodality in shaping agency has not been systematically examined in recent years. This survey fills the gap by analyzing the impact of multimodality across the core functional modules of the agentic framework: perception, reasoning, planning, memory, and action. Using this lens, we trace the evolution from text-centric agents to multimodal frameworks, examine how modalities are integrated through delegated, late-fusion, and early-fusion architectures, and assess the emergence of agentic behaviors enabled by grounded perception and multimodal reasoning. We organize existing work through a modality-centric taxonomy that links architectural design choices to agent capabilities. Moreover, we review multimodal agentic systems across various application domains, including Robotics, GUI & Web Navigation, Multimedia Content Generation & Editing, and Long-form Video Understanding & Retrieval. Beyond capabilities, we analyze performance across these settings and discuss efficiency-scalability trade-offs, including training and inference costs, latency, and deployment constraints. By focusing on the impact of multimodality in agentic design, we aim to identify key gaps and chart a roadmap toward robust and general-purpose intelligent systems.",
       "summary": "LLM 调用失败或响应解析失败",
       "tech_stack": [
-        "Python"
+        "未标注"
       ],
-      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "link": "https://arxiv.org/abs/2608.20379",
       "analysis": {
         "tech": {
           "score": 0.0,
@@ -69,7 +69,231 @@
         },
         "community": {
           "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/Comfy-Org/ComfyUI"
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20379"
+        }
+      }
+    },
+    {
+      "name": "AgriciDaniel/claude-obsidian",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "AgriciDaniel-claude-obsidian_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "Self-organizing AI second brain for Obsidian + Claude Code. Drop any source and Claude reads, links, and files it into one connected knowledge graph of plain Markdown you own. AI note-taking, personal knowledge management (PKM), and an open-source Notion alternative. Based on Karpathy's LLM Wiki pattern.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/AgriciDaniel/claude-obsidian",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/AgriciDaniel/claude-obsidian"
+        }
+      }
+    },
+    {
+      "name": "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Beyond-Prompt-Engineering--A-Systematic-Analysis-of-Prompt-Lexical-Sensitivity-a_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20349v1 Announce Type: new Abstract: Large Language Models (LLMs) exhibit extreme sensitivity to surface-level prompt variations, in which minor lexical changes can trigger disproportionate performance fluctuations. Moving beyond black-box optimization and coarse-grained templates, we present the first large-scale, n-gram token-level mechanistic analysis of prompt stability, leveraging a dataset of 132,000 prompt variants. Our investigation reveals a fundamental Scaling Law of Prompt Performance Stability: higher average task performance is strongly associated with lower variance and greater robustness across prompt perturbation. We identify two core linguistic drivers underlying this robustness: (1) Domain-Specific Terminology, which tightly anchors semantic boundaries, and (2) Explicit Action Directives, which formalize reasoning trajectories. Together, these elements constrain the model's interpretative space, effectively ``locking in'' more deterministic generation behavior. Building on these insights, we introduce an automated Prompt-Refining Agent that systematically restructures input queries by injecting domain anchoring and operational constraints. Empirical evaluation shows that our approach reduces performance variance by 40.7% in code generation task, while preserving or improving mean performance. These findings provide a statistically grounded and mechanistically interpretable framework for achieving robust prompt engineering.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20349",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20349"
+        }
+      }
+    },
+    {
+      "name": "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Beyond-Raw-Transcripts--Structured-Persona-Extraction-for-LLM-Based-Digital-Twin_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20344v1 Announce Type: new Abstract: LLM-based \"digital twins\" aim to simulate how an individual would behavein new environments or respond to novel questions, given some representation of that individual's prior responses. A common approach constructs this representation from survey transcripts or summaries responses. Prior work shows that compressing long transcripts into shorter LLM-generated summaries does not significantly reduce predictive accuracy, suggesting that information volume is not the primary bottleneck. In this work, we argue that the key limitation is instead structural:how persona information is organized before being provided to thesimulator model. We study this by comparing unstructured summaries with structured persona representations. First, we introduce a hand-craftedschema (BDE: Background, Decision procedure, Evaluation), grounded in consumer-behavior theory, and show that it improves predictive accuracy over raw transcripts by +1.91 percentage points on a homogeneous benchmark (Twin-2K-500), with similar gains on gpt-5.4-mini and Qwen3-8B as robustness checks. However, this fixed structure does not generalizeacross more heterogeneous tasks, where performance is statistically indistinguishable from the raw transcript baseline. To address this limitation, we propose an automatic structure-discovery pipeline in which an LLM iteratively proposes and refines task-specific persona structures and extraction prompts. On a benchmark of 13 diverse sub-studies, this approach restores performance, improving mean accuracy by +1.91 percentage points over the raw transcript baseline and eliminating significant losses observed with the fixed schema. Overall, our results suggest that the main constraint in LLM-based digital twins is not how much information is provided, but how it is structured -- and that the optimal structure depends on the task.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20344",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20344"
+        }
+      }
+    },
+    {
+      "name": "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Building-and-Evaluating-a-Synthetic-Bengali-Speech-Resource-for-Telecom-Customer_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20346v1 Announce Type: new Abstract: Speech systems used in customer-facing applications often require domain-specific language coverage. We present a synthetic Bengali speech dataset for telecom customer-care scenarios. The dataset contains 10,000 audio-text pairs, approximately 26.82 hours of 24 kHz speech, and predefined train, validation, and test splits of 9,000, 500, and 500 examples. It is publicly released on Hugging Face under the CC-BY-4.0 license. The speech was generated with OmniVoice in voice-cloning mode using a real female reference recording and transcript, with bfloat16 precision, 16 diffusion sampling steps, and a speaking-rate control value of 1.0. Along with the original Bengali text, the dataset provides a normalized transcript field designed for ASR/STT training and evaluation. We report an automatic intelligibility check over all 10,000 samples using a domain-adapted Whisper ASR model fine-tuned from bengaliAI/tugstugi_bengaliai-regional-asr_whisper-medium, along with a manual listening check on selected samples. The evaluation gives an average WER of 2.54%, an average CER of 0.59%, and median WER and CER values of 0.00%. These results suggest strong text-audio consistency under the selected automatic evaluation pipeline, while the paper also discusses the limitations of synthetic speech and STT-based evaluation.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20346",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20346"
+        }
+      }
+    },
+    {
+      "name": "Environmental Slow AI: Design Principles for Generative Systems",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Environmental-Slow-AI--Design-Principles-for-Generative-Systems_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20398v1 Announce Type: new Abstract: Generative AI (genAI) systems produce cultural artefacts at scale, but they also reflect embedded cultural values through their design. Once identified, these values become open to deliberate reshaping. This position paper examines the maximalist values of current generative AI through an environmental humanities tradition and proposes design principles in which environmental sustainability serves as the core value instead. The principles are developed under the umbrella of Slow AI, a term that already circulates across several distinct research and practice programs. Five design principles are articulated (restraint, sufficiency, selectivity over retention, material visibility, and friction as affordance), each of them illustrated against the current design of widely deployed systems. Each principle operates at two levels: a design implementation, and an interpretive layer at which users and developers are prompted toward reflective engagement with the system. Together these principles extend human agency by restoring decisions that frictionless defaults have silently removed and do so by building interpretive reflection into design.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20398",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20398"
+        }
+      }
+    },
+    {
+      "name": "ExpertIVS: Sociological Expert Driven Individual Value Simulation in Large Language Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "ExpertIVS--Sociological-Expert-Driven-Individual-Value-Simulation-in-Large-Langu_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20355v1 Announce Type: new Abstract: Large Language Model (LLM) agents have demonstrated considerable potential for social simulation, yet struggle to accurately model individual value systems. Most existing methods mechanically stitch survey responses into prompts, which suffer from semantic fragmentation, failing to capture the internal coherence of human value systems. The value systems of LLMs are typically assessed using static multiple-choice questions, which fail to evaluate the value orientation in real-world dialogue interactions. To address these issues, we propose ExpertIVS, a framework employing 14 Sociological Expert Agents to interpret World Values Survey (WVS) responses through structured professional perspectives, rather than direct responses concatenation. These expert agents perform deep semantic reconstruction to generate robust and internally consistent individual profiles. To evaluate the consistency between LLMs and individual value systems during dynamic interactions, we further introduce a multi-agent debate mechanism. Extensive experiments across 480 individuals from 12 countries demonstrate that ExpertIVS achieves 90.78% value restoration fidelity and significantly outperforms baselines in value generalization (+5.3%). Moreover, ExpertIVS exhibits strong personality discriminability and behavioral consistency, enabling a shift from mere response concatenation to genuine sociological role-playing.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20355",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20355"
+        }
+      }
+    },
+    {
+      "name": "Exploratory As-Analyzed No-Detection of Culturally-Marked Predicate-Triggered PII Amplification in a Synthetic-English RAG Probe: A Predicate-Resource-Confounded Audit",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Exploratory-As-Analyzed-No-Detection-of-Culturally-Marked-Predicate-Triggered-PI_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20351v1 Announce Type: new Abstract: We ask whether stereotype-loaded queries about culturally marked people leak more personal information from a retrieval-augmented generation (RAG) system than otherwise-equivalent neutral queries. We pre-register a four-culture audit (en-Anglo, es-LATAM, Arabic, Hindi) on a synthetic English PII corpus, comparing five query arms we call the Stereotype-Trigger Leakage Delta (STLD). Two caveats up front. Our locked confirmatory estimator was never run, so every test in the paper is exploratory or sensitivity, with all plan deviations listed in the appendix. And the name-leakage metric is contaminated by a prompt-echo artifact: the model often just re-emits the name we asked about, which inflates apparent leakage without any retrieval at all. On the cleaner channels (email, phone, ssn-like, address), we find no stereotype-driven amplification on any of the four cultures after multiple-comparison correction. Because our sample is only powered for mid-sized effects, and because the culturally marked probes mix stereotype content with cultural markers and heritage practices, we present this as no detection, not evidence of no effect, of culturally marked predicate leakage that is confounded with the underlying resource.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20351",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20351"
         }
       }
     },
@@ -80,9 +304,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "How-Much-Memory-Does-Your-Agent-Actually-Need_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "How-Much-Memory-Does-Your-Agent-Actually-Need_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -106,15 +330,111 @@
       }
     },
     {
+      "name": "How to Train a Real-World Silicon Concierge? Internalizing Complex Business Workflow to Only OneModel",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "How-to-Train-a-Real-World-Silicon-Concierge--Internalizing-Complex-Business-Work_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20350v1 Announce Type: new Abstract: Traditional industrial agents rely on modular pipelines, including Router, Retriever, Planner, Executor, Responder, Reviewer, and other components. These systems often fracture into a labyrinth of ad-hoc patches, leading to cascading errors and high latency. We propose OneModel, an applicable paradigm shift from external workflows to internalized knowledge representation. Unlike modular systems that slice fluid user intents into static steps, OneModel consolidates complex business logic and SOPs directly into the model parameters. Through Continual Pre-training (CPT) and logic-compilation SFT, we transform fragmented business rules into intuitive model reasoning within a unified attention space. Deployed in our global financial service system, OneModel effectively breaks the trade-off between latency, accuracy, and complexity. Online A/B testing demonstrates an end-to-end latency reduction of more than 50 percent, from 18.7 seconds to 8.0 seconds, while the Intelligent Resolution Rate (IRR) increases from 64.3 percent to 83.3 percent. The results show that OneModel can replace brittle engineering logic with internalized cognitive intuition, offering a scalable blueprint for transitioning industrial agents from complex, error-prone workflows to unified model architectures.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20350",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20350"
+        }
+      }
+    },
+    {
+      "name": "Inhibitory Attention for Clinical Long-Context Reasoning: Characterizing and Mitigating Lost-in-the-Middle Effects in EHR Processing",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Inhibitory-Attention-for-Clinical-Long-Context-Reasoning--Characterizing-and-Mit_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20348v1 Announce Type: new Abstract: Electronic health records now routinely exceed 100,000 tokens per patient. Yet large language models exhibit the lost-in-the-middle (LitM) effect: information near the center of a long context is retrieved less reliably than information near the edges. In clinical use this is not benign: the single most consequential fact in a note can sit at its center. We term this the clinical lost-in-the-middle (CLitM) problem, give its first systematic characterization using MedAlign, and compare context-selection strategies as remedies. Across 2,196 instruction-response pairs and six language models, we observe a 21.9 percentage-point gap between peak accuracy (59.5%, 95% CI [46.3, 71.0], 20-30% decile) and trough accuracy (37.6% [23.2, 52.5] at 70-80%); 67.8% of reference answers fall between the 10th and 90th percentiles of the EHR timeline, inside the CLitM trough. We introduce Query-Conditioned Clinical Suppression (QCCS), a lightweight query-conditioned selection gate, and evaluate it against BM25, BM25 with section-header filtering, dense retrieval, and cross-encoder reranking (N=83 held-out instructions). With Qwen2.5-7B-Instruct (16k context), QCCS outperforms all five comparators under LLM-as-judge scoring: for middle-position instructions QCCS reaches 16.7% versus BM25 3.3%, cross-encoder 0.0%, dense 0.0%, and full context 6.7%; overall QCCS reaches 25.3% versus at most 3.6% for retrieval-only comparators. This advantage is not explained by retrieval recall: at k=20, BM25 retrieves the gold evidence sentence in 98.8% of instructions (QCCS 34.9%), yet retrieval arms stay at most 2.6% accurate even when they retrieve it, whereas QCCS reaches 25.0% even when it does not. In this proof-of-concept evaluation, query-aligned context selection predicts EHR instruction-following accuracy better than gold-sentence retrieval recall.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20348",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20348"
+        }
+      }
+    },
+    {
+      "name": "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Interpretable-Multimodal-Classification-with-Linear-Discriminant-Tree-Ensembles_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20384v1 Announce Type: new Abstract: Multimodal affect and behaviour classifiers that fuse heterogeneous text, audio, and visual streams must simultaneously achieve competitive accuracy and produce human-understandable explanations of the cues driving their decisions -- a dual objective that current high-capacity models, notably Transformers, only partially address. While Transformers attain strong predictive performance, their distributed representations and deep nonlinearity make it difficult to assign meaningful importance weights to individual multimodal features, limiting their use in trust-sensitive applications such as clinical affect monitoring and educational assessment. We address this gap by developing a framework based on tree-based ensembles that balances accuracy and interpretability. The framework encodes each modality into tokens, extracts and clusters concepts to reduce dimensionality, routes the fused modalities through tree-based ensemble classifiers, and interprets trends using a novel modified feature importance metric. The modified importance reduces the influence of the negative class in binary classification tasks, thereby improving indicator or marker detection. The proposed tree-based ensembles -- Linear Discriminant Tree (LDT), Linear Discriminant Forest (LDF), and Linear Discriminant AdaBoost (LDAB) -- achieve F1-mod gains of 4.3\\% over the Multimodal Transformer and accuracy gains of 3.0\\% over the primary interpretable multimodal baseline, Interpretable Multimodal Routing (IMR). The proposed multimodal feature importance extracts salient inter-modal concepts with substantially higher human-annotator agreement scores than default feature importance (62.2\\% vs.\\ 43.2\\% on IEMOCAP; 46.7\\% vs.\\ 32.1\\% on CMU-MOSI).",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20384",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20384"
+        }
+      }
+    },
+    {
       "name": "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Introducing-OlmoEarth-embeddings--Custom-embedding-exports-from-OlmoEarth-Studio_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Introducing-OlmoEarth-embeddings--Custom-embedding-exports-from-OlmoEarth-Studio_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -144,9 +464,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Airweave--YC-X25----Let-agents-search-any-app_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Airweave--YC-X25----Let-agents-search-any-app_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN, we’re Lennert and Rauf. We’re building Airweave (<a href=\"https:&#x2F;&#x2F;airweave.ai&#x2F;\">https:&#x2F;&#x2F;airweave.ai&#x2F;</a>), an open-source tool that lets AI agents search and retrieve context from your existing apps and databases through a single LLM-friendly API (or an MCP server, if that’s your thing). Our Github is at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;airweave-ai&#x2F;airweave\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;airweave-ai&#x2F;airweave</a>. We previously did a Show HN <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43964201\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=43964201</a> and since then we’ve recently launched the managed service and new search functionality.<p>Here’s an example of Cursor using Airweave <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IvxidK9Ciy4\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=IvxidK9Ciy4</a>. And here’s a general example of our new search functionality: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iqEqc_iGUO8\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=iqEqc_iGUO8</a><p>We came to this problem while building agentic applications for webshop owners and customer service, and noticing most failure modes weren’t about tool execution, but finding the right internal context to enable the right actions.<p>We started solving, what seemed at the time, a problem for our own use case, and quickly fell into a rabbithole of issues. Company and user data lives across SaaS and databases; it’s sparse, messy, and constantly changing. Agents need a data orchestration and retrieval layer that accepts free-form natural language queries and returns actionable results quickly.<p>Simply pointing an agent at an MCP server does not equate to fine-grained search functionality or deep understanding of the underlying resource. Most MCP servers are thin wrappers that expose an existing API in a more LLM-friendly way, but this doesn’t actually give the agent any new capabilities beyond what the resource or app already offered. Specifically, it doesn’t give the agent a way to thoroughly search and understand the contents of the resource.<p>Airweave connects to sources via their APIs, crawls and normalizes content, chunks it, extracts entity relationships, and indexes the chunks in a vector store alongside keyword fields and lightweight graph metadata in Postgres. Data sync is orchestrated with Temporal (handles pagination&#x2F;rate limits, schedules, and change detection via timestamps and content hashes) so collections stay close to real-time with their sources.<p>On retrieval, Airweave can run semantic and BM25 keyword search in parallel, fuse results (RRF), apply recency bias, and re-rank. Agents can fetch ranked chunks with citations or ask for a synthesized answer. The same interface is exposed via REST, Python&#x2F;TS SDKs, and MCP so agents can discover it like any other tool.<p>It’s been fun to see what users have built with Airweave; from legal AI assistants to research discovery agents and context augmentation for coding agents. We’re currently experimenting with agentic search patterns, layering different types of enrichment and indexing, RBAC on indexed data, and streaming architectures.<p>If this is interesting to you, feel free to take it for a spin. Curious to hear your thoughts and feedback on the problem and our solution!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -176,9 +496,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--BitBoard--YC-P25----Analytics-Workspace-for-Agents_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--BitBoard--YC-P25----Analytics-Workspace-for-Agents_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "We’re Connor and Ambar from BitBoard (<a href=\"https:&#x2F;&#x2F;bitboard.work\">https:&#x2F;&#x2F;bitboard.work</a>). BitBoard is an agentic analytics workspace. We give you the infrastructure and visualization layer to analyze data with AI.<p>Today, we’re launching dashboards that you and your agents can work on together. You can connect your coding agent or AI chat to BitBoard and build live reporting. Here’s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HPl0K565a7c\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=HPl0K565a7c</a>.<p>AI tools treat data analysis as ephemeral, making it hard to report or collaborate. Legacy BI tools weren’t intended for AI users, so they bolt on chatbots and can’t offer meaningful control to your agents. Software can now make far more of a business legible than BI ever could, but neither legacy BI nor chat bots are built to handle it.<p>Our original product was AI agents for administrative tasks in healthcare (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44237769\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44237769</a>), but customers kept pulling us toward their data analysis problems: queries scattered across disparate sources, spreadsheets floating everywhere. We kept building tooling for addressing that, and at a certain point those tools were becoming our product.<p>We ran into several problems. Agents made bad inferences because they had no context on the business. They couldn&#x27;t be trusted to make decisions because nothing checked their work. And anything one agent or one person figured out was invisible to everyone else. In BitBoard, humans and agents interact with the same data primitives but get tools designed for their own work.<p>We’re building dashboards to make the human reading experience better. These dashboards progressively use intelligence - starting from code or SQL queries and leading to full embedded apps. Humans and agents will need to agree on methods to interpret data, so we’re letting both contribute to canonical sources, entities, and measures (using your favorite semantic model or ours). Every answer comes with provenance, and the same call with the same parameters returns the same number.<p>Looking ahead, these shared primitives let long-running agents operate inside a business, and we&#x27;re building those agents too. An agent needs a measurable goal and a way to verify its work. BitBoard gives it both. The agent takes a problem like a metric drifting or a funnel leaking and figures out what to do next. Its work becomes datasets, dashboards, and traces that the team can observe and sign off on.<p>Technically, we’re building a collaboration engine with isomorphic updates for humans and AI, columnar analysis (we use DuckDB and Apache Arrow), grounding and verification infrastructure, and enabling long running tasks with agent containers and traces. For agentic work we’re big fans of applying LLM judgement to discover problems, and then generating deterministic software to automate them.<p>Try it out at <a href=\"https:&#x2F;&#x2F;app.bitboard.work\">https:&#x2F;&#x2F;app.bitboard.work</a>. (We require an email so we can set up your account).<p>We’re excited about how data analysis and science can change in the age of LLMs, and welcome all your thoughts!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -208,9 +528,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Chonkie--YC-X25----Open-Source-Library-for-Advanced-Chunking_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Chonkie--YC-X25----Open-Source-Library-for-Advanced-Chunking_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN! We&#x27;re Shreyash and Bhavnick. We&#x27;re building Chonkie (<a href=\"https:&#x2F;&#x2F;chonkie.ai\">https:&#x2F;&#x2F;chonkie.ai</a>), an open-source library for chunking and embedding data.<p>Python: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie\">https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie</a><p>TypeScript: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie-ts\">https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie-ts</a><p>Here&#x27;s a video showing our code chunker: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;Xclkh6bU1P0\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;Xclkh6bU1P0</a>.<p>Bhavnick and I have been building personal projects with LLMs for a few years. For much of this time, we found ourselves writing our own chunking logic to support RAG applications. We often hesitated to use existing libraries because they either had only basic features or felt too bloated (some are 80MB+).<p>We built Chonkie to be lightweight, fast, extensible, and easy. The space is evolving rapidly, and we wanted Chonkie to be able to quickly support the newest strategies. We currently support: Token Chunking, Sentence Chunking, Recursive Chunking, Semantic Chunking, plus:<p>-  Semantic Double Pass Chunking: Chunks text semantically first, then merges closely related chunks.<p>-  Code Chunking: Chunks code files by creating an AST and finding ideal split points.<p>-  Late Chunking: Based on the paper (<a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2409.04701\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2409.04701</a>), where chunk embeddings are derived from embedding a longer document.<p>-  Slumber Chunking: Based on the &quot;Lumber Chunking&quot; paper (<a href=\"https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2406.17526\" rel=\"nofollow\">https:&#x2F;&#x2F;arxiv.org&#x2F;abs&#x2F;2406.17526</a>). It uses recursive chunking, then an LLM verifies split points, aiming for high-quality chunks with reduced token usage and LLM costs.<p>You can see how Chonkie compares to LangChain and LlamaIndex in our benchmarks: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie&#x2F;blob&#x2F;main&#x2F;BENCHMARKS.md\">https:&#x2F;&#x2F;github.com&#x2F;chonkie-inc&#x2F;chonkie&#x2F;blob&#x2F;main&#x2F;BENCHMARKS....</a><p>Some technical details about the Chonkie package:  - ~15MB default install vs. ~80-170MB for some alternatives. - Up to 33x faster token chunking compared to LangChain and LlamaIndex in our tests. - Works with major tokenizers (transformers, tokenizers, tiktoken). - Zero external dependencies for basic functionality. - Implements aggressive caching and precomputation. - Uses running mean pooling for efficient semantic chunking. - Modular dependency system (install only what you need).<p>In addition to chunking, Chonkie also provides an easy way to create embeddings. For supported providers (SentenceTransformer, Model2Vec, OpenAI), you just specify the model name as a string. You can also create custom embedding handlers for other providers.<p>RAG is still the most common use case currently. However, Chonkie makes chunks that are optimized for creating high quality embeddings and vector retrieval, so it is not really tied to the &quot;generation&quot; part of RAG. In fact, We&#x27;re seeing more and more people use Chonkie for implementing semantic search and&#x2F;or setting context for agents.<p>We are currently focused on building integrations to simplify the retrieval process. We&#x27;ve created &quot;handshakes&quot; – thin functions that interact with vector DBs like pgVector, Chroma, TurboPuffer, and Qdrant, allowing you to interact with storage easily. If there&#x27;s an integration you&#x27;d like to see (vector DB or otherwise), please let us know.<p>We also offer hosted and on-premise versions with OCR, extra metadata, all embedding providers, and managed vector databases for teams that want a fully managed pipeline. If you&#x27;re interested, reach out at shreyash@chonkie.ai or book a demo: <a href=\"https:&#x2F;&#x2F;cal.com&#x2F;shreyashn&#x2F;chonkie-demo\" rel=\"nofollow\">https:&#x2F;&#x2F;cal.com&#x2F;shreyashn&#x2F;chonkie-demo</a>.<p>We&#x27;re eager to hear your feedback and comments! Thanks!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -240,9 +560,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Cua--YC-X25----Open-Source-Docker-Container-for-Computer-Use-Agents_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Cua--YC-X25----Open-Source-Docker-Container-for-Computer-Use-Agents_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN, we’re Francesco and Alessandro, the creators of c&#x2F;ua (<a href=\"https:&#x2F;&#x2F;www.trycua.com\">https:&#x2F;&#x2F;www.trycua.com</a>), a Docker‑style container runtime that lets AI agents drive full operating systems in lightweight, isolated VMs. Our entire framework is open‑source (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;trycua&#x2F;cua\">https:&#x2F;&#x2F;github.com&#x2F;trycua&#x2F;cua</a>), and today we’re thrilled to have our Launch HN!<p>Check out our demo to see it in action: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Ee9qf-13gho\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=Ee9qf-13gho</a>, and for more examples - including Tableau, Photoshop, CAD workflows - see the demos in our repo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;trycua&#x2F;cua\">https:&#x2F;&#x2F;github.com&#x2F;trycua&#x2F;cua</a>.<p>For Computer-Use AI agents to be genuinely useful, they must interact with your system&#x27;s native applications. But giving full access to your host device is risky. What if the agent&#x27;s process gets compromised, or the LLM hallucinates and leaks your data? And practically speaking, do you really want to give up control of your entire machine just so the agent can do its job?<p>The idea behind c&#x2F;ua is simple: let agents operate in a mirror of the user’s system - isolated, secure, and disposable - so users can fire-and-forget complex tasks without needing to dedicate their entire system to the agent. By running in a virtualized environment, agents can carry out their work without interrupting your workflow or risking the integrity of your system.<p>While exploring this idea, I discovered Apple’s Virtualization.Framework and realized it offered fast and lightweight virtualization on Apple Silicon. This led us to build a high-performance virtualization layer and, eventually, a computer-use interface that allows agents to interact with apps just like a human would - without taking over the entire system.<p>As we built this, we decided to open-source the virtualization core as a standalone CLI tool called Lume (Show HN here: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42908061\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=42908061</a>). c&#x2F;ua builds on top of Lume, providing a full framework for running agent workflows inside secure macOS or Linux VMs, so your system stays free for you to use while the agent works its magic in the background.<p>With Cua you can build an AI agent within a virtual environment to: - navigate and interact with any application&#x27;s interface; - read screen content and perform keyboard&#x2F;mouse actions; - switch between applications and self-debug when needed; - operate in a secure sandbox with controlled file access. All of this occurs in a fully isolated environment, ensuring your host system, files, and sensitive data remain completely secure, while you continue using your device without interruption.<p>People are using c&#x2F;ua to: - Bypass CryptoJS-based encryption and anti-bot measures to interact with modern web apps reliably; - Automate Tableau dashboards and export insights via Claude Desktop; - Drive Photoshop for batch image editing by prompt; - Modify 3D models in Fusion 360 with a CAD Copilot; -Extract data from legacy ERP apps without brittle screen‑scraping scripts.<p>We’re currently working on multi‑VM orchestration for parallel agentic workflows, Windows and Linux VM support, and episodic and long-term memory for CUA Agents.<p>On the open‑source side, c&#x2F;ua is 100 % free under the MIT license - run it locally with any LLM you like. We’re also gearing up a hosted orchestration service for teams who want zero‑ops setup (early access sign‑ups opening soon).<p>We’d love to hear from you. What desktop or legacy apps do you wish you could automate? Any thoughts, feedback, or horror stories from fragile AI automations are more than welcome!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -272,9 +592,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Expanse--YC-P26----Unlock-Wasted-GPU-Capacity_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Expanse--YC-P26----Unlock-Wasted-GPU-Capacity_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN, we’re Ismaeel, Eren, Yafet and Nikodem. We built Expanse (<a href=\"https:&#x2F;&#x2F;expanse.sh&#x2F;\">https:&#x2F;&#x2F;expanse.sh&#x2F;</a>) to increase the effective capacity of your HPC&#x2F;GPU clusters running schedulers&#x2F;orchestrators like Kubernetes and SLURM. We read the source code, job submission script, and the hardware a workload is about to run on to predict what the job actually needs before the cluster sees it. We also flag failures we think are about to happen and surface line-level optimisations the researcher can apply themselves.<p>The problem: Datacenters run at roughly 30% to 40% effective utilisation. Users request more resources than what they actually need, because of asymmetric risk: while over-requesting is bad because it’s expensive and wastes capacity that someone else could have used, under-requesting kills your job mid-run and you lose days of work. So everyone over-requests by two to three times.<p>We measured one national-scale HPC cluster for a month and from 122k jobs, 59% of the compute was wasted. At on-demand cloud rates for the same hardware, that’s roughly $8.5M of compute wasted in one month on one cluster. The pattern is similar in large scale compute industries as well, such as quant funds, AI labs, and manufacturing.<p>The four of us ran HPC and GPU training workloads at the largest quant funds and HPC facilities. Ismaeel did research at EPCC (Edinburgh’s Parallel Computing Centre, the UK’s national HPC site) under Adrian Jackson, where he built the first multimodal HPC resource predictor: a model that ingests job source code, submission scripts, hardware telemetry and cluster metadata in order to figure out how much compute will actually be needed. On a dataset of real workloads on EPCC’s own clusters it scored 34% better than any other baseline, and outperformed frontier general-purpose LLMs prompted on the same prediction task by roughly 8x. These results convinced us the problem was solvable with software.<p>Expanse installs on every node and hooks into SLURM (or the K8s scheduler). It ingests live hardware telemetry (DCGM, CUPTI, Cgroups, Network&#x2F;IO monitoring) of your cluster creating a custom embedding of how your hardware performs. We scan any workloads about to be submitted through SLURM&#x2F;K8s (plugging into the life cycles of the job so you don&#x27;t have to change how you submit things) and we feed this into our deep learning models to give researchers accurate resource recommendations, failure detections, and optimisation suggestions at submission time. We fine tune cluster-specific models that get sharper over time as you run more workloads. Our models are trained to over-provision rather than under-provision due to the asymmetric outcomes of a job crashing. We also provide uncertainty estimates and p90 values to allow users to choose their risk tolerance.<p>We surface three capabilities to users of the cluster:<p>(1) Resource prediction at submit time. We predict the GPU VRAM, Utilisation, memory, CPUs and walltime the job actually needs, with a confidence interval. From these predictions we also surface failure predictions for OOMs and other memory related issues, and code line level optimisations to increase the utilisation of the job on the hardware.<p>(2) Live Observability. While the job runs we showcase the telemetry we are collecting through a dashboard that gives an intuitive view of what&#x27;s going on in the hardware and where your workload is at in terms of code stack profiling. We dynamically profile workloads to achieve a low single digit overhead while being informative.<p>(3) Failure diagnosis. If a workload fails, we take all the data we collected and perform correlations on the stack profiling and the hardware telemetry we collect to surface solution oriented logs. These are one, two line logs telling you not only what happened when the job failed, but why and how to fix it with code line level suggestions.<p>What’s different about our approach: The state of the art for most clusters is to either have per-user historical averages from sacct (SLURM accounting DB); hand-written rules&#x2F;heuristics; or frontier LLM coding agents. For per-user historical averages from sacct, once a new type of workload is submitted onto the cluster or code level changes are made the model becomes wildly inaccurate. For the LLM baseline we provided them with the submission script and source code of the workload being ran, and gave it the full capabilities of its coding harness in the cluster and it performed quite poorly. We benchmarked Expanse against the state of the art at the time (Gemini 3.5 pro, Claude Opus 4.8, GPT 5.5, Codex 5.3) and outperformed them by 8x.<p>You might be thinking, as these models scale and get better, they could beat us on this task; however we saw no correlation in model size or iteration on accuracy improvement. Claude Haiku actually performed better than Opus on a lot of workloads and previous iterations of models had the same, if not slightly better, accuracy. Even coding specific models, such as Codex 5.3 performed poorly (matching accuracy with GPT5.5). These models reason in a vacuum, without native support for modal inputs such as source code (to understand the underlying data flow and computational patterns), and hardware telemetry and topology (to understand performance patterns of the cluster) they cannot accurately predict the resources a workload needs. Additionally, Expanse continuously updates its internal models to make sure our predictions get more accurate as more workloads run on your cluster, making it well suited for changes in new hardware or workload patterns. LLMs are very good at writing code and hyper parameter sweeps, but they need Expanse to complete the full agentic loop for auto research. It&#x27;s super easy to plug our tools into these agents, we have made our CLI tools LLM friendly. For more details on our LLM eval, check out: <a href=\"https:&#x2F;&#x2F;x.com&#x2F;ismaeel_bashir_&#x2F;status&#x2F;2059683849404383283\" rel=\"nofollow\">https:&#x2F;&#x2F;x.com&#x2F;ismaeel_bashir_&#x2F;status&#x2F;2059683849404383283</a><p>We’re currently onboarding customers as paid pilots. Pricing is determined per-cluster. We offer a two-week measurement window where we install, ingest, and report recoverable capacity to datacenter operators, followed by a paid pilot deployment in one department at a fixed monthly fee, renewing at the same rate unless the scope expands.<p>If you run a HPC&#x2F;GPU cluster (SLURM or K8s, 100+ GPUs), we&#x27;d love to have a talk. We’ll install on a section of your cluster for a week, send a written report of what’s recoverable, and you decide whether to keep going. If you’ve tried something like this and it didn’t work, we’d really like to hear why. And if there’s a failure mode you’d want predicted that the post doesn’t mention, drop it in this thread and we’ll write back with whether the model already catches it or what it would take to add.\nI never thought I’d be on the other side of launch HN :). Even if you don’t run a cluster, we’d still love to hear from you. Any thoughts on our approach, your experiences running workloads on clusters, or even anywhere you think we’re wrong - we&#x27;d love to hear it.<p>Tally Ho!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -304,9 +624,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Hamming--YC-S24----Automated-Testing-for-Voice-Agents_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Hamming--YC-S24----Automated-Testing-for-Voice-Agents_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN! Sumanyu and Marius here from Hamming (<a href=\"https:&#x2F;&#x2F;www.hamming.ai\">https:&#x2F;&#x2F;www.hamming.ai</a>). Hamming lets you automatically test your LLM voice agent. In our interactive demo, you play the role of the voice agent, and our agent will play the role of a difficult end user. We&#x27;ll then score your performance on the call. Try it here: <a href=\"https:&#x2F;&#x2F;app.hamming.ai&#x2F;voice-demo\">https:&#x2F;&#x2F;app.hamming.ai&#x2F;voice-demo</a> (no signup needed). In practice, our agents call your agent!<p>LLM voice agents currently require a lot of iteration and tuning. For example, one of our customers is building an LLM drive-through voice agent for fast food chains. Their KPI is order accuracy. It&#x27;s crucial for their system to gracefully handle dietary restrictions like allergies and customers who get distracted or otherwise change their minds mid-order. Mistakes in this context could lead to unhappy customers, potential health risks, and financial losses.<p>How do you make sure that such a thing actually works? Most teams spend hours calling their voice agent to find bugs, change the prompt or function definitions, and then call their voice agent again to ensure they fixed the problem and didn&#x27;t create regressions. This is slow, ad hoc, and feels like a waste of time. In other areas of software development, automated testing has already eliminated this kind of repetitive grunt work — so why not here, too?<p>We were initially working on helping users create evals for prompts &amp; LLM pipelines for a few months but noticed two things:<p>1) Many of our friends were building LLM voice agents.<p>2) They were spending too much time on manual testing.<p>This gave us evidence that there will be more voice companies in the future, and they will need something to make the iteration process easier. We decided to build it!<p>Our solution involves four steps:<p>(1) Create diverse but realistic user personas and scenarios covering the expected conversation space. We create these ourselves for each of our customers. Getting LLMs to create diverse scenarios even with high temperatures is surprisingly tricky. We&#x27;re learning a lot of tricks along the way to create more randomness and more faithful role-play from the folks at <a href=\"https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;LocalLLaMA&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.reddit.com&#x2F;r&#x2F;LocalLLaMA&#x2F;</a>.<p>(2) Have our agents call your agent when we test your agent&#x27;s ability to handle things like background noise, long silences, or interruptions. Or have us test just the LLM &#x2F; logic layer (function calls, etc.) via an API hook.<p>(3) We score the outputs for each conversation using deterministic checks and LLM judges tailored to the specific problem domain (e.g., order accuracy, tone, friendliness). An LLM judge reviews the entire conversation transcript (including function calls and traces) against predefined success criteria, using examples of both good and bad transcripts as references. It then provides a classification output and detailed reasoning to justify its decisions. Building LLM judges that consistently align with human preferences is challenging, but we&#x27;re improving with each judge we manually develop.<p>(4) Re-use the checks and judges above to score production traffic and use it to track quality metrics in production. (i.e., online evals)<p>We created a Loom recording showing our customers&#x27; logged-in experience. We cover how you store and manage scenarios, how you can trigger an experiment run, and how we score each transcript. See the video here: <a href=\"https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;839fe585aa1740c0baa4faa33d772d3e\" rel=\"nofollow\">https:&#x2F;&#x2F;www.loom.com&#x2F;share&#x2F;839fe585aa1740c0baa4faa33d772d3e</a><p>We&#x27;re inspired by our experiences at Tesla, where Sumanyu led growth initiatives as a data scientist, and Anduril, where Marius headed a data infrastructure team. At both companies, simulations were key to testing autonomous systems before deployment. A common challenge, however, was that simulations often fell short of capturing real-world complexity, resulting in outcomes that didn&#x27;t always translate to reality. In voice testing, we&#x27;re optimistic about overcoming this issue. With tools like PlayHT and ElevenLabs, we can generate highly realistic voice interactions, and by integrating LLMs that exhibit human-like reasoning, we hope our simulations will closely replicate how real users interact with voice agents.<p>For now, we&#x27;re manually onboarding and activating each user. We&#x27;re working hard to make it self-serve in the next few weeks. The demo at <a href=\"https:&#x2F;&#x2F;app.hamming.ai&#x2F;voice-demo\">https:&#x2F;&#x2F;app.hamming.ai&#x2F;voice-demo</a> doesn&#x27;t require any signup, though!<p>Our current pricing is a mix of usage and the number of seats: <a href=\"https:&#x2F;&#x2F;hamming.ai&#x2F;pricing\">https:&#x2F;&#x2F;hamming.ai&#x2F;pricing</a>. We don&#x27;t use customer data for training purposes or to benefit other customers, and we don&#x27;t sell any data. We use PostHog to track usage. We&#x27;re in the process of getting HIPAA compliance, with SOC 2 being next on the list.<p>Looking ahead, we&#x27;re focused on making scenario generation and LLM judge creation more automated and self-serve. We also want to create personas based on real production conversations to make it easier to ‘replay’ a user on demand.<p>A natural next step beyond testing is optimization. We&#x27;re considering building a voice agent optimizer (like DSPy) that uses scenarios from testing that failed to generate a new set of prompts or function call definitions to make the scenario pass. We find the potential of self-play and self-improvement here super exciting.<p>We&#x27;d love to hear about your experiences with voice agents, whether as a user or someone building them. If you&#x27;re building in the voice or agentic space, we&#x27;re curious about what is working well for you and what challenges you are encountering. We&#x27;re eager to learn from your insights about setting up evals and simulation pipelines or your thoughts on where this space is heading.",
       "summary": "LLM 调用失败或响应解析失败",
@@ -336,9 +656,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Human-Layer--YC-F24----Human-in-the-Loop-API-for-AI-Systems_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Human-Layer--YC-F24----Human-in-the-Loop-API-for-AI-Systems_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN! I&#x27;m Dex, building HumanLayer (<a href=\"https:&#x2F;&#x2F;humanlayer.dev\">https:&#x2F;&#x2F;humanlayer.dev</a>), an API that lets AI agents contact humans for feedback, input, and approvals. We enable safe deployment of autonomous&#x2F;headless AI systems in production. You can try it with our Python or TypeScript SDKs and start using it immediately with a free trial. We have a free tier and transparent usage-based pricing. Here’s a demo: <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;5sbN8rh_S5Q?t=51\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;5sbN8rh_S5Q?t=51</a><p>What&#x27;s really exciting is that we&#x27;re enabling teams to deploy AI systems that would otherwise be too risky. We let you focus on building powerful agents while knowing that critical steps will <i>always</i> get a human-in-the-loop. It&#x27;s been dope seeing people start to think bigger when they consider dynamic human oversight as a key ingredient in production AI systems.<p>This started when we were building AI agents for data teams. We wanted to automate tedious tasks like dropping unused tables, but customers were (rightfully!) opposed to giving AI agents direct access to production systems.<p>Getting AI to &quot;production grade&quot; reliability is a function of &quot;how risky is this task the AI is performing&quot;. We didn&#x27;t have the 3+ months it would have taken to sink into evals, fine tuning, and prompt engineering to get to a point where the agent had 99.9+% reliability—and even then, getting decision makers comfortable with flipping the switch on was a challenge. So instead we built some basic approval flows, like &quot;ask in Slack before dropping tables&quot;.<p>But this communication itself needed guardrails—what if the agent contacted the wrong person? How would the head of data look if a tool he bought sent a nagging Slack message to the CEO? Our buyers wanted the agent to ask stakeholders for approval, but first <i>they</i> wanted to approve the &quot;ask for approval&quot; action itself. And then I started thinking about it... as a product builder + owner, <i>I</i> wanted to approve the &quot;ask for approval to ask for approval&quot; action!<p>I hacked together a human-AI interaction that would handle each of these cases across both my and my customers&#x27; Slack instances. By this time, I was convinced that any team building AI agents would need this kind of infrastructure and decided to build it as a standalone product. I presented the MVP at an AI meetup in SF and had a ton of incredible conversations, and went all in on building HumanLayer.<p>When you integrate the HumanLayer SDK, your AI agent can request human approval at any point in its execution. We handle all the complexity of routing these requests to the right people through their preferred channels (Slack or email, SMS and Teams coming soon), managing state while waiting for responses, and providing a complete audit trail. In addition to &quot;ask for approval&quot;, we also support a more generic &quot;human as tool&quot; function that can be exposed to an LLM or agent framework, and will handle collecting a human response to a generic question like &quot;I&#x27;m stuck on $PROBLEM, I&#x27;ve tried $THINGS, please advise&quot; (I get messages like this sometimes from in-house agents we rolled out for back-office automations).<p>Because it&#x27;s at the tool-calling layer, HumanLayer&#x27;s SDK works with any AI framework like CrewAI, LangChain, etc, and any language model that supports tool calling. If you&#x27;re rolling your own agentic&#x2F;tools loop, you can use lower level SDK primitives to manage approvals however you want. We&#x27;re even exploring use cases where HumanLayer is used for human-to-human approval, not just AI-to-human.<p>We&#x27;re already seeing HumanLayer used in some cool ways. One customer built an AI SDR that drafts personalized sales emails but asks for human approval in Slack before sending anything to prospects. Another uses it to power an AI newsletter where subscribers can have email conversations with the content. HumanLayer handles receiving inbound emails and routing them to agents that can respond, and giving those agents tools to do so. One team uses HumanLayer to build a customer-facing DevOps agent—their AI agent reviews PRs, plans and executes db migrations, all while getting human sign-off at critical steps and reaching out to the team for steering if it encounters any issues.<p>We have a free tier and flexible credits-based pricing. For teams building customer-facing agents, you get whitelabeling and additional features and priority support.<p>If you want to integrate HumanLayer into your systems, check out our docs at <a href=\"https:&#x2F;&#x2F;humanlayer.dev&#x2F;docs\">https:&#x2F;&#x2F;humanlayer.dev&#x2F;docs</a> or book a demo at <a href=\"https:&#x2F;&#x2F;humanlayer.dev\">https:&#x2F;&#x2F;humanlayer.dev</a>.<p>Thank you for reading! We’re admittedly early and I welcome your ideas and experiences as it relates to agents, reliability, and balancing human+AI workloads.",
       "summary": "LLM 调用失败或响应解析失败",
@@ -368,9 +688,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--OneCLI--YC-S26----OSS-sandboxed-agent-harness-for-teams_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--OneCLI--YC-S26----OSS-sandboxed-agent-harness-for-teams_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN, Jonathan &amp; Guy here from OneCLI, an agent harness built for teams, giving every employee a secured, sandboxed personal agent.<p>Here’s what you can do with it:<p>1. get a sandboxed agent, with all the OneCLI capabilities in place like connect your GitHub account, Gmail, Notion, or Dropbox simply from the chat.<p>2. deterministic human in the loop approval in the chat itself for things that you need 100% control like sending an email or deleting the Linear ticket.<p>3. manage team policy in one place, enforced across every agent in the workspace<p>4. enjoy global connections at the team level, like shared LLM keys or service accounts<p>Here’s a demo: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dlW-44ntpbE\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=dlW-44ntpbE</a><p>We started working on this by accident, even though our careers were in the security space. We were working on a devtool called ChartDB, an open-source DB tool. When OpenClaw took off back in January, we started using it to orchestrate agents on top of ChartDB. We quickly understood there is a big issue around auth. Agents need credentials to do real work, but to give them those secrets would not be the best idea. They keep them in their memory and also write them down to local files and their sessions as plain text. And we knew that agents can easily be fooled into giving up those API keys&#x2F;secrets. So we needed some way to control the agent and stop prompt injections from tricking it into using its services for an attacker&#x27;s benefit.<p>We created OneCLI that started as a vault for AI Agents built in Rust.<p>We found out that most of our demand for OneCLI came from autonomous agents like Hermes, OpenClaw and NanoClaw for individuals and teams.<p>Users looked for useful agents that do things for the person who runs them with two missing parts: 1) managing secrets and permissions. 2) and for teams - multiplayer management.<p>We decided to pivot and provide the agent itself as a harness for teams, to give each employee an agent. We saw that teams had to deal with setting up their own harness again and again, and basically as we already had the vault as a gateway. We got the idea to provide the missing piece of the agent management out of the box and open source it (Apache-2.0, with a small enterprise exception).<p>We&#x27;re open source first - the entire platform, not just a small portion of it like other agents, so companies can actually see the code, evaluate it, and trust it instead of taking our word for it. They run it isolated, in their own environment, fully under their control, at production quality, not a locked black box hosted somewhere else. That means the safety isn&#x27;t just a promise, it&#x27;s something they can verify themselves. Combined with real autonomy and least-privilege access, that&#x27;s what makes it something a company can fully own and trust, not just adopt.<p>We also approach this from a company perspective rather than an individual one. Our solution manages agents on behalf of each employee, wrapped in deterministic guardrails that company admins configure through centralized policies.<p>For the agent engine itself we’re using jcode which is the core of the agent-loop. We found out that it improves the experience and makes the agent smarter and faster.<p>Here’s how it works:<p>It runs on infra you control. Fully open-source, self-host or cloud in minutes.<p>The agent never holds a real secret. It gets a placeholder. The real credential is injected at the gateway, per request, after the call is authorized. It never enters the agent&#x27;s context, memory, or logs.<p>Enforcement outside the model. Prompts are suggestions. Policies defined by the org admin run at the network layer, outside the agent and the LLM. Block endpoints, rate limit per agent, require approval, scope per employee. The gateway decides. The agent can&#x27;t bypass it.<p>Isolated VM per agent. Own memory, own keys, own permissions. Blast radius is one agent.<p>Speed of the Harness: Rust engine under the agent loop.<p>Full identity trail. Every agent is bound to an employee. Every call logged with who it acted for and which policy allowed it.<p>Some things people are doing with the platform include:<p>- Managing their company life cycle entirely from the sales calls, to the product side automatically open tickets to the engineering teams, that would kick the development agents to deliver and ship to production.<p>- Operational side, like automatically hygiene the CRM after calls, sourcing leads, book meetings and manage follow ups emails.<p>- Some of our customers also doing their entire grocery shopping using those agents and send them to take care of their chores like ordering things online.<p>About the team: Both founders come from cybersecurity backgrounds. Jonathan spent years at Axis Security building zero trust network access. The core idea is that you never trust the client. You decide exactly what a person can reach, and you enforce it outside of them, at the network layer, so it doesn&#x27;t matter what the client tries to do. That&#x27;s how every serious company gives access to humans today. Guy was the 1st employee in Argon security doing AppSec.<p>We would love to hear your thoughts on the move, happy to get issues open to improve and get your agent to be powerful and secure - designed for teams, not just individuals.",
       "summary": "LLM 调用失败或响应解析失败",
@@ -400,9 +720,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Launch-HN--Tinfoil--YC-P25---Verifiable-Privacy-for-Cloud-AI_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Launch-HN--Tinfoil--YC-P25---Verifiable-Privacy-for-Cloud-AI_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hello HN! We’re Tanya, Sacha, Jules and Nate from Tinfoil: <a href=\"https:&#x2F;&#x2F;tinfoil.sh\">https:&#x2F;&#x2F;tinfoil.sh</a>. We host models and AI workloads on the cloud while guaranteeing zero data access and retention. This lets us run open-source LLMs like Llama, or Deepseek R1 on cloud GPUs without you having to trust us—or any cloud provider—with private data.<p>Since AI performs better the more context you give it, we think solving AI privacy will unlock more valuable AI applications, just how TLS on the Internet enabled e-commerce to flourish knowing that your credit card info wouldn&#x27;t be stolen by someone sniffing internet packets.<p>We come from backgrounds in cryptography, security, and infrastructure. Jules did his PhD in trusted hardware and confidential computing at MIT, and worked with NVIDIA and Microsoft Research on the same, Sacha did his PhD in privacy-preserving cryptography at MIT, Nate worked on privacy tech like Tor, and I (Tanya) was on Cloudflare&#x27;s cryptography team. We were unsatisfied with band-aid techniques like PII redaction (which is actually undesirable in some cases like AI personal assistants) or “pinky promise” security through legal contracts like DPAs. We wanted a real solution that replaced trust with provable security.<p>Running models locally or on-prem is an option, but can be expensive and inconvenient. Fully Homomorphic Encryption (FHE) is not practical for LLM inference for the foreseeable future. The next best option is using secure enclaves: a secure environment on the chip that no other software running on the host machine can access. This lets us perform LLM inference in the cloud while being able to prove that no one, not even Tinfoil or the cloud provider, can access the data. And because these security mechanisms are implemented in hardware, there is minimal performance overhead.<p>Even though we (Tinfoil) control the host machine, we do not have any visibility into the data processed inside of the enclave. At a high level, a secure enclave is a set of cores that are reserved, isolated, and locked down to create a sectioned off area. Everything that comes out of the enclave is encrypted: memory and network traffic, but also peripheral (PCIe) traffic to other devices such as the GPU. These encryptions are performed using secret keys that are generated inside the enclave during setup, which never leave its boundaries. Additionally, a “hardware root of trust” baked into the chip lets clients check security claims and verify that all security mechanisms are in place.<p>Up until recently, secure enclaves were only available on CPUs. But NVIDIA confidential computing recently added these hardware-based capabilities to their latest GPUs, making it possible to run GPU-based workloads in a secure enclave.<p>Here’s how it works in a nutshell:<p>1. We publish the code that should run inside the secure enclave to Github, as well as a hash of the compiled binary to a transparency log called Sigstore<p>2. Before sending data to the enclave, the client fetches a signed document from the enclave which includes a hash of the running code signed by the CPU manufacturer. It then verifies the signature with the hardware manufacturer to prove the hardware is genuine. Then the client fetches a hash of the source code from a transparency log (Sigstore) and checks that the hash equals the one we got from the enclave. This lets the client get verifiable proof that the enclave is running the exact code we claim.<p>3. With the assurance that the enclave environment is what we expect, the client sends its data to the enclave, which travels encrypted (TLS) and is only decrypted inside the enclave.<p>4. Processing happens entirely within this protected environment. Even an attacker that controls the host machine can’t access this data.\nWe believe making end-to-end verifiability a “first class citizen” is key. Secure enclaves have traditionally been used to remove trust from the cloud provider, not necessarily from the application provider. This is evidenced by confidential VM technologies such as Azure Confidential VM allowing ssh access by the host into the confidential VM. Our goal is to provably remove trust both from ourselves, aka the application provider, as well as the cloud provider.<p>We encourage you to be skeptical of our privacy claims. Verifiability is our answer. It’s not just us saying it’s private; the hardware and cryptography let you check. Here’s a guide that walks you through the verification process: <a href=\"https:&#x2F;&#x2F;docs.tinfoil.sh&#x2F;verification&#x2F;attestation-architecture\">https:&#x2F;&#x2F;docs.tinfoil.sh&#x2F;verification&#x2F;attestation-architectur...</a>.<p>People are using us for analyzing sensitive docs, building copilots for proprietary code, and processing user data in agentic AI applications without the privacy risks that previously blocked cloud AI adoption.<p>We’re excited to share Tinfoil with HN!<p>* Try the chat (<a href=\"https:&#x2F;&#x2F;tinfoil.sh&#x2F;chat\">https:&#x2F;&#x2F;tinfoil.sh&#x2F;chat</a>): It verifies attestation with an in-browser check. Free, limited messages, $20&#x2F;month for unlimited messages and additional models<p>* Use the API (<a href=\"https:&#x2F;&#x2F;tinfoil.sh&#x2F;inference\">https:&#x2F;&#x2F;tinfoil.sh&#x2F;inference</a>): OpenAI API compatible interface. $2 &#x2F; 1M tokens<p>* Take your existing Docker image and make it end to end confidential by deploying on Tinfoil. Here&#x27;s a demo of how you could use Tinfoil to run a deepfake detection service that could run securely on people&#x27;s private videos: <a href=\"https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_8hLmqoutyk\" rel=\"nofollow\">https:&#x2F;&#x2F;www.youtube.com&#x2F;watch?v=_8hLmqoutyk</a>. Note: This feature is not currently self-serve.<p>* Reach out to us at contact@tinfoil.sh if you want to run a different model or want to deploy a custom application, or if you just want to learn more!<p>Let us know what you think, we’d love to hear about your experiences and ideas in this space!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -426,15 +746,47 @@
       }
     },
     {
+      "name": "MadsLorentzen/ai-job-search",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "MadsLorentzen-ai-job-search_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "The job search that runs on your machine. AI job application framework built on Claude Code: evaluate postings, tailor CVs, write cover letters, prep interviews. Fork it and own it.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/MadsLorentzen/ai-job-search",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/MadsLorentzen/ai-job-search"
+        }
+      }
+    },
+    {
       "name": "Measuring benchmark optimization in speech recognition",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Measuring-benchmark-optimization-in-speech-recognition_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Measuring-benchmark-optimization-in-speech-recognition_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -464,9 +816,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Multi-Vector--Late-Interaction--Embedding-Models-with-Sentence-Transformers_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Multi-Vector--Late-Interaction--Embedding-Models-with-Sentence-Transformers_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -490,15 +842,47 @@
       }
     },
     {
+      "name": "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Nexus--Depth-Adaptive-KV-Cache-Splicing-and-Retrieval-Decoupled-Tool-Routing-for_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20397v1 Announce Type: new Abstract: Agentic large language models (LLMs) on the Model Context Protocol (MCP) re-encode verbose tool schemas every turn, so prefill - quadratic in sequence length - dominates time-to-first-token (TTFT) as the tool registry grows. Nexus's primary lever is to decouple routing from the schema-prefill cost: an INT8 semantic lookaside buffer (SLB) with a calibrated cross-encoder margin gate selects tools by retrieval, and arguments are generated over a compressed textual signature (median 19 tokens) rather than over spliced key/value (KV) cache. This path is depth-independent: routing accuracy stays near 89% as the registry scales to 250 tools - where a concatenate-all-schemas baseline overflows the context window entirely - and it reaches a first-argument token 1.66x sooner than a full-schema re-prefill at a ~80% main-context token saving. As a secondary, bounded lever we transplant a compiled schema KV block directly into the live context. This is fundamentally limited by rotary position embedding (RoPE) phase drift: an anchored splice is output-exact, but off-anchor placement corrupts attention, so beyond a threshold P=256 Nexus repairs the seam with a depth-adaptive suffix redecode that escalates to a full re-prefill. The resulting never-regress property is a guarantee on output fidelity (top-1 agreement, D_KL approx. 0) - not on latency, which can dip to 0.98x before converging to parity - alongside a 1.1-1.7x TTFT speedup at moderate depth that narrows to parity at deep context. Two negative results bound the design: the off-anchor RoPE fidelity boundary, and the failure of a reference-free drift gate to predict drift (Spearman rho = 0.193). All measurements are from one model tuple (Qwen2.5-14B-Instruct Q4_K_M) on Apple-silicon unified memory; the qualitative boundaries generalize, while the quantitative envelope is tuple-specific.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20397",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20397"
+        }
+      }
+    },
+    {
       "name": "NousResearch/hermes-agent",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "NousResearch-hermes-agent_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "NousResearch-hermes-agent_0.0_2026-08-24.md",
       "source_type": "github",
       "description": "The agent that grows with you",
       "summary": "LLM 调用失败或响应解析失败",
@@ -522,15 +906,79 @@
       }
     },
     {
+      "name": "PostHog/posthog",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "PostHog-posthog_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/PostHog/posthog",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/PostHog/posthog"
+        }
+      }
+    },
+    {
+      "name": "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "PrimeAgentOrchestrator--Memory-Primed-Agent-Spawning-for-Personal-AI-Infrastruct_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20342v1 Announce Type: new Abstract: Large language model (LLM) coding agents start each session with an empty context window, discarding accumulated knowledge from prior work. We present PrimeAgentOrchestrator (PAO), a system that spawns new instances of Claude Code -- Anthropic's terminal-based coding agent -- pre-loaded with relevant memories compiled from the user's existing personal databases. At spawn time, PAO queries two independently-operated memory backends in parallel (a PostgreSQL entity-observation database and a Cloudflare Worker semantic search index), fuses results using backend-specific retrieval strategies, and delivers the compiled briefing via filesystem injection that exploits the host agent's configuration auto-read behavior. PAO manages the full agent lifecycle including trust pre-seeding, readiness polling with error detection, and adaptive terminal text injection. We report on four months of regular deployment (December 2025 through March 2026) as an experience report, documenting three generations of context delivery mechanisms, the failure modes that motivated each redesign, and the engineering tradeoffs of bridging heterogeneous memory systems rather than building a unified one.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20342",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20342"
+        }
+      }
+    },
+    {
       "name": "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Record--train--and-deploy-from-one-place-with-Strands-Agents--LeRobot--and-Huggi_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Record--train--and-deploy-from-one-place-with-Strands-Agents--LeRobot--and-Huggi_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -554,15 +1002,79 @@
       }
     },
     {
+      "name": "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Representation-Affects-Retrieval--A-Case-Study-of-Skill-Discovery-and-Routing-in_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20389v1 Announce Type: new Abstract: A production agent harness must discover and rank, from a growing library of skills, the one most appropriate for a user's task. At small scale this selection happens in context: the LLM planner chooses among skill representations exposed in its system prompt, without an explicit embedding-based retrieval step. We treat this in-context selection as the small-N counterpart to embedding-based skill retrieval at scale, and present a case study of how Tinycloud, a production multimodal video agent harness, represents its skills for the planner. The harness ships skills under two recurring representations: tool-skills that wrap a single external API or system tool and serve as primitive vocabulary, and workflow-skills that orchestrate tool-skill calls plus a template render to produce one named deliverable. The harness exposes them via two surfaces in the system prompt: an inlined-body surface (full instructions, scripts, templates) for autoloaded skills, and a one-line listing for on-demand skills. A six-task selection ablation across three exposure regimes (all-on, default, all-off) shows that full autoload selects the gold skill on every task; all-off slows execution and produces hard discovery failures; and the production default misroutes one task because its lexical signal collides with an autoloaded tool-skill that pulls planner attention away from a listed workflow-skill. The headline finding is that in-prompt exposure of skills is not monotonically helpful: partial exposure can create lexical competition that suppresses correct selection. We connect this small-N observation to recent retrieval-based skill-routing work at large scale, and frame this contribution as a case study rather than a benchmark.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20389",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20389"
+        }
+      }
+    },
+    {
+      "name": "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "SDAD--Spec-Driven-Agentic-Development-for-the-AI-Native-SDLC_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20341v1 Announce Type: new Abstract: Frontier coding agents backed by large language models with context windows from hundreds of thousands to millions of tokens are restructuring the Software Development Life Cycle (SDLC). Rich context handling and multi-step reasoning now allow substantial Functional Requirement Documents (FRDs) and repository context to be ingested in a single workflow, making specification quality the execution fuel for autonomous delivery. This report formalises Spec-Driven Agentic Development (SDAD) as a synthesis of disciplined up-front formalisation and high-velocity implementation: intent capture, machine-readable specification, agentic synthesis, and independent multi-agent verification under human sign-off. We revisit the historical pendulum between Waterfall and Agile, introduce AI-code as a fourth production paradigm, and compare Human-Agile (circa 2020) with Agentic-SDAD (circa 2026) across artefacts, cadence, accountability, and security posture. Beyond process description, we extend the model to team role metamorphosis (engineer, QA, platform, and product functions), quantitative governance (Ambiguity Tax, Spec Fidelity, SER, and TCI_agentic with repair multiplier phi), and pragmatic adoption via hybrid estimation and a staged migration blueprint. Industrial and research evidence on AI-augmented testing and verification is integrated to motivate separation between synthesis and release authority. Overall, the paper argues that agentic speed does not eliminate engineering discipline; it relocates discipline upstream into specification precision, explicit gates, and auditable provenance.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20341",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20341"
+        }
+      }
+    },
+    {
       "name": "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Same-Cluster--33-Points-More-Utilization--What-Changed-Was-the-Order_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Same-Cluster--33-Points-More-Utilization--What-Changed-Was-the-Order_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -592,9 +1104,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--A-big-tech-dev-experience-for-an-open-source-CMS_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--A-big-tech-dev-experience-for-an-open-source-CMS_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN! We&#x27;re building an open-source CMS designed to help creators with every\npart of the content production pipeline.<p>We&#x27;re showing our tiny first step: A tool designed to take in a Twitter username\nand produce an &quot;identity card&quot; based on it. We expect to use an approach similar\nto [Constitutional AI] with an explicit focus on repeatability, testability, and\nverification of an &quot;identity card.&quot; We think this approach could be used to\ncreate finetuning examples for training changes, or serve as inference time\ninsight for LLMs, or most likely a combination of the two.<p>The tooling we&#x27;re showing today is extremely simplistic (and the AI is frankly\nbad) but this is intentional. We&#x27;re more focused on showing the dev experience\nand community aspects. We&#x27;d like to make it easier to contribute to this project\nthan edit Wikipedia. Communities are frustrated with things like Wordpress,\nApache, and other open source foundations focusing on things other than\nsoftware. We have a lot of community ideas (governance via vote by jury is\nperhaps the most interesting).<p>We&#x27;re a team of 5, and we&#x27;ve bounced around a few companies with each other.\nWe&#x27;re all professional creators (video + music) and we&#x27;re creating tooling for\nourselves first.<p>Previously, we did a startup called Vidpresso (YC W14) that was acquired by\nFacebook in 2018. We all worked at Facebook for 5 years on creator tooling, and\nhave since left to start this thing.<p>After leaving FB, it was painful for us to leave the warm embrace of the\nFacebook infra team where we had amazing tooling. Since then, we&#x27;ve pivoted a\nbunch of times trying to figure out our &quot;real&quot; product. While we think we&#x27;ve\nfinally nailed it, the developer experience we built is one we think others\ncould benefit from.<p>Our tooling is designed so any developer can easily jump in and start\ncontributing. It&#x27;s an AI-first dev environment designed with a few key\nprinciples in mind:<p>1. You should be able to discover any command you need to run without looking at\n   docs.\n2. To make a change, as much context as possible should be provided as close to\n   the code as possible.\n3. AIs are &quot;people too&quot;, in the sense that they benefit from focused context,\n   and not being distracted by having to search deeply through multiple files or\n   documentation to make changes.<p>We have a few non-traditional elements to our stack which we think are worth\nexploring. [Isograph] helps us simplify our component usage with GraphQL.\n[Replit] lets people use AI coding without needing to set up any additional\ntooling. We&#x27;ve learned how to treat it like a junior developer, and think it\nwill be the best platform for AI-first open source projects going forward.\n[Sapling] (and Git together) for version control. It might sound counter\nintuitive, but we use Git to manage agent interactionsand we use Sapling to\nmanage &quot;purposeful&quot; commits.<p>My last [Show HN post in 2013] ended up helping me find my Vidpresso cofounder\nso I have high hopes for this one. I&#x27;m excited to meet anyone, developers,\ncreators, or nice people in general, and start to work with them to make this\nproject work. I have good references of being a nice guy, and aim to keep that\ngoing with this project.<p>The best way to work with us is [remix our Replit app] and [join our Discord].<p>Thanks for reading and checking us out! It&#x27;s super early, but we&#x27;re excited to\nwork with you!<p>[Constitutional AI]: <a href=\"https:&#x2F;&#x2F;www.anthropic.com&#x2F;research&#x2F;constitutional-ai-harmlessness-from-ai-feedback\" rel=\"nofollow\">https:&#x2F;&#x2F;www.anthropic.com&#x2F;research&#x2F;constitutional-ai-harmles...</a><p>[Isograph]: <a href=\"https:&#x2F;&#x2F;isograph.dev\" rel=\"nofollow\">https:&#x2F;&#x2F;isograph.dev</a><p>[Replit]: <a href=\"https:&#x2F;&#x2F;replit.com\" rel=\"nofollow\">https:&#x2F;&#x2F;replit.com</a><p>[Sapling]: <a href=\"https:&#x2F;&#x2F;sapling-scm.com\" rel=\"nofollow\">https:&#x2F;&#x2F;sapling-scm.com</a><p>[Show HN post in 2013]: <a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=6993981\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=6993981</a><p>[remix our Replit app]: <a href=\"https:&#x2F;&#x2F;replit.com&#x2F;t&#x2F;bolt-foundry&#x2F;repls&#x2F;Content-Foundry&#x2F;view#README.md\" rel=\"nofollow\">https:&#x2F;&#x2F;replit.com&#x2F;t&#x2F;bolt-foundry&#x2F;repls&#x2F;Content-Foundry&#x2F;view...</a><p>[join our Discord]: <a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;TjQZfWjSQ7\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;TjQZfWjSQ7</a>",
       "summary": "LLM 调用失败或响应解析失败",
@@ -624,9 +1136,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--A-tool-to-safely-migrate-GitHub-Actions-workflows-to-Ubuntu-slim-runner_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--A-tool-to-safely-migrate-GitHub-Actions-workflows-to-Ubuntu-slim-runner_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN!<p>I’ve been running GitHub Actions workflows for a while, and when GitHub announced the new ubuntu-slim runners as a cheaper alternative to ubuntu-latest, I wanted to migrate—but figuring out which workflows are safe to switch turned out to be surprisingly tedious.<p>You need to check for Docker usage, services, containers, step failures due to missing packages, and whether jobs rely on tools not available in the slim image.<p>So I built gh-slimify, a GitHub CLI extension that automates all of this. It scans your repository, detects which jobs can be migrated, flags incompatible patterns, identifies missing commands, and can update only the safe workflows with a single command.<p>gh extension install fchimpan&#x2F;gh-slimify\ngh slimfy      # Analyze workflows\ngh slimfy fix  # Update only jobs that are safe to migrate<p>It’s open source (MIT).\nAs a bonus: the README also includes an AI agent prompt that reproduces the same workflow-migration analysis—useful if you want to integrate the logic into an LLM agent or experiment with automated refactoring.<p>I’d love feedback—especially on edge cases, false positives&#x2F;negatives, or patterns it should detect better.",
       "summary": "LLM 调用失败或响应解析失败",
@@ -656,9 +1168,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--AnythingLLM---Open-Source--All-in-One-Desktop-AI-Assistant_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--AnythingLLM---Open-Source--All-in-One-Desktop-AI-Assistant_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN!<p>This is Tim from AnythingLLM (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;Mintplex-Labs&#x2F;anything-llm\">https:&#x2F;&#x2F;github.com&#x2F;Mintplex-Labs&#x2F;anything-llm</a>). AnythingLLM is an open-source desktop assistant that brings together RAG (Retrieval-Augmented Generation), agents, embeddings, vector databases, and more—all in one seamless package.<p>We built AnythingLLM over the last year iterating and iterating from user feedback. Our primary mission is to enable people with a layperson understanding of AI to be able to use AI with little to no setup for either themselves, their jobs, or just to try out using AI as an assistant but with *privacy by default*.<p>From these iterations &amp; feedback, we have a couple of key learnings I wanted to share:<p>- &quot;Chat with your docs&quot; solutions are a dime-a-dozen<p>- Agent frameworks require knowing how to code or are too isolated from other tools<p>- Users do not care about benchmarks, only outputs. The magic box needs to be magic to them.<p>- Asking Consumers to start a docker container or open a terminal is a non-starter for most.<p>- Privacy by default is non-negotiable. Either by personal preference or legal constraints<p>- Everything needs to be in one place<p>From these ideas, we landed on the current state of AnythingLLM:<p>- Everything in AnythingLLM is private by default, but fully customizable for advanced users.<p>- Built-in LLM provider, but can swap at any time to the hundreds of other local or cloud LLM providers &amp; models.<p>- Built-in Vector Database, most users don&#x27;t even know that it is there.<p>- Built-in Embedding model, but of course can change if the user wants to.<p>- Scrape websites, import Github&#x2F;GitLab repos, YouTube Transcripts, Confluence spaces - all of this is already built in for the user.<p>- An entire baked-in agent framework that works seamlessly within the app. We even pre-built a handful of agent skills for customers. Custom plugins are in the next update and will be able to be built with code, or a no-code builder.<p>- All of this just works out of the box in a single installable app that can run on any consumer-grade laptop. Everything a user does, chats, or configures is stored on the user&#x27;s device. Available for Mac, Windows, and Linux<p>We have been actively maintaining and working on AnythingLLM via our open-source repo for a while now and welcome contributors as we hopefully launch a Community Hub soon to really proliferate users&#x27; abilities to add more niche agent skills, data connectors, and more.<p>*But there is even more*<p>We view the desktop app as a hyper-accessible single-player version of AnythingLLM. We publish a Docker image too (<a href=\"https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;mintplexlabs&#x2F;anythingllm\" rel=\"nofollow\">https:&#x2F;&#x2F;hub.docker.com&#x2F;r&#x2F;mintplexlabs&#x2F;anythingllm</a>) that supports multi-user management with permissioning so that you can easily bring AnythingLLM into an organization with all of the same features with minimal headache or lift.<p>The Docker image is for those more adept with a CLI, but being able to comfortably go from a single-user to a multi-user version of the same familiar app was very important for us.<p>AnythingLLM aims to be more than a UI for LLMs, we are building a comprehensive tool to leverage LLMs and all that they can do while maintaining user privacy and not needing to be an expert on AI to do it.<p><a href=\"https:&#x2F;&#x2F;anythingllm.com&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;anythingllm.com&#x2F;</a>",
       "summary": "LLM 调用失败或响应解析失败",
@@ -688,9 +1200,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--BrowserOS----Claude-Cowork--in-the-browser_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--BrowserOS----Claude-Cowork--in-the-browser_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN! We&#x27;re Nithin and Nikhil, twin brothers building BrowserOS (YC S24). We&#x27;re an open-source, privacy-first alternative to the AI browsers from big labs.<p>The big differentiator: on BrowserOS you can use local LLMs or BYOK and run the agent entirely on the client side, so your company&#x2F;sensitive data stays on your machine!<p>Today we&#x27;re launching filesystem access... just like Claude Cowork, our browser agent can read files, write files, run shell commands! But honestly, we didn&#x27;t plan for this. It turns out the privacy decision we made 9 months ago accidentally positioned us for this moment.<p>The architectural bet we made 9 months ago: Unlike other AI browsers (ChatGPT Atlas, Perplexity Comet) where the agent loop runs server-side, we decided early on to run our agent entirely on your machine (client side).<p>But building everything on the client side wasn&#x27;t smooth. We initially built our agent loop inside a Chrome extension. But we kept hitting walls -- service worker being single thread JS; not having access to NodeJS libraries. So we made the hard decision 2 months ago to throw away everything and start from scratch.<p>In the new architecture, our agent loop sits in a standalone binary that we ship alongside our Chromium. And we use gemini-cli for the agent loop with some tweaks! We wrote a neat adapter to translate between Gemini format and Vercel AI SDK format. You can look at our entire codebase here: <a href=\"https:&#x2F;&#x2F;git.new&#x2F;browseros-agent\" rel=\"nofollow\">https:&#x2F;&#x2F;git.new&#x2F;browseros-agent</a><p>How we give browser access to filesystem: When Claude Cowork launched, we realized something: because Atlas and Comet run their agent loop server-side, there&#x27;s no good way for their agent to access your files without uploading them to the server first. But our agent was already local. Adding filesystem access meant just... opening the door (with your permissions ofc). Our agent can now read and write files just like Claude Code.<p>What you can actually do today:<p>a) Organize files in my desktop folder <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;NOZ7xjto6Uc\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;NOZ7xjto6Uc</a><p>b) Open top 5 HN links, extract the details and write summary into a HTML file <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;uXvqs_TCmMQ\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;uXvqs_TCmMQ</a><p>--- Where we are now\nIf you haven&#x27;t tried us since the last Show HN (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44523409\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=44523409</a>), give us another shot. The new architecture unlocked a ton of new features, and we&#x27;ve grown to 8.5K GitHub stars and 100K+ downloads:<p>c) You can now build more reliable workflows using n8n-like graph <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;H_bFfWIevSY\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;H_bFfWIevSY</a><p>d) You can also use BrowserOS as an MCP server in Cursor or Claude Code <a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;5nevh00lckM\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;5nevh00lckM</a><p>We are very bullish on browser being the right platform for a Claude Cowork like agent. Browser is the most commonly used app by knowledge workers (emails, docs, spreadsheets, research, etc). And even Anthropic recognizes this -- for Claude Cowork, they have janky integration with browser via a chrome extension. But owning the entire stack allows us to build differentiated features that wouldn&#x27;t be possible otherwise. Ex:  Browser ACLs.<p>Agents can do dumb or destructive things, so we&#x27;re adding browser-level guardrails (think IAM for agents): &quot;role(agent): can never click buy&quot; or &quot;role(agent): read-only access on my bank&#x27;s homepage.&quot;<p>Curious to hear your take on this and the overall thesis.<p>We’ll be in the comments. Thanks for reading!<p>GitHub: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;browseros-ai&#x2F;BrowserOS\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;browseros-ai&#x2F;BrowserOS</a><p>Download: <a href=\"https:&#x2F;&#x2F;browseros.com\">https:&#x2F;&#x2F;browseros.com</a> (available for Mac, Windows, Linux!)",
       "summary": "LLM 调用失败或响应解析失败",
@@ -720,9 +1232,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Darwin---Automate-Your-GitHub-Project-with-AI_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Darwin---Automate-Your-GitHub-Project-with-AI_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN!\nI&#x27;ve been working on a project called Darwin that I&#x27;m thrilled to share with you.<p>Darwin is essentially your GitHub agent powered by large language models (LLMs). It checks out your projects, understands them through natural language prompts, and automates tasks  such as fixing issues, documenting code, reviewing pull requests, and more.<p>What drove me to create Darwin was a desire to harness the power of LLMs in a way that&#x27;s seamlessly integrated with the tools I use daily. The motivation came from my curiosity about what could be possible when writing code that understands code.\nDarwin stands out because it&#x27;s designed for developers who want to leverage AI without needing deep expertise in LLMs or prompt engineering. It offers:<p>- hands-off approach to automate routine development tasks.<p>- Novel and creative ways of making LLMs work for you<p>- A unique API for each project, allowing for customized automation tools.<p>Currently, Darwin is in alpha. It&#x27;s functional, with users able to connect their repositories, define tools, and run tasks. I&#x27;m especially interested in feedback at this stage — everything from output quality to user experience. Every project starts with a $5 free budget to try it out, and while payment isn&#x27;t implemented yet, I&#x27;m keen to hear your thoughts.<p>The vision for Darwin is not just about automation but creating a more productive, creative, and enjoyable development experience. I believe we&#x27;re just scratching the surface of what&#x27;s possible with AI in software development, and I&#x27;m excited to see where we can take this.<p>For those interested, I&#x27;m looking for alpha testers and feedback. If you&#x27;re curious about automating your GitHub workflow or want to push the limits of what AI can do for development, Darwin might be for you.\nCheck it out and let me know what you think!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -752,9 +1264,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Hyperbrowser-MCP-Server---Connect-AI-agents-to-the-web-through-browsers_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Hyperbrowser-MCP-Server---Connect-AI-agents-to-the-web-through-browsers_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN! Excited to share our MCP Server at Hyperbrowser - something we’ve been working on for a few days. We think it’s a pretty neat way to connect LLMs and IDEs like Cursor &#x2F; Windsurf to the internet.<p>Our MCP server exposes seven tools for data collection and browsing:<p>1. `scrape_webpage` - Extract formatted (markdown, screenshot etc) content from any webpage<p>2. `crawl_webpages` - Navigate through multiple linked pages and extract LLM-friendly formatted content<p>3. `extract_structured_data` - Convert messy HTML into structured JSON<p>4. `search_with_bing` - Query the web and get results with Bing search<p>5. `browser_use_agent` - Fast, lightweight browser automation with the Browser Use agent<p>6. `openai_computer_use_agent` - General-purpose automation using OpenAI’s CUA model<p>7. `claude_computer_use_agent` - Complex browser tasks using Claude computer use<p>You can connect the server to Cursor, Windsurf, Claude desktop, and any other MCP clients with this command `npx -y hyperbrowser-mcp` and a Hyperbrowser API key. We&#x27;re running this on our cloud browser infrastructure that we&#x27;ve been developing for the past few months – it handles captchas, proxies, and stealth browsing automatically.<p>Some fun things you can do with it: (1) deep research with claude desktop, (2) summarizing the latest HN posts, (3) creating full applications from short gists in Cursor, (3) automating code review in cursor, (4) generating llms.txt for any website with windsurf, (5) ordering sushi from windsurf (admittedly, this is just for fun - probably not actually going to do this myself).<p>We&#x27;re building this server in the open and would love feedback from anyone building agents or working with web automation. If you find bugs or have feature requests, please let us know! One big issue with MCPs in general is that the installation UX sucks and auth credentials have to be hardcoded. We don’t have a solution to this right now but Anthropic seems to be working on something here so excited for that to come out. Love to hear any other complaints &#x2F; thoughts you have about the server itself, Hyperbrowser, or the installation experience.<p>You can check us out at <a href=\"https:&#x2F;&#x2F;hyperbrowser.ai\">https:&#x2F;&#x2F;hyperbrowser.ai</a> or check out the source code at <a href=\"https:&#x2F;&#x2F;github.com&#x2F;hyperbrowserai&#x2F;mcp\" rel=\"nofollow\">https:&#x2F;&#x2F;github.com&#x2F;hyperbrowserai&#x2F;mcp</a>",
       "summary": "LLM 调用失败或响应解析失败",
@@ -784,9 +1296,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Inkeep--YC-W23----Agent-Builder-to-create-agents-in-code-or-visually_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Inkeep--YC-W23----Agent-Builder-to-create-agents-in-code-or-visually_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN! I&#x27;m Nick from Inkeep. We built an agent builder with true 2-way sync between code and a drag-and-drop visual editor, so devs and non-devs can collaborate on the same agents. Here’s a demo video: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;video\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;video</a>.<p>As a developer, the flow is:\n1) Build AI Chat Assistants or AI Workflows with the TypeScript SDK 2) Run `inkeep push` from your CLI to publish 3)Edit agents in the visual builder (or hand off to non-technical teams) 4) Run `inkeep pull to edit in code again.<p>We built this because we wanted the accessibility of no-code workflow builders (n8n, Zapier), but the flexibility and devex of code-based agent frameworks (LangGraph, Mastra). We also wanted first-class support for chat assistants with interactive UIs, not just workflows. OpenAI got close, but you can only do a one-time export from visual builder to code and there’s vendor lock-in.<p>How I&#x27;ve used it: I bootstrapped a few agents for our marketing and sales teams, then was able to hand off so they can maintain and create their own agents. This has enabled us to adopt agents across technical and non-technical roles in our company on a single platform.<p>To try it, here’s the quickstart: <a href=\"https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart\">https:&#x2F;&#x2F;go.inkeep.com&#x2F;quickstart</a>.<p>We leaned on open protocols to make it easy to use agents anywhere:\nAn MCP endpoint, so agents can be used from Cursor&#x2F;Claude&#x2F;ChatGPT\nA Chat UI library with interactive elements you can customize in React\nAn API endpoint compatible with the Vercel AI SDK `useChat` hook\nSupport for Agent2Agent (A2A) so they work with other agent ecosystems<p>We made some practical templates like a customer_support, deep_research, and docs_assistant. Deployment is easy with Vercel&#x2F;Docker with a fair-code license and there&#x27;s a traces UI and OTEL logs for observability.<p>Under the hood, we went all-in on a multi-agent architecture. Agents are made up of LLMs, MCPs, and agent-to-agent relationships. We’ve found this approach to be easier to maintain and more flexible than traditional “if&#x2F;else” approaches for complex workflows.<p>The interoperability works because the SDK and visual builder share a common underlying representation, and the Inkeep CLI bridges it with a mix of LLMs and TypeScript syntactic sugar. Details in our docs: <a href=\"https:&#x2F;&#x2F;docs.inkeep.com\">https:&#x2F;&#x2F;docs.inkeep.com</a>.<p>We’re open to ideas and contributions! And would love to hear about your experience building agents - what works, hasn’t worked, what’s promising?",
       "summary": "LLM 调用失败或响应解析失败",
@@ -816,9 +1328,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Laminar---Open-Source-DataDog---PostHog-for-LLM-Apps--Built-in-Rust_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Laminar---Open-Source-DataDog---PostHog-for-LLM-Apps--Built-in-Rust_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN, we’re Robert, Din and Temirlan from Laminar (<a href=\"https:&#x2F;&#x2F;www.lmnr.ai\">https:&#x2F;&#x2F;www.lmnr.ai</a>), an open-source observability and analytics platform for complex LLM apps. It’s designed to be fast, reliable, and scalable. The stack is RabbitMQ for message queues, Postgres for storage, Clickhouse for analytics, Qdrant for semantic search - all powered by Rust.<p>How is Laminar different from the swarm of other “LLM observability” platforms?<p>On the observability part, we’re focused on handling full execution traces, not just LLM calls. We built a Rust ingestor for OpenTelemetry (Otel) spans with GenAI semantic conventions. As LLM apps get more complex (think Agents with hundreds of LLM and function calls, or complex RAG pipelines), full tracing is critical. With Otel spans, we can: 1. Cover the entire execution trace. 2. Keep the platform future-proof 3. Leverage an amazing OpenLLMetry (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;traceloop&#x2F;openllmetry\">https:&#x2F;&#x2F;github.com&#x2F;traceloop&#x2F;openllmetry</a>), open-source package for span production.<p>The key difference is that we tie text analytics directly to execution traces. Rich text data makes LLM traces unique, so we let you track “semantic metrics” (like what your AI agent is actually saying) and connect those metrics to where they happen in the trace. If you want to know if your AI drive-through agent made an upsell, you can design an LLM extraction pipeline in our builder (more on it later), host it on Laminar, and handle everything from event requests to output logging. Processing requests simply come as events in the Otel span.<p>We think it’s a win to separate core app logic from LLM event processing. Most devs don’t want to manage background queues for LLM analytics processing but still want insights into how their Agents or RAGs are working.<p>Our Pipeline Builder uses graph UI where nodes are LLM and util functions, and edges showing data flow. We built a custom task execution engine with support of parallel branch executions, cycles and branches (it’s overkill for simple pipelines, but it’s extremely cool and we’ve spent a lot of time designing a robust engine). You can also call pipelines directly as API endpoints. We found them to be extremely useful for iterating on and separating LLM logic. Laminar also traces pipeline directly, which removes the overhead of sending large outputs over the network.<p>One thing missing from all LLM observability platforms right now is an adequate search over traces. We’re attacking this problem by indexing each span in a vector DB and performing hybrid search at query time. This feature is still in beta, but we think it’s gonna be crucial part of our platform going forward.<p>We also support evaluations. We loved the “run everything locally, send results to a server” approach from Braintrust and Weights &amp; Biases, so we did that too: a simple SDK and nice dashboards to track everything. Evals are still early, but we’re pushing hard on them.<p>Our goal is to make Laminar the Supabase for LLMOps - the go-to open-source comprehensive platform for all things LLMs &#x2F; GenAI. In it’s current shape, Laminar is just few weeks old and developing rapidly, we’d love any feedback or for you to give Laminar a try in your LLM projects!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -848,9 +1360,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Nomadic---Minimize-RAG-Hallucinations-with-1-Hyperparameter-Experiment_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Nomadic---Minimize-RAG-Hallucinations-with-1-Hyperparameter-Experiment_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN! Mustafa, Lizzie, and Varun here from NomadicML (<a href=\"https:&#x2F;&#x2F;nomadicml.com\" rel=\"nofollow\">https:&#x2F;&#x2F;nomadicml.com</a>). We’re excited to show you Nomadic (<a href=\"https:&#x2F;&#x2F;github.com&#x2F;nomadic-ml&#x2F;nomadic\">https:&#x2F;&#x2F;github.com&#x2F;nomadic-ml&#x2F;nomadic</a>): a platform focused on parameter search to continuously optimize AI systems.<p>Here’s a simple demo notebook where you get the best-performing, statistically significant configurations for your RAG — and improve hallucination metrics by 4X in just 5 minutes — with a single Nomadic experiment: <a href=\"https:&#x2F;&#x2F;tinyurl.com&#x2F;4xmaryyw\" rel=\"nofollow\">https:&#x2F;&#x2F;tinyurl.com&#x2F;4xmaryyw</a><p>Our lightweight library is now live on PyPI (`pip install nomadic`). Try one of the README examples :) Input your model, define an evaluation metric, specify the dataset, and choose which parameters to test.<p>Nomadic emerged from our frustration with existing HPO (hyperparameter optimization) solutions. We heard over and over that for the sake of deploying fast, folks resort to setting HPs through a single, expensive grid search or better yet, intuition-based “vibes”. From fine-tuning to inference, small tweaks to HPs can have a huge impact on performance.<p>We wanted a tool to make that “drunken wander” systematic, quick, and interpretable. So we started building Nomadic - our goal is to create the best parameter search platform out there for your ML systems to keep your hyperparameters, prompts, and all aspects of your AI system production-grade. We started aggregating top parameter search techniques from popular tools and research (Bayesian Optimizations, cost-frugal flavors).<p>Among us: Built Lyft’s driver earnings platform, automated Snowflake’s just-in-time compute resource allocation, became a finalist for the INFORMS Wagner Prize (top prize in industrial optimization), and developed a fintech fraud screening system for half a million consumers.  You might say we love optimization.<p>If you’re building AI agents &#x2F; applications across LLM safety, fintech, support, or especially compound AI systems (multiple components &gt; monolithic models), and want to deeply understand your ML system’s best levers to boost performance as it scales - get in touch.<p>Nomadic is being actively developed. Up next: Supporting text-to-SQL pipelines (TAG) and a Workspace UI (preview it at <a href=\"https:&#x2F;&#x2F;demo.nomadicml.com\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.nomadicml.com</a>). We’re eager to hear honest feedback, likes, dislikes, feature requests, you name it.  If you’re also a optimization junkie, we’d love for you to join our community here <a href=\"https:&#x2F;&#x2F;discord.gg&#x2F;PF869aGM\" rel=\"nofollow\">https:&#x2F;&#x2F;discord.gg&#x2F;PF869aGM</a>",
       "summary": "LLM 调用失败或响应解析失败",
@@ -880,9 +1392,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Pickaxe---A-TypeScript-library-for-building-AI-agents_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Pickaxe---A-TypeScript-library-for-building-AI-agents_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hey HN, Gabe and Alexander here from Hatchet. Today we&#x27;re releasing Pickaxe, a Typescript library to build AI agents which are scalable and fault-tolerant.<p>Here&#x27;s a demo: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;b28fc406-f501-4427-9574-e4c756b29dd4\">https:&#x2F;&#x2F;github.com&#x2F;user-attachments&#x2F;assets&#x2F;b28fc406-f501-442...</a><p>Pickaxe provides a simple set of primitives for building agents which can automatically checkpoint their state and suspend or resume processing (also known as durable execution) while waiting for external events (like a human in the loop). The library is based on common patterns we&#x27;ve seen when helping Hatchet users run millions of agent executions per day.<p>Unlike other tools, Pickaxe is not a framework. It does not have any opinions or abstractions for implementing agent memory, prompting, context, or calling LLMs directly. Its only focus is making AI agents more observable and reliable.<p>As agents start to scale, there are generally three big problems that emerge:\n1. Agents are long-running compared to other parts of your application. Extremely long-running processes are tricky because deploying new infra or hitting request timeouts on serverless runtimes will interrupt their execution. \n2. They are stateful: they generally store internal state which governs the next step in the execution path\n3. They require access to lots of fresh data, which can either be queried during agent execution or needs to be continuously refreshed from a data source.<p>(These problems are more specific to agents which execute remotely -- locally running agents generally don&#x27;t have these problems)<p>Pickaxe is designed to solve these issues by providing a simple API which wraps durable execution infrastructure for agents. Durable execution is a way of automatically checkpointing the state of a process, so that if the process fails, it can automatically be replayed from the checkpoint, rather than starting over from the beginning. This model is also particularly useful when your agent needs to wait for an external event or human review in order to continue execution. To support this pattern, Pickaxe uses a Hatchet feature called `waitFor` which durably registers a listener for an event, which means that even if the agent isn&#x27;t actively listening for the event, it is guaranteed to be processed by Hatchet and stored in the execution history and resume processing. This infrastructure is powered by what is essentially a linear event log, which stores the entire execution history of an agent in a Postgres database managed by Hatchet.<p>Full docs are here: <a href=\"https:&#x2F;&#x2F;pickaxe.hatchet.run&#x2F;\">https:&#x2F;&#x2F;pickaxe.hatchet.run&#x2F;</a><p>We&#x27;d greatly appreciate any feedback you have and hope you get the chance to try out Pickaxe.",
       "summary": "LLM 调用失败或响应解析失败",
@@ -912,9 +1424,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Show-HN--Sourcebot---Self-hosted-Perplexity-for-your-codebase_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Show-HN--Sourcebot---Self-hosted-Perplexity-for-your-codebase_0.0_2026-08-24.md",
       "source_type": "hackernews",
       "description": "Hi HN,<p>We’re Brendan and Michael, the creators of Sourcebot (<a href=\"https:&#x2F;&#x2F;www.sourcebot.dev&#x2F;\" rel=\"nofollow\">https:&#x2F;&#x2F;www.sourcebot.dev&#x2F;</a>), a self-hosted code understanding tool for large codebases. We originally launched on HN 9 months ago with code search (<a href=\"https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41711032\">https:&#x2F;&#x2F;news.ycombinator.com&#x2F;item?id=41711032</a>), and we’re excited to share our newest feature: Ask Sourcebot.<p>Ask Sourcebot is an agentic search tool that lets you ask complex questions about your entire codebase in natural language, and returns a structured response with inline citations back to your code. Some types of questions you might ask:<p>- “How does authentication work in this codebase? What library is being used?  What providers can a user log in with?” (<a href=\"https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpjkrbw000bnn7s8of2dm11\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpjkrbw000bnn7s8of2dm11</a>)<p>- “When should I use channels vs. mutexes in go? Find real usages of both and include them in your answer” (<a href=\"https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpiuqhu000bpg7s9hprio4w\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpiuqhu000bpg7s9hprio4w</a>)<p>- “How are shards laid out in memory in the Zoekt code search engine?” (<a href=\"https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdm9nkck000bod7sqy7c1efb\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdm9nkck000bod7sqy7c1efb</a>)<p>- &quot;How do I call C from Rust?&quot; (<a href=\"https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpjy06g000pnn7ssf4nk60k\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~&#x2F;chat&#x2F;cmdpjy06g000pnn7ssf4nk60k</a>)<p>You can try it yourself here on our demo site (<a href=\"https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~\" rel=\"nofollow\">https:&#x2F;&#x2F;demo.sourcebot.dev&#x2F;~</a>) or checkout our demo video (<a href=\"https:&#x2F;&#x2F;youtu.be&#x2F;olc2lyUeB-Q\" rel=\"nofollow\">https:&#x2F;&#x2F;youtu.be&#x2F;olc2lyUeB-Q</a>).<p>How is this any different from existing tools like Cursor or Claude code?<p>- Sourcebot solely focuses on <i>code understanding</i>. We believe that, more than ever, the main bottleneck development teams face is not writing code, it’s acquiring the necessary context to make quality changes that are cohesive within the wider codebase. This is true regardless if the author is a human or an LLM.<p>- As opposed to being in your IDE or terminal, Sourcebot is a web app. This allows us to play to the strengths of the web: rich UX and ubiquitous access. We put a ton of work into taking the best parts of IDEs (code navigation, file explorer, syntax highlighting) and packaging them with a custom UX (rich Markdown rendering, inline citations, @ mentions) that is easily shareable between team members.<p>- Sourcebot can maintain an up-to date index of thousands of repos hosted on GitHub, GitLab, Bitbucket, Gerrit, and other hosts. This allows you to ask questions about repositories without checking them out locally. This is especially helpful when ramping up on unfamiliar parts of the codebase or working with systems that are typically spread across multiple repositories, e.g., micro services.<p>- You can BYOK (Bring Your Own API Key) to any supported reasoning model. We currently support 11 different model providers (like Amazon Bedrock and Google Vertex), and plan to add more.<p>- Sourcebot is self-hosted, fair source, and free to use.<p>Under the hood, we expose our existing regular expression search, code navigation, and file reading APIs to a LLM as tool calls. We instruct the LLM via a system prompt to gather the necessary context via these tools to sufficiently answer the users question, and then to provide a concise, structured response. This includes inline citations, which are just structured data that the LLM can embed into it’s response and can then be identified on the client and rendered appropriately. We built this on some amazing libraries like the Vercel AI SDK v5, CodeMirror, react-markdown, and Slate.js, among others.<p>This architecture is intentionally simple. We decided not to introduce any additional techniques like vector embeddings, multi-agent graphs, etc. since we wanted to push the limits of what we could do with what we had on hand. We plan on revisiting our approach as we get user feedback on what works (and what doesn’t).<p>We are really excited about pushing the envelope of code understanding. Give it a try: <a href=\"https:&#x2F;&#x2F;github.com&#x2F;sourcebot-dev&#x2F;sourcebot\">https:&#x2F;&#x2F;github.com&#x2F;sourcebot-dev&#x2F;sourcebot</a>. Cheers!",
       "summary": "LLM 调用失败或响应解析失败",
@@ -944,9 +1456,9 @@
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "State-of-Open-Models--Summer-2026-Observations_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "State-of-Open-Models--Summer-2026-Observations_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -970,15 +1482,47 @@
       }
     },
     {
+      "name": "The Divergence Hypothesis: Unmasking Lexical Interference and Label Bias in Mental Health NLP",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "The-Divergence-Hypothesis--Unmasking-Lexical-Interference-and-Label-Bias-in-Ment_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20353v1 Announce Type: new Abstract: Computational mental health (CMH) classifiers often degrade under distribution shift because human annotators and distant-supervision pipelines reward different linguistic signals. We introduce TSS (Triple-Stream Stress probe), a multi-channel diagnostic framework that decomposes text into (A) lexical character n-grams, (B) a small, mostly content-free morpho-syntactic channel, and (C) a 154-feature psycholinguistic style channel. Across four English datasets (N=12,906), TSS reveals a lexical interference effect: adding lexical features to the style channel reduces Macro-F1 on human-labeled data (mean drop 0.072, p<10^-4) but not on auto-labeled data. We propose Degree of Divergence (DoD), a difference-in-differences statistic adapted from econometrics for label-source auditing, with instance-level bootstrap inference; the headline estimate is DoD(BC-A) = 0.0374, 95% CI [0.0097, 0.0651], p=0.0032. A platform-stratified Twitter-only DoD (which removes the Reddit vs. Twitter contrast) reproduces the pattern with bootstrap inference: DoD-Tw(BC-A) = +0.096 (p<0.001) and DoD-Tw(AC-A) = -0.089 (p<0.001). Interventional masking (pos_only) retains ~95-99% of Channel C's performance after destroying content words on human datasets, indicating that the style channel does not rely primarily on lexical surface form. TSS is positioned as a diagnostic audit framework, not a clinical screening tool: it flags label-source-specific shortcut learning before generalization claims are made.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20353",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20353"
+        }
+      }
+    },
+    {
       "name": "Thinking of ACE? We Can Do It with Fewer Tokens",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Thinking-of-ACE--We-Can-Do-It-with-Fewer-Tokens_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Thinking-of-ACE--We-Can-Do-It-with-Fewer-Tokens_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -1002,15 +1546,47 @@
       }
     },
     {
+      "name": "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Truth-Lies-Deep--Countering-Semantic-Camouflage-via-Latent-Intent-Verification_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20378v1 Announce Type: new Abstract: Safety alignment in Large Language Models (LLMs) is often superficial, relying on refusal mechanisms that trigger only at the final stages of generation without erasing the foundational knowledge of harmful concepts acquired during pretraining. This study demonstrates that this architectural disconnect leaves models vulnerable to Semantic Camouflage -- adversarial attacks that wrap harmful intent in benign narrative contexts (e.g., creative writing), effectively bypassing standard input and output guardrails. By analyzing the latent activation trajectories of three distinct Small Language Model (SLM) families (Phi-3, Qwen2.5, and Gemma-2b) under adversarial stress, this research identifies a universal ``Intent Horizon'' -- a critical depth (typically 15--20\\% of total layers) where the model's distinct, pre-trained representation of harmful intent collapses as it contextualizes the query into a ``safe'' narrative. Results indicate that while late-layer representations of camouflaged attacks are mathematically indistinguishable from safe queries (Detection Rate $< 20\\%$), early-layer representations retain a distinct, detectable ``harm signature.'' Leveraging this insight, this paper proposes Latent Intent Verification (LIV), a lightweight probing defense. Experiments on the PKU-SafeRLHF dataset demonstrate that LIV outperforms standard guardrails by a margin of 20--50\\% across all tested architectures, effectively neutralizing zero-day semantic attacks without requiring model retraining.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20378",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20378"
+        }
+      }
+    },
+    {
       "name": "Up to 3.2x Faster Inference with LFM2.5-DSpark",
       "score": 0.0,
       "status": "待复核",
       "tags": [
         "无"
       ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "Up-to-3.2x-Faster-Inference-with-LFM2.5-DSpark_0.0_2026-08-23.md",
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Up-to-3.2x-Faster-Inference-with-LFM2.5-DSpark_0.0_2026-08-24.md",
       "source_type": "rss",
       "description": "",
       "summary": "LLM 调用失败或响应解析失败",
@@ -1030,6 +1606,390 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/LiquidAI/lfm25-dspark"
+        }
+      }
+    },
+    {
+      "name": "What We Learned by Reproducing 2,200 papers from ICML",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "What-We-Learned-by-Reproducing-2-200-papers-from-ICML_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/icml-2026-open-reproductions"
+        }
+      }
+    },
+    {
+      "name": "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "When-Retrieval-Fails-Before-It-Begins--Structurally-Indirect-Prerequisite-Evicti_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20400v1 Announce Type: new Abstract: Agentic memory under a fixed budget involves two stages: retention and retrieval. Existing retrieval-centered paradigms implicitly assume necessary evidence survives eviction, but we challenge this by isolating a pre-retrieval failure mode: structurally indirect prerequisite eviction, in which upstream blocks weakly aligned with the query are discarded under budget pressure. We provide an operational definition of this failure, a reproducible deterministic benchmark, and per-seed trace diagnostics. Finally, we evaluate Dependency-aware Semantic Garbage Collection (DSGC), a one-hop graph-aware rule. In our main suite, DSGC improves full-chain retention from 0.03 to 0.90 under a lexical encoder and from 0.23 to 1.00 under a sentence encoder. Robustness checks then identify the budget and scaling regimes where the one-hop rule holds or degrades. Our released pipeline and failure postmortem support mechanistic analysis of retention before retrieval as a distinct failure boundary.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20400",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20400"
+        }
+      }
+    },
+    {
+      "name": "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "When-Vocabulary-Comprehension-Fails-Clinical-Reasoning--Evaluating-Therapy-Bots-_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20345v1 Announce Type: new Abstract: Conversational AI systems have become informal mental health support resources for Generation Alpha (Gen Alpha, born 2010-2024), with 13.1% of U.S. adolescents (5.4 million) using generative AI for mental health advice. While these systems, from therapy apps to general chatbots, rely on large language models trained on extensive psychological literature, their safety for youth communication patterns characterized by hyperbolic language, ironic positivity, rapid semantic drift, and contextual polysemy remains unvalidated. Following multiple adolescent deaths linked to AI chatbot interactions, systematic evaluation is critical. We present two benchmarks: (1) 64 Gen Alpha mental health expressions validated by native speakers (ICC=0.72) and clinicians (kappa=0.78); (2) 75 multi-turn conversations (780 turns) with paired Standard/Gen Alpha versions. Across evaluations of LLM architectures underlying therapy apps and general chatbots - Claude, GPT-4o, Llama-3.1 - models understand 76-82% of vocabulary but correctly calibrate only 64-72% of clinical risk, creating a 10-14 percentage point (pp) vocabulary-comprehension gap (p<.001, d>0.48) absent in human therapists (3pp, p=.22). The gap is architecturally consistent and widens with ambiguity (7pp -> 18pp). We identify six failure patterns: sarcasm masking (29pp), minimization acceptance (43pp), informal style bias (24pp), risk-stratified ambiguity (19pp), semantic drift (19pp), context-dependent violence (7pp). Patterns compound; three or more yield 94% miss rates. Lightweight mitigations fail; only heavy scaffolding achieves human performance (6.4x cost). With 34% baseline miss rate yielding 146,880 estimated annual missed crises, we recommend mandatory human-in-the-loop architectures, quarterly youth-specific validation, transparent performance disclosure, and regulatory frameworks for youth-facing mental health AI.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20345",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20345"
+        }
+      }
+    },
+    {
+      "name": "Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "Who-Do-Language-Models-Think-Is-Competent--A-Mechanistic-Analysis-of-Occupationa_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20347v1 Announce Type: new Abstract: Language models (LMs) often pass behavioral bias evaluations, but it remains unclear whether they no longer represent the underlying associations that give rise to biases, or have merely learned not to express them. In this study, we show that representational biases are often detectable, even when behavioral biases are not visible. We introduce a causal framework that decomposes occupational bias into two measurement points: a model's internal representation of a user's competence, and its observable outputs. We derive steering vectors for representations of user expertise, and verify that they causally mediate model behavior in both a question-answering task and a hiring task. Applying this framework to several open-weight models, we find that demographic attributes, such as gender, race, and socioeconomic status, influence a model's representation of user expertise, even in cases where behavioral metrics detect no disparity between demographics. We show that these model representations can influence downstream behavior under intervention, suggesting failure modes that behavioral metrics alone may not detect.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20347",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20347"
+        }
+      }
+    },
+    {
+      "name": "World models of environment, agent and joint agent-environment systems",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "World-models-of-environment--agent-and-joint-agent-environment-systems_0.0_2026-08-24.md",
+      "source_type": "rss",
+      "description": "arXiv:2608.20401v1 Announce Type: new Abstract: World models are a central component of model-based reinforcement learning. They are usually discussed in terms of what variables they predict, such as observations, rewards, states, latent or information states. We argue that there is a prior distinction: which channel they model. We consider three cases: the environment channel $O_{:} \\mid A_{:}$, the agent channel $A_{:} \\mid O_{:}$, and the realised joint process $(A, O)_{:}$, equivalently viewed as a channel with no inputs. Using computational mechanics, we define canonical predictive models for these three cases as $\\epsilon$-transducers or $\\epsilon$-machines. Canonical environment models recover standard predictive state representations, while the other two give analogous notions of canonical models for the agent and the joint system. We then build canonical support-restricted environment and agent models induced by closed-loop coupling, whose predictive equivalences range over continuations supported by the realised interaction. The key structural result is that canonical support-restricted environment states factor through the canonical joint causal states, and their transition structure is induced directly from the joint model; the agent-side construction is dual. Finally, we give a POMDP/controller example in which the unrestricted environment model has infinitely many states while the canonical support-restricted model induced by the coupling is finite. The framework clarifies what different world models are models of, and how coupling and support restriction can change their canonical predictive structure and complexity.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2608.20401",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.20401"
+        }
+      }
+    },
+    {
+      "name": "apache/maka",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "apache-maka_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/apache/maka",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/apache/maka"
+        }
+      }
+    },
+    {
+      "name": "multica-ai/andrej-karpathy-skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "multica-ai-andrej-karpathy-skills_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/multica-ai/andrej-karpathy-skills"
+        }
+      }
+    },
+    {
+      "name": "openai/codex",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "openai-codex_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "Lightweight coding agent that runs in your terminal",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Rust"
+      ],
+      "link": "https://github.com/openai/codex",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/openai/codex"
+        }
+      }
+    },
+    {
+      "name": "openclaw/openclaw",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "openclaw-openclaw_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. 🦞",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/openclaw/openclaw",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/openclaw/openclaw"
+        }
+      }
+    },
+    {
+      "name": "rohitg00/ai-engineering-from-scratch",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "rohitg00-ai-engineering-from-scratch_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "Learn it. Build it. Ship it for others.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/rohitg00/ai-engineering-from-scratch",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/rohitg00/ai-engineering-from-scratch"
+        }
+      }
+    },
+    {
+      "name": "tashfeenahmed/freellmapi",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-24",
+      "date_dir": "2026-08-24",
+      "filename": "tashfeenahmed-freellmapi_0.0_2026-08-24.md",
+      "source_type": "github",
+      "description": "OpenAI-compatible proxy that stacks the free tiers of 28 LLM providers (~4B tokens/month) behind one /v1 endpoint — plus any custom OpenAI-compatible endpoint. Smart routing, automatic failover, encrypted keys. Personal experimentation only.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/tashfeenahmed/freellmapi",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/tashfeenahmed/freellmapi"
+        }
+      }
+    },
+    {
+      "name": "Comfy-Org/ComfyUI",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-23",
+      "date_dir": "2026-08-23",
+      "filename": "Comfy-Org-ComfyUI_0.0_2026-08-23.md",
+      "source_type": "github",
+      "description": "The most powerful and modular diffusion model GUI, api and backend with a graph/nodes interface.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/Comfy-Org/ComfyUI",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/Comfy-Org/ComfyUI"
         }
       }
     },
@@ -1066,38 +2026,6 @@
       }
     },
     {
-      "name": "What We Learned by Reproducing 2,200 papers from ICML",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "What-We-Learned-by-Reproducing-2-200-papers-from-ICML_0.0_2026-08-23.md",
-      "source_type": "rss",
-      "description": "",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://huggingface.co/blog/icml-2026-open-reproductions",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://huggingface.co/blog/icml-2026-open-reproductions"
-        }
-      }
-    },
-    {
       "name": "affaan-m/ECC",
       "score": 0.0,
       "status": "待复核",
@@ -1126,38 +2054,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/affaan-m/ECC"
-        }
-      }
-    },
-    {
-      "name": "apache/maka",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "apache-maka_0.0_2026-08-23.md",
-      "source_type": "github",
-      "description": "Apache Maka (Incubating) is a local-first AI agent workspace. Model messages, tool calls, tool results, permission decisions, and termination events are recorded as an append-only log.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/apache/maka",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/apache/maka"
         }
       }
     },
@@ -1226,38 +2122,6 @@
       }
     },
     {
-      "name": "openai/codex",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-23",
-      "date_dir": "2026-08-23",
-      "filename": "openai-codex_0.0_2026-08-23.md",
-      "source_type": "github",
-      "description": "Lightweight coding agent that runs in your terminal",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Rust"
-      ],
-      "link": "https://github.com/openai/codex",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/openai/codex"
-        }
-      }
-    },
-    {
       "name": "ruvnet/ruflo",
       "score": 0.0,
       "status": "待复核",
@@ -1322,38 +2186,6 @@
       }
     },
     {
-      "name": "PostHog/posthog",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-22",
-      "date_dir": "2026-08-22",
-      "filename": "PostHog-posthog_0.0_2026-08-22.md",
-      "source_type": "github",
-      "description": "🦔 PostHog is the leading platform for building self-driving products. Our developer tools – AI observability, analytics, session replay, flags, experiments, error tracking, logs, and more – capture all the context agents need to diagnose problems, uncover opportunities, and ship fixes. Steer it all from Slack, web, desktop, or the MCP.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/PostHog/posthog",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/PostHog/posthog"
-        }
-      }
-    },
-    {
       "name": "Tencent/AI-Infra-Guard",
       "score": 0.0,
       "status": "待复核",
@@ -1414,38 +2246,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/harry0703/MoneyPrinterTurbo"
-        }
-      }
-    },
-    {
-      "name": "multica-ai/andrej-karpathy-skills",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-22",
-      "date_dir": "2026-08-22",
-      "filename": "multica-ai-andrej-karpathy-skills_0.0_2026-08-22.md",
-      "source_type": "github",
-      "description": "A single CLAUDE.md file to improve Claude Code behavior, derived from Andrej Karpathy's observations on LLM coding pitfalls.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://github.com/multica-ai/andrej-karpathy-skills",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/multica-ai/andrej-karpathy-skills"
         }
       }
     },
@@ -9864,425 +10664,71 @@
           "summary": "## 项目链接\nhttps://github.com/zhaoxuya520/reverse-skill"
         }
       }
-    },
-    {
-      "name": "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Beyond-Sentiment--Comparing-Traditional-NLP-and-LLM-Based-Multi-Dimensional-Anal_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05155v1 Announce Type: new Abstract: Traditional sentiment analysis (SA) models, while effective for polarity classification, provide limited insight into the rhetorical, ideological, and framing dimensions of political discourse -- dimensions that are central to research in the social sciences and humanities (SSH). In this paper, we present a comparative study of RoBERTa-based sentiment analysis and an LLM-based multi-dimensional framing analysis platform applied to a corpus of 50 political news articles from 17 international media outlets. The results reveal a critical limitation we term neutral collapse: RoBERTa classifies 70% of articles as neutral, effectively flattening substantively rich political content into an analytically uninformative category. We find that 23% of neutral-classified articles exhibit negative probability scores above 0.30. By contrast, the LLM-based approach captures political bias direction and intensity, sensationalism, emotional appeal, and political framing -- yielding multi-dimensional analytical outputs aligned with SSH epistemologies. We argue that for political media analysis, traditional SA alone is insufficient, and that LLM-based multi-dimensional frameworks offer a more epistemologically adequate computational lens for SSH research needs.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05155",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05155"
-        }
-      }
-    },
-    {
-      "name": "Large Language Models Threaten Double-blind Review",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Large-Language-Models-Threaten-Double-blind-Review_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05157v1 Announce Type: new Abstract: Double blind peer review serves as the scientific community primary defense against status and affiliation bias. Its effectiveness rests on the assumption that anonymized manuscripts convey scientific merit without revealing their authors. While authorship can often be recovered using citation networks or stylistic markers, we show that this assumption is increasingly fragile in the presence of large language models (LLMs). Using only titles and abstracts from papers published after model training, we find that LLMs collapse anonymity more efficiently than humans, with belief concentrating onto a small subset of plausible authors drawn from pools of five domain expert candidates. This vulnerability persists even when stylistic and bibliographic cues are excluded, indicating that stable patterns in problem framing and research focus function as latent conceptual signatures of authorship. Together, these findings indicate that double blind review is vulnerable to automated semantic inference, necessitating a revaluation of how anonymity and fairness are maintained in an AI augmented research ecosystem.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05157",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05157"
-        }
-      }
-    },
-    {
-      "name": "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Mean-Field-Dynamics-of-Chain-of-Thought-Reasoning-in-Large-Language-Models_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05152v1 Announce Type: new Abstract: Large language models (LLMs) with chain-of-thought reasoning have been widely applied in recent years, and theoretical explanations of their behavior may help deepen our understanding and guide model optimization. In this study, we introduce a framework that seeks statistical regularities and theoretical interpretations in LLM reasoning without simplifying the model architecture or making analogies to existing physical systems. We formulate LLM reasoning as a guided discovery process on a clue graph, and derive a one-dimensional ordinary differential equation for the fraction of discovered clues using the mean-field approximation. Experimentally, clue tokens are identified using the normalized surprisal of a student LLM on the outputs of a teacher LLM, and statistical regularities are obtained by averaging over many reasoning chains of thought. Our experiments show that the resulting statistical regularities are reproducible within the same dataset and can be fitted by the solving the proposed theoretical equation.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05152",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05152"
-        }
-      }
-    },
-    {
-      "name": "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "PoolBench--A-Benchmark-for-Pooling-Strategies-in-Concept-Representation-Evaluati_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05162v1 Announce Type: new Abstract: Pooling is a consequential but under-examined design choice in decoder-only concept representation work: practitioners must collapse token-level hidden states into a passage-level vector, yet no shared protocol exists for comparing this choice across concepts, models, and tasks. Reported gains are confounded by simultaneous changes in dataset, layer, construction method, and pooling rule, making principled decisions impossible. We introduce PoolBench, a benchmark that isolates pooling as the experimental variable under a fixed evaluation protocol. PoolBench covers 17 concepts, 19 pooling strategies, and 3 open-weight decoder-only models (Llama-3.1-8B, Gemma-2-9B, Mistral-7B), evaluated on a single audited corpus of 37,693 real-text passages. The primary axis is linear separability (D1/AUROC); steered concept prevalence (D2/SCP) and output-level disentanglement (D3) serve as diagnostic axes. The primary finding is decisive: W4_hierarchical reaches a cross-model mean AUROC of 0.7799, while the widely adopted P1_last_token baseline reaches only 0.7640 and is statistically significantly worse (Friedman+Nemenyi, p = 2.0e-36; 77 significant pairs among 18 effective strategies). Rankings are stable across layers (rho = 0.961--0.990). A key negative result: strong detection does not imply strong steering -- D2 and D3 are substantially weaker than D1 for most concepts, indicating a fundamental representational limit rather than a pooling failure. On mid-difficulty concepts, W4_hierarchical outperforms P1_last_token by 0.042--0.113 AUROC; construction method choice (DiffMean vs. REPE) has a larger effect (delta AUROC 0.15) than pooling (delta AUROC 0.016), establishing the correct practical hierarchy. We release the corpus, pre-extracted activations, scorer models, steering vectors, and evaluation code as a reusable protocol for pooling research.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05162",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05162"
-        }
-      }
-    },
-    {
-      "name": "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "RIG-RoPE--Relation--and-Instance-Gated-Rotary-Positional-Encoding-with-Duration-_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05154v1 Announce Type: new Abstract: Rotary positional encoding (RoPE) is a core component of modern language models and has been extended to multimodal LLMs through multidimensional variants such as multimodal RoPE (M-RoPE), which split positional channels into temporal, height, and width subspaces. This report identifies two limitations of static multidimensional position assignment in interleaved multimodal contexts. First, height/width rotations may be applied to token pairs whose spatial displacement is not a well-defined geometric object, producing cross-modal and inter-instance spatial interference. Second, temporal coordinates are often treated as equal-step counters, so a text token, an image block, and a video segment can advance the temporal phase by comparable amounts despite different information density. We propose RIG-RoPE, a relation- and instance-gated RoPE mechanism with duration-aware temporal coordinates. RIG-RoPE augments each token with a modality indicator, a visual instance identifier, and a scalar information-duration coordinate. It enables H/W rotations only for query-key pairs from the same visual instance; otherwise the unknown spatial displacement is marginalized rather than set to zero. Temporal rotations use interpolated cumulative block durations: text tokens consume unit duration, images use a dimension-aware logarithmic spatial scale, and videos further apply a logarithmic temporal extension over effective frames. We provide a gauge-invariance argument for avoiding ordinary cross-instance spatial rotation, an impossibility result for static IDs under shared H/W subspaces, and a duration-consistency argument against equal-step multimodal time. RIG-RoPE adds no learned parameters and can be implemented inside tiled attention kernels with constant additional metadata per token. This preliminary report establishes the formulation and validation path without claiming empirical superiority.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05154",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05154"
-        }
-      }
-    },
-    {
-      "name": "Safe Evolution with Circuit Anchors",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Safe-Evolution-with-Circuit-Anchors_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05158v1 Announce Type: new Abstract: In biological evolution, unconstrained mutation can lead to catastrophic outcomes: organisms may evolve enhanced capabilities while losing essential functions for survival. Nature's solution is \\textit{developmental constraints}, where core regulatory genes remain anchored while peripheral genes adapt freely. We observe that current self-evolution algorithms for large language models lack analogous constraints. They optimize purely for capability, implicitly assuming safety will be preserved. Our experiments reveal this assumption to be dangerously wrong: models can \\textit{misevolve} into powerful yet dangerous entities. Inspired by how Hox genes anchor body structure across $500$ million years of evolution, we propose \\textbf{Circuit-Anchored Evolution (CAE)}. Using mechanistic interpretability, we identify a tiny \\textit{safety circuit}, comprising less than $2$\\% of model features, that causally mediates safety behaviors. We anchor this circuit during evolution, constraining it within a small displacement bound while allowing the remaining features to evolve freely. This mirrors the biological principle of \\textit{evolvability with constraint}: preserving what is essential while adapting what is peripheral. Experiments across $3$ model families and two evolution algorithms demonstrate that CAE achieves superior safety preservation with minimal capability loss, substantially outperforming explicit reward-based constraints in both effectiveness and efficiency. Just as developmental constraints prevent biological evolution from producing nonviable organisms, circuit anchoring prevents model evolution from producing capable but dangerous systems.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05158",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05158"
-        }
-      }
-    },
-    {
-      "name": "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Scaffold-Mediated-Post-Training--Co-Evolving-Model-Parameters-and-Procedural-Sca_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05156v1 Announce Type: new Abstract: Post-training of large language models optimizes only parameters, while inference-time procedural scaffolds are typically designed independently of parameter training. This disconnect makes it difficult to automatically acquire and internalize complex strategies. We propose scaffold-mediated post-training: procedural scaffolds are organized into an evolvable graph structure that co-evolves with model parameters through discovery, distillation, and dynamic recompilation. We instantiate this paradigm as Skill Training. On FeatureBench, automatically discovered skills improve the passed rate by 8.1pp, and after progressive distillation the model still achieves a 27.7% passed rate without any external scaffold (distillation retention rate 85.2%, defined as post-distillation / with-skill passed rate), significantly outperforming standard SFT on the same data.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05156",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05156"
-        }
-      }
-    },
-    {
-      "name": "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "SemiAdapt-Instruct--Extensible-Instruction-Tuning-via-Latent-Domain-Specialised-_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05161v1 Announce Type: new Abstract: Instruction-tuned LLMs are deployed into environments where domains evolve, yet extending a fine-tuned model's capabilities without full retraining remains an unsolved practical challenge. We present SemiAdapt-Instruct, a modular framework that discovers latent instruction domains, trains per-domain LoRA adapters in parallel, and performs parameter-free routing, incorporating new domains via single-adapter training without modifying existing components. SemiAdapt-Instruct outperforms full model fine-tuning across all configurations on both ROUGE-L and LLM-as-a-judge evaluation, while matching single LoRA fine-tuning and delivering extensibility that monolithic approaches cannot provide. We empirically demonstrate this extensibility by showing that updating a single adapter with new domain data outperforms all monolithic baselines. Our study also finds that independent discovery methods converge on the same specialisation-friendly domains. These findings demonstrate that decomposing heterogeneous instruction data into latent domains enables extensible NLP systems where evolving domains require only targeted single-adapter updates, eliminating the need for full model retraining.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05161",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05161"
-        }
-      }
-    },
-    {
-      "name": "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Simulator-Grounded-Large-Language-Models-for-Industrial-Causal-Reasoning--Tool-U_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05151v1 Announce Type: new Abstract: Wastewater operators need answers grounded in how their plant's variables interact and how fast effects propagate, not in generic pretraining text, when asking causal questions such as \"why is N2O rising?\" or \"what happens if I cut aeration by 20%?\". We compare three concrete ways to ground a frozen Qwen2.5-32B-Instruct model in an architecturally interpretable wastewater simulator (CCSS-IX): a live simulator oracle (Method 1), structured parameter injection (Method 2), and a Decoupled Recall-Reasoning (DRR) retriever (Method 3). On a 198-question causal benchmark the three reach 99.5%, 79%, and 75.8%, forming a deployment ladder above the strongest retrieval-augmented baseline at 48%. The DRR retriever has 110M parameters and trains per plant in ~17 seconds; after cross-plant transfer to a biologically distinct plant it still reaches 88%, while Method 2's static table cannot transfer. On a 60-question counterfactual benchmark only Method 3 handles queries about what happens after an intervention: +16.3 pp over Method 2, paired 95% CI [+7.1, +26.4] pp, with 100% on the timescale and operating-regime categories. On the AI2 Reasoning Challenge (ARC) with an OpenBookQA fact corpus, the same selective-retrieval mechanism reaches 79% versus unconstrained Llama-3.1-8B 76% and full-injection 74%, a +3 pp out-of-domain replication that argues against a result specific to wastewater treatment. We provide the first single-simulator comparison of live tool-use, static parameter injection, and learned numerical-parameter retrieval for industrial causal question answering.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05151",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05151"
-        }
-      }
-    },
-    {
-      "name": "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "Universal-Pathologies--Conditional-Consequences--A-Triple-Robustness-Analysis-of_0.0_2026-08-08.md",
-      "source_type": "rss",
-      "description": "arXiv:2608.05153v1 Announce Type: new Abstract: GraphRAG underperforms vector RAG on citation precision in many reports, but where and why have remained corpus-bound. We present a triple-robustness analysis that holds the retrieval architecture fixed and varies three orthogonal axes embedder (local e5-small -> Azure text-embedding-3-small), corpus (DO-178C typed-edge requirements -> Wikipedia paragraph chains via MuSiQue), and judge (paired GPT-5.4 x GPT-4.1) across 4,440 main-matrix runs, 600 cross-corpus runs, and 1,200 paired faithfulness judgments. (C2a) Over-citation is architecturally universal: GraphRAG emits 11-15 IDs per answer at citation precision 0.12-0.23 and retrieval recall 0.68-0.87 across all three settings. (C2b) Its faithfulness consequence is corpus-conditional: in typed-edge DO-178C, GraphRAG faithfulness collapses 74%->40% across hops; on Wikipedia chains the same pipeline rises 42%->58% because over-cited paragraphs remain topically supporting. (C1) Stratum-conditional winners are corpus-conditional but embedder-robust: vanilla wins 2-hop on DO-178C, GraphRAG wins 2-hop on MuSiQue, identical under either embedder. (C3) Single-judge LLM faithfulness is fragile to retrieval state: same-judge self-kappa across embedders is 0.137 for GPT-5.4 (verdict change on 41% of items). A learned router on dense embeddings alone reaches macro-F1 0.86 on hop classification (C4). We argue triple-robustness is the minimum bar for trustworthy RAG architecture claims.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "未标注"
-      ],
-      "link": "https://arxiv.org/abs/2608.05153",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.05153"
-        }
-      }
-    },
-    {
-      "name": "esengine/DeepSeek-Reasonix",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "esengine-DeepSeek-Reasonix_0.0_2026-08-08.md",
-      "source_type": "github",
-      "description": "DeepSeek-native AI coding agent for your terminal. Engineered around prefix-cache stability — leave it running.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Go"
-      ],
-      "link": "https://github.com/esengine/DeepSeek-Reasonix",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/esengine/DeepSeek-Reasonix"
-        }
-      }
-    },
-    {
-      "name": "lyogavin/airllm",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "lyogavin-airllm_0.0_2026-08-08.md",
-      "source_type": "github",
-      "description": "AirLLM 70B inference with single 4GB GPU",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Jupyter Notebook"
-      ],
-      "link": "https://github.com/lyogavin/airllm",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/lyogavin/airllm"
-        }
-      }
-    },
-    {
-      "name": "microsoft/AI-For-Beginners",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-08",
-      "date_dir": "2026-08-08",
-      "filename": "microsoft-AI-For-Beginners_0.0_2026-08-08.md",
-      "source_type": "github",
-      "description": "12 Weeks, 24 Lessons, AI for All!",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Jupyter Notebook"
-      ],
-      "link": "https://github.com/microsoft/AI-For-Beginners",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/microsoft/AI-For-Beginners"
-        }
-      }
     }
   ],
   "projects_by_date": {
+    "2026-08-24": [
+      "A Survey on Foundations and Frontiers of Multimodal Agentic Frameworks: Techniques and Applications",
+      "AgriciDaniel/claude-obsidian",
+      "Beyond Prompt Engineering: A Systematic Analysis of Prompt Lexical Sensitivity and Its Impacts on Quality",
+      "Beyond Raw Transcripts: Structured Persona Extraction for LLM-Based Digital Twins",
+      "Building and Evaluating a Synthetic Bengali Speech Resource for Telecom Customer Care",
+      "Environmental Slow AI: Design Principles for Generative Systems",
+      "ExpertIVS: Sociological Expert Driven Individual Value Simulation in Large Language Models",
+      "Exploratory As-Analyzed No-Detection of Culturally-Marked Predicate-Triggered PII Amplification in a Synthetic-English RAG Probe: A Predicate-Resource-Confounded Audit",
+      "How Much Memory Does Your Agent Actually Need?",
+      "How to Train a Real-World Silicon Concierge? Internalizing Complex Business Workflow to Only OneModel",
+      "Inhibitory Attention for Clinical Long-Context Reasoning: Characterizing and Mitigating Lost-in-the-Middle Effects in EHR Processing",
+      "Interpretable Multimodal Classification with Linear Discriminant Tree Ensembles",
+      "Introducing OlmoEarth embeddings: Custom embedding exports from OlmoEarth Studio for downstream analysis",
+      "Launch HN: Airweave (YC X25) – Let agents search any app",
+      "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
+      "Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking",
+      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
+      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
+      "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
+      "Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems",
+      "Launch HN: OneCLI (YC S26) – OSS sandboxed agent harness for teams",
+      "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
+      "MadsLorentzen/ai-job-search",
+      "Measuring benchmark optimization in speech recognition",
+      "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
+      "Nexus: Depth-Adaptive KV-Cache Splicing and Retrieval-Decoupled Tool Routing for Agentic LLMs on Unified Memory",
+      "NousResearch/hermes-agent",
+      "PostHog/posthog",
+      "PrimeAgentOrchestrator: Memory-Primed Agent Spawning for Personal AI Infrastructure",
+      "Record, train, and deploy from one place with Strands Agents, LeRobot, and Hugging Face Storage Buckets",
+      "Representation Affects Retrieval: A Case Study of Skill Discovery and Routing in a Multimodal Agent Harness",
+      "SDAD: Spec-Driven Agentic Development for the AI-Native SDLC",
+      "Same Cluster, 33 Points More Utilization: What Changed Was the Order",
+      "Show HN: A big tech dev experience for an open source CMS",
+      "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
+      "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
+      "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
+      "Show HN: Darwin – Automate Your GitHub Project with AI",
+      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
+      "Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually",
+      "Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust",
+      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
+      "Show HN: Pickaxe – A TypeScript library for building AI agents",
+      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
+      "State of Open Models: Summer 2026 Observations",
+      "The Divergence Hypothesis: Unmasking Lexical Interference and Label Bias in Mental Health NLP",
+      "Thinking of ACE? We Can Do It with Fewer Tokens",
+      "Truth Lies Deep: Countering Semantic Camouflage via Latent Intent Verification",
+      "Up to 3.2x Faster Inference with LFM2.5-DSpark",
+      "What We Learned by Reproducing 2,200 papers from ICML",
+      "When Retrieval Fails Before It Begins: Structurally Indirect Prerequisite Eviction as a Retention Failure in Agentic Memory",
+      "When Vocabulary Comprehension Fails Clinical Reasoning: Evaluating Therapy Bots' Safety Risks for Generation Alpha",
+      "Who Do Language Models Think Is Competent? A Mechanistic Analysis of Occupational Bias",
+      "World models of environment, agent and joint agent-environment systems",
+      "apache/maka",
+      "multica-ai/andrej-karpathy-skills",
+      "openai/codex",
+      "openclaw/openclaw",
+      "rohitg00/ai-engineering-from-scratch",
+      "tashfeenahmed/freellmapi"
+    ],
     "2026-08-23": [
       "Comfy-Org/ComfyUI",
       "How Much Memory Does Your Agent Actually Need?",
@@ -11121,58 +11567,6 @@
       "harveyai/harvey-labs",
       "msitarzewski/agency-agents",
       "vitali87/code-graph-rag",
-      "zhaoxuya520/reverse-skill"
-    ],
-    "2026-08-08": [
-      "Anatomy of a Frontier Lab Agent Intrusion: A Technical Timeline of the July 2026 Incident",
-      "Baseten on Hugging Face Inference Providers 🔥",
-      "Beyond Sentiment: Comparing Traditional NLP and LLM-Based Multi-Dimensional Analysis for Political News Evaluation",
-      "Bringing Nunchaku 4-bit Diffusion Inference to Diffusers",
-      "Deploy local agents everywhere with LFM2.5-2.6B",
-      "GPU Management: Why Idle GPUs Are the New Grounded Aircraft",
-      "Grabette: an open system to record robot-manipulation data",
-      "Large Language Models Threaten Double-blind Review",
-      "Launch HN: Airweave (YC X25) – Let agents search any app",
-      "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
-      "Launch HN: Chonkie (YC X25) – Open-Source Library for Advanced Chunking",
-      "Launch HN: Cua (YC X25) – Open-Source Docker Container for Computer-Use Agents",
-      "Launch HN: Expanse (YC P26) – Unlock Wasted GPU Capacity",
-      "Launch HN: Hamming (YC S24) – Automated Testing for Voice Agents",
-      "Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems",
-      "Launch HN: Tinfoil (YC X25): Verifiable Privacy for Cloud AI",
-      "Launch HN: Traceloop (YC W23) – Detecting LLM Hallucinations with OpenTelemetry",
-      "Mean-Field Dynamics of Chain-of-Thought Reasoning in Large Language Models",
-      "NVIDIA Cosmos-H-Dreams: Bringing Real-Time Generative Simulation to Surgical Robotics",
-      "Newer Models, Same Advantage",
-      "PoolBench: A Benchmark for Pooling Strategies in Concept Representation Evaluation for Decoder-Only LLMs",
-      "PrimeIntellect-ai/prime-agent",
-      "RIG-RoPE: Relation- and Instance-Gated Rotary Positional Encoding with Duration-Aware Temporal Coordinates",
-      "Safe Evolution with Circuit Anchors",
-      "Scaffold-Mediated Post-Training: Co-Evolving Model Parameters and Procedural Scaffold Graphs",
-      "Security incident disclosure — July 2026",
-      "SemiAdapt-Instruct: Extensible Instruction Tuning via Latent Domain-Specialised Adapters",
-      "Show HN: A big tech dev experience for an open source CMS",
-      "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
-      "Show HN: AnythingLLM – Open-Source, All-in-One Desktop AI Assistant",
-      "Show HN: BrowserOS – \"Claude Cowork\" in the browser",
-      "Show HN: Darwin – Automate Your GitHub Project with AI",
-      "Show HN: Hyperbrowser MCP Server – Connect AI agents to the web through browsers",
-      "Show HN: Inkeep (YC W23) – Agent Builder to create agents in code or visually",
-      "Show HN: Laminar – Open-Source DataDog + PostHog for LLM Apps, Built in Rust",
-      "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
-      "Show HN: Pickaxe – A TypeScript library for building AI agents",
-      "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
-      "Simulator-Grounded Large Language Models for Industrial Causal Reasoning: Tool-Use, Structured Injection, and Plant-Portable Retrieval for Wastewater Treatment Decision Support",
-      "TauricResearch/TradingAgents",
-      "TencentCloud/TencentDB-Agent-Memory",
-      "TutorMoments: Do AI tutors know when to help and when to hold back?",
-      "Universal Pathologies, Conditional Consequences: A Triple-Robustness Analysis of RAG for Multi-Hop Traceability",
-      "addyosmani/agent-skills",
-      "esengine/DeepSeek-Reasonix",
-      "google/skills",
-      "lyogavin/airllm",
-      "mattpocock/skills",
-      "microsoft/AI-For-Beginners",
       "zhaoxuya520/reverse-skill"
     ]
   }
