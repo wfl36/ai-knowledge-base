@@ -1,0 +1,29 @@
+# KVBoost: Chunk-Level Key-Value Cache Reuse with Deviation-Guided Recomputation for Efficient Large Language Model Inference
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-08-25  
+**来源：** rss  
+
+## 项目描述
+arXiv:2608.21362v1 Announce Type: new Abstract: Transformer-based large language models (LLMs) incur high prefill latency because key-value (KV) tensors must be recomputed for each request. Existing prefix-caching systems reduce this cost but require prompts to share a leading contiguous prefix, limiting effectiveness when shared content appears at arbitrary positions. We present KVBoost, a chunk-level KV cache reuse system for HuggingFace-compatible decoder models that enables reuse regardless of content position. KVBoost introduces a dual-hash keying scheme that separates positional identity (prefix hash) from content identity (content hash), supporting both exact and approximate cache matches. To address attention boundary errors from independently cached chunks, KVBoost employs two repair strategies: SelectiveRecompute, which re-encodes boundary regions, and CacheBlendRecompute, which identifies and recomputes high-deviation tokens after a probe pass. The system further incorporates asymmetric KV quantization (int8/int4), adaptive chunk boundary splitting, and importance-weighted eviction under a fixed memory budget. Evaluated on Qwen/Qwen2.5-3B over 1,000 bug-localization samples, KVBoost achieves a 4.49x reduction in time-to-first-token (142.4 ms vs.\ 639.1 ms) and outperforms prefix caching by 16%, with no loss in accuracy (99.2% vs.\ 99.1%). KVBoost provides a practical, memory-bounded inference acceleration layer compatible with RoPE-based models without architectural modification.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2608.21362

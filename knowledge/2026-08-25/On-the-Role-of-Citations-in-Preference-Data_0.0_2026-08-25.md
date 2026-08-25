@@ -1,0 +1,29 @@
+# On the Role of Citations in Preference Data
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-08-25  
+**来源：** rss  
+
+## 项目描述
+arXiv:2608.21376v1 Announce Type: new Abstract: Many NLP tasks require systems to provide attribution in their outputs--i.e. citations to grounding sources. Attribution serves as a bulwark against model hallucination and as a means for users to verify the credibility of model outputs. Yet, it is unclear how humans and LLMs evaluate citations when comparing outputs, a process central to reward modeling and modern LLM post-training. This paper studies the role of citations in the preferences of human judges and four open-source LLMs within the context of scientific question answering, leveraging mixed effects models to investigate the influence of citations on pairwise judgments. Among our key findings are (1) that humans prefer more diverse citations but fewer overall, and (2) that LLMs show some citation-related preferences compared to humans, despite lacking access to the sources, but these preferences depend on the data and specific models. We further discuss the implications of our findings for preference data collection.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2608.21376
