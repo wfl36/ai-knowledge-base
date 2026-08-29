@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-08-29",
-  "total_projects": 304,
+  "total_projects": 308,
   "total_dates": 15,
   "dates": [
     "2026-08-29",
@@ -22,7 +22,7 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 304
+      "count": 308
     }
   ],
   "sources": [
@@ -32,7 +32,7 @@
     },
     {
       "name": "github",
-      "count": 60
+      "count": 64
     },
     {
       "name": "hackernews",
@@ -101,6 +101,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2608.26121"
+        }
+      }
+    },
+    {
+      "name": "ComposioHQ/awesome-claude-skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-29",
+      "date_dir": "2026-08-29",
+      "filename": "ComposioHQ-awesome-claude-skills_0.0_2026-08-29.md",
+      "source_type": "github",
+      "description": "A curated list of awesome Claude Skills, resources, and tools for customizing Claude AI workflows",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/ComposioHQ/awesome-claude-skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/ComposioHQ/awesome-claude-skills"
         }
       }
     },
@@ -403,7 +435,7 @@
       "date_dir": "2026-08-29",
       "filename": "K-Dense-AI-scientific-agent-skills_0.0_2026-08-29.md",
       "source_type": "github",
-      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 175,000+ scientists worldwide. 163 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
+      "description": "Turn any AI agent into an AI Scientist. The #1 Agent Skills library for science, used by 190,000+ scientists worldwide. 165 ready-to-use validated skills plus 100+ scientific databases covering biology, chemistry, medicine, and drug discovery. Compatible with Cursor, Claude Code, Codex, Pi, Antigravity, and the open Agent Skills standard.",
       "summary": "LLM 调用失败或响应解析失败",
       "tech_stack": [
         "Python"
@@ -937,6 +969,38 @@
       }
     },
     {
+      "name": "Osmantic/ODS",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-29",
+      "date_dir": "2026-08-29",
+      "filename": "Osmantic-ODS_0.0_2026-08-29.md",
+      "source_type": "github",
+      "description": "Turn your PC, Mac, or Linux box into an AI server. LLM inference, chat UI, voice, agents, workflows, RAG, and image generation.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/Osmantic/ODS",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/Osmantic/ODS"
+        }
+      }
+    },
+    {
       "name": "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
       "score": 0.0,
       "status": "待复核",
@@ -1417,6 +1481,38 @@
       }
     },
     {
+      "name": "THU-MAIC/OpenMAIC",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-29",
+      "date_dir": "2026-08-29",
+      "filename": "THU-MAIC-OpenMAIC_0.0_2026-08-29.md",
+      "source_type": "github",
+      "description": "Open Multi-Agent Interactive Classroom — Get an immersive, multi-agent learning experience in just one click",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/THU-MAIC/OpenMAIC",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/THU-MAIC/OpenMAIC"
+        }
+      }
+    },
+    {
       "name": "TelecomGPT-R1: A Unified Open-Source Reasoner for the Telecom Stack",
       "score": 0.0,
       "status": "待复核",
@@ -1769,6 +1865,38 @@
       }
     },
     {
+      "name": "addyosmani/agent-skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-29",
+      "date_dir": "2026-08-29",
+      "filename": "addyosmani-agent-skills_0.0_2026-08-29.md",
+      "source_type": "github",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "JavaScript"
+      ],
+      "link": "https://github.com/addyosmani/agent-skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/addyosmani/agent-skills"
+        }
+      }
+    },
+    {
       "name": "calesthio/OpenMontage",
       "score": 0.0,
       "status": "待复核",
@@ -1957,6 +2085,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/tt-a1i/archify"
+        }
+      }
+    },
+    {
+      "name": "workweave/router",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-08-29",
+      "date_dir": "2026-08-29",
+      "filename": "workweave-router_0.0_2026-08-29.md",
+      "source_type": "github",
+      "description": "Model router for agentic systems. Routes every prompt to the right model in <50ms. Cut costs 40-70% with just an endpoint change.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Go"
+      ],
+      "link": "https://github.com/workweave/router",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/workweave/router"
         }
       }
     },
@@ -8777,38 +8937,6 @@
       }
     },
     {
-      "name": "addyosmani/agent-skills",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-08-16",
-      "date_dir": "2026-08-16",
-      "filename": "addyosmani-agent-skills_0.0_2026-08-16.md",
-      "source_type": "github",
-      "description": "Production-grade engineering skills for AI coding agents.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "JavaScript"
-      ],
-      "link": "https://github.com/addyosmani/agent-skills",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/addyosmani/agent-skills"
-        }
-      }
-    },
-    {
       "name": "unslothai/unsloth",
       "score": 0.0,
       "status": "待复核",
@@ -9773,6 +9901,7 @@
     "2026-08-29": [
       "CIFQA: A Deterministic Tool-Grounded Multi-Agent LLM Framework for Financial Query Answering",
       "Can a Model Catch Its Own Hallucinations for Free?: Label-Free Doubt Signals Hold Their Own Against a Labelled Dataset for Abstention",
+      "ComposioHQ/awesome-claude-skills",
       "DeflectBench: A Benchmark for Evaluating Rhetorical Fallacy Generation in LLMs",
       "DietrichGebert/ponytail",
       "EduRiskX: A Neuro-Symbolic Framework with F-Logic Reasoning for Early Academic Risk Prediction",
@@ -9799,6 +9928,7 @@
       "Methodological and Conceptual Framework for 5D Multi-Table Analysis: A Unified Approach for Complex Data Reuse",
       "Multi-Vector (Late Interaction) Embedding Models with Sentence Transformers",
       "Natural-Language Policies to Executable Decisions: An Interpretable Large Language Model Framework",
+      "Osmantic/ODS",
       "PICasso: An AI-Enabled Design Framework for Autonomous Optimization of Silicon Photonic Devices",
       "Quantization-Aware Healing: a compressed, 4-bit model that outperforms its full-precision original",
       "Recipes for Steering and Scaling LLMs via Sampling",
@@ -9814,6 +9944,7 @@
       "Show HN: Pickaxe – A TypeScript library for building AI agents",
       "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
       "Standalone LLM and a Pre-specified Agentic Pipeline for Explaining ICU Mortality Predictions: a Feasibility Study on the eICU Demo Dataset",
+      "THU-MAIC/OpenMAIC",
       "TelecomGPT-R1: A Unified Open-Source Reasoner for the Telecom Stack",
       "The Accuracy-Efficiency Paradox Quantifying Net Energy Loss in on-Device Energy Forecasting",
       "The Artificial Experimentalist: Discovery and Control of Self-Organizing Phenomena with Autotelic Reinforcement Learning",
@@ -9825,12 +9956,14 @@
       "Which India Survives Translation? Narrative Homogenisation Across Indian Oral Traditions in LLMs",
       "Wire It, Run It, Deploy It: AI Workflows in Gradio",
       "abhigyanpatwari/GitNexus",
+      "addyosmani/agent-skills",
       "calesthio/OpenMontage",
       "freestylefly/awesome-gpt-image-2",
       "livekit/agents",
       "rohitg00/ai-engineering-from-scratch",
       "tashfeenahmed/freellmapi",
-      "tt-a1i/archify"
+      "tt-a1i/archify",
+      "workweave/router"
     ],
     "2026-08-28": [
       "A Primer on Computational Semantics for Artificial Intelligence Systems",
