@@ -73,7 +73,7 @@ python3 scripts/build_static.py ./knowledge ./site/data
 |------|------|--------|
 | LLM_API_URL | LLM API 地址 | OpenRouter |
 | LLM_API_KEY | API Key | 必填 |
-| LLM_MODEL | 模型名 | z-ai/glm-5.1 |
+| LLM_MODEL | 模型名 | minimax/minimax-m3:free |
 | LLM_CONCURRENCY | LLM 分析并发数（越大越快，过大可能触发 API 限流） | 5 |
 | GITHUB_TOKEN | GitHub Token（可选，提升请求频率限制） | - |
 | GITHUB_MAX_PROJECTS | GitHub Trending 每次最多采集条数 | 10 |

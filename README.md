@@ -73,7 +73,7 @@ python3 scripts/build_static.py ./knowledge ./site/data
 |----------|-------------|---------|
 | LLM_API_URL | LLM API endpoint | OpenRouter |
 | LLM_API_KEY | API Key | Required |
-| LLM_MODEL | Model name | z-ai/glm-5.1 |
+| LLM_MODEL | Model name | minimax/minimax-m3:free |
 | LLM_CONCURRENCY | Concurrent LLM analysis requests (higher = faster, too high may hit rate limits) | 5 |
 | GITHUB_TOKEN | GitHub Token (optional, increases rate limit) | - |
 | GITHUB_MAX_PROJECTS | Max GitHub Trending projects per run | 10 |

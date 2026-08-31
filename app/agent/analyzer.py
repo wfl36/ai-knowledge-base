@@ -1,5 +1,6 @@
 """项目分析器 - 调用 OpenRouter API 进行三维评分"""
 
+import asyncio
 import json
 import logging
 import os
@@ -14,7 +15,10 @@ from .prompts import GITHUB_SYSTEM_PROMPT, get_system_prompt
 # 环境变量配置
 # ---------------------------------------------------------------------------
 DEFAULT_API_URL = "https://openrouter.ai/api/v1/chat/completions"
-DEFAULT_MODEL = "z-ai/glm-5.1"
+DEFAULT_MODEL = "minimax/minimax-m3:free"
+# 免费模型走上游共享池, 429 很常见, 失败后按 Retry-After 重试
+MAX_RETRIES = 3
+DEFAULT_RETRY_DELAY = 8.0
 
 # 向后兼容: 旧引用 analyzer.SYSTEM_PROMPT 仍可用(= github 提示词)
 SYSTEM_PROMPT = GITHUB_SYSTEM_PROMPT
@@ -112,19 +116,50 @@ class ProjectAnalyzer:
 
         try:
             if client is not None:
-                resp = await client.post(self.api_url, json=payload, headers=headers)
-                resp.raise_for_status()
-                data = resp.json()
+                resp = await self._post_with_retry(client, payload, headers)
             else:
                 async with httpx.AsyncClient(timeout=120.0, http2=False) as tmp_client:
-                    resp = await tmp_client.post(self.api_url, json=payload, headers=headers)
-                    resp.raise_for_status()
-                    data = resp.json()
+                    resp = await self._post_with_retry(tmp_client, payload, headers)
+            data = resp.json()
 
             content = data["choices"][0]["message"]["content"]
-            parsed = json.loads(content)
+            parsed = json.loads(self._strip_json_fence(content))
             return LLMRawResult(**parsed)
         except Exception as exc:
             # 记录异常但不抛出，返回 None 让上层处理
             logging.getLogger(__name__).error("LLM API 调用失败: %s", exc, exc_info=True)
             return None
+
+    @staticmethod
+    def _strip_json_fence(content: str) -> str:
+        """剥掉部分模型(尤其免费端点)包在 JSON 外的 ```json 围栏。"""
+        text = content.strip()
+        if text.startswith("```"):
+            text = text.split("\n", 1)[1] if "\n" in text else ""
+            if text.rstrip().endswith("```"):
+                text = text.rstrip()[:-3]
+        return text.strip()
+
+    async def _post_with_retry(
+        self,
+        client: httpx.AsyncClient,
+        payload: Dict[str, Any],
+        headers: Dict[str, str],
+    ) -> httpx.Response:
+        """发送请求，对 429/5xx 按 Retry-After 退避重试。"""
+        logger = logging.getLogger(__name__)
+        for attempt in range(MAX_RETRIES + 1):
+            resp = await client.post(self.api_url, json=payload, headers=headers)
+            if resp.status_code not in (429, 500, 502, 503) or attempt == MAX_RETRIES:
+                resp.raise_for_status()
+                return resp
+            try:
+                delay = float(resp.headers.get("Retry-After", DEFAULT_RETRY_DELAY))
+            except ValueError:
+                delay = DEFAULT_RETRY_DELAY
+            logger.warning(
+                "LLM API 返回 %s, %.0f 秒后重试 (%d/%d)",
+                resp.status_code, delay, attempt + 1, MAX_RETRIES,
+            )
+            await asyncio.sleep(delay)
+        raise RuntimeError("unreachable")
