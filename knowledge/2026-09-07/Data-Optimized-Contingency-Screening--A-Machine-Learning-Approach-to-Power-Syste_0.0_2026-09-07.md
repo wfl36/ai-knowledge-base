@@ -1,0 +1,29 @@
+# Data-Optimized Contingency Screening: A Machine Learning Approach to Power System Security
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-09-07  
+**来源：** rss  
+
+## 项目描述
+arXiv:2609.04300v1 Announce Type: new Abstract: Ensuring the security of the power system is essential for stability and reliability, especially in the event of disruption. Effective classification of contingency in power systems enables proactive decision-making and mitigates large-scale breakdowns and failures. This study explores the use of machine learning algorithms to classify security levels of contingencies in power systems into safe, moderate or severe classes. For this approach, Newton-Raphson load flow method extracts system data from contingency scenarios, using Overall Performance Index (OPI) as safety measure. For data pre-processing, Synthetic Minority Over-Sampling Technique (SMOTE) and Principal Component Analysis (PCA) is used to address class imbalance and reduce dimensionality, respectively. K-Nearest Neighbours (KNN), Random Forest (RF) and Support Vector Machines (SVM) is trained and evaluated on datasets generated through N-k contingency scenarios for k equal 1, 2, and 3 on IEEE-14 and IEEE-30 bus systems using four hybrid pre-processing configurations: normalized, SMOTE-balanced, PCA-transformed, and a combined SMOTE PCA-transformed. Performance is assessed by precision, recall and F1 score, with priority given to the severe contingency classes. The RF achieved the highest F1 scores of 0.97 in IEEE-30 and 0.86 in IEEE-14, SVM benefits significantly from PCA and improves the accuracy of the classification, while KNN is best suited for SMOTE and PCA conversion. The findings show that PCA contributes more than SMOTE to the overall performance of the model. However, SMOTE improves recall but can introduce false positives and is therefore a compromise of accuracy. This study highlights machine learning as a scalable and powerful alternative to traditional contingency analysis, which improves the assessment of security in real time.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2609.04300
