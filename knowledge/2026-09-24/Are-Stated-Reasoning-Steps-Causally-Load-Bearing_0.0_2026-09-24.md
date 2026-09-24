@@ -1,0 +1,29 @@
+# Are Stated Reasoning Steps Causally Load-Bearing?
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-09-24  
+**来源：** rss  
+
+## 项目描述
+arXiv:2609.27038v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring assumes that the reasoning a model writes reflects the computation that directly produces its answer. Previous faithfulness metrics have been predominantly behavioral, as they simply edit the reasoning text and observe the resulting answer. However, our methodology aims to measure faithfulness causally at the activation level, specifically on self-generated reasoning. Unlike previous causal audits, which measure degradation, our interventions carry a known predicted target. In this way, each patch should switch the answer to a specific counterfactual entity derivable by construction. Specifically, we use synthetic multi-hop lookup tasks (2-6 hops). We patch the residual stream at the token span where the model states each intermediate step with the corresponding activations from a counterfactual run. For Qwen3-4B, 76.9% +/- 2.8% of stated steps are causally load-bearing (CLB) at the most responsive mid-network layer (random-position null: 11.3%; patching the underlying prompt fact: 83%, so stated steps carry approximately 96% of the achievable effect). Moreover, the standard behavioral test on the same items yields 88.2%, which overstates causal faithfulness by 11.4 percentage points (item-matched; 111:14 discordant pairs, p < 1e-15) and, for the easiest items, by up to 20 percentage points. This gap also has a clear capability dimension. Qwen3-1.7B is far less causally faithful overall (54.8%), with its faithfulness collapsing as reasoning depth increases (68% at 2 hops to 30% at 6), while Qwen3-4B remains relatively flat. Although stated reasoning can be causally meaningful, standard behavioral tests tend to overestimate its causal faithfulness, particularly on easier examples where model reasoning appears most fluent.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2609.27038
