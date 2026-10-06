@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-06",
-  "total_projects": 279,
+  "total_projects": 282,
   "total_dates": 15,
   "dates": [
     "2026-10-06",
@@ -22,17 +22,17 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 279
+      "count": 282
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 204
+      "count": 205
     },
     {
       "name": "github",
-      "count": 55
+      "count": 57
     },
     {
       "name": "hackernews",
@@ -357,6 +357,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.02549"
+        }
+      }
+    },
+    {
+      "name": "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "Falcon-Emirati--When-an-LLM-Learns-the-Dialect--the-Culture--and-the-Nuance_0.0_2026-10-06.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/tiiuae/falcon-emirati",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/tiiuae/falcon-emirati"
         }
       }
     },
@@ -1065,6 +1097,38 @@
       }
     },
     {
+      "name": "NVIDIA/OpenShell",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "NVIDIA-OpenShell_0.0_2026-10-06.md",
+      "source_type": "github",
+      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Rust"
+      ],
+      "link": "https://github.com/NVIDIA/OpenShell",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/NVIDIA/OpenShell"
+        }
+      }
+    },
+    {
       "name": "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "score": 0.0,
       "status": "待复核",
@@ -1641,6 +1705,38 @@
       }
     },
     {
+      "name": "VectifyAI/PageIndex",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "VectifyAI-PageIndex_0.0_2026-10-06.md",
+      "source_type": "github",
+      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/VectifyAI/PageIndex",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/VectifyAI/PageIndex"
+        }
+      }
+    },
+    {
       "name": "Welcome RL Environments to the hub",
       "score": 0.0,
       "status": "待复核",
@@ -1701,6 +1797,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.02331"
+        }
+      }
+    },
+    {
+      "name": "ayghri/i-have-adhd",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "ayghri-i-have-adhd_0.0_2026-10-06.md",
+      "source_type": "github",
+      "description": "A skill to stop your coding agent from burying the answer. ADHD-friendly output.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/ayghri/i-have-adhd",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/ayghri/i-have-adhd"
         }
       }
     },
@@ -1769,6 +1897,38 @@
       }
     },
     {
+      "name": "deepseek-ai/DeepGEMM",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "deepseek-ai-DeepGEMM_0.0_2026-10-06.md",
+      "source_type": "github",
+      "description": "DeepGEMM: clean and efficient BLAS kernel library on GPU",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Cuda"
+      ],
+      "link": "https://github.com/deepseek-ai/DeepGEMM",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/deepseek-ai/DeepGEMM"
+        }
+      }
+    },
+    {
       "name": "earthtojake/text-to-cad",
       "score": 0.0,
       "status": "待复核",
@@ -1797,6 +1957,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/earthtojake/text-to-cad"
+        }
+      }
+    },
+    {
+      "name": "mattpocock/skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-06",
+      "date_dir": "2026-10-06",
+      "filename": "mattpocock-skills_0.0_2026-10-06.md",
+      "source_type": "github",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Shell"
+      ],
+      "link": "https://github.com/mattpocock/skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/mattpocock/skills"
         }
       }
     },
@@ -2181,38 +2373,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/affaan-m/ECC"
-        }
-      }
-    },
-    {
-      "name": "mattpocock/skills",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-10-03",
-      "date_dir": "2026-10-03",
-      "filename": "mattpocock-skills_0.0_2026-10-03.md",
-      "source_type": "github",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Shell"
-      ],
-      "link": "https://github.com/mattpocock/skills",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/mattpocock/skills"
         }
       }
     },
@@ -2661,38 +2821,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.00025"
-        }
-      }
-    },
-    {
-      "name": "NVIDIA/OpenShell",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-10-02",
-      "date_dir": "2026-10-02",
-      "filename": "NVIDIA-OpenShell_0.0_2026-10-02.md",
-      "source_type": "github",
-      "description": "OpenShell is the safe, private runtime for autonomous AI agents.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Rust"
-      ],
-      "link": "https://github.com/NVIDIA/OpenShell",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/NVIDIA/OpenShell"
         }
       }
     },
@@ -4677,38 +4805,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2609.30383"
-        }
-      }
-    },
-    {
-      "name": "VectifyAI/PageIndex",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-09-29",
-      "date_dir": "2026-09-29",
-      "filename": "VectifyAI-PageIndex_0.0_2026-09-29.md",
-      "source_type": "github",
-      "description": "📑 PageIndex: Document Index for Vectorless, Reasoning-based RAG",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Python"
-      ],
-      "link": "https://github.com/VectifyAI/PageIndex",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/VectifyAI/PageIndex"
         }
       }
     },
@@ -8981,6 +9077,7 @@
       "Counterexample Generation via Per-Theorem Symbolic Verifiers: When Imitation Hurts and Reinforcement Repairs",
       "DeReAct: Decomposed Reasoning and Acting for Reliable AI Agents",
       "Evaluating Multi-Dimensional Generalization of Large Language Models in Temporal Extraction Tasks",
+      "Falcon-Emirati: When an LLM Learns the Dialect, the Culture, and the Nuance",
       "Fast Models, Slow Evidence: A Paired and Self-Audited Evaluation of System-1 Decision Models for LLM Agent Harnesses",
       "FinDialogLens: Event Extraction over Multi-Party Dialogue for Missed-Trade Identification in Financial Chatrooms",
       "Finding the Move Is Not Winning the Game: XiangqiBench for Closed-Loop Evaluation of LLM Agents",
@@ -9003,6 +9100,7 @@
       "Learning When to Commit from Partial Speech for End-to-End Simultaneous Speech Translation",
       "MintFlow: Minimal Trajectory Intervention for Constrained Flow Matching",
       "NVIDIA Kumo Tabular Sets a New Accuracy-Efficiency Frontier for Tabular Prediction",
+      "NVIDIA/OpenShell",
       "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "Open-sourcing AstaBrief, the fast report-generation model in Asta",
       "Panniantong/Agent-Reach",
@@ -9021,11 +9119,15 @@
       "The AI Risk Observatory: What Can We Learn from AI Disclosures in Annual Reports About Societal Resilience?",
       "The Agent Said It Was Done. The Database Disagreed.",
       "Traversing the Satisfaction-Diversity Frontier in Text-to-Image Diffusion",
+      "VectifyAI/PageIndex",
       "Welcome RL Environments to the hub",
       "World Editing: Intervening on Executable Worlds at Increasing Depth",
+      "ayghri/i-have-adhd",
       "calesthio/OpenMontage",
       "cloudflare/cloudflare-os",
+      "deepseek-ai/DeepGEMM",
       "earthtojake/text-to-cad",
+      "mattpocock/skills",
       "msitarzewski/agency-agents",
       "pbakaus/impeccable",
       "rohitg00/ai-engineering-from-scratch",
