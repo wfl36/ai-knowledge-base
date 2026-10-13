@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-10-13",
-  "total_projects": 257,
+  "total_projects": 259,
   "total_dates": 14,
   "dates": [
     "2026-10-13",
@@ -21,17 +21,17 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 257
+      "count": 259
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 184
+      "count": 185
     },
     {
       "name": "github",
-      "count": 53
+      "count": 54
     },
     {
       "name": "hackernews",
@@ -1128,6 +1128,38 @@
       }
     },
     {
+      "name": "Run fast, private agents on-device with LFM2.5-24B-A2B",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-13",
+      "date_dir": "2026-10-13",
+      "filename": "Run-fast--private-agents-on-device-with-LFM2.5-24B-A2B_0.0_2026-10-13.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/LiquidAI/lfm25-24b-a2b",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/LiquidAI/lfm25-24b-a2b"
+        }
+      }
+    },
+    {
       "name": "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
       "score": 0.0,
       "status": "待复核",
@@ -1892,6 +1924,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/thedotmack/claude-mem"
+        }
+      }
+    },
+    {
+      "name": "vercel-labs/skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-10-13",
+      "date_dir": "2026-10-13",
+      "filename": "vercel-labs-skills_0.0_2026-10-13.md",
+      "source_type": "github",
+      "description": "The open agent skills tool - npx skills",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/vercel-labs/skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/vercel-labs/skills"
         }
       }
     },
@@ -8300,6 +8364,7 @@
       "Open TTS Leaderboard: Scalable Evaluation for Multilingual Text-to-Speech and Voice Cloning",
       "Reflective Prompt Optimization of a Deep-Research Agent: A Topic-Disjoint, Multi-Seed Protocol for Measuring Transferable Gains and Prompt-Level Overfitting",
       "Representation Alignment from a Few Paired Data via Distilled Optimal Transport",
+      "Run fast, private agents on-device with LFM2.5-24B-A2B",
       "SWE-Duel: Towards a Self-Scaling Arena for Coding Agents",
       "Self-Preservation in Language Models",
       "Show HN: A big tech dev experience for an open source CMS",
@@ -8323,7 +8388,8 @@
       "mksglu/context-mode",
       "open-webui/open-webui",
       "perturber: A Stateless Service for Semantics-Preserving Text Perturbations",
-      "thedotmack/claude-mem"
+      "thedotmack/claude-mem",
+      "vercel-labs/skills"
     ],
     "2026-10-11": [
       "AutoSynthData: Generating Training Data for Enterprise Agents",
