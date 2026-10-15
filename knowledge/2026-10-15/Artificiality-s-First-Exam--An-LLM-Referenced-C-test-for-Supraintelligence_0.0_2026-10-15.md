@@ -1,0 +1,29 @@
+# Artificiality's First Exam: An LLM-Referenced C-test for Supraintelligence
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-10-15  
+**来源：** rss  
+
+## 项目描述
+arXiv:2610.14005v1 Announce Type: new Abstract: Under the accelerated pace of AI development, any benchmark whose difficulty is calibrated with humans or current AI systems becomes circular, or saturates soon. How can we then evaluate machines that may become more capable than the current machines and the people who write the tests? One answer to the question hinges on inverse problems, inductive inference questions for which difficulty depends on the complexity of the underlying mechanism, given the observations and the previous knowledge. Levin's Kt, a computable variant of Kolmogorov complexity, puts a theoretical upper bound to that difficulty, balancing the simplest representation encoding for the mechanism and the logarithm of the time steps to run that mechanism. Previous tests derived from Levin's Kt, such as the original C-test, are based on minimalistic Universal Turing Machines (UTM), capable of very limited representations and no previous knowledge. Reasoning large language models (LLM) are UTMs that capture a compendium of human culture as knowledge, using prompts as natural language programs. This paper presents the first test based on Levin's Kt with LLMs as representational machines. Fresh test items can be produced at high difficulties, estimated in a ratio scale measured in bits, before any human or frontier model can solve them. We formalise the measure, devise a lightweight generation and certification pipeline, explore the effect of the power of the reference machine and the gap between examiner and examinee. We produce a first battery of certified items administered to twelve LLMs. The resulting agent characteristic curves decrease with difficulty, down to the uncharted high-difficulty region, the supra-intelligence window of items we can certify, yet beyond generations of frontier intelligence.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2610.14005

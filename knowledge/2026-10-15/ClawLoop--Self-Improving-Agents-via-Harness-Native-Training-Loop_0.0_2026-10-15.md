@@ -1,0 +1,29 @@
+# ClawLoop: Self-Improving Agents via Harness-Native Training Loop
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-10-15  
+**来源：** rss  
+
+## 项目描述
+arXiv:2610.14118v1 Announce Type: new Abstract: The rapid advancement of Large Language Models (LLMs) has driven their deployment toward general-purpose harness environments, where LLM-based agents operate in sandbox workspaces and interact directly with file systems and shells. While numerous post-training pipelines exist for tool-use agents, their counterparts for harness-based agents remain scarce and are predominantly one-shot and teacher-dependent: a stronger external model synthesizes tasks and collects trajectories, the target agent is trained once, and evaluation results are consumed by human researchers rather than fed back into the loop. Such pipelines are inherently bounded by the capability of the external model and the scope of human prior, leaving no room for self-improvement. To address these limitations, we propose ClawLoop, a framework that enables self-improving without any external teacher model and with minimal prior dependencies. ClawLoop composes three phases into a self-sustaining cycle: Task Synthesis, which generates a diverse pool of training tasks via two complementary construction routines, applies diagnosis-conditioned difficulty growth followed by both agent-free and agent-based task validation; Training, which updates the agent via SFT and/or RL; and Diagnosis and Feedback, which analyzes the agent's rollout behaviors to produce a capability analysis report that will be used as feedback for task synthesis in the next iteration. Using Qwen3.6-27B as the loop model, ClawLoop yields consistent improvements on SkillsBench, Claw-Eval-Live, and ClawGym-Bench. The iteratively refined tasks are further transferred to smaller-scale Qwen3.5-4B and 9B models with gains across all benchmarks, validating data quality independently of the loop model.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2610.14118
