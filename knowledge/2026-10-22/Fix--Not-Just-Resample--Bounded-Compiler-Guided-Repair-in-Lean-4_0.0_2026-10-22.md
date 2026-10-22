@@ -1,0 +1,29 @@
+# Fix, Not Just Resample: Bounded Compiler-Guided Repair in Lean 4
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-10-22  
+**来源：** rss  
+
+## 项目描述
+arXiv:2610.26942v1 Announce Type: new Abstract: Automated theorem provers often rely on sampling language models, but proof assistants like Lean reject each failed step with a precise error message --- information that pure sampling discards. To overcome this, we introduce a bounded, online step-level repair module. Our search samples $K$ candidate tactics at each step and repairs a failed tactic at most $R$ times. Instead of discarding failed tactics, we feed the compiler's error message to a pretrained repair model to fix individual rejected steps in place. This approach improves the solve rate over a sampling-only baseline across all tested candidate budgets ($K \in \{1,3,5,8\}$), achieving up to a $32\%$ relative gain and solving $82$ additional theorems on a $1{,}990$-theorem subset of the LeanDojo benchmark. Repair is not free: it trades extra runtime for reachable proofs. But the trade is predictable: repair pays most when sampling is constrained; its return is front-loaded, with the first repair attempt capturing $84\text{--}96\%$ of the total gain; and the gain comes almost entirely from shallow tactic-execution failures rather than structural errors such as type mismatches. This targeted repair successfully replicates on a second benchmark (Lean Workbook), nearly doubling the solve rate with zero regressions.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2610.26942
