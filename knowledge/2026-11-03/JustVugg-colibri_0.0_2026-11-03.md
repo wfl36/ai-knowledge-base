@@ -7,7 +7,7 @@
 **来源：** github  
 
 ## 项目描述
-Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦
+A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.
 
 ## 综合总结
 LLM 调用失败或响应解析失败

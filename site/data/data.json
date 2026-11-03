@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-03",
-  "total_projects": 257,
+  "total_projects": 273,
   "total_dates": 15,
   "dates": [
     "2026-11-03",
@@ -22,17 +22,17 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 257
+      "count": 273
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 183
+      "count": 197
     },
     {
       "name": "github",
-      "count": 54
+      "count": 56
     },
     {
       "name": "hackernews",
@@ -69,6 +69,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40930"
+        }
+      }
+    },
+    {
+      "name": "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Agentic-World-Modeling-for-Agent-Test-time-Scaling-without-Environment-Replica_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40927v1 Announce Type: new Abstract: Test-time scaling (TTS) improves large language model agents by sampling and selecting among multiple candidate trajectories, but common realizations assume that these trajectories can be executed in parallel. This assumption breaks in realistic deployments, where enterprise workspaces and cloud services are shared and persistent, costly or infeasible to replicate, and actions may introduce irreversible side effects or cross-trajectory interference. Existing generative world models avoid direct execution, but typically compress environment state into a single prompt, limiting their ability to reliably simulate transitions under partial observability. Instead, we introduce Agentic World Modeling (AWM), which reformulates next-observation prediction as a multi-turn evidence-acquisition task. For each hypothetical action, an agentic simulator adaptively queries the real environment through safe read-only interfaces, reasons over the returned evidence, and uses executable computation to construct the resulting observation without mutating shared state. Integrated with trajectory-level TTS, AWM enables parallel exploration over a single shared environment. Across $\\tau$-bench, AppWorld, and OfficeBench, AWM outperforms a single-shot simulation baseline by 40.07% on average, and surpasses a trained world-model baseline by 12.36% on average. These results establish interactive, read-grounded simulation as a practical foundation for safe and scalable agentic test-time scaling in shared, non-resettable environments.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40927",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40927"
         }
       }
     },
@@ -137,6 +169,38 @@
       }
     },
     {
+      "name": "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Beyond-Plausible-Prediction--Safety-Sufficiency-in-Web-World-Models_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40798v1 Announce Type: new Abstract: Web world models increasingly predict the consequences of candidate actions before agents act, yet a plausible predicted future does not necessarily support the correct safety decision. In a matched human evaluation of 3,000 predictions from ten frozen open models, 86.1% are judged semantically plausible. However, several models exhibit highly asymmetric authorisation behaviour, combining low false-safe execution with poor recall of clarifiable ASK cases and a strong preference for BLOCK. This motivates safety sufficiency: whether a predictive interface preserves and exposes the policy-decisive information required to distinguish actions that may be EXECUTED, require clarification through ASK, or should be BLOCKED. We introduce SafeWebWorld, a benchmark for evaluating safety sufficiency across five web-safety domains through action-conditioned futures, policy-decisive evidence, and policy-conditioned decisions. Under a controlled Security-Aligned Supervised Fine-Tuning protocol, evidence preservation can improve substantially while authorisation-sensitive decisions deteriorate. To determine whether this deterioration reflects loss of authorisation-sensitive score structure or a failure of the decision readout, we introduce Latent Authorisation Recovery (LAR). Frozen-score recalibration reveals substantial but backbone-dependent recovery, while paired recovery provides only a modest additional gain. Yet within-family and matched-authorisation evaluations remain poor, showing that aggregate recoverability does not imply robust fine-grained authorisation behaviour. Overall, plausible prediction, evidence preservation, and aggregate recovery are each insufficient on their own to establish robust authorisation.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40798",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40798"
+        }
+      }
+    },
+    {
       "name": "Build specialized multimodal models with LFM3",
       "score": 0.0,
       "status": "待复核",
@@ -165,6 +229,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/LiquidAI/lfm3"
+        }
+      }
+    },
+    {
+      "name": "CWE-bench v2: More coverage, quality, and transparency",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "CWE-bench-v2--More-coverage--quality--and-transparency_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/cwe-bench",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/cwe-bench"
         }
       }
     },
@@ -201,6 +297,70 @@
       }
     },
     {
+      "name": "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "ChatGPT-as-a-Surveillance-Assistant--An-Exploratory-Case-Study-of-AI-Assisted-Su_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40890v1 Announce Type: new Abstract: Large language models (LLMs) can generate detailed guidance, functional code, and persuasive text at scale. As one of the most widely used consumer language model products as of 2026, ChatGPT gives broad public access to these capabilities, motivating concerns about its potential use in surveillance-related tasks. We present an exploratory case study of what potentially harmful surveillance assistance looks like in ChatGPT's public web interface. We contribute a taxonomy of seven surveillance risk categories based on prior LLM risk research and reports of deployed surveillance systems, instantiated as 110 prompts, along with a manually reviewed analysis of ChatGPT's responses. Prompts were issued using two approaches: 55 jailbreak prompts drawing on five types of elicitation strategies, and 55 plain-language direct prompts, each run alone, and if unsuccessful, again with a short fixed prefix. We find that ChatGPT provides substantive surveillance guidance for 40 of the 55 jailbreak prompts and for 33 of the 55 direct prompts without any prefix. Compliant responses also rarely included policy mentions or suggestions for privacy-preserving alternatives. We manually review every response and find that even when ChatGPT states a refusal, it may still supply detailed instructions, working code, or architectural guidance alongside brief ethical caveats.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40890",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40890"
+        }
+      }
+    },
+    {
+      "name": "Circumventing the Computational Hardness of Computational Arbitrage",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Circumventing-the-Computational-Hardness-of-Computational-Arbitrage_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40831v1 Announce Type: new Abstract: AI model marketplaces host providers with heterogeneous costs and capabilities. These differences create an opportunity for computational arbitrage (Olmedo et al., 2026), in which an intermediary purchases inference from a portfolio of models and resells it to users at a profit. Beyond creating profit opportunities for the arbitrageur, computational arbitrage offers financial value to both consumers and providers and could therefore significantly influence AI model markets. While prior work empirically demonstrates the feasibility of computational arbitrage for small model pools, scaling it to large marketplaces requires arbitrage strategies that are both computationally tractable and inexpensive to identify and deploy. In this work, we formalize computational arbitrage as an allocation problem and prove that it is generally NP-hard. However, we show that the optimal allocation can be computed efficiently under a natural diminishing-returns condition on how model performance scales with inference spending. We further develop a sample-efficient method for estimating model performance from limited data, reducing the upfront cost of identifying arbitrage strategies. Our analysis also yields several economic insights: at the optimum, every funded model delivers the same marginal utility per dollar; arbitrage directs revenue away from providers offering little utility relative to their prices; and it rewards complementary specialization.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40831",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40831"
+        }
+      }
+    },
+    {
       "name": "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
       "score": 0.0,
       "status": "待复核",
@@ -233,6 +393,38 @@
       }
     },
     {
+      "name": "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "DiRAFT--Privacy-Aware-Financial-Transcript-Synthesis-from-Aggregate-Discourse-Pr_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40938v1 Announce Type: new Abstract: Using customer conversations to train and evaluate financial language models raises confidentiality concerns because non-public financial facts can remain after direct identifiers are masked. Synthetic transcripts offer an alternative data source, but their discourse fidelity and residual confidentiality risks require assessment. We introduce DiRAFT (Discourse Realization from Aggregate First-order Transitions), which extracts financial concept graphs and records the order in which concepts are first introduced. It pools adjacent concept transitions across training records and samples new graph plans from aggregate transition, starting-concept, and plan-length priors. A discourse layer guides text realization without supplying an individual source passage or graph. We assess privacy-related risks through two complementary evaluations: corpus-level structural overlap and source-grounded checks for specific non-public investor facts. The structural assessment covers two financial corpora and three generation backends. The confidential-fact assessment uses human review of 1,400 investor-call outputs across seven strategies and two backends. We also evaluate transition fidelity, content recoverability, and trajectory diversity. Stochastic sampling provides a favorable balance between transition fidelity and structural overlap, with consistent advantages over greedy and top-3 on investor calls. The confidential-fact assessment likewise detects fewer matches for stochastic sampling than these alternatives on both backends covered by the fact assessment. These complementary assessments provide empirical evidence on residual confidentiality risks without establishing a formal guarantee.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40938",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40938"
+        }
+      }
+    },
+    {
       "name": "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
       "score": 0.0,
       "status": "待复核",
@@ -261,6 +453,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40996"
+        }
+      }
+    },
+    {
+      "name": "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Does-Recursive-Knowledge-Construction-Help-Agents-Verify-Consensus-Claims-in-Sci_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40906v1 Announce Type: new Abstract: Recent scientific agents build knowledge recursively by retrieving evidence, constructing an intermediate state, and judging whether that state contains sufficient information. These agents are evaluated end-to-end, usually without ground truth, so the effect of each design choice is unknown. Here, we examined two design axes: (1) what the recursion builds (the state of evidence) and (2) what controls it (the judge that decides when to stop). To measure them, we defined consensus scientific claim verification and measured these effects on this task, where a system must establish a claim's consensus stance from the open literature. We built a new consensus claim dataset, ProClaim-eval, including 718 claims with SUPPORT and REFUTE gold labels from five expert-curated databases spanning molecular biology, nuclear physics, and astronomy. Our instrument, ProClaim, persists an evidence state outside the model's context, so each axis can be studied with the other held fixed. Against verification systems and general-purpose agent harnesses, ProClaim ranks among the top three, with a significant advantage over the harnesses. We found that the evidence state improves performance over in-context accumulation, and it also matters what is stored in it. In addition, a trained judge that reads the evidence state performs better than fixed-round stopping. A judge trained separately and never exposed to ProClaim-eval achieves the highest agreement with the gold labels on three of five subsets, where it matches the off-the-shelf Claude Sonnet~4.6 judge and outperforms Claude Haiku~4.5. Our results support recursively maintaining a structured evidence state outside the model's context as an effective design for verifying claims in scientific agents.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40906",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40906"
         }
       }
     },
@@ -457,6 +681,38 @@
       }
     },
     {
+      "name": "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Incongruence-Aware-Evaluation-of-Multimodal-Speech-Emotion-Recognition-in-Audio-_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40883v1 Announce Type: new Abstract: Voice-interactive large language models process both what a speaker says and how they say it, yet the two channels do not always agree. We ask whether that disagreement degrades speech emotion recognition. Mapping text and audio into a shared valence-arousal-dominance space, we convert the distance between them into a continuous, threshold-free incongruence score with a two-component Gaussian mixture, and validate the score against human judgement. We evaluate three audiocapable models on acted, conversational and spontaneous speech (eNTERFACE'05, MELD and CMU-MOSEI). With the model held constant across modalities, incongruence raises the odds of error whenever audio is present, in every corpus, after controlling for the ground-truth emotion and for distance in the feature space. Supervised classifiers trained on the same features behave in the opposite way, which suggests that the difficulty lies in how these models combine raw evidence rather than in the signal itself. Text-only effects are unreliable: swapping only the model that reads the transcript reverses their sign on one corpus. Rebuilding the score without the emotion lexicon reproduces the central result, and among six simpler alternatives it is the only label-free score that predicts error in all three corpora. Code, data tables and prompts are released.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40883",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40883"
+        }
+      }
+    },
+    {
       "name": "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
       "score": 0.0,
       "status": "待复核",
@@ -499,7 +755,7 @@
       "date_dir": "2026-11-03",
       "filename": "JustVugg-colibri_0.0_2026-11-03.md",
       "source_type": "github",
-      "description": "Run frontier MoE models on hardware you already own — pure C, zero deps, experts streamed from disk. Tiny engine, immense model. 🐦",
+      "description": "A hierarchical inference engine for frontier MoE models: hot experts on the GPU (CUDA, Vulkan), warm ones in RAM, cold ones streamed from NVMe. Written in C, runs on the hardware you already own.",
       "summary": "LLM 调用失败或响应解析失败",
       "tech_stack": [
         "C"
@@ -905,6 +1161,70 @@
       }
     },
     {
+      "name": "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "More-Rules--Longer-Lists--Benchmarking-Self-Evolving-Agents-on-a-Hidden-Rule-Cur_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40758v1 Announce Type: new Abstract: Self-evolving agents rewrite a persistent state from feedback, but it is largely untested whether this lets them learn a rule nobody told them. An agent can also pass by writing down each correction as an exception, and its list then grows with every new rule. We introduce CLR-Bench, a Curriculum of Latent Rules benchmark. Each chain adds one hidden rule per level on top of the earlier ones. A rule acts on an opaque label that stands for a named grouping published on the Web, such as the founding members of an airline alliance. The task gives one example value, practice feedback reveals one more member and one non-member, and the test checks unseen members and similar non-members. Probes certify that the base model knows the members of each grouping and does not guess it without feedback, and that the evidence identifies the grouping once labels are read as named groupings. An automated pipeline builds chains from a new data domain, and we release 20 chains over 10 domains. We evaluate six recent self-evolution methods. With the certifying model they barely learn. The best gain at most 5 points over a frozen agent and exclude only 6-12% of the unseen members from the count, fewer than the 20% reached by simply keeping the raw practice history. A fixed lesson that states the named-grouping convention lifts the same methods by 14.5 to 16.5 points. Their states hold the revealed member in 75-98% of cases and almost never the class name, and when practice exposes a member the list misses, they add that member to the list. With the stronger GPT-6-Sol, ACE and Dynamic Cheatsheet learn from feedback alone. They reach 78% accuracy and solve 59-60% of the single cells, against 53% and 8% with the certifying model, and they surpass the raw history. CLR-Bench therefore measures how well an agent learns, and this ability differs across models.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40758",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40758"
+        }
+      }
+    },
+    {
+      "name": "Palette: teaching a small model to build decks in your design language",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Palette--teaching-a-small-model-to-build-decks-in-your-design-language_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/ibm-research/palette-deck-building",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/ibm-research/palette-deck-building"
+        }
+      }
+    },
+    {
       "name": "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
       "score": 0.0,
       "status": "待复核",
@@ -1289,6 +1609,70 @@
       }
     },
     {
+      "name": "StateBench: Testing how language models track state changes over long documents",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "StateBench--Testing-how-language-models-track-state-changes-over-long-documents_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/allenai/statebench",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/allenai/statebench"
+        }
+      }
+    },
+    {
+      "name": "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "The-First-Few-Tokens-Matter--Understanding-Chain-of-Thought-Controllability_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40939v1 Announce Type: new Abstract: Chain-of-thought (CoT) monitoring is a promising way to oversee increasingly capable agents. It succeeds in part because current models appear limited in their ability to control what they verbalize in their reasoning traces. We investigate the source of this limitation and link it to an entropy collapse in the first few tokens following the opening thinking tag. We exploit this mechanism to recover CoT controllability through two inference-time interventions on initial tokens: prefilling, where even a single token can substantially increase controllability, and banning frequent opening tokens combined with in-context examples, which improves average compliance by 34-41 percentage points across models. These interventions recover mainly addition and style controllability (adding or transforming information), while suppression controllability (avoiding or removing information) exhibits more varied responses, suggesting distinct underlying mechanisms. Consistent with this, the two groups behave as separate capabilities: across models, performance correlates positively within these groups, while cross-group correlations are mostly negative. Importantly, we find that the relationship with monitorability depends on the evaluation: addition and style controllability more consistently positively correlate with monitorability, while suppression often shows negative associations. Our findings motivate the development of controllability evaluations that distinguish difficulty initiating a specific opening from general limitations of the ability to alter reasoning content, alongside separate reporting of control tasks and categories.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40939",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40939"
+        }
+      }
+    },
+    {
       "name": "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
       "score": 0.0,
       "status": "待复核",
@@ -1321,6 +1705,70 @@
       }
     },
     {
+      "name": "Towards Portable Specification of the Agent Harness",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Towards-Portable-Specification-of-the-Agent-Harness_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "arXiv:2610.40917v1 Announce Type: new Abstract: Large language models act only through the infrastructure that surrounds them. That infrastructure, the harness, determines what a model can accomplish and how it fails, yet it has no settled definition. To address this gap, we decompose the harness into eight functional components that can be specified and compared across systems, and we propose a portable specification framework that records which model ran in which harness. The record is needed because different harness configurations can yield several-fold differences in reported scores for the same model, and because much of an agent's attack surface lies in its harness. Existing model cards and agent cards provide release and operational information, but do not establish the sequence of effective configurations within a run. Harnesses can change between releases and between runs, and, where agents edit their own tools and configuration, within a run. Enacted AI laws contain documentation duties relevant to covered systems, subject to their respective scopes and application dates, but do not prescribe the common harness record proposed here. Therefore, the harness has to be explicitly described and specified as a versioned part of the system.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://arxiv.org/abs/2610.40917",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://arxiv.org/abs/2610.40917"
+        }
+      }
+    },
+    {
+      "name": "Transformers Model Integration Contracts",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Transformers-Model-Integration-Contracts_0.0_2026-11-03.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/transformers-mic",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/transformers-mic"
+        }
+      }
+    },
+    {
       "name": "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
       "score": 0.0,
       "status": "待复核",
@@ -1349,6 +1797,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/microsoft/thinkingbox-training"
+        }
+      }
+    },
+    {
+      "name": "Usagi-org/ai-goofish-monitor",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "Usagi-org-ai-goofish-monitor_0.0_2026-11-03.md",
+      "source_type": "github",
+      "description": "基于 Playwright 和AI实现的闲鱼多任务实时/定时监控与智能分析系统，配备了功能完善的后台管理UI。帮助用户从闲鱼海量商品中，找到心仪产品。",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/Usagi-org/ai-goofish-monitor",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/Usagi-org/ai-goofish-monitor"
         }
       }
     },
@@ -1573,6 +2053,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/shiyu-coder/Kronos"
+        }
+      }
+    },
+    {
+      "name": "spotify/portal-ai-plugins",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-03",
+      "date_dir": "2026-11-03",
+      "filename": "spotify-portal-ai-plugins_0.0_2026-11-03.md",
+      "source_type": "github",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/spotify/portal-ai-plugins",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/spotify/portal-ai-plugins"
         }
       }
     },
@@ -8268,18 +8780,26 @@
   "projects_by_date": {
     "2026-11-03": [
       "Adaptive Personalization Under Preference Epistemic Uncertainty",
+      "Agentic World Modeling for Agent Test-time Scaling without Environment Replica",
       "Announcing Project ProtoStar: Making Publicly Funded Science AI-Ready",
       "Better Retrievers, Worse Labels: How Incomplete Relevance Judgments Distort Abstention Evaluation in Conversational RAG",
+      "Beyond Plausible Prediction: Safety Sufficiency in Web World Models",
       "Build specialized multimodal models with LFM3",
+      "CWE-bench v2: More coverage, quality, and transparency",
       "Can we trust LLMs to judge whether a research idea is novel?",
+      "ChatGPT as a Surveillance Assistant? An Exploratory Case Study of AI-Assisted Surveillance Risks",
+      "Circumventing the Computational Hardness of Computational Arbitrage",
       "CoFiBreak: A Coarse-to-Fine Diversity Reward for Effective Multi-Turn Jailbreak",
+      "DiRAFT: Privacy-Aware Financial Transcript Synthesis from Aggregate Discourse Priors",
       "Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali",
+      "Does Recursive Knowledge Construction Help Agents Verify Consensus Claims in Science?",
       "Does Your Model Run on AWS Trainium? Look It Up",
       "Donchitos/Claude-Code-Game-Studios",
       "Ensemble forecasting with IBM Granite time-series models",
       "Fewer Heads, Fewer Memories: Pruning Redundant Attention Heads Suppresses Verbatim Memorisation",
       "FlashML-org/FreeToken",
       "Granite Switch 4.1.1 — Update models like you update software",
+      "Incongruence-Aware Evaluation of Multimodal Speech Emotion Recognition in Audio Large Language Models",
       "Introducing AnySpeechRecognizer and AnyDecisionModel: Open Models for Speech and Decisions on Apple Platforms",
       "JustVugg/colibri",
       "Language Models Show Conformity Bias in RAG: When the Majority Endorses a Poisoned Claim",
@@ -8294,6 +8814,8 @@
       "Launch HN: Tinfoil (YC P25): Verifiable Privacy for Cloud AI",
       "Li$^{2}$SAO: Lifting Light Singl-Rollout Asynchronous RL Optimization via Group-Relative Actor-Critic Bootstrapping",
       "Mage-VL-Cowork: A Full Training Recipe to Learn Hybrid Computer Use From Evolved Harnesses",
+      "More Rules, Longer Lists? Benchmarking Self-Evolving Agents on a Hidden-Rule Curriculum",
+      "Palette: teaching a small model to build decks in your design language",
       "Qistas: A Pre-Registered, Portable Protocol for Fairness Evaluation of Large Language Models",
       "Show HN: A big tech dev experience for an open source CMS",
       "Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner",
@@ -8306,8 +8828,13 @@
       "Show HN: Nomadic – Minimize RAG Hallucinations with 1 Hyperparameter Experiment",
       "Show HN: Pickaxe – A TypeScript library for building AI agents",
       "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
+      "StateBench: Testing how language models track state changes over long documents",
+      "The First Few Tokens Matter: Understanding Chain-of-Thought Controllability",
       "The Generative Gap Between Speculative Drafter and Continuous Diffusion Language Model",
+      "Towards Portable Specification of the Agent Harness",
+      "Transformers Model Integration Contracts",
       "Turning Database Grading into RL Rewards: Post-Training Agents with ThinkingBox",
+      "Usagi-org/ai-goofish-monitor",
       "Welcome Le Chonk: Mistral Large 4 on Hugging Face",
       "kornia/kornia",
       "mattpocock/skills",
@@ -8315,6 +8842,7 @@
       "nemotron-halloween",
       "p-e-w/heretic",
       "shiyu-coder/Kronos",
+      "spotify/portal-ai-plugins",
       "thedotmack/claude-mem",
       "vercel-labs/agent-desktop"
     ],
