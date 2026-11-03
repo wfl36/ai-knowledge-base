@@ -1,0 +1,29 @@
+# Do Open Language Models Invent Scripture? BILAL-BENCH: Benchmarking Islamic-Source Fabrication in Bengali
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-11-03  
+**来源：** rss  
+
+## 项目描述
+arXiv:2610.40996v1 Announce Type: new Abstract: When a language model invents a Qur'anic verse or hadith, it gives false authority to text that readers may treat as sacred. Existing Islamic hallucination benchmarks are largely Arabic and often closed-ended, while Bengali resources mainly study general-domain hallucination or factual knowledge. We introduce BILAL-BENCH, a 240-question expert-verified benchmark for open-ended Islamic-source fabrication in Bengali. It covers Qur'anic attribution, hadith, fiqh, contemporary issues, and adversarial false-premise prompts, and uses a two-axis rubric that separates source errors from assertiveness. We evaluate seven open-weight models from 1B to 120B on 1,680 double-annotated responses. Six of the seven models confidently fabricate on 79.3-95.3% of source-production questions, with no monotonic improvement from scale. Hadith provenance is the weakest category across models: only two of 315 responses are correct and correctly sourced. The two 8B BanglaLLaMA variants have similar confident-fabrication rates but different error profiles. Models vary far more in whether they withhold a claim they cannot support than in source accuracy: appropriate abstention or false-premise correction ranges from 6 to 46 responses across the benchmark, and does not track parameter count.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2610.40996
