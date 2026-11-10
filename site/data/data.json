@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-10",
-  "total_projects": 249,
+  "total_projects": 252,
   "total_dates": 14,
   "dates": [
     "2026-11-10",
@@ -21,17 +21,17 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 249
+      "count": 252
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 179
+      "count": 181
     },
     {
       "name": "github",
-      "count": 50
+      "count": 51
     },
     {
       "name": "hackernews",
@@ -168,6 +168,38 @@
       }
     },
     {
+      "name": "Decision Models in Hugging Face",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-10",
+      "date_dir": "2026-11-10",
+      "filename": "Decision-Models-in-Hugging-Face_0.0_2026-11-10.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/decision",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/decision"
+        }
+      }
+    },
+    {
       "name": "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "score": 0.0,
       "status": "待复核",
@@ -196,6 +228,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/Dharma-AI/dharma-field-extractor"
+        }
+      }
+    },
+    {
+      "name": "Donchitos/Claude-Code-Game-Studios",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-10",
+      "date_dir": "2026-11-10",
+      "filename": "Donchitos-Claude-Code-Game-Studios_0.0_2026-11-10.md",
+      "source_type": "github",
+      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Shell"
+      ],
+      "link": "https://github.com/Donchitos/Claude-Code-Game-Studios",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/Donchitos/Claude-Code-Game-Studios"
         }
       }
     },
@@ -772,6 +836,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/ibm-research/palette-deck-building"
+        }
+      }
+    },
+    {
+      "name": "Pay for Hugging Face Hub with your Google Cloud Account",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-10",
+      "date_dir": "2026-11-10",
+      "filename": "Pay-for-Hugging-Face-Hub-with-your-Google-Cloud-Account_0.0_2026-11-10.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/hub-gcp-marketplace",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/hub-gcp-marketplace"
         }
       }
     },
@@ -1384,6 +1480,38 @@
       }
     },
     {
+      "name": "addyosmani/agent-skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-10",
+      "date_dir": "2026-11-10",
+      "filename": "addyosmani-agent-skills_0.0_2026-11-10.md",
+      "source_type": "github",
+      "description": "Production-grade engineering skills for AI coding agents.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "JavaScript"
+      ],
+      "link": "https://github.com/addyosmani/agent-skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/addyosmani/agent-skills"
+        }
+      }
+    },
+    {
       "name": "anthropics/skills",
       "score": 0.0,
       "status": "待复核",
@@ -1476,6 +1604,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/homeassistant-ai/ha-mcp"
+        }
+      }
+    },
+    {
+      "name": "mattpocock/skills",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-10",
+      "date_dir": "2026-11-10",
+      "filename": "mattpocock-skills_0.0_2026-11-10.md",
+      "source_type": "github",
+      "description": "Skills for Real Engineers. Straight from my .agents directory.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Shell"
+      ],
+      "link": "https://github.com/mattpocock/skills",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/mattpocock/skills"
         }
       }
     },
@@ -1672,38 +1832,6 @@
       }
     },
     {
-      "name": "Donchitos/Claude-Code-Game-Studios",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-11-08",
-      "date_dir": "2026-11-08",
-      "filename": "Donchitos-Claude-Code-Game-Studios_0.0_2026-11-08.md",
-      "source_type": "github",
-      "description": "Turn Claude Code into a full game dev studio — 49 AI agents, 72 workflow skills, and a complete coordination system mirroring real studio hierarchy.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Shell"
-      ],
-      "link": "https://github.com/Donchitos/Claude-Code-Game-Studios",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/Donchitos/Claude-Code-Game-Studios"
-        }
-      }
-    },
-    {
       "name": "New NVIDIA Cosmos 3 Open Models for Interactive World Simulation",
       "score": 0.0,
       "status": "待复核",
@@ -1796,38 +1924,6 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/dsx-ai-factory/nvke"
-        }
-      }
-    },
-    {
-      "name": "mattpocock/skills",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-11-08",
-      "date_dir": "2026-11-08",
-      "filename": "mattpocock-skills_0.0_2026-11-08.md",
-      "source_type": "github",
-      "description": "Skills for Real Engineers. Straight from my .agents directory.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "Shell"
-      ],
-      "link": "https://github.com/mattpocock/skills",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/mattpocock/skills"
         }
       }
     },
@@ -8014,7 +8110,9 @@
       "CWE-bench v2: More coverage, quality, and transparency",
       "Compression of Emotion in Language Model Representations",
       "Contextuality and Contradictions: Exploring Real-World Identifications of AI-Generated Writing",
+      "Decision Models in Hugging Face",
       "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
+      "Donchitos/Claude-Code-Game-Studios",
       "Egyptian and Nigerian English join the Open ASR Leaderboard",
       "FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction",
       "Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP",
@@ -8033,6 +8131,7 @@
       "NVIDIA/auto-ontology",
       "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "Palette: teaching a small model to build decks in your design language",
+      "Pay for Hugging Face Hub with your Google Cloud Account",
       "RL-ATTACK: A Generalized Black-Box Adversarial Attack on Language Models via Reinforcement Learning",
       "Richness Is Not Evenness: Ordered Renyi Crossings under Self-Training",
       "Semantic Conditional Similarity (SCS): A Formal Mathematical Framework",
@@ -8052,9 +8151,11 @@
       "Transformers Model Integration Contracts",
       "Your Experts Have Partners. There's HOPE for Keeping Them Together",
       "ZhuLinsen/daily_stock_analysis",
+      "addyosmani/agent-skills",
       "anthropics/skills",
       "garrytan/gbrain",
       "homeassistant-ai/ha-mcp",
+      "mattpocock/skills",
       "max-sixty/worktrunk",
       "meta/astryx",
       "thedotmack/claude-mem",

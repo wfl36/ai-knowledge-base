@@ -5,16 +5,16 @@
 
 | # | 项目名称 | 评分 | 标签 | 状态 | 更新日期 | 链接 |
 |---|---------|------|------|------|---------|------|
-| 1 | anthropics/skills | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/anthropics/skills) |
-| 2 | meta/astryx | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/meta/astryx) |
-| 3 | garrytan/gbrain | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/garrytan/gbrain) |
-| 4 | vercel-labs/agent-browser | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/vercel-labs/agent-browser) |
-| 5 | ZhuLinsen/daily_stock_analysis | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/ZhuLinsen/daily_stock_analysis) |
-| 6 | homeassistant-ai/ha-mcp | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/homeassistant-ai/ha-mcp) |
+| 1 | meta/astryx | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/meta/astryx) |
+| 2 | anthropics/skills | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/anthropics/skills) |
+| 3 | addyosmani/agent-skills | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/addyosmani/agent-skills) |
+| 4 | homeassistant-ai/ha-mcp | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/homeassistant-ai/ha-mcp) |
+| 5 | vercel-labs/agent-browser | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/vercel-labs/agent-browser) |
+| 6 | mattpocock/skills | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/mattpocock/skills) |
 | 7 | NVIDIA/auto-ontology | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/NVIDIA/auto-ontology) |
 | 8 | vercel-labs/agent-desktop | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/vercel-labs/agent-desktop) |
 | 9 | max-sixty/worktrunk | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/max-sixty/worktrunk) |
-| 10 | thedotmack/claude-mem | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/thedotmack/claude-mem) |
+| 10 | Donchitos/Claude-Code-Game-Studios | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/Donchitos/Claude-Code-Game-Studios) |
 | 11 | Forcing a Letter Suppresses Refusal: Mechanistic Evidence from WMDP | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08639) |
 | 12 | FinEvolveKG: Controlled and Attributable Prompt Evolution for Financial Knowledge Graph Construction | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08643) |
 | 13 | Compression of Emotion in Language Model Representations | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08683) |
@@ -25,16 +25,16 @@
 | 18 | Guardrail Erosion in Domain Fine-Tuned Large Language Models: A Paired Audit of Knowledge-Centric Abstention in Biomedical LLMs | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08780) |
 | 19 | Richness Is Not Evenness: Ordered Renyi Crossings under Self-Training | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08892) |
 | 20 | From Procedures to Permissions: Learning Precise Subagent Authorization from Agent Skills | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://arxiv.org/abs/2611.08905) |
-| 21 | Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan) |
-| 22 | Your Experts Have Partners. There's HOPE for Keeping Them Together | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/amazon/higher-order-pruning-experts) |
-| 23 | ToyBlocks: A controlled world for robot learning and evaluation | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/allenai/toyblocks) |
-| 24 | Egyptian and Nigerian English join the Open ASR Leaderboard | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/open-asr-leaderboard-liva) |
-| 25 | A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks. | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/phonon-tts) |
-| 26 | Dharma Field Extractor: Any Document In, Structured Fields in JSON Out | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/Dharma-AI/dharma-field-extractor) |
-| 27 | Palette: teaching a small model to build decks in your design language | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/ibm-research/palette-deck-building) |
-| 28 | CWE-bench v2: More coverage, quality, and transparency | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/cwe-bench) |
-| 29 | Transformers Model Integration Contracts | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/transformers-mic) |
-| 30 | Granite Switch 4.1.1 — Update models like you update software | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/ibm-granite/granite-switch-4-1-1) |
+| 21 | Pay for Hugging Face Hub with your Google Cloud Account | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/hub-gcp-marketplace) |
+| 22 | Decision Models in Hugging Face | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/decision) |
+| 23 | Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/nvidia/nemotron-personas-finance-japan) |
+| 24 | Your Experts Have Partners. There's HOPE for Keeping Them Together | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/amazon/higher-order-pruning-experts) |
+| 25 | ToyBlocks: A controlled world for robot learning and evaluation | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/allenai/toyblocks) |
+| 26 | Egyptian and Nigerian English join the Open ASR Leaderboard | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/open-asr-leaderboard-liva) |
+| 27 | A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks. | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/phonon-tts) |
+| 28 | Dharma Field Extractor: Any Document In, Structured Fields in JSON Out | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/Dharma-AI/dharma-field-extractor) |
+| 29 | Palette: teaching a small model to build decks in your design language | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/ibm-research/palette-deck-building) |
+| 30 | CWE-bench v2: More coverage, quality, and transparency | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://huggingface.co/blog/cwe-bench) |
 | 31 | Launch HN: Human Layer (YC F24) – Human-in-the-Loop API for AI Systems | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://news.ycombinator.com/item?id=42247368) |
 | 32 | Show HN: A tool to safely migrate GitHub Actions workflows to Ubuntu-slim runner | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/fchimpan/gh-slimify) |
 | 33 | Show HN: BrowserOS – "Claude Cowork" in the browser | 0.0 | - | 待复核 | 2026-11-10 | [链接](https://github.com/browseros-ai/BrowserOS) |
