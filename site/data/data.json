@@ -1,6 +1,6 @@
 {
   "last_updated": "2026-11-12",
-  "total_projects": 227,
+  "total_projects": 234,
   "total_dates": 13,
   "dates": [
     "2026-11-12",
@@ -20,17 +20,17 @@
   "top_tags": [
     {
       "name": "无",
-      "count": 227
+      "count": 234
     }
   ],
   "sources": [
     {
       "name": "rss",
-      "count": 160
+      "count": 162
     },
     {
       "name": "github",
-      "count": 47
+      "count": 52
     },
     {
       "name": "hackernews",
@@ -131,6 +131,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2611.12904"
+        }
+      }
+    },
+    {
+      "name": "Alishahryar1/free-claude-code",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "Alishahryar1-free-claude-code_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "Use Claude Code, Codex, Antigravity, VSCode, Pi, and OpenCode (and 6 other harnesses) for free (1.3B+ free tokens) from your terminal, app, IDE, or phone, and now from the browser with native browser sessions (multi-harness + multi-model) like OpenClaw (voice supported + ToS friendly)",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Python"
+      ],
+      "link": "https://github.com/Alishahryar1/free-claude-code",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/Alishahryar1/free-claude-code"
         }
       }
     },
@@ -259,6 +291,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2611.12995"
+        }
+      }
+    },
+    {
+      "name": "CopilotKit/OpenBot",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "CopilotKit-OpenBot_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/CopilotKit/OpenBot",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/CopilotKit/OpenBot"
         }
       }
     },
@@ -423,6 +487,38 @@
       }
     },
     {
+      "name": "GoogleChrome/modern-web-guidance-src",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "GoogleChrome-modern-web-guidance-src_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "Keep your coding agent up to date with the latest web best practices",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/GoogleChrome/modern-web-guidance-src",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/GoogleChrome/modern-web-guidance-src"
+        }
+      }
+    },
+    {
       "name": "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
       "score": 0.0,
       "status": "待复核",
@@ -483,6 +579,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://arxiv.org/abs/2611.12918"
+        }
+      }
+    },
+    {
+      "name": "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "LLMON--An-LLM-Native-Markup-Language--now-in-Granite-4.1-3B-and-8B_0.0_2026-11-12.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/ibm-granite/llmon-an-llm-native-markup-language-now-in-granite"
         }
       }
     },
@@ -899,6 +1027,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://huggingface.co/blog/hub-gcp-marketplace"
+        }
+      }
+    },
+    {
+      "name": "QwenLM/qwen-code",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "QwenLM-qwen-code_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "An open-source AI coding agent that lives in your terminal.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "TypeScript"
+      ],
+      "link": "https://github.com/QwenLM/qwen-code",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/QwenLM/qwen-code"
         }
       }
     },
@@ -1415,6 +1575,38 @@
       }
     },
     {
+      "name": "The Definitive Fine-Tuning Guide for 3D Generation Models",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "The-Definitive-Fine-Tuning-Guide-for-3D-Generation-Models_0.0_2026-11-12.md",
+      "source_type": "rss",
+      "description": "",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "未标注"
+      ],
+      "link": "https://huggingface.co/blog/3d-lora-finetuning",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://huggingface.co/blog/3d-lora-finetuning"
+        }
+      }
+    },
+    {
       "name": "The Indic Token Tax in 2026: Measuring Tokenizer. Disparity and Its Cost for the Languages of India",
       "score": 0.0,
       "status": "待复核",
@@ -1735,6 +1927,38 @@
       }
     },
     {
+      "name": "ashhart/TensorFold",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "ashhart-TensorFold_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "LLM Inference Engine for Metal, CUDA and Vulkan.",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "Zig"
+      ],
+      "link": "https://github.com/ashhart/TensorFold",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/ashhart/TensorFold"
+        }
+      }
+    },
+    {
       "name": "cloudflare/security-audit-skill",
       "score": 0.0,
       "status": "待复核",
@@ -1763,6 +1987,38 @@
         "community": {
           "score": 0.0,
           "summary": "## 项目链接\nhttps://github.com/cloudflare/security-audit-skill"
+        }
+      }
+    },
+    {
+      "name": "ggml-org/llama.cpp",
+      "score": 0.0,
+      "status": "待复核",
+      "tags": [
+        "无"
+      ],
+      "date": "2026-11-12",
+      "date_dir": "2026-11-12",
+      "filename": "ggml-org-llama.cpp_0.0_2026-11-12.md",
+      "source_type": "github",
+      "description": "LLM inference in C/C++",
+      "summary": "LLM 调用失败或响应解析失败",
+      "tech_stack": [
+        "C++"
+      ],
+      "link": "https://github.com/ggml-org/llama.cpp",
+      "analysis": {
+        "tech": {
+          "score": 0.0,
+          "summary": "### 实用性 (评分: 0.0/10)"
+        },
+        "utility": {
+          "score": 0.0,
+          "summary": "### 社区活跃度 (评分: 0.0/10)"
+        },
+        "community": {
+          "score": 0.0,
+          "summary": "## 项目链接\nhttps://github.com/ggml-org/llama.cpp"
         }
       }
     },
@@ -5735,38 +5991,6 @@
       }
     },
     {
-      "name": "CopilotKit/OpenBot",
-      "score": 0.0,
-      "status": "待复核",
-      "tags": [
-        "无"
-      ],
-      "date": "2026-11-01",
-      "date_dir": "2026-11-01",
-      "filename": "CopilotKit-OpenBot_0.0_2026-11-01.md",
-      "source_type": "github",
-      "description": "Open-source AI coworkers that each get a computer of their own: a browser, files and tools, with every action decided before it happens and recorded after. Bring any AG-UI agent.",
-      "summary": "LLM 调用失败或响应解析失败",
-      "tech_stack": [
-        "TypeScript"
-      ],
-      "link": "https://github.com/CopilotKit/OpenBot",
-      "analysis": {
-        "tech": {
-          "score": 0.0,
-          "summary": "### 实用性 (评分: 0.0/10)"
-        },
-        "utility": {
-          "score": 0.0,
-          "summary": "### 社区活跃度 (评分: 0.0/10)"
-        },
-        "community": {
-          "score": 0.0,
-          "summary": "## 项目链接\nhttps://github.com/CopilotKit/OpenBot"
-        }
-      }
-    },
-    {
       "name": "beenuar/AiSOC",
       "score": 0.0,
       "status": "待复核",
@@ -7308,17 +7532,21 @@
       "A Closer Look at Phonon TTS. Launching High-Quality On-Device Speech That Tops the Benchmarks.",
       "AI Governance Should Prioritize Control and Knowledge Boundaries Over Limiting Intelligence",
       "Actionable Feedback: Improving Model Capabilities from User Edit Data on Clinical Documentation",
+      "Alishahryar1/free-claude-code",
       "Auditable Human-Agent Teams for Autonomous X-ray Experimentation",
       "BotPsy: On-Device Personal Assistant with a Sub-Billion-Parameter Agentic Language Model",
       "Brasilidade: Measuring Brazilian Identity for Large Language Models",
       "Capacity Allocation at the Source: Sparse Target Optimization for LLM Knowledge Editing",
+      "CopilotKit/OpenBot",
       "Decision Models in Hugging Face",
       "Dharma Field Extractor: Any Document In, Structured Fields in JSON Out",
       "EarthRecord: From Pixels to Land Change with Multimodal Agents over Four Decades of Satellite Imagery",
       "Egyptian and Nigerian English join the Open ASR Leaderboard",
       "From Relevant Posts to Attributable Spans: Explicit Symptom Evidence for Depression Questionnaire Inference",
+      "GoogleChrome/modern-web-guidance-src",
       "Graph Visualizations in Prompts for Knowledge Graph Question Answering",
       "IntentTwin: Deconfounding Candidate Support and the Oracle-to-Deployment Gap in Offline Web Behavior Prediction",
+      "LLMON: An LLM-Native Markup Language, now in Granite 4.1 3B and 8B",
       "LandslideFM: A Foundation Model Towards Unified Landslide Perception and Understanding",
       "Launch HN: Airweave (YC X25) – Let agents search any app",
       "Launch HN: BitBoard (YC P25) – Analytics Workspace for Agents",
@@ -7332,6 +7560,7 @@
       "NVIDIA/auto-ontology",
       "Nemotron-Personas-Finance-Japan: A Synthetic Dataset Capturing Japan's Demographics and Financial Context",
       "Pay for Hugging Face Hub with your Google Cloud Account",
+      "QwenLM/qwen-code",
       "Reinforcement Learning based control of Cancer Chemotherapy treatments",
       "Rethinking in Spikes: Mitigating Hallucinations in MDLMs with Step-Aware Decoding",
       "SELD: Detecting Silent Evidence Loss in Context Compression beyond the Answer",
@@ -7348,6 +7577,7 @@
       "Show HN: Pickaxe – A TypeScript library for building AI agents",
       "Show HN: Sourcebot – Self-hosted Perplexity for your codebase",
       "Tabular Foundation Models vs Tuned Gradient Boosting for Telecom Churn: A Profit- and Calibration-Aware Evaluation",
+      "The Definitive Fine-Tuning Guide for 3D Generation Models",
       "The Indic Token Tax in 2026: Measuring Tokenizer. Disparity and Its Cost for the Languages of India",
       "TimeOmni-o1: Bidirectionally Coupling Time Series Foundation Models and LLMs for Multimodal Reasoning and Forecasting",
       "Token Pooling-Aware Training for Multi-Vector Embedding Models",
@@ -7358,7 +7588,9 @@
       "ZhuLinsen/daily_stock_analysis",
       "addyosmani/agent-skills",
       "anthropics/skills",
+      "ashhart/TensorFold",
       "cloudflare/security-audit-skill",
+      "ggml-org/llama.cpp",
       "homeassistant-ai/ha-mcp",
       "khammoon: From a Linguistic Guideline to a Thai Morpheme Segmenter",
       "meta/astryx",
