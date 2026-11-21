@@ -1,0 +1,29 @@
+# Where the Tokens Go: Heat, Entropy and Error in Agentic Coding
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-11-21  
+**来源：** rss  
+
+## 项目描述
+arXiv:2611.23375v1 Announce Type: new Abstract: Coding agents are billed by the token, yet software engineering says nothing about what a token actually buys. Here we introduce a theory of software thermodynamics. The theory draws analogues from classical and stochastic thermodynamics, extends them, and applies them to modern agentic coding. We count the tokens an agent generates as its cost and divide that cost into work and heat. The test suite acts as a software Maxwell's daemon that judges every coding change. We test the theory with an analogue of the experiments in which a single molecule is pulled open and let fold again: an agent makes a change to a repository (coding) and then undoes it (uncoding), many times over, and we count the tokens of every model call. The cycle returns the requested edits to where they began, with each direction started from a stored reference tree, and the spread of its cost over repeated cycles defines a software temperature, which rose with the sampling temperature of the model. About 80 per cent of the tokens of a successful run are generated in model calls that leave the requested change where it was, and we call these tokens heat. The free energy of a change, which we estimate by analogy with the equality of Jarzynski, is 14 to 22 per cent of the mean cost of a successful coding run. Coding costs 1.1 to 1.5 times as much as uncoding. The daemon is imperfect: the verdict of a test suite varies with its environment, and a suite that accepts a broken change has a cost in tokens. The practical implication of the proposed theory could be new tools for analysing and optimising coding agents through the lens of thermodynamics.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2611.23375

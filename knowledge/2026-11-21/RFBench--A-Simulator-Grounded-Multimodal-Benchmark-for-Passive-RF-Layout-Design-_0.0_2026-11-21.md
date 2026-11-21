@@ -1,0 +1,29 @@
+# RFBench: A Simulator-Grounded Multimodal Benchmark for Passive RF Layout Design and Understanding
+
+**评分：** 0.0  
+**状态：** 待复核  
+**标签：** 无  
+**更新日期：** 2026-11-21  
+**来源：** rss  
+
+## 项目描述
+arXiv:2611.23410v1 Announce Type: new Abstract: While multimodal language models can interpret diagrams and generate structured outputs, their capacity to connect passive radio-frequency (RF) design intent, layout geometry, and electromagnetic behavior remains largely untested. To address this gap, we introduce RFBench, a simulator-grounded dataset and benchmark for passive RF layout design and understanding. The dataset contains 10,000 two-port planar layouts simulated using ADS Momentum, with each layout represented by editable geometric primitives, a raster image, a 16x16 occupancy grid, complex S-parameters at 201 frequency points, a structural category, and an RF response label. Building on these aligned representations, we define seven tasks spanning specification-conditioned layout generation, representation translation, response prediction, simulator-based validation, design diagnosis and improvement, structural understanding, and response classification. Extensive baselines across seven multimodal language models reveal systematic weaknesses in generating structurally valid layouts and predicting electromagnetically faithful responses. We show that RF-specific fine-tuning increases T1a structural validity from 0.0% to 83.2% and the T3 primitive-input within-2-dB rate from 17.7% to 62.8%, demonstrating the value of domain adaptation while leaving considerable room for further progress. RFBench establishes a common testbed for evaluating multimodal RF capabilities and guiding the development of models that connect design intent and layout representations with physical behavior.
+
+## 综合总结
+LLM 调用失败或响应解析失败
+
+## 技术栈
+- 未标注
+
+## 分析摘要
+### 技术先进性 (评分: 0.0/10)
+
+
+### 实用性 (评分: 0.0/10)
+
+
+### 社区活跃度 (评分: 0.0/10)
+
+
+## 项目链接
+https://arxiv.org/abs/2611.23410
